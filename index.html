@@ -1,181 +1,217 @@
 <!DOCTYPE html>
 <head>
-<title></title>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<meta name="description" content="we are building a better way to startup"/>
-<meta name="keywords" content="startup"/>
-<script src="http://www.wetake.care/assets/js/jquery.min.js"></script>
-<script src='https://cdn.firebase.com/js/client/1.0.6/firebase.js'></script>
-<script src="http://www.wetake.care/assets/js/jquery.scrollex.min.js"></script>
-<script src="http://www.wetake.care/assets/js/jquery.scrolly.min.js"></script>
-!<script src="http://www.wetake.care/assets/js/skel.min.js"></script>
-<script src="http://www.wetake.care/js/paper-editor.js"></script>
-<script src="http://!www.wetake.care/assets/js/init.js"></script>
-<script src="//cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
-<script src="https://checkout.stripe.com/checkout.js"></script>
-<script src="//cdn.auth0.com/js/lock-7.1.min.js"></script>
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
- 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-<!--[if lte IE 8]><script src="http://www.wetake.care/assets/css/ie/html5shiv.js"></script><![endif]-->
-<link rel="stylesheet" href="http://www.wetake.care/assets/css/style.css"/>
-<!--[if lte IE 9]><link rel="stylesheet" href=http://www.wetake.care/assets/css/ie/v9.css" /><![endif]-->
-<!--[if lte IE 8]><link rel="stylesheet" href="http://www.wetake.care/assets/css/ie/v8.css" /><![endif]-->
-<style type="text/css">#content{position:absolute;left:0;right:0;bottom:0;top:0px;}</style>
-<style>.table{display:table;position:absolute;height:100%;width:100%;}.cell{display:table-cell;vertical-align:middle;}.content{padding:25px 0px 25px 0px;margin-left:auto;margin-right:auto;width:280px;}</style>
-</head>
-<body id="menutoggle" class="landing">
-<div id="page-wrapper">
-<header id="header">
-<input style="display:none" type="text" name="q" id="q" autocomplete="off" spellcheck="false" autofocus="autofocus" autocorrect="false" placeholder="Search the startup world."/>
-<input style="display:block" type="text" id="landingbar" name="email" autocomplete="off" autofocus="autofocus" placeholder="What's your idea?"/>
+    	<title></title>
+        <meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="we are building a better way to startup" />
+		<meta name="keywords" content="startup" />   
+        <script src="http://www.wetake.care/assets/js/jquery.min.js"></script>
+        <script src='https://cdn.firebase.com/js/client/1.0.6/firebase.js'></script>
+    	<script src="http://www.wetake.care/assets/js/jquery.scrollex.min.js"></script>
+		<script src="http://www.wetake.care/assets/js/jquery.scrolly.min.js"></script>
+		<script src="http://www.wetake.care/assets/js/skel.min.js"></script>
+        <script src="http://www.wetake.care/js/paper-editor.js"></script>
+		<script src="http://www.wetake.care/assets/js/init.js"></script>
+        <script src="//cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+        <script src="https://checkout.stripe.com/checkout.js"></script>
+        <script src="//cdn.auth0.com/js/lock-7.1.min.js"></script>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <!-- Setting the right viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<!--[if lte IE 8]><script src="http://www.wetake.care/assets/css/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="http://www.wetake.care/assets/css/style.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href=http://www.wetake.care/assets/css/ie/v9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="http://www.wetake.care/assets/css/ie/v8.css" /><![endif]-->
+        <style type="text/css">
+            #content
+            {
+                position:absolute; left: 0; right: 0; bottom: 0; top: 0px; 
+            }
+        </style>
+          <style>
+    .table {
+      display: table;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+     /* background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));*/
+    }
+
+    .cell {
+      display: table-cell;
+      vertical-align: middle;
+    }
+
+    .content {
+      padding: 25px 0px 25px 0px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 280px; /* login widget width */
+    }
+  </style>
+	</head>
+    <body id="menutoggle" class="landing" >
+		<div id="page-wrapper">
+           <header id="header">
+             <input style="display:none" type="text" name="q" id="q" autocomplete="off" spellcheck="false" autofocus="autofocus" autocorrect="false" placeholder="Search the startup world."/>
+             <input style="display:block" type="text" id="landingbar" name="email" autocomplete="off"  autofocus="autofocus" placeholder="What's your idea?" />
+                                       
 </h1>
-<nav id="nav">
-<ul>
-<li class="special">
-<a href="#menu" class="menuToggle"><span id="namebar">Team</span></a>
-<div id="menu">
-<ul>
- 
-<li><input type="button" style="visibility:hidden" id="emailclick" class=" small" value="Invite a person by email" onClick="sendMail()"></form></li>
-<a href="#paper" id="paperaccount" class="clickme button special fit">Paper</a>
-<a href="#build" id="build" class="clickme button special fit">Build</a>
-<a href="#intelligence" id="intelligence" class="clickme button special fit">Intelligence</a>
-</br>
-<a href="http://www.wetake.care/assets/build/highlights/" target="iframe_a" style="display:none">link</a>
-<a href="#account" id="account" class="clickme button special fit">Account</a>
-<li><a href="http://www.wetake.care/index.php" class="clickme button fit">Home</a></li>
-<input type="button" value="Search" id="enterbutton" style="display:none"/>
-</ul>
+					   <nav id="nav">
+							<ul>
+								<li class="special">
+                            		<a href="#menu" class="menuToggle"><span id="namebar">Team</span></a>
+									<div id="menu">
+										<ul>
+                                         <!-- <form action="#"><button id="myButton" style="visibility:hidden"></button>
+                                        <input type="text" id="myText" placeholder="Invite" /></form> style="visibility:hidden"-->
+                                         <li><input type="button" style="visibility:hidden" id="emailclick" class=" small"  value="Invite a person by email" onClick="sendMail()"></form></li>
+									    <a href="#paper" id="paperaccount" class="clickme button special fit">Paper</a>
+                                        <a href="#build" id="build" class="clickme button special fit">Build</a>
+                                        <a href="#intelligence" id="intelligence" class="clickme button special fit">Intelligence</a>
+                                        </br>
+                                        <a href="http://www.wetake.care/assets/build/highlights/" target="iframe_a" style="display:none">link</a>
+                                        <a href="#account" id="account" class="clickme button special fit">Account</a>
+                                        <li><a href="http://www.wetake.care/index.php"  class="clickme button fit">Home</a></li>
+<input type="button" value="Search" id="enterbutton" style="display:none" />
+                                        </ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+ <article id="landing" style="display:block">
+
+                <div id="body" style="display:block">
+					<section id="banner">
+                        <div class="inner">
+    			    	<h2>We Take Care</h2>
+				    	</div>    			   <div class="content btn-login" id="login"></div>
+				    	<a href="#one" class="more scrolly">Learn</a>
+					</section>
+                    
+                    <section id="one" class="wrapper style1 special">
+					<div class="inner">
+							<header class="major">
+								<h2>We are building a better way <br /> to startup.
+								</h2>
+								<p>
+                              For <b><a data-toggle="tooltip" title="Discounts for students and non-profits available.">$500/month</a></b> we help you build an MVP, gather research and iterate to a final product.</b> 
+								</p>
+							</header>
+                  
+						</div>
+					</section>
+                    
+					<section id="three" class="wrapper style3 special">
+						<div class="inner">
+					<p>
+                    <br>
+                        <header class="major">
+							<h2>Features</h2> 
+							</header>
+							<ul class="features">
+							    <li class="icon fa-paper-plane-o">
+									<h3>Collaborate</h3>
+									<p>Share access to your project with your team.</p>
+								</li>
+								<li class="icon fa-flag-o">
+									<h3>Freedom</h3>
+									<p>Automatic saves let you start from anywhere and continue on any device. </p>
+								</li>								
+    <li class="icon fa-angellist">
+									<h3>Intelligence</h3>
+									<p>Discover customers, competitors and investors from relevant, comprehensive datasets.</p>
+								</li>
+                                    <li class="icon fa-code">
+									<h3>Development</h3>
+									<p>Build lean with skilled professionals available on demand. Tap into our matching technology.</p>
+								</li>
+                                </li>
+                                    <li class="icon fa-key">
+									<h3>Identity Authorization</h3>
+									<p>    Authenticate with any identity provider running on any stack any device or cloud.</p>
+								</li>    </li>
+                                    <li class="icon fa-database">
+									<h3>Realtime Databases</h3>
+									<p>Instantly handle millions of 
+    						concurrent connections and billions of operations per month.</p>
+								</li>                                        
+                                 <li class="icon fa-bar-chart">
+    								<h3>Interaction Analytics</h3>
+									<p>Record every interaction performed on your app and transform data into insights with visualizations. </p>
+								</li>
+                                <li class="icon fa-search">
+    								<h3>Realtime Search</h3>
+									<p>Discovery is the core of modern oraganizations. Deliver relevant results from the first keystroke. </p>
+								</li>
+                                    <li class="icon fa-money">
+        							<h3>Payments</h3>
+									<p> Accept and manage online payments without the infrastructure or security headache.</p>
+								</li>
+                                </li>
+                                    <li class="icon fa-mobile">
+            						<h3>Mobile First</h3>
+									<p>We assume that you like to get out, and that when you do, it would be nice to be productive.</p>
+								</li>
+							</ul>
+						</div>   
+                    </section>
+					</article>                                  
+<!-- Main-->
+    <article id="intelligencemain" style="display: none">
+    					<section class="wrapper style5">
+							<div class="inner">
+                             <blockquote><b>Search through the world&#39;s most comprehensive dataset of startup activity. Discover the people, organizations and technologies that are moving the world.</b></blockquote>
+                             <div id="hits">
+                             
+
+
 </div>
-</li>
-</ul>
-</nav>
-</header>
-<article id="landing" style="display:block">
-<div id="body" style="display:block">
-<section id="banner">
-<div class="inner">
-<h2>We Take Care</h2>
-</div> <div class="content btn-login" id="login"></div>
-<a href="#one" class="more scrolly">Learn</a>
-</section>
-<section id="one" class="wrapper style1 special">
-<div class="inner">
-<header class="major">
-<h2>We are building a better way <br/> to startup.
-</h2>
-<p>
-For <b><a data-toggle="tooltip" title="Discounts for students and non-profits available.">$500/month</a></b> we help you build an MVP, gather research and iterate to a final product.</b>
-</p>
-</header>
-</div>
-</section>
-<section id="three" class="wrapper style3 special">
-<div class="inner">
-<p>
-<br>
-<header class="major">
-<h2>Features</h2>
-</header>
-<ul class="features">
-<li class="icon fa-paper-plane-o">
-<h3>Collaborate</h3>
-<p>Share access to your project with your team.</p>
-</li>
-<li class="icon fa-flag-o">
-<h3>Freedom</h3>
-<p>Automatic saves let you start from anywhere and continue on any device. </p>
-</li>
-<li class="icon fa-angellist">
-<h3>Intelligence</h3>
-<p>Discover customers, competitors and investors from relevant, comprehensive datasets.</p>
-</li>
-<li class="icon fa-code">
-<h3>Development</h3>
-<p>Build lean with skilled professionals available on demand. Tap into our matching technology.</p>
-</li>
-</li>
-<li class="icon fa-key">
-<h3>Identity Authorization</h3>
-<p> Authenticate with any identity provider running on any stack any device or cloud.</p>
-</li> </li>
-<li class="icon fa-database">
-<h3>Realtime Databases</h3>
-<p>Instantly handle millions of
-concurrent connections and billions of operations per month.</p>
-</li>
-<li class="icon fa-bar-chart">
-<h3>Interaction Analytics</h3>
-<p>Record every interaction performed on your app and transform data into insights with visualizations. </p>
-</li>
-<li class="icon fa-search">
-<h3>Realtime Search</h3>
-<p>Discovery is the core of modern oraganizations. Deliver relevant results from the first keystroke. </p>
-</li>
-<li class="icon fa-money">
-<h3>Payments</h3>
-<p> Accept and manage online payments without the infrastructure or security headache.</p>
-</li>
-</li>
-<li class="icon fa-mobile">
-<h3>Mobile First</h3>
-<p>We assume that you like to get out, and that when you do, it would be nice to be productive.</p>
-</li>
-</ul>
-</div>
-</section>
-</article>
- 
-<article id="intelligencemain" style="display: none">
-<section class="wrapper style5">
-<div class="inner">
-<blockquote><b>Search through the world&#39;s most comprehensive dataset of startup activity. Discover the people, organizations and technologies that are moving the world.</b></blockquote>
-<div id="hits">
-</div>
-</div>
-</div>
-</section>
-</article>
-<article id="accountmain" style="display: none">
-<section class="wrapper style5">
-<div class="inner">
-<div id="accountsection" style="display:none">
-<blockquote>Your team will need specific information from you to complete certain tasks.</br> You can provide that kind of information below. Just replace the placeholders below with your information. Your teams data is automatically saved.</blockquote>
-<h5>Account Details</h5>
-<ul id="account" class="editablesalad">
-<li>Full Name</li>
-<li>Email</li>
-<li>Street Address</li>
-<li>Town/City</li>
-<li>Province</li>
-<li>Postal Code</li>
-<li>Phone</li>
-</ul>
-</br>
-</br>
-<ul class=" small">
-<a href="http://www.wetake.care/index.php" class="button special  icon fa-download" download="index.php">Download Site</a>
-</br></br>
-<a id="changetheme" class="button special  icon fa-eye" href="#">Change Look</a>
-</br></br>
-<a href="#" id="developer" class="button special  icon fa-credit-card">Subscribe</a>
-</br>
-</br>
-<a type="button" class="btn-signout button special" href="https://xlynkz.auth0.com/v2/logout?returnTo=http://www.wetake.care">Sign Out</a>
-</ul>
-</div>
-</div>
-</section>
-</article>
-<article id="main" style="display: none">
-<section class="wrapper style5">
-<div class="inner">
-<div id="papersection" style="display:block">
-<img class="image fit" src="http://www.wetake.care/images/tasks.png" alt="">
+                             </div>
+                            </div>
+                            </section>
+                            </article>
+
+    <article id="accountmain" style="display: none">
+						<section class="wrapper style5">
+							<div class="inner">
+                            <div id="accountsection" style="display:none"> 
+                              <blockquote>Your team will need specific information from you to complete certain tasks.</br> You can provide that kind of information below. Just replace the placeholders below with your information. Your teams data is automatically saved.</blockquote>
+                              <h5>Account Details</h5>
+                    						<ul id="account" class="editablesalad">
+												<li>Full Name</li>
+												<li>Email</li>
+												<li>Street Address</li>
+                                                <li>Town/City</li>
+    											<li>Province</li>
+                                                <li>Postal Code</li>
+                                                <li>Phone</li>
+											</ul>
+                                            </br>
+                                            </br>
+                                            <ul class=" small">
+                                            <a href="http://www.wetake.care/index.php" class="button special  icon fa-download" download="index.php">Download Site</a> 
+                                            </br></br>
+                                            <a id="changetheme" class="button special  icon fa-eye" href="#" >Change Look</a>
+        							</br></br>
+                                    <a href="#" id="developer" class="button special  icon fa-credit-card">Subscribe</a>
+                                    </br>
+                                    </br>
+                                    <a type="button" class="btn-signout button special" href="https://xlynkz.auth0.com/v2/logout?returnTo=http://www.wetake.care">Sign Out</a>
+ 									</ul>
+                                    </div> 
+                                    </div>
+                                    </section>
+                                    </article>
+
+    				<article id="main" style="display: none">
+						<section class="wrapper style5">
+							<div class="inner">
+                            <div id="papersection" style="display:block">
+                            <img class="image fit" src="http://www.wetake.care/images/tasks.png" alt="">
 <pre id="papercontent" class="editablepaper">
 <p>This is Paper. A hub between what you need done and the professionals doing them. Click anywhere and start writing, Paper saves on every change and notifies a product manager when you are done.
 <br>
@@ -186,98 +222,121 @@ concurrent connections and billions of operations per month.</p>
 <b> 3.</b> Invite designers, developers and strategists above with their email. When they login they will have access to your project. </div>
                 </p>
 </pre> </div>
-<div id="customdomain" style="display:none">
-<img class="image fit" src="http://www.wetake.care/images/tasks.png" alt="">
+
+                        
+ <div id="customdomain" style="display:none">                                             
+ <img class="image fit" src="http://www.wetake.care/images/tasks.png" alt="">
 <pre><p>Almost done, We just need you to login so we can associate your data with you new domain.
-<br><div class="content btn-login" id="login"></div></div><br></p></pre></div>
-</section>
-</article>
-<div id="jaizus2" style="display:none">
+<br><div class="content btn-login" id="login"></div></div><br></p></pre></div> 
+                                    
+                        </section>
+                	</article>
+                    
+ <div id="jaizus2" style="display:none">
 <iframe src="http://www.wetake.care/assets/build/highlights/" name="iframe_a" id="iframe_a" style="position: absolute; height: 100%; width: 100%; border: none"></iframe>
 </div>
-<div id="jaizus" style="display:none">
-<footer id="footer">
-<div id="output"> <ul class="copyright">
-<br>
-<li>Select the look you want and change the content to reflect your organization. <br><br> Then upload <a href="http://www.wetake.care/index.php" download="index.php">this</a> file to your server, and your site will be live!</li>
-</ul>
-</div>
-</footer>
-<div id="page-wrapper">
-<article id="main">
-<br/>
-<div class="container">
-<section>
-<div class="box alt">
-<div class="row uniform 50%">
-<div class="4u">
-<a class="thumbnail" href="http://www.wetake.care/assets/build/fractal">
-<img class="image fit" src="http://www.wetake.care/assets/build/img/tees.jpg" alt="">
-<a href="http://www.wetake.care/assets/build/fractal" onclick="return false" id="Fractal" class="button fit  special icon fa-crosshairs">Select Fractal</a>
-</a>
-</div>
-<div class="4u">
-<a class="thumbnail" href="http://www.wetake.care/assets/build/photon">
-<img class="image fit" src="http://www.wetake.care/assets/build/img/photon.png" alt="">
-<a href="http://www.wetake.care/assets/build/photon" onclick="return false" id="Photon" class="button fit  special icon fa-crosshairs">Select Photon</a>
-</a>
-</div>
-<div class="4u">
-<a class="thumbnail" href="http://www.wetake.care/assets/build/highlights">
-<img class="image fit" src="http://www.wetake.care/assets/build/img/highlights.png" alt="">
-<a href="http://www.wetake.care/assets/build/highlights" onclick="return false" id="Highlights" class="button fit  special icon fa-crosshairs">Select Highlights</a>
-</a>
-</div>
-</div></div>
-<div class="box alt">
-<div class="row uniform 50%">
-<div class="4u">
-<a class="thumbnail" href="http://www.wetake.care/assets/build/luna">
-<img class="image fit" src="http://www.wetake.care/assets/build/img/luna.jpg" alt="">
-<a href="http://www.wetake.care/assets/build/luna" onclick="return false" id="Luna" class="button special  fit icon fa-crosshairs">Select Luna</a>
-</a>
-</div>
-<div class="4u">
-<a class="thumbnail" href="http://www.wetake.care/assets/build/overflow">
-<img class="image fit" src="http://www.wetake.care/assets/build/img/overflow.png" alt="">
-<a href="http://www.wetake.care/assets/build/overflow" onclick="return false" id="Overflow" class="button  special fit icon fa-crosshairs">Select Overflow</a>
-</a>
-</div>
-<div class="4u">
-<a class="thumbnail" href="http://www.wetake.care/assets/build/read-only">
-<img class="image img fit" src="http://www.wetake.care/assets/build/img/read.jpg" alt="">
-<a href="http://www.wetake.care/assets/build/read-only" onclick="return false" id="Read-Only" class="button  special fit icon fa-crosshairs">Select Read</a>
-</a>
-</div>
-<div class="4u">
-<a class="thumbnail" href="http://www.wetake.care/assets/build/fractal">
-<img class="image fit" src="http://www.wetake.care/assets/build/img/tees.jpg" alt="">
-<a href="http://www.wetake.care/assets/build/fractal" onclick="return false" id="Fractal" class="button fit  special icon fa-crosshairs">Select Fractal</a>
-</a>
-</div>
-<div class="4u">
-<a class="thumbnail" href="http://www.wetake.care/assets/build/alpha">
-<img class="image fit" src="http://www.wetake.care/assets/build/img/alpha.png" alt="">
-<a href="http://www.wetake.care/assets/build/alpha" onclick="return false" id="Alpha" class="button special fit icon fa-crosshairs">Select Alpha</a>
-</a>
-</div>
-<div class="4u">
-<a class="thumbnail" href="http://www.wetake.care/assets/build/strata">
-<img class="image fit" src="http://www.wetake.care/assets/build/img/strata.png" alt="">
-<a href="http://www.wetake.care/assets/build/strata" onclick="return false" id="Strata" class="button special fit icon fa-crosshairs">Select Strata</a>
-</a>
-</div>
-</div></div></div>
-</section>
-</article>
-</div>
-</div>
-<footer id="footer">
-<ul class="copyright">
-<li>&copy; We Take Care</li><li> <a data-toggle="tooltip" class="btn-devlogin">We're Hiring Product Managers</a>
-</ul>
-</footer>
+
+
+
  
+                                    
+        <div id="jaizus" style="display:none" >
+                  <footer id="footer">
+					<div id="output">	<ul class="copyright">
+                    <br>
+							<li>Select the look you want and change the content to reflect your organization. <br><br> Then upload <a href="http://www.wetake.care/index.php" download="index.php">this</a> file to your server, and your site will be live!</li>
+
+						</ul>
+                        </div>
+					</footer>
+			<div id="page-wrapper">
+					<article id="main">
+<br />
+	 <div class="container">
+								<section>
+                <div class="box alt" >
+    									<div class="row uniform 50%">
+                               <div class="4u">
+                <a class="thumbnail"  href="http://www.wetake.care/assets/build/fractal">
+                    <img class="image fit" src="http://www.wetake.care/assets/build/img/tees.jpg" alt="">
+                                                    <a href="http://www.wetake.care/assets/build/fractal" onclick="return false" id="Fractal" class="button fit  special icon fa-crosshairs">Select Fractal</a>
+
+</a>
+            </div>
+            <div class="4u">
+                <a class="thumbnail"  href="http://www.wetake.care/assets/build/photon">
+                    <img class="image fit" src="http://www.wetake.care/assets/build/img/photon.png" alt="">
+                                                    <a href="http://www.wetake.care/assets/build/photon" onclick="return false" id="Photon" class="button fit  special icon fa-crosshairs">Select Photon</a>
+
+</a>
+            </div>
+               <div class="4u">
+                <a class="thumbnail"  href="http://www.wetake.care/assets/build/highlights">
+<img class="image fit" src="http://www.wetake.care/assets/build/img/highlights.png" alt="">
+                                    <a href="http://www.wetake.care/assets/build/highlights" onclick="return false"  id="Highlights" class="button fit  special icon fa-crosshairs">Select Highlights</a>
+
+                </a>
+                
+            </div>
+                            </div></div>
+									<div class="box alt" >
+										<div class="row uniform 50%">
+                                             
+											<div class="4u">
+                <a class="thumbnail" href="http://www.wetake.care/assets/build/luna">
+                    <img class="image fit" src="http://www.wetake.care/assets/build/img/luna.jpg" alt="">
+                                                    <a href="http://www.wetake.care/assets/build/luna" onclick="return false" id="Luna" class="button special  fit icon fa-crosshairs">Select Luna</a>
+
+                </a>
+            </div>
+<div class="4u">
+<a class="thumbnail"  href="http://www.wetake.care/assets/build/overflow">
+<img class="image fit" src="http://www.wetake.care/assets/build/img/overflow.png" alt="">
+                                    <a href="http://www.wetake.care/assets/build/overflow" onclick="return false" id="Overflow" class="button  special fit icon fa-crosshairs">Select Overflow</a>
+</a>
+            </div>
+            <div class="4u">
+                <a class="thumbnail"  href="http://www.wetake.care/assets/build/read-only">
+                    <img class="image img fit" src="http://www.wetake.care/assets/build/img/read.jpg" alt="">
+             <a href="http://www.wetake.care/assets/build/read-only" onclick="return false" id="Read-Only" class="button  special fit icon fa-crosshairs">Select Read</a>
+
+               </a>
+            </div>
+                <div class="4u">
+                <a class="thumbnail"  href="http://www.wetake.care/assets/build/fractal">
+                    <img class="image fit" src="http://www.wetake.care/assets/build/img/tees.jpg" alt="">
+                                                    <a href="http://www.wetake.care/assets/build/fractal" onclick="return false" id="Fractal" class="button fit  special icon fa-crosshairs">Select Fractal</a>
+
+</a>
+            </div>
+            <div class="4u">
+                <a class="thumbnail"  href="http://www.wetake.care/assets/build/alpha">
+                    <img class="image fit" src="http://www.wetake.care/assets/build/img/alpha.png" alt="">
+                                                    <a href="http://www.wetake.care/assets/build/alpha" onclick="return false" id="Alpha" class="button special fit icon fa-crosshairs">Select Alpha</a>
+
+</a>
+            </div>
+                     <div class="4u">
+                <a class="thumbnail"  href="http://www.wetake.care/assets/build/strata">
+                    <img class="image fit" src="http://www.wetake.care/assets/build/img/strata.png" alt="">
+                                                    <a href="http://www.wetake.care/assets/build/strata" onclick="return false" id="Strata" class="button special fit icon fa-crosshairs">Select Strata</a>
+
+</a>
+            </div>
+            </div></div></div>
+    					</section>
+               
+					</article>
+			</div>
+                		</div>
+ <footer id="footer">
+    			 	<ul class="copyright">
+					<li>&copy; We Take Care</li><li> <a data-toggle="tooltip"  class="btn-devlogin">We're Hiring Product Managers</a> 
+					</ul>
+					</footer>
+                    
+<!-- Scripts -->
+
 <script>
 //If logged in set namebar to teamname, if not, then set namebar to demo name.. which is team."
 $(document).ready(function () {
@@ -301,6 +360,7 @@ document.getElementById("namebar").textContent=(zheader.eere);
 });
 
 </script>
+
 <script>
 
 $('.4u').click(function(e){
@@ -343,7 +403,7 @@ function (err, profile, token) {
     if (err) {
       // Error callback
     } else {
-      // Success calback
+      // Success callback
       
       // Save JWT token & profile.
       localStorage.setItem('userToken', token);      
@@ -378,19 +438,34 @@ function userExistsCallback(userId, exists) {
   //alert('user ' + userId + ' does not exist!');
 
 var teamname = prompt('Enter startup name:', '');
+var localStorage.setItem('teamname', teamname);
+
+
 teamname = teamname.replace(/[^\w\s!?]/g,'');
 teamname = teamname.toLowerCase();
-var valueprop = prompt('What does it do?', '');
+var subtitle = prompt('What does it do?', '');
 localStorage.setItem('teamname', teamname);
 var user = localStorage.getItem('user_id');
-var teamlink = "https://ofwriting.firebaseio.com/" + (teamname) + ("/paper/");
+var teamlink = "https://ofwriting.firebaseio.com/" + (teamname);
 var base = new Firebase(teamlink);
-base.update({ 'posthtml' : teamname, 'valueprop' : valueprop });
+var href = "http://www.wetake.care/assets/build/highlights/"
+base.update({ 'title' : teamname, 'subtitle' : subtitle, "buildlink" : href });
+
+
+
+
+
+
+
+
+
+
+
 
 //sending user info
 var mylink = "https://ofwriting.firebaseio.com/" + (user);
 var base = new Firebase(mylink);
-base.update({'userid': userid, 'teamname' : teamname,  'valueprop' : valueprop });
+base.update({'userid': userid, 'teamname' : teamname,  'subtitle' : subtitle });
 location.replace("http://www.wetake.care");
   }
 }
@@ -467,11 +542,12 @@ $('#landingbar').attr('id','q');
 $( "#build" ).click(function() {
            $('#landingbar').attr('placeholder','"change background to blue"');
   var team = localStorage.getItem('teamname');
-var mylink = "https://ofwriting.firebaseio.com/" + (team) + ("/build/");
+  alert(team);
+var mylink = "https://ofwriting.firebaseio.com/" + (team);
 var base = new Firebase(mylink);
 base.once("value", function(snapshot) {
  var ggg = (snapshot.val());
- $('#iframe_a').attr('src',ggg.buildlink);
+ $('#iframe_a').attr('src',ggg.buildlinnk);
  //alert(ggg.buildlink);
 
            $('#menutoggle').removeClass( "is-menu-visible" );
@@ -537,6 +613,7 @@ document.getElementById("namebar").textContent=(zheader.teamname);
 });
 });
 </script>
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -547,7 +624,8 @@ document.getElementById("namebar").textContent=(zheader.teamname);
   ga('send', 'pageview');
 
 </script>
-<script>
+
+  <script>
  //Below: moving paper js to index for SPA
  
  function go() {
@@ -572,7 +650,7 @@ function checkIfUserExists(userId) {
     userExistsCallback(userId, exists);
   });
 }
-  </script>
+  </script>  
 <script>
   var handler = StripeCheckout.configure({
     key: 'pk_test_BPzMuLENVCInrJBGQ2AVLOdw',
@@ -629,7 +707,7 @@ var z = document.getElementById("account").innerText;
 base.set({ 'accounthtml' : x, 'accounttext' : z});
 });
 
-//Intro of Main Algolia search script.
+//Intro of Main   search script.
 //The input box is hidden.
       function searchCallback(err, content) {
         if (err) {
@@ -651,7 +729,21 @@ base.set({ 'accounthtml' : x, 'accounttext' : z});
             var hit = content.hits[i];
             hits += '<div class="hit panel">';
             for (var attribute in hit._highlightResult) {
-              hits += '<div class="attribute">' +
+              hits += 
+              
+              
+              if(attribute.indexOf('www') === 1)
+{
+  alert("no dash found.");
+}
+              
+              
+              
+              
+              
+              
+              
+              '<div class="attribute">' +
                 '<strong>' + attribute + ': </strong>' +
                 hit._highlightResult[attribute].value +
                 '</div>';
@@ -731,6 +823,7 @@ $('.btn-signout').click(function(e) {
 location.replace("https://xlynkz.auth0.com/v2/logout?federated&returnTo=http://www.wetake.care");
 });
 </script>
+
 <script>
 
 var lock = null;
