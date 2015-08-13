@@ -895,7 +895,22 @@ document.getElementById('jaizus2').style.display = 'block';
 </script>
 <script>
 function bardblclick() {
-alert("hmm");	
+var team = localStorage.getItem('teamname');
+var mylink = "https://ofwriting.firebaseio.com/" + (team) + ("/build/");
+var base = new Firebase(mylink);
+base.once("value", function(snapshot) {
+ var ggg = (snapshot.val());
+$('.searchbar').attr('placeholder','Build a store');
+$('#menutoggle').removeClass( "is-menu-visible" );
+    myFunc();
+    document.getElementById('intelligencemain').style.display = 'none';
+    document.getElementById('jaizus2').style.display = 'none';
+    document.getElementById('hits').style.display = 'none';
+    document.getElementById('jaizus').style.display = 'none';
+    document.getElementById('accountmain').style.display = 'block';
+    document.getElementById('accountsection').style.display = 'block';
+    
+    
 }
 </script>
 </body></html>
