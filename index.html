@@ -482,7 +482,6 @@ function myFunc(){
 $('#q').on('input', function() { 
 document.getElementById('landingbar').style.display = 'none';
 document.getElementById('q').style.display = 'block';
-     document.getElementById('accountsection').style.display = 'none';
         var value = localStorage.getItem('teamname');
         var input = $('#q');
         input.val(value);
@@ -493,6 +492,8 @@ $('#menutoggle').removeClass( "is-menu-visible" );
    myFunc();
      document.getElementById('papersection').style.display = 'none';
      document.getElementById('jaizus').style.display = 'none';
+          document.getElementById('accountsection').style.display = 'none';
+
          document.getElementById('intelligencemain').style.display = 'block';
      document.getElementById('hits').style.display = 'block';
               document.getElementById('jaizus2').style.display = 'none';
