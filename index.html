@@ -55,8 +55,8 @@
     <body id="menutoggle" class="landing" >
 		<div id="page-wrapper">
            <header id="header">
-             <input style="display:none" type="text" name="q" id="q" autocomplete="off" spellcheck="false" autofocus="autofocus" autocorrect="false" placeholder="Search or invite"/>
-             <input style="display:block" type="text" id="landingbar" name="email" autocomplete="off"  autofocus="autofocus" placeholder="What's your idea?" />
+             <input style="display:none" ondblclick="bardblclick()" type="text" name="q" id="q" autocomplete="off" spellcheck="false" autofocus="autofocus" autocorrect="false" placeholder="Search or invite"/>
+             <input style="display:block" ondblclick="bardblclick()" type="text" id="landingbar" name="email" autocomplete="off"  autofocus="autofocus" placeholder="What's your idea?" />
                                        
 </h1>
 					   <nav id="nav">
@@ -892,5 +892,10 @@ document.getElementById('jaizus2').style.display = 'block';
 
 
 
+</script>
+<script>
+function bardblclick() {
+    document.getElementById("demo").innerHTML = "Hello World";
+}
 </script>
 </body></html>
