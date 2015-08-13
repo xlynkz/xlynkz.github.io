@@ -502,7 +502,8 @@ base.once("value", function(snapshot) {
     $('#menutoggle').removeClass( "is-menu-visible" );
     $('.searchbar').attr('placeholder','Invite a person by email');
 $('.searchbar').attr('id','q');   
-
+    document.getElementById('landingbar').style.display = 'none';
+         document.getElementById('q').style.display = 'block';
 myFunc();
          document.getElementById('accountmain').style.display = 'none';
      document.getElementById('intelligencemain').style.display = 'none';
