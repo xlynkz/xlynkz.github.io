@@ -1,40 +1,6 @@
-#Fastur Inc.
-#Build Smarter
-
-
-Contents
-
-1.Confidentiality Notice	1
-2. Executive Summary.	1
-3. Business Focus	2
-3.1 - Mission Statement	2
-3.2 - Business Details	2
-3.3 - Personal Profile	2
-3.4 - Operations	3
-3.5 - Payment	3
-3.6 - Aims & Objectives	4
-4. Market Research	5
-4.1 - Client Research	5
-4.2 - Competitor Profiling	6
-4.3 - SWOT Analysis	8
-5. Marketing Plan	10
-5.1 - Service	10
-5.2 - Unique Selling Point	11
-5.3 - Pricing Policy	12
-5.4 - Sales & Marketing Strategy	13
-6. Financial Plan	14
-6.1	- Start-up Costs	14
-6.2	- Sales Forecast	15
-6.3	- Cash Flow Forecast	15
-7. Appendix	16
-7.1 - Technology	16
-7.2 - Use Cases	17
-
-
-
 # Executive Summary
 
-Fastur.com allows clients to build, host and manage internet businesses.
+Fastur allows clients to build, host and manage internet businesses.
 
 The product consists of a content management system, which runs on a web hosting service and features a plug-in architecture for extensions and templates. Fastur.com can be used by anyone with an internet connection and a browser.
 
@@ -375,7 +341,7 @@ Allows any media to be annotated with descriptions.
 
 7.2 - Use Cases
 The average user will experience Fastur in the following routine:
-1.	Individual visits fastur.com purchases subscription and logs into account.
+1.	Individual visits fastur purchases subscription and logs into account.
 2.	Individual uses dashboard to configure site settings.
 3.	Individual visits marketplace to purchase a theme and extension.
 4.	Individual registers domain name and publishes website.
