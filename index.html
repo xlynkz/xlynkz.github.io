@@ -508,6 +508,7 @@ var mylink = "https://ofwriting.firebaseio.com/" + (team) + ("/paper/");
 var base = new Firebase(mylink);
 base.once("value", function(snapshot) {
     var ggg = (snapshot.val());
+    alert("posttext");
 $('#papercontent').html(ggg.posttext)
     document.getElementById('landingbar').style.display = 'none';
          document.getElementById('q').style.display = 'block';
