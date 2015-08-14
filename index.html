@@ -508,9 +508,7 @@ var mylink = "https://ofwriting.firebaseio.com/" + (team) + ("/build/");
 var base = new Firebase(mylink);
 base.once("value", function(snapshot) {
     var ggg = (snapshot.val());
-    $('#menutoggle').removeClass( "is-menu-visible" );
-    $('.searchbar').attr('placeholder','Invite a person by email');
-$('.searchbar').attr('id','q');   
+$('#legend').html(ggg.paper)
     document.getElementById('landingbar').style.display = 'none';
          document.getElementById('q').style.display = 'block';
 myFunc();
