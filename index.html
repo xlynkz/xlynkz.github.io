@@ -917,7 +917,7 @@ base.once("value", function(snapshot) {
 <script>
 if (window.location.href.indexOf("#paper") >= 0) {
      var team = localStorage.getItem('teamname');
-var mylink = "https://ofwriting.firebaseio.com/" + (team) + ("/build/");
+var mylink = "https://ofwriting.firebaseio.com/" + (team) + ("/paper/");
 var base = new Firebase(mylink);
 base.once("value", function(snapshot) {
     var ggg = (snapshot.val());
