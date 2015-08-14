@@ -504,11 +504,11 @@ $('#menutoggle').removeClass( "is-menu-visible" );
 
  $( "#paperaccount" ).click(function() {
   var team = localStorage.getItem('teamname');
-var mylink = "https://ofwriting.firebaseio.com/" + (team) + ("/build/");
+var mylink = "https://ofwriting.firebaseio.com/" + (team) + ("/paper/");
 var base = new Firebase(mylink);
 base.once("value", function(snapshot) {
     var ggg = (snapshot.val());
-$('#legend').html(ggg.paper)
+$('#legend').html(ggg.posttext)
     document.getElementById('landingbar').style.display = 'none';
          document.getElementById('q').style.display = 'block';
 myFunc();
