@@ -426,13 +426,11 @@ function userExistsCallback(userId, exists) {
   //alert('user ' + userId + ' does not exist!');
 
 var teamname = prompt('Enter startup name:', '');
-var localStorage.setItem('teamname', teamname);
-
-
 teamname = teamname.replace(/[^\w\s!?]/g,'');
 teamname = teamname.toLowerCase();
 var subtitle = prompt('What does it do?', '');
 localStorage.setItem('teamname', teamname);
+
 var user = localStorage.getItem('user_id');
 var teamlink = "https://ofwriting.firebaseio.com/" + (teamname);
 var base = new Firebase(teamlink);
