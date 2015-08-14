@@ -32,11 +32,8 @@ Contents
 
 
 
-1. Confidentiality Notice
-The information contained in this communication is privileged, confidential and intended only for the use of the individual or entity to whom it is addressed. If you are not the intended recipient, you are hereby notified that any distribution, copying, disclosure or taking of any action in reliance on the contents of this communication is prohibited.
-If you have received this communication in error, please notify Fastur Inc. immediately and destroy this document.
+# Executive Summary
 
-2. Executive Summary
 Fastur.com allows clients to build, host and manage internet businesses.
 
 The product consists of a content management system, which runs on a web hosting service and features a plug-in architecture for extensions and templates. Fastur.com can be used by anyone with an internet connection and a browser.
