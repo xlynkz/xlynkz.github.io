@@ -733,34 +733,20 @@ base.set({ 'accounthtml' : x, 'accounttext' : z});
           $('#hits').empty();
           return;
         }  
-      // Scan all hits and display them
-          var hits = '';
+  // Scan all hits and display them
+          var html = '';
           for (var i = 0; i < content.hits.length; ++i) {
             var hit = content.hits[i];
-            hits += '<div class="hit panel">';
+            html += '<div class="hit">';
             for (var attribute in hit._highlightResult) {
-              hits += 
-              
-              
-              if (attribute.indexOf('www') === 1)
-{
-  alert("no dash found.");
-}
-              
-              
-              
-              
-              
-              
-              
-              '<div class="attribute">' +
-                '<strong>' + attribute + ': </strong>' +
+              html += '<div class="attribute">' +
+                '<span>' + attribute + ': </span>' +
                 hit._highlightResult[attribute].value +
                 '</div>';
             }
-            hits += '</div>';
+            html += '</div>';
           }
-          $('#hits').html(hits);
+          $('#hits').html(html);
       }
        $(document).ready(function() {
         var $inputfield = $('#q');
