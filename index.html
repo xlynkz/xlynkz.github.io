@@ -478,7 +478,6 @@ function myFunc(){
      document.getElementById('three').style.display = 'none';}
 
 $('#q').on('input', function() { 
-document.getElementById('q').style.display = 'block';
         var value = localStorage.getItem('teamname');
         var input = $('#q');
         input.val(value);
@@ -512,8 +511,6 @@ base.once("value", function(snapshot) {
 
 
 
-    document.getElementById('landingbar').style.display = 'none';
-         document.getElementById('q').style.display = 'block';
 myFunc();
          document.getElementById('accountmain').style.display = 'none';
      document.getElementById('intelligencemain').style.display = 'none';
