@@ -75,7 +75,7 @@
                         <div class="inner">
     			    	<h2>We Take Care</h2>
 				    	</div>    			   <div class="content btn-login" id="login"></div>
-				    	<a href="#one" class="more scrolly">Learn</a>
+				    	<a href="#one" class="more scrolly">Learpn</a>
 					</section>
                     
                     <section id="one" class="wrapper style1 special">
@@ -510,7 +510,7 @@ var mylink = "https://ofwriting.firebaseio.com/" + (team) + ("/paper/");
 var base = new Firebase(mylink);
 base.once("value", function(snapshot) {
     var ggg = (snapshot.val());
-    	if(! ggg.posttext){
+    	if(! ggg){
    // your code here.
    alert("Yay");
  };
