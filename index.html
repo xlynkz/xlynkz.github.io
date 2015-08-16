@@ -55,8 +55,7 @@
     <body id="menutoggle" class="landing" >
 		<div id="page-wrapper">
            <header id="header">
-             <input ondblclick="bardblclick()" style="display:none"  type="text" name="q" id="q" autocomplete="off" spellcheck="false" autofocus="autofocus" autocorrect="false" placeholder="Search or invite"/>
-             <input ondblclick="bardblclick()" style="display:block" type="text" id="landingbar" name="email" autocomplete="off"  autofocus="autofocus" placeholder="What's your idea?" />
+             <input ondblclick="bardblclick()" style="display:block"  type="text" name="q" id="q" autocomplete="off" spellcheck="false" autofocus="autofocus" autocorrect="false" placeholder="Search or invite"/>
                                        
 </h1>
 					   <nav id="nav">
@@ -75,7 +74,7 @@
                         <div class="inner">
     			    	<h2>We Take Care</h2>
 				    	</div>    			   <div class="content btn-login" id="login"></div>
-				    	<a href="#one" class="more scrolly">Learpn</a>
+				    	<a href="#one" class="more scrolly">Learn</a>
 					</section>
                     
                     <section id="one" class="wrapper style1 special">
@@ -876,7 +875,7 @@ $('.btn-devlogin').click(function(e) {
 
 </script>
 <script>
-$("#landingbar").keypress(function(e) {
+$("#q").keypress(function(e) {
     if(e.which == 13) {
         $("#enterbutton").click();
     }
