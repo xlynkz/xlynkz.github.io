@@ -511,12 +511,9 @@ var base = new Firebase(mylink);
 base.once("value", function(snapshot) {
     var ggg = (snapshot.val());
     	if(! ggg){
-   // your code here.
-   alert("Yay");
- };
- 
- 
-$('#papercontent').html(ggg.posttext);
+
+
+
     document.getElementById('landingbar').style.display = 'none';
          document.getElementById('q').style.display = 'block';
 myFunc();
@@ -526,8 +523,24 @@ myFunc();
      document.getElementById('papersection').style.display = 'block';
      document.getElementById('jaizus').style.display = 'none';
               document.getElementById('jaizus2').style.display = 'none';
-
-});
+              
+              
+ }
+ else
+ {
+ $('#papercontent').html(ggg.posttext);
+  document.getElementById('landingbar').style.display = 'none';
+         document.getElementById('q').style.display = 'block';
+myFunc();
+         document.getElementById('accountmain').style.display = 'none';
+     document.getElementById('intelligencemain').style.display = 'none';
+     document.getElementById('main').style.display = 'block';
+     document.getElementById('papersection').style.display = 'block';
+     document.getElementById('jaizus').style.display = 'none';
+              document.getElementById('jaizus2').style.display = 'none';	
+ };
+ 
+ });
 });
 
 //clicking intelligence button
