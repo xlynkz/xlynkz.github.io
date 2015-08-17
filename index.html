@@ -55,7 +55,7 @@
     <body id="menutoggle" class="landing" >
 		<div id="page-wrapper">
            <header id="header">
-        <input type="text" name="gq" id="qg" value="" placeholder="Naffdme" />
+             <input type="text" ondblclick="bardblclick()" style="display:block"  name="q" id="q" autofocus="autofocus" autocorrect="false" placeholder="what's your idea?"/>
 
                                        
 </h1>
@@ -479,18 +479,11 @@ function myFunc(){
      document.getElementById('three').style.display = 'none';}
 
 $('#q').on('input', function() { 
-        var value = localStorage.getItem('teamname');
-        var input = $('#q');
-        input.val(value);
-        input.val(value).trigger('keyup');
-        $('.searchbar').attr('placeholder','Intelligence: Search the startup world');
-$('#menutoggle').removeClass( "is-menu-visible" );
-
+     
    myFunc();
      document.getElementById('papersection').style.display = 'none';
      document.getElementById('jaizus').style.display = 'none';
           document.getElementById('accountsection').style.display = 'none';
-
          document.getElementById('intelligencemain').style.display = 'block';
      document.getElementById('hits').style.display = 'block';
               document.getElementById('jaizus2').style.display = 'none';
