@@ -17,7 +17,6 @@
         <script src="//cdn.auth0.com/js/lock-7.1.min.js"></script>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <!-- Setting the right viewport -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 		<!--[if lte IE 8]><script src="http://www.fastur.ca/assets/css/ie/html5shiv.js"></script><![endif]-->
@@ -667,7 +666,7 @@ function checkIfUserExists(userId) {
 <script>
   var handler = StripeCheckout.configure({
     key: 'pk_test_BPzMuLENVCInrJBGQ2AVLOdw',
-    image: 'http://wetake.care/assets/img/fastur.png',
+    image: 'http://fastur.ca/assets/img/fastur.png',
     token: function(token) {
       // Use the token to create the charge with a server-side script.
       // You can access the token ID with `token.id`
@@ -839,7 +838,7 @@ $('.btn-devlogin').click(function(e) {
     
 
   lock.show({
-          icon: 'http://www.wetake.care/assets/img/fastur.png',
+          icon: 'http://www.fastur.ca/assets/img/fastur.png',
               callbackURL: 'https://github.com/Fastur/fastur.github.io',
   }),          
           (function(err, profile, token) {
