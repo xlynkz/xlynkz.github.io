@@ -518,7 +518,6 @@ myFunc();
  else
  {
  $('#papercontent').html(ggg.posttext);
-  document.getElementById('landingbar').style.display = 'none';
          document.getElementById('q').style.display = 'block';
 myFunc();
          document.getElementById('accountmain').style.display = 'none';
@@ -534,18 +533,14 @@ myFunc();
 
 //clicking intelligence button
     $("#intelligence").click(function(){
-         document.getElementById('landingbar').style.display = 'none';
          document.getElementById('q').style.display = 'block';
-
-    
         var value = localStorage.getItem('teamname');
         var input = $('#q');
         input.val(value);
         input.val(value).trigger('keyup');
         $('.searchbar').attr('placeholder','Intelligence: Search the startup world');
 $('#menutoggle').removeClass( "is-menu-visible" );
-$('#landingbar').attr('id','q');   
-   
+
    myFunc();
      document.getElementById('papersection').style.display = 'none';
      document.getElementById('jaizus').style.display = 'none';
@@ -558,7 +553,7 @@ $('#landingbar').attr('id','q');
     
 //clicking build button    
 $( "#build" ).click(function() {
-           $('#landingbar').attr('placeholder','"change background to blue"');
+           $('#q').attr('placeholder','"change background to blue"');
   var team = localStorage.getItem('teamname');
   alert(team);
 var mylink = "https://ofwriting.firebaseio.com/" + (team);
