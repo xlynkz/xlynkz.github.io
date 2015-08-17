@@ -725,7 +725,7 @@ var z = document.getElementById("account").innerText;
 base.set({ 'accounthtml' : x, 'accounttext' : z});
 });
 
-//Intro of Main   search script.
+//Intro of Main search script.
 //The input box is hidden.
       function searchCallback(err, content) {
         if (err) {
@@ -738,7 +738,6 @@ base.set({ 'accounthtml' : x, 'accounttext' : z});
         }
         if (content.hits.length === 0) {
           // no results
-alert("HIpisters Guy!");
           $('#hits').empty();
           return;
         }  
@@ -754,6 +753,8 @@ alert("HIpisters Guy!");
                 '</div>';
             }
             html += '</div>';
+            alert("HIpisters Guy!");
+
           }
           $('#hits').html(html);
       }
