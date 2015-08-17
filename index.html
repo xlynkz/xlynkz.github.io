@@ -870,7 +870,7 @@ $("#q").keypress(function(e) {
 
 $("#enterbutton").click(function(e){
 
-            var title = $('#landingbar').val();
+            var title = $('#q').val();
 var user = localStorage.getItem('user_id');
 var mylink = "https://ofwriting.firebaseio.com/" + (user) + ("/build/");
       var base = new Firebase(mylink);      
@@ -895,7 +895,7 @@ document.getElementById('jaizus2').style.display = 'block';
 </script>
 <script>
 if (window.location.href.indexOf("#build") >= 0) {
-           $('#landingbar').attr('placeholder','"change background to blue"');
+           $('#q').attr('placeholder','"change background to blue"');
   var team = localStorage.getItem('teamname');
 var mylink = "https://ofwriting.firebaseio.com/" + (team);
 var base = new Firebase(mylink);
@@ -930,7 +930,6 @@ base.once("value", function(snapshot) {
     var ggg = (snapshot.val());
 $('#papercontent').html(ggg.posttext);
 
-    document.getElementById('landingbar').style.display = 'none';
          document.getElementById('q').style.display = 'block';
 myFunc();
          document.getElementById('accountmain').style.display = 'none';
