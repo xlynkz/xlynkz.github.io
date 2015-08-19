@@ -428,17 +428,17 @@ function userExistsCallback(userId, exists) {
   } else {
   //alert('user ' + userId + ' does not exist!');
 
-var teamname = prompt('Enter startup name:', '');
-teamname = teamname.replace(/[^\w\s!?]/g,'');
-teamname = teamname.toLowerCase();
-var subtitle = prompt('What does it do?', '');
-localStorage.setItem('teamname', teamname);
+//var teamname = prompt('Enter startup name:', '');
+//teamname = teamname.replace(/[^\w\s!?]/g,'');
+//teamname = teamname.toLowerCase();
+//var subtitle = prompt('What does it do?', '');
+//localStorage.setItem('teamname', teamname);
 
-var user = localStorage.getItem('user_id');
-var teamlink = "https://ofwriting.firebaseio.com/" + (teamname);
-var base = new Firebase(teamlink);
-var href = "http://www.fastur.ca/assets/build/highlights/"
-base.update({ 'title' : teamname, 'subtitle' : subtitle, "buildlink" : href });
+//var user = localStorage.getItem('user_id');
+//var teamlink = "https://ofwriting.firebaseio.com/" + (teamname);
+//var base = new Firebase(teamlink);
+//var href = "http://www.fastur.ca/assets/build/highlights/"
+//base.update({ 'title' : teamname, 'subtitle' : subtitle, "buildlink" : href });
 
 
 
@@ -452,10 +452,10 @@ base.update({ 'title' : teamname, 'subtitle' : subtitle, "buildlink" : href });
 
 
 //sending user info
-var mylink = "https://ofwriting.firebaseio.com/" + (user);
-var base = new Firebase(mylink);
-base.update({'userid': userid, 'teamname' : teamname,  'subtitle' : subtitle });
-location.replace("http://www.wetake.care");
+//var mylink = "https://ofwriting.firebaseio.com/" + (user);
+//var base = new Firebase(mylink);
+//base.update({'userid': userid, 'teamname' : teamname,  'subtitle' : subtitle });
+//location.replace("http://www.wetake.care");
   }
 }
  
