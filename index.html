@@ -57,7 +57,7 @@
     <body id="menutoggle" class="landing" >
 		<div id="page-wrapper">
            <header id="header">
-             <input type="text" ondblclick="bardblclick()" style="display:block"  name="q" id="q" autofocus="autofocus" autocorrect="false" placeholder="what's your idea?"/>
+             <input type="text" ondblclick="bardblclick()" style="display:block"  name="q" id="q" class="q" autofocus="autofocus" autocorrect="false" placeholder="what's your idea?"/>
 
                                        
 </h1>
@@ -473,6 +473,14 @@ var userslink = "https://ofwriting.firebaseio.com/";
 
 
 </script>
+<script>
+if($('.q').val())
+{
+	alert("There is a value");
+};
+
+</script>
+
 <script>
 // Hiding Landing Page
 function myFunc(){
