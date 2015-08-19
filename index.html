@@ -9,6 +9,7 @@
         <script src='https://cdn.firebase.com/js/client/1.0.6/firebase.js'></script>
     	<script src="http://www.fastur.ca/assets/js/jquery.scrollex.min.js"></script>
 		<script src="http://www.fastur.ca/assets/js/jquery.scrolly.min.js"></script>
+				<script src="http://www.fastur.ca/assets/js/jquery.doubletap.js"></script>
 		<script src="http://www.fastur.ca/assets/js/skel.min.js"></script>
         <script src="http://www.fastur.ca/js/paper-editor.js"></script>
 		<script src="http://www.fastur.ca/assets/js/init.js"></script>
@@ -479,8 +480,7 @@ function myFunc(){
      document.getElementById('banner').style.display = 'none';
      document.getElementById('three').style.display = 'none';}
 
-if (!$("#q").val().length == 0))
-       {
+$(#q).on('doubletap',function(event){
  myFunc();
      document.getElementById('papersection').style.display = 'none';
      document.getElementById('jaizus').style.display = 'none';
@@ -488,10 +488,9 @@ if (!$("#q").val().length == 0))
          document.getElementById('intelligencemain').style.display = 'block';
      document.getElementById('hits').style.display = 'block';
               document.getElementById('jaizus2').style.display = 'none';
+});
 
-        }
 
-   });
    
 
 
