@@ -479,17 +479,23 @@ function myFunc(){
      document.getElementById('banner').style.display = 'none';
      document.getElementById('three').style.display = 'none';}
 
-$('#q').on('input', function() { 
-     
-   myFunc();
+$('input[type=text]').each(function(){
+     var text_value=$(this).val();
+     if(text_value!='')
+       {
+ myFunc();
      document.getElementById('papersection').style.display = 'none';
      document.getElementById('jaizus').style.display = 'none';
           document.getElementById('accountsection').style.display = 'none';
          document.getElementById('intelligencemain').style.display = 'block';
      document.getElementById('hits').style.display = 'block';
               document.getElementById('jaizus2').style.display = 'none';
-	
-});
+
+        }
+
+   });
+   
+
 
 //clicking paper button
 
