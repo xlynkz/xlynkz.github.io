@@ -479,9 +479,7 @@ function myFunc(){
      document.getElementById('banner').style.display = 'none';
      document.getElementById('three').style.display = 'none';}
 
-$('#q').each(function(){
-     var text_value=$(this).val();
-     if(text_value!='')
+if (!$("#q").val().length == 0))
        {
  myFunc();
      document.getElementById('papersection').style.display = 'none';
