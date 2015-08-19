@@ -480,8 +480,8 @@ function myFunc(){
      document.getElementById('banner').style.display = 'none';
      document.getElementById('three').style.display = 'none';}
 
-$(#q).on('doubletap',function(event){
- myFunc();
+if ( $.trim( $('#q').val() ) !== '' ) {
+	 myFunc();
      document.getElementById('papersection').style.display = 'none';
      document.getElementById('jaizus').style.display = 'none';
           document.getElementById('accountsection').style.display = 'none';
