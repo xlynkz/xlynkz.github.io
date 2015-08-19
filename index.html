@@ -57,7 +57,7 @@
     <body id="menutoggle" class="landing" >
 		<div id="page-wrapper">
            <header id="header">
-             <input type="text" ondblclick="bardblclick()" style="display:block"  name="q" id="q" class="q" autofocus="autofocus" autocorrect="false" placeholder="what's your idea?"/>
+             <input type="text"  style="display:block"  name="q" id="q" autofocus="autofocus" autocorrect="false" placeholder="what's your idea?"/>
 
                                        
 </h1>
@@ -488,19 +488,10 @@ function myFunc(){
      document.getElementById('banner').style.display = 'none';
      document.getElementById('three').style.display = 'none';}
 
-if ( $.trim( $('#q').val() ) !== '' ) {
-	alert("empty.");
-//	 myFunc();
-//     document.getElementById('papersection').style.display = 'none';
-//     document.getElementById('jaizus').style.display = 'none';
- //         document.getElementById('accountsection').style.display = 'none';
-//         document.getElementById('intelligencemain').style.display = 'block';
-//     document.getElementById('hits').style.display = 'block';
-//              document.getElementById('jaizus2').style.display = 'none';
-};
-
-
-   
+var inp = $("#q");
+if (q.val().length > 0) {
+alert("empty.");
+}
 
 
 //clicking paper button
