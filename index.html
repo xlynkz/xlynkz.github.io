@@ -57,7 +57,7 @@
     <body id="menutoggle" class="landing" >
 		<div id="page-wrapper">
            <header id="header">
-             <input type="text"  name="q" id="q" autofocus="autofocus" placeholder="what's your idea?"/>
+           	<input type="text" id="myInput" oninput="myFunction()">
 
                                        
 </h1>
@@ -83,6 +83,8 @@
                     <section id="one" class="wrapper style1 special">
 					<div class="inner">
 							<header class="major">
+								<p id="demo"></p>
+
 								<h2>We are building a better way <br /> to startup.
 								</h2>
 								<p>
@@ -942,6 +944,12 @@ function bardblclick() {
     document.getElementById('accountsection').style.display = 'block';
     
     
+}
+</script>
+<script>
+function myFunction() {
+    var x = document.getElementById("myInput").value;
+    document.getElementById("demo").innerHTML = "You wrote: " + x;
 }
 </script>
 </body></html>
