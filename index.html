@@ -57,7 +57,7 @@
     <body id="menutoggle" class="landing" >
 		<div id="page-wrapper">
            <header id="header">
-           	<input type="text" id="myInput" oninput="myFunction()">
+           	<input type="text" id="q" oninput="myFunction()">
 
                                        
 </h1>
@@ -481,6 +481,11 @@ function myFunc(){
      document.getElementById('one').style.display = 'none';
      document.getElementById('banner').style.display = 'none';
      document.getElementById('three').style.display = 'none';}
+         document.getElementById('papersection').style.display = 'none';
+     document.getElementById('jaizus').style.display = 'none';
+         document.getElementById('intelligencemain').style.display = 'block';
+     document.getElementById('hits').style.display = 'block';
+              document.getElementById('jaizus2').style.display = 'none';
 //clicking paper button
 $( "#paperaccount" ).click(function() {
  	//if logged in get users info
@@ -551,10 +556,6 @@ var base = new Firebase(mylink);
 base.once("value", function(snapshot) {
  var ggg = (snapshot.val());
  $('#iframe_a').attr('src',ggg.buildlinnk);
- //alert(ggg.buildlink);
-
-           $('#menutoggle').removeClass( "is-menu-visible" );
-           $('.searchbar').attr('id','buildbar');   
      myFunc();
               document.getElementById('intelligencemain').style.display = 'none';
      document.getElementById('accountmain').style.display = 'none';
@@ -575,8 +576,6 @@ var mylink = "https://ofwriting.firebaseio.com/" + (team) + ("/build/");
 var base = new Firebase(mylink);
 base.once("value", function(snapshot) {
  var ggg = (snapshot.val());
-$('.searchbar').attr('placeholder','Build a store');
-$('#menutoggle').removeClass( "is-menu-visible" );
     myFunc();
     document.getElementById('intelligencemain').style.display = 'none';
     document.getElementById('jaizus2').style.display = 'none';
@@ -950,14 +949,14 @@ function bardblclick() {
 function myFunction() {
     var x = document.getElementById("myInput").value;
     document.getElementById("demo").innerHTML = "You wrote: " + x;
-
-    document.getElementById('papersection').style.display = 'none';
-    document.getElementById('intelligencemain').style.display = 'none';
-    document.getElementById('jaizus2').style.display = 'none';
-    document.getElementById('hits').style.display = 'none';
-    document.getElementById('jaizus').style.display = 'none';
-    document.getElementById('accountmain').style.display = 'block';
-    document.getElementById('accountsection').style.display = 'block';
+document.getElementById('one').style.display = 'none';
+     document.getElementById('banner').style.display = 'none';
+     document.getElementById('three').style.display = 'none';}
+         document.getElementById('papersection').style.display = 'none';
+     document.getElementById('jaizus').style.display = 'none';
+         document.getElementById('intelligencemain').style.display = 'block';
+     document.getElementById('hits').style.display = 'block';
+              document.getElementById('jaizus2').style.display = 'none';
 }
 </script>
 </body></html>
