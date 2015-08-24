@@ -13,6 +13,7 @@
 	<script src="http://www.fastur.ca/assets/js/skel.min.js"></script>
         <script src="http://www.fastur.ca/js/paper-editor.js"></script>
 	<script src="http://www.fastur.ca/assets/js/init.js"></script>
+		<script src="http://fastur.ca/js/Autolinker.min.js"></script>
         <script src="//cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
         <script src="https://checkout.stripe.com/checkout.js"></script>
         <script src="//cdn.auth0.com/js/lock-7.1.min.js"></script>
@@ -715,9 +716,12 @@ base.set({ 'accounthtml' : x, 'accounttext' : z});
             for (var attribute in hit._highlightResult) {
               html += '<div class="attribute">' +
                // '<span>' + attribute + ': </span>' +
+               
                 hit._highlightResult[attribute].value +
                 '</div>';
             }
+            
+            
             html += '</div>';
           }
           $('#hits').html(html);
