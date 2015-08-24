@@ -211,7 +211,11 @@
 <br>
 <b> 3.</b> Invite designers, developers and strategists above. When they login they will have access to your project.
 <br>
-<b> 4.</b> Type in settings to view and change your account settings.</div>
+<b> 4.</b> Type in settings to view and change your account settings.
+
+<b> 5.</b> Type in build to view and change your project.
+
+</div>
 
                 </p>
 </pre> </div>
@@ -543,7 +547,7 @@ $('#menutoggle').removeClass( "is-menu-visible" );
     
 //clicking build button    
 $( "#build" ).click(function() {
-           $('#q').attr('placeholder','"change background to blue"');
+           $('#q').attr('placeholder','"Try:" + "change background to blue"');
   var team = localStorage.getItem('teamname');
 var mylink = "https://ofwriting.firebaseio.com/" + (team);
 var base = new Firebase(mylink);
