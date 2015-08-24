@@ -745,15 +745,7 @@ base.set({ 'accounthtml' : x, 'accounttext' : z});
         var client = algoliasearch('1WFMK06AUA', '274c770af80b09e77f199b6c7d064336');
         // Replace the following value by the name of the index you want to query.
         var index = client.initIndex('wetakecare');
-       $('.clickme').click(function() {
-var user = localStorage.getItem('user_id');
-var mylink = "https://ofwriting.firebaseio.com/" + (user);
-var base = new Firebase(mylink);
-base.once("value", function(snapshot) {
-//document.getElementsByClassName('ohmy')[0].style.visibility='hidden';
-var zheader = snapshot.val();
-        $inputfield.val(zheader.teamname).trigger('keyup');
-      });
+      
         $inputfield.keyup(function() {
         index.search($inputfield.val(), searchCallback);
         }).focus().closest('form').on('submit', function() {
