@@ -363,7 +363,6 @@ var mylink = "https://ofwriting.firebaseio.com/" + (user);
 var base = new Firebase(mylink);
 base.once("value", function(snapshot) {
 var zheader = snapshot.val();
-document.getElementById("namebar").textContent=(zheader.eere);
 });
 }
 
