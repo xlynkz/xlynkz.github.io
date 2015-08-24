@@ -211,7 +211,7 @@
 <br>
 <b> 3.</b> Invite designers, developers and strategists above. When they login they will have access to your project.
 <br>
-<b> 4.</b> Double tap the search bar at any time to view and change your account settings.</div>
+<b> 4.</b> Type in settings to view and change your account settings.</div>
 
                 </p>
 </pre> </div>
@@ -918,8 +918,13 @@ myFunc();
  $(document).ready(function() {
         $("#q").keyup(function() {
             if (this.value == "settings") {
-            	myFunc();
-                $("#accountmain").css("display", "block");
+                myFunc();
+    document.getElementById('intelligencemain').style.display = 'none';
+    document.getElementById('jaizus2').style.display = 'none';
+    document.getElementById('hits').style.display = 'none';
+    document.getElementById('jaizus').style.display = 'none';
+    document.getElementById('accountmain').style.display = 'block';
+    document.getElementById('accountsection').style.display = 'block';
             }
             else {
                 $("#pete").css("display", "none");
