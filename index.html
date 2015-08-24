@@ -714,22 +714,12 @@ base.set({ 'accounthtml' : x, 'accounttext' : z});
             html += '<div class="hit">';
             for (var attribute in hit._highlightResult) {
             	
-            	if (attribute.indexOf("www") >= 0) { 
-            		     html += '<div class="attribute">' +
-     
-                 '<a href="http://' + hit._highlightResult[attribute].value + '">' + hit._highlightResult[attribute].value + '</a>'
-
-                hit._highlightResult[attribute].value +
-                '</div>';
-            	
-            		
-            	}
-            	else {
+            
               html += '<div class="attribute">' +
                // '<span>' + attribute + ': </span>' +
                
                 hit._highlightResult[attribute].value +
-                '</div>';}
+                '</div>';
                 
             }
             
