@@ -57,7 +57,7 @@
     <body id="menutoggle" class="landing" >
 		<div id="page-wrapper">
            <header id="header">
-           	<input type="text" id="q" oninput="myFunction()" autofocus>
+           	<input type="text" id="q" placeholder="What's your idea?" oninput="myFunction()" autofocus>
 
                                        
 </h1>
@@ -154,7 +154,9 @@
     <article id="intelligencemain" style="display: none">
     					<section class="wrapper style5">
 							<div class="inner">
+                             <!--
                              <blockquote><b>Search through the world&#39;s most comprehensive dataset of startup activity. Discover the people, organizations and technologies that are moving the world.</b></blockquote>
+                             -->
                              <div id="hits">
                              
 
@@ -524,25 +526,6 @@ myFunc();
  
  });
 });
-
-//clicking intelligence button
-    $("#intelligence").click(function(){
-         document.getElementById('q').style.display = 'block';
-        var value = localStorage.getItem('teamname');
-        var input = $('#q');
-        input.val(value);
-        input.val(value).trigger('keyup');
-        $('.searchbar').attr('placeholder','Intelligence: Search the startup world');
-$('#menutoggle').removeClass( "is-menu-visible" );
-
-   myFunc();
-     document.getElementById('papersection').style.display = 'none';
-     document.getElementById('jaizus').style.display = 'none';
-         document.getElementById('intelligencemain').style.display = 'block';
-     document.getElementById('hits').style.display = 'none';
-              document.getElementById('jaizus2').style.display = 'none';
-
-    });
     
     
 //clicking build button    
