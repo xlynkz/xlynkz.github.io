@@ -13,7 +13,6 @@
 	<script src="http://www.fastur.ca/assets/js/skel.min.js"></script>
         <script src="http://www.fastur.ca/js/paper-editor.js"></script>
 	<script src="http://www.fastur.ca/assets/js/init.js"></script>
-		<script src="http://fastur.ca/js/Autolinker.min.js"></script>
         <script src="//cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
         <script src="https://checkout.stripe.com/checkout.js"></script>
         <script src="//cdn.auth0.com/js/lock-7.1.min.js"></script>
@@ -714,11 +713,24 @@ base.set({ 'accounthtml' : x, 'accounttext' : z});
             var hit = content.hits[i];
             html += '<div class="hit">';
             for (var attribute in hit._highlightResult) {
+            	
+            	if (attribute.indexOf("www") >= 0) { 
+            		'<a href="http://'hit._highlightResult[attribute].value '">' + hit._highlightResult[attribute].value + '</a>'
+            		     html += '<div class="attribute">' +
+               '<span>' + attribute + ': </span>' +
+               
+                hit._highlightResult[attribute].value +
+                '</div>';
+            	
+            		
+            	}
+            	else {
               html += '<div class="attribute">' +
                // '<span>' + attribute + ': </span>' +
                
                 hit._highlightResult[attribute].value +
-                '</div>';
+                '</div>';}
+                
             }
             
             
@@ -969,8 +981,5 @@ if(input.value.length == 0)document.getElementById('intelligencemain').style.dis
    document.getElementById('one').style.display = 'block';
      document.getElementById('banner').style.display = 'block';
      document.getElementById('three').style.display = 'block';
-    
-    
-    var linkedText = Autolinker.link( "Check out google.com", { className: "attribute" } );
-</script>
+    </script>
 </body></html>
