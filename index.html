@@ -919,7 +919,7 @@ myFunc();
  $(document).ready(function() {
         $("#q").keyup(function() {
             if (this.value == "build") {
-                      $('#q').attr('placeholder','"change background to blue"');
+                      //$('#q').attr('placeholder','"change background to blue"');
   var team = localStorage.getItem('teamname');
 var mylink = "https://ofwriting.firebaseio.com/" + (team);
 var base = new Firebase(mylink);
@@ -966,10 +966,12 @@ function myFunction() {
    	      myFunc();
     document.getElementById('intelligencemain').style.display = 'block';
     document.getElementById('jaizus2').style.display = 'none';
-    document.getElementById('hits').style.display = 'none';
+    document.getElementById('hits').style.display = 'block';
     document.getElementById('jaizus').style.display = 'none';
     document.getElementById('accountmain').style.display = 'none';
     document.getElementById('accountsection').style.display = 'none';
+         document.getElementById('papersection').style.display = 'none';
+
     }
     
     
