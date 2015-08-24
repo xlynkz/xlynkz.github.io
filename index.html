@@ -972,8 +972,15 @@ function myFunction() {
     document.getElementById('accountsection').style.display = 'none';
          document.getElementById('papersection').style.display = 'none';
 
-    }
+    };
     
+    
+    var input = document.getElementById('q');
+
+if(input.value.length == 0)
+   document.getElementById('one').style.display = 'none';
+     document.getElementById('banner').style.display = 'none';
+     document.getElementById('three').style.display = 'none';
     
 </script>
 </body></html>
