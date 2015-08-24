@@ -549,7 +549,7 @@ var mylink = "https://ofwriting.firebaseio.com/" + (team);
 var base = new Firebase(mylink);
 base.once("value", function(snapshot) {
  var ggg = (snapshot.val());
- $('#iframe_a').attr('src',ggg.buildlinnk);
+ $('#iframe_a').attr('src',ggg.buildlink);
      myFunc();
               document.getElementById('intelligencemain').style.display = 'none';
      document.getElementById('accountmain').style.display = 'none';
@@ -561,7 +561,8 @@ base.once("value", function(snapshot) {
      document.getElementById('one').style.display = 'none';
      document.getElementById('banner').style.display = 'none';
      document.getElementById('three').style.display = 'none';
-});});
+});
+});
 
 //clicking account button
  $( "#account" ).click(function() {
@@ -909,7 +910,38 @@ myFunc();
 });
 }
 </script>
+
 <script>
+ $(document).ready(function() {
+        $("#q").keyup(function() {
+            if (this.value == "build") {
+                      $('#q').attr('placeholder','"change background to blue"');
+  var team = localStorage.getItem('teamname');
+var mylink = "https://ofwriting.firebaseio.com/" + (team);
+var base = new Firebase(mylink);
+base.once("value", function(snapshot) {
+ var ggg = (snapshot.val());
+ $('#iframe_a').attr('src',ggg.buildlink);
+     myFunc();
+              document.getElementById('intelligencemain').style.display = 'none';
+     document.getElementById('accountmain').style.display = 'none';
+     document.getElementById('main').style.display = 'none';
+     document.getElementById('accountsection').style.display = 'none';
+     document.getElementById('papersection').style.display = 'none';
+         document.getElementById('jaizus').style.display = 'none';
+     document.getElementById('jaizus2').style.display = 'block';
+     document.getElementById('one').style.display = 'none';
+     document.getElementById('banner').style.display = 'none';
+     document.getElementById('three').style.display = 'none';
+});
+            }
+            else {
+                $("#pete").css("display", "none");
+            }
+        });
+    });
+    
+    
  $(document).ready(function() {
         $("#q").keyup(function() {
             if (this.value == "settings") {
@@ -935,5 +967,7 @@ myFunc();
     document.getElementById('accountmain').style.display = 'none';
     document.getElementById('accountsection').style.display = 'none';
     }
+    
+    
 </script>
 </body></html>
