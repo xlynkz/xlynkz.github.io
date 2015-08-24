@@ -903,8 +903,6 @@ var base = new Firebase(mylink);
 base.once("value", function(snapshot) {
     var ggg = (snapshot.val());
 $('#papercontent').html(ggg.posttext);
-
-         document.getElementById('q').style.display = 'block';
 myFunc();
          document.getElementById('accountmain').style.display = 'none';
      document.getElementById('intelligencemain').style.display = 'none';
@@ -917,16 +915,16 @@ myFunc();
 }
 </script>
 <script>
-if ($("#q").val().indexOf("settings") !== -1) {
-    alert("settings");// contains
-} else {
-    // does not contain
-}
-
-
-function myFunction(){
-	alert("yipee!");
-	
-}
+ $(document).ready(function() {
+        $("#q").keyup(function() {
+            if (this.value == "settings") {
+            	myFunc();
+                $("#accountmain").css("display", "block");
+            }
+            else {
+                $("#pete").css("display", "none");
+            }
+        });
+    });
 </script>
 </body></html>
