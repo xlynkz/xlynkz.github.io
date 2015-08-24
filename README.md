@@ -40,4 +40,4 @@ How can I turn it into reality?
 Ngram Google word use 
 Think search engine: think ads
 
-
+adding printers etc to paper icons
