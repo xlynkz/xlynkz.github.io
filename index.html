@@ -331,7 +331,7 @@
 <!-- Scripts -->
 
 <script>
-//If logged in set namebar to teamname, if not, then set namebar to demo name.. which is team."
+//If logged in get users data, if not, then set account data to demo account."
 $(document).ready(function () {
 if (localStorage.getItem("user_id") === null) 
     {     
@@ -545,7 +545,6 @@ $('#menutoggle').removeClass( "is-menu-visible" );
 $( "#build" ).click(function() {
            $('#q').attr('placeholder','"change background to blue"');
   var team = localStorage.getItem('teamname');
-  alert(team);
 var mylink = "https://ofwriting.firebaseio.com/" + (team);
 var base = new Firebase(mylink);
 base.once("value", function(snapshot) {
@@ -732,8 +731,6 @@ base.set({ 'accounthtml' : x, 'accounttext' : z});
                 '</div>';
             }
             html += '</div>';
-            alert("HIpisters Guy!");
-
           }
           $('#hits').html(html);
       }
@@ -876,8 +873,6 @@ var base = new Firebase(mylink);
 base.once("value", function(snapshot) {
  var ggg = (snapshot.val());
  $('#iframe_a').attr('src',ggg.buildlinnk);
- //alert(ggg.buildlink);
-
            $('#menutoggle').removeClass( "is-menu-visible" );
            $('.searchbar').attr('id','buildbar');   
      myFunc();
@@ -931,5 +926,14 @@ myFunc();
             }
         });
     });
+    function myFunctiin(){
+    	      myFunc();
+    document.getElementById('intelligencemain').style.display = 'block';
+    document.getElementById('jaizus2').style.display = 'none';
+    document.getElementById('hits').style.display = 'none';
+    document.getElementById('jaizus').style.display = 'none';
+    document.getElementById('accountmain').style.display = 'none';
+    document.getElementById('accountsection').style.display = 'none';
+    }
 </script>
 </body></html>
