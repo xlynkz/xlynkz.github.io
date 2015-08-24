@@ -715,10 +715,10 @@ base.set({ 'accounthtml' : x, 'accounttext' : z});
             for (var attribute in hit._highlightResult) {
             	
             	if (attribute.indexOf("www") >= 0) { 
-            		'<a href="http://'hit._highlightResult[attribute].value '">' + hit._highlightResult[attribute].value + '</a>'
             		     html += '<div class="attribute">' +
-               '<span>' + attribute + ': </span>' +
-               
+     
+                 '<a href="http://' + hit._highlightResult[attribute].value + '">' + hit._highlightResult[attribute].value + '</a>'
+
                 hit._highlightResult[attribute].value +
                 '</div>';
             	
