@@ -692,8 +692,6 @@ var accounteditor = new MediumEditor('.editablesalad', {
       toolbar: false
 });
 accounteditor.subscribe('editableInput', function (event, editable) {
-alert("Holla Holla");
-
 var user = localStorage.getItem('user_id');
 var team = localStorage.getItem('teamname');
 var teamlink = "https://ofwriting.firebaseio.com/" + (user) + ("/account/");
@@ -704,8 +702,7 @@ var z = document.getElementById("account").innerText;
 base.set({ 'accounthtml' : x, 'accounttext' : z});
 });
 
-//Intro of Main search script.
-//The input box is hidden.
+//Intro of search 
       function searchCallback(err, content) {
         if (err) {
           // error
@@ -890,6 +887,11 @@ base.once("value", function(snapshot) {
 </script>
 
 <script>
+function myFunc(){
+     document.getElementById('one').style.display = 'none';
+     document.getElementById('banner').style.display = 'none';
+     document.getElementById('three').style.display = 'none';}
+     
 if (window.location.href.indexOf("#paper") >= 0) {
      var team = localStorage.getItem('teamname');
 var mylink = "https://ofwriting.firebaseio.com/" + (team) + ("/paper/");
@@ -907,9 +909,7 @@ myFunc();
 
 });
 }
-</script>
 
-<script>
  $(document).ready(function() {
         $("#q").keyup(function() {
             if (this.value == "build") {
