@@ -944,7 +944,7 @@ function mysubmitFunction() {
 var user = localStorage.getItem('user_id');
 var mylink = "https://ofwriting.firebaseio.com/" + (user) + ("/build/");
       var base = new Firebase(mylink);      
-      base.update({header: title }); 
+      base.update({title: title }); 
 var iframe = document.getElementById('iframe_a');
 //iframe.src = iframe.src;
 document.getElementById('one').style.display = 'none';
