@@ -59,7 +59,7 @@
     <body id="menutoggle" class="landing" >
 		<div id="page-wrapper">
            <header id="header">
-           	<input type="text" id="q" placeholder="What's your idea?" autofocus>
+           	<input type="text" id="q" placeholder="What's your idea?" oninput="myFunction()" autofocus>
 					   <nav id="nav">
 							<ul>
 								<li class="special">
@@ -952,6 +952,8 @@ document.getElementById('one').style.display = 'none';
         });
   
 function myFunction() {
+if ($(this).hasAttr("q")) {
+    // ...
 
 
 	//attempt build of contents of query
@@ -965,7 +967,7 @@ function myFunction() {
     document.getElementById('accountmain').style.display = 'none';
     document.getElementById('accountsection').style.display = 'none';
          document.getElementById('papersection').style.display = 'none';
-}	
+}	}
  </script>
     <script>
       var mic = new Wit.Microphone(document.getElementById("microphone"));
