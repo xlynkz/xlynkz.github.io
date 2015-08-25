@@ -518,7 +518,8 @@ function myFunc(){
      document.getElementById('banner').style.display = 'none';
      document.getElementById('three').style.display = 'none';}
 //clicking paper button
-$( "#paperaccount" ).click(function() {
+ 	     $("#q").keyup(function() {
+ 	     	            if (this.value == "paper") {
  	//if logged in get users info
  	//if not show instructions
  
@@ -528,8 +529,6 @@ var base = new Firebase(mylink);
 base.once("value", function(snapshot) {
     var ggg = (snapshot.val());
     	if(! ggg){
-
-
 
 myFunc();
          document.getElementById('accountmain').style.display = 'none';
@@ -955,46 +954,8 @@ base.once("value", function(snapshot) {
             }
         });
     });
-    
-    
- $(document).ready(function() {
- 	     $("#q").keyup(function() {
- 	     	            if (this.value == "paper") {
-
-             var team = localStorage.getItem('teamname');
-var mylink = "https://ofwriting.firebaseio.com/" + (team) + ("/paper/");
-var base = new Firebase(mylink);
-base.once("value", function(snapshot) {
-    var ggg = (snapshot.val());
-    	if(! ggg){
-
-
-
-myFunc();
-         document.getElementById('accountmain').style.display = 'none';
-     document.getElementById('intelligencemain').style.display = 'none';
-     document.getElementById('main').style.display = 'block';
-     document.getElementById('papersection').style.display = 'block';
-     document.getElementById('jaizus').style.display = 'none';
-              document.getElementById('jaizus2').style.display = 'none';
-              
-              
- }
- else
- {
- $('#papercontent').html(ggg.posttext);
-         document.getElementById('q').style.display = 'block';
-myFunc();
-         document.getElementById('accountmain').style.display = 'none';
-     document.getElementById('intelligencemain').style.display = 'none';
-     document.getElementById('main').style.display = 'block';
-     document.getElementById('papersection').style.display = 'block';
-     document.getElementById('jaizus').style.display = 'none';
-              document.getElementById('jaizus2').style.display = 'none';	
- };
- 
- });
-        };
+   
+        
         $("#q").keyup(function() {
             if (this.value == "settings") {
                 myFunc();
