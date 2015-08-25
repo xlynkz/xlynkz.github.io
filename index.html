@@ -789,20 +789,17 @@ $.ajax({
         ],         
         'subject': 'You are invited to www.wetake.care',
         'html': '<a href="http://wetake.care?var1=*|var1|*&var2=*|var2|*">You have been invited to add value to: *|var2|*, click to sign in and state *|var2|* when asked for startup name. <br></br> We cannot wait to see what you build!</a>'
-
       }
     }
   });
   alert("Invite Sent!");
 });
-
 $('.btn-signout').click(function(e) {
 location.replace("https://xlynkz.auth0.com/v2/logout?federated&returnTo=http://www.wetake.care");
 });
 </script>
 
 <script>
-
 var lock = null;
 $(document).ready(function() {
    lock = new Auth0Lock('KUfdIbWCOjNcnhMX0ddi4Avkq7iLwXF2', 'xlynkz.auth0.com');
@@ -833,30 +830,6 @@ $('.btn-devlogin').click(function(e) {
       userProfile = profile;
     }
   });
-});
-</script>
-
-<script>
-//build on enter
-$("#q").keypress(function(e) {
-    if(e.which == 13) {
-        $("#enterbutton").click();
-    }
-});
-
-$("#enterbutton").click(function(e){
-            var title = $('#q').val();
-var user = localStorage.getItem('user_id');
-var mylink = "https://ofwriting.firebaseio.com/" + (user) + ("/build/");
-      var base = new Firebase(mylink);      
-      base.update({header: title }); 
-var iframe = document.getElementById('iframe_a');
-iframe.src = iframe.src;
- document.getElementById('one').style.display = 'none';
-     document.getElementById('banner').style.display = 'none';
-     document.getElementById('three').style.display = 'none';
-document.getElementById('jaizus2').style.display = 'block';
-
 });
 </script>
 
@@ -1026,4 +999,24 @@ function myFunction() {
         ( $( this ).val() ); 
 } );
     </script>
-</body></html>
+    
+    <script>
+     $("#q").keyup(function() {
+            if (this.value == "trent") {
+
+            var title = $('#q').val();
+var user = localStorage.getItem('user_id');
+var mylink = "https://ofwriting.firebaseio.com/" + (user) + ("/build/");
+      var base = new Firebase(mylink);      
+      base.update({header: title }); 
+var iframe = document.getElementById('iframe_a');
+iframe.src = iframe.src;
+ document.getElementById('one').style.display = 'none';
+     document.getElementById('banner').style.display = 'none';
+     document.getElementById('three').style.display = 'none';
+document.getElementById('jaizus2').style.display = 'block';
+
+});
+</script>
+</body>
+</html>
