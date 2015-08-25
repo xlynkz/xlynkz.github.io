@@ -59,7 +59,7 @@
     <body id="menutoggle" class="landing" >
 		<div id="page-wrapper">
            <header id="header">
-           	<input type="text" id="q" placeholder="What's your idea?" oninput="myFunction()" autofocus>
+           	<input type="text" id="q" placeholder="What's your idea?" autofocus>
 					   <nav id="nav">
 							<ul>
 								<li class="special">
@@ -952,6 +952,7 @@ document.getElementById('one').style.display = 'none';
         });
   
 function myFunction() {
+	if($(this).attr("q"))
 	//attempt build of contents of query
 	document.getElementById('one').style.display = 'none';
      document.getElementById('banner').style.display = 'none';
