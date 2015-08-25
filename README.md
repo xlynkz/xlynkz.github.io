@@ -1,43 +1,35 @@
-# Our Mission
+# Our Mission: Voice Controlled Development
+
 We envision an availability of sensors to measure any kind of reality and the quantum methods of organizing that information as to measure, store and reproduce the atomic relationships that more truly govern our experiences.
 
-Auto development of value with a focus on patents and startups.
+Auto development of value with a focus on patents and startups from SUM.
 
 Shirt marketplace as mature trending mvp. 
 
 Startup design as niche emerging trend mvp. 
+
 we provide x for y as basic value formulae.
 
 Use wit with double tap anywhere on screen or double click within input for change background fuctions.
 
-Login and paper. 
-Algolia on build
-Requesting data from import.io 
-build with us: get users id, use api to add to contributors. 
+Login, Algolia on build, Requesting data from import.io, authorize on github login,  
+ 
 Leonard: managed via paper 
 Beauty algorithm applied to import api
-MVP:NatLangDev cobuilding as a service.
-We provide X for Y
-Clean code.
 
-Mass customization, nat Lang manipulation 
+MVP: Voice controlled cobuilding as a service.
+
 Javascript obfuscator,
-Basics: autonomy of info without depletion of profits
+Basics: autonomy of information harvest without depletion of profits
 Calendar
-Alphabet as competitor
-I was warned about work women. 
-Autodev of patents, stores, value: from sum 
+Alphabet is our competitor
+
 Thomas hart, Pelkey, checkland, wekerle
 Propose the development of a lab which concerns it's activities with the development of mind.freedom=profit, entropy equation, identity 
 
 Algorithm maintains relationships between people, money and unstructured data.
-Mind could conly every be recreated if it's true relationships are understood. 
-They can be understood.
-Search for most valuable cognitive functions.
 
-What is a valuable idea?
-How can I turn it into reality? 
-Ngram Google word use 
-Think search engine: think ads
+#What is a valuable idea?
+#How can I turn it into reality? 
 
 adding printers etc to paper icons
