@@ -959,6 +959,8 @@ base.once("value", function(snapshot) {
     
  $(document).ready(function() {
  	     $("#q").keyup(function() {
+ 	     	            if (this.value == "paper") {
+
              var team = localStorage.getItem('teamname');
 var mylink = "https://ofwriting.firebaseio.com/" + (team) + ("/paper/");
 var base = new Firebase(mylink);
@@ -1017,27 +1019,8 @@ function myFunction() {
     document.getElementById('accountmain').style.display = 'none';
     document.getElementById('accountsection').style.display = 'none';
          document.getElementById('papersection').style.display = 'none';
-
     };
-    
-    
-    var input = document.getElementById('q');
-
-if(input.value.length == 0)document.getElementById('intelligencemain').style.display = 'none';
-     document.getElementById('accountmain').style.display = 'none';
-     document.getElementById('main').style.display = 'none';
-     document.getElementById('accountsection').style.display = 'none';
-     document.getElementById('papersection').style.display = 'none';
-         document.getElementById('jaizus').style.display = 'none';
-     document.getElementById('jaizus2').style.display = 'none';
-     document.getElementById('one').style.display = 'none';
-     document.getElementById('banner').style.display = 'none';
-     document.getElementById('three').style.display = 'none';
-   document.getElementById('one').style.display = 'block';
-     document.getElementById('banner').style.display = 'block';
-     document.getElementById('three').style.display = 'block';
     </script>
-
     <script>
       var mic = new Wit.Microphone(document.getElementById("microphone"));
       var info = function (msg) {
@@ -1054,7 +1037,7 @@ if(input.value.length == 0)document.getElementById('intelligencemain').style.dis
         error("");
       };
       mic.onaudioend = function () {
-        info("got it, thinking.");
+        info("got it, thinking..");
       };
       mic.onresult = function (intent, entities) {
         var r = kv("intent", intent);
