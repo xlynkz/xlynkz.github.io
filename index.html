@@ -940,7 +940,12 @@ function myinputFunction() {
 
 function mysubmitFunction() {
 	//build contents of query
+	
          var title = $('#q').val();
+          $('#q').attr('id','qbuild');
+                                                       $('#qbuild').attr('placeholder','"change background to blue"');
+
+                   $('#qbuild').val('');
 var user = localStorage.getItem('user_id');
 var mylink = "https://ofwriting.firebaseio.com/" + (user) + ("/build/");
       var base = new Firebase(mylink);      
