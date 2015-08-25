@@ -912,9 +912,11 @@ document.getElementById('one').style.display = 'none';
 
         $("#q").keyup(function() {
             if (this.value == "build") {
-                 $('#q').attr('placeholder','"change background to blue"');
                    $('#q').attr('id','qbuild');
+                                                       $('#qbuild').attr('placeholder','"change background to blue"');
+
                    $('#qbuild').val('');
+
 document.getElementById('one').style.display = 'none';
      document.getElementById('banner').style.display = 'none';
      document.getElementById('three').style.display = 'none';
