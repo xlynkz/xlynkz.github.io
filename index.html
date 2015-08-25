@@ -912,13 +912,8 @@ document.getElementById('one').style.display = 'none';
 
         $("#q").keyup(function() {
             if (this.value == "build") {
-                      //$('#q').attr('placeholder','"change background to blue"');
-  var team = localStorage.getItem('teamname');
-var mylink = "https://ofwriting.firebaseio.com/" + (team);
-var base = new Firebase(mylink);
-base.once("value", function(snapshot) {
- var ggg = (snapshot.val());
- $('#iframe_a').attr('src',ggg.buildlink);
+                 $('#q').attr('placeholder','"change background to blue"');
+  
 document.getElementById('one').style.display = 'none';
      document.getElementById('banner').style.display = 'none';
      document.getElementById('three').style.display = 'none';
