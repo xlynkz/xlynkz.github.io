@@ -59,7 +59,7 @@
     <body id="menutoggle" class="landing" >
 		<div id="page-wrapper">
            <header id="header">
-           	<input type="text" id="q" placeholder="What's your idea?" oninput="myFunction()" autofocus>
+           	<input type="text" id="q" class="search" placeholder="What's your idea?" oninput="myFunction()" autofocus>
 					   <nav id="nav">
 							<ul>
 								<li class="special">
@@ -1021,10 +1021,9 @@ function myFunction() {
       }
     </script>
     <script>
-    $("q").on("keydown",function search(e) {
-    if(e.keyCode == 13) {
-        alert($(this).val());
-    }
-});
+   $( '.search' ).on( 'keydown', function ( evt ) {
+    if( evt.keyCode == 13 )
+        search( $( this ).val() ); 
+} );
     </script>
 </body></html>
