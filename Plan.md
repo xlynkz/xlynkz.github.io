@@ -89,7 +89,7 @@ Fastur faces strategic competitors from content management systems (CMS) and app
 
 Wordpress is open source and currently holds nearly 60% of the CMS market. WordPress leads other CMS’s because of its ease of use. Currently, 20% of daily domain activations run WordPress in the US. WordPress features a plugin architecture for extending functionality and a theming architecture for customizable front-end designs.
 
-Strengths:
+Strengths: 
 
 Wordpress.com is the best option for users who do not want to tackle anything technical.
 
