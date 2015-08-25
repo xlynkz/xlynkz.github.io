@@ -760,7 +760,7 @@ base.set({ 'accounthtml' : x, 'accounttext' : z});
 
 </script>
 <script>
-$('#paperbar').on('submit', function() {
+$('#q').on('submit', function() {
 var teamname = localStorage.getItem('teamname');
 var invitee = $('#q').val();
 $.ajax({
@@ -838,6 +838,7 @@ $('.btn-devlogin').click(function(e) {
 </script>
 
 <script>
+//build on enter
 $("#q").keypress(function(e) {
     if(e.which == 13) {
         $("#enterbutton").click();
@@ -887,10 +888,7 @@ base.once("value", function(snapshot) {
 </script>
 
 <script>
-function myFunc(){
-     document.getElementById('one').style.display = 'none';
-     document.getElementById('banner').style.display = 'none';
-     document.getElementById('three').style.display = 'none';}
+
      
 if (window.location.href.indexOf("#paper") >= 0) {
      var team = localStorage.getItem('teamname');
@@ -899,7 +897,9 @@ var base = new Firebase(mylink);
 base.once("value", function(snapshot) {
     var ggg = (snapshot.val());
 $('#papercontent').html(ggg.posttext);
-myFunc();
+document.getElementById('one').style.display = 'none';
+     document.getElementById('banner').style.display = 'none';
+     document.getElementById('three').style.display = 'none';
          document.getElementById('accountmain').style.display = 'none';
      document.getElementById('intelligencemain').style.display = 'none';
      document.getElementById('main').style.display = 'block';
@@ -920,7 +920,9 @@ var base = new Firebase(mylink);
 base.once("value", function(snapshot) {
  var ggg = (snapshot.val());
  $('#iframe_a').attr('src',ggg.buildlink);
-     myFunc();
+document.getElementById('one').style.display = 'none';
+     document.getElementById('banner').style.display = 'none';
+     document.getElementById('three').style.display = 'none';
               document.getElementById('intelligencemain').style.display = 'none';
      document.getElementById('accountmain').style.display = 'none';
      document.getElementById('main').style.display = 'none';
@@ -942,7 +944,9 @@ base.once("value", function(snapshot) {
         
         $("#q").keyup(function() {
             if (this.value == "settings") {
-                myFunc();
+          document.getElementById('one').style.display = 'none';
+     document.getElementById('banner').style.display = 'none';
+     document.getElementById('three').style.display = 'none';
     document.getElementById('intelligencemain').style.display = 'none';
     document.getElementById('jaizus2').style.display = 'none';
     document.getElementById('hits').style.display = 'none';
@@ -957,6 +961,9 @@ base.once("value", function(snapshot) {
   
 function myFunction() {
 	//attempt build of contents of query
+	document.getElementById('one').style.display = 'none';
+     document.getElementById('banner').style.display = 'none';
+     document.getElementById('three').style.display = 'none';
     document.getElementById('intelligencemain').style.display = 'block';
     document.getElementById('jaizus2').style.display = 'none';
     document.getElementById('hits').style.display = 'block';
