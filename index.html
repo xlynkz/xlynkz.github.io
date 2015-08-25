@@ -509,37 +509,32 @@ function myFunc(){
 //clicking paper button
  	     $("#q").keyup(function() {
  	     	            if (this.value == "paper") {
- 	//if logged in get users info
- 	//if not show instructions
- 
+ 	//if logged in get users info 	//if not show instructions
   var team = localStorage.getItem('teamname');
 var mylink = "https://ofwriting.firebaseio.com/" + (team) + ("/paper/");
 var base = new Firebase(mylink);
 base.once("value", function(snapshot) {
     var ggg = (snapshot.val());
     	if(! ggg){
-
 myFunc();
-         document.getElementById('accountmain').style.display = 'none';
+     document.getElementById('accountmain').style.display = 'none';
      document.getElementById('intelligencemain').style.display = 'none';
      document.getElementById('main').style.display = 'block';
      document.getElementById('papersection').style.display = 'block';
      document.getElementById('jaizus').style.display = 'none';
-              document.getElementById('jaizus2').style.display = 'none';
-              
-              
+     document.getElementById('jaizus2').style.display = 'none';
  }
  else
  {
  $('#papercontent').html(ggg.posttext);
-         document.getElementById('q').style.display = 'block';
+     document.getElementById('q').style.display = 'block';
 myFunc();
-         document.getElementById('accountmain').style.display = 'none';
+     document.getElementById('accountmain').style.display = 'none';
      document.getElementById('intelligencemain').style.display = 'none';
      document.getElementById('main').style.display = 'block';
      document.getElementById('papersection').style.display = 'block';
      document.getElementById('jaizus').style.display = 'none';
-              document.getElementById('jaizus2').style.display = 'none';	
+     document.getElementById('jaizus2').style.display = 'none';	
  }
  
  });
