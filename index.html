@@ -1047,14 +1047,14 @@ if(input.value.length == 0)document.getElementById('intelligencemain').style.dis
         document.getElementById("error").innerHTML = msg;
       };
       mic.onready = function () {
-        info("Microphone is ready to record");
+        info("Words are energy, they turn ideas into reality.");
       };
       mic.onaudiostart = function () {
-        info("Recording started");
+        info("listening..");
         error("");
       };
       mic.onaudioend = function () {
-        info("Recording stopped, processing started");
+        info("got it, thinking.");
       };
       mic.onresult = function (intent, entities) {
         var r = kv("intent", intent);
