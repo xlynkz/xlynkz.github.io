@@ -1020,5 +1020,11 @@ function myFunction() {
         return k + "=" + v + "\n";
       }
     </script>
-    
+    <script>
+    $("q").on("keydown",function search(e) {
+    if(e.keyCode == 13) {
+        alert($(this).val());
+    }
+});
+    </script>
 </body></html>
