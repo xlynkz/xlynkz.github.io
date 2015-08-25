@@ -1,4 +1,4 @@
-# Executive Summary
+# Summary
 
 Fastur allows clients to build, host and manage internet businesses.
 
@@ -10,7 +10,7 @@ Fastur reduces the time, cost and complexity associated with venture development
 
 
 
-3. Business Focus
+# Business Focus
 
 3.1 - Mission Statement
 Our mission is to enable individuals and organizations throughout the world to realize their full potential by helping them build information driven organizations.
@@ -68,7 +68,7 @@ Long Term: 3 years
 
 We expect to build a valuable company and begin considering exit strategies in +5 years.
 
-4. Market Research
+# Market Research
 
 4.1 - Client Research
 
@@ -163,7 +163,7 @@ Threats
 
 ○	The internet industry is a complex and competitive industry with success rates for start-up business below 10%. We will establish ourselves as a market leader that creates tools that people need to innovate. We will constantly ensure that we are making a product that is needed and by investing in experienced leadership.
 
-5. Marketing Plan
+# Marketing Plan
 5.1 - Service
 The key services that we plan to offer are content management, API management and Hosting. Fastur will also operate a marketplace.
 
@@ -258,7 +258,7 @@ Focusing first on the Toronto market, Fastur will exercise the aforementioned st
 
 
 
-6. Financial Plan
+# Financial Plan
 6.1	- Start-up Costs
 Significant expenses are expected for initial product development from the hiring of software developers and general infrastructure.
 
@@ -311,7 +311,7 @@ Assumptions:
 - $200,000 seed invest
 See attached for cash flow model.
 
-7. Appendix
+# Appendix
 7.1 - Technology
 The following software products and web services to build Fastur:
 Pattern
