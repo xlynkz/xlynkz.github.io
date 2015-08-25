@@ -1,4 +1,10 @@
-# Our Mission: Voice Controlled Development
+# Voice Controlled Development
+
+$ : Laptop (Summer company reception)Algolia, Godaddy, Electricity, 2 phones, ryerson. 
+
+help@wetake.care - mandrill
+
+Jaswall, draw proposal for wekerle, include namir, randy, oneil, Pelkey, checkland. 
 
 We envision an availability of sensors to measure any kind of reality and the quantum methods of organizing that information as to measure, store and reproduce the atomic relationships that more truly govern our experiences.
 
@@ -24,7 +30,7 @@ Basics: autonomy of information harvest without depletion of profits
 Calendar
 Alphabet is our competitor
 
-Thomas hart, Pelkey, checkland, wekerle
+
 Propose the development of a lab which concerns it's activities with the development of mind.freedom=profit, entropy equation, identity 
 
 Algorithm maintains relationships between people, money and unstructured data.
@@ -33,3 +39,13 @@ Algorithm maintains relationships between people, money and unstructured data.
 #How can I turn it into reality? 
 
 adding printers etc to paper icons
+
+
+
+------ 
+
+72-78 Beverley St. 416-596-8376: tcbc.on.ca
+ryersonmccf@gmail.com: SCC shad Room
+
+
+
