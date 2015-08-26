@@ -1019,12 +1019,12 @@ document.getElementById('hits').style.display = 'none';
         if (toString.call(v) !== "[object String]") {
           v = JSON.stringify(v);
         }
-        return k + "=" + v + "\n";
+        return + "=" + v + "\n";
       }
     </script>
   <script>
     UpUp.start({
-      'content-url': 'http://www.wetake.care/index.html' // show this page to offline users
+      'content-url': 'http://www.wetake.care/index.php' // show this page to offline users
     });
   </script>
 </body>
