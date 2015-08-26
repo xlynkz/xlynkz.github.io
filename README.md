@@ -1,8 +1,8 @@
 # Voice Controlled Development
 
-$ : Laptop (Summer company reception)Algolia, Godaddy, Electricity, 2 phones, ryerson. 
+$ : Laptop (Summer company reception)Algolia, Godaddy, Electricity, 1 phones, ryerson. 
 
-help@wetake.care - mandrill
+email changes to help@wetake.care - mandrill
 
 Jaswall, draw proposal for wekerle, include namir, randy, oneil, Pelkey, checkland. 
 
