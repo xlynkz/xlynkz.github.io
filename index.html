@@ -9,12 +9,13 @@
         <script src='https://cdn.firebase.com/js/client/1.0.6/firebase.js'></script>
     	<script src="http://www.fastur.ca/assets/js/jquery.scrollex.min.js"></script>
 	<script src="http://www.fastur.ca/assets/js/jquery.scrolly.min.js"></script>
-		<script src="http://www.fastur.ca/assets/js/upup.min.js"></script>
+	<script src="http://www.fastur.ca/assets/js/upup.min.js"></script>
 	<script src="http://www.fastur.ca/assets/js/jquery.doubletap.js"></script>
 	<script src="http://www.fastur.ca/assets/js/microphone.min.js"></script>
         <link rel="stylesheet" href="http://www.fastur.ca/css/microphone.min.css">
 	<script src="http://www.fastur.ca/assets/js/skel.min.js"></script>
         <script src="http://www.fastur.ca/js/paper-editor.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.0.0/annyang.min.js"></script>
 	<script src="http://www.fastur.ca/assets/js/init.js"></script>
         <script src="//cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
         <script src="https://checkout.stripe.com/checkout.js"></script>
@@ -1027,5 +1028,31 @@ document.getElementById('hits').style.display = 'none';
       'content-url': 'http://www.wetake.care/index.php' // show this page to offline users
     });
   </script>
+  <script>
+  <script>
+if (annyang) {
+  // Let's define our first command. First the text we expect, and then the function it should call
+  var commands = {
+    'go to build': function() {
+document.getElementById('one').style.display = 'none';
+document.getElementById('banner').style.display = 'none';
+document.getElementById('three').style.display = 'none';
+document.getElementById('intelligencemain').style.display = 'none';
+document.getElementById('hits').style.display = 'none';
+ document.getElementById('accountmain').style.display = 'none';
+    document.getElementById('accountsection').style.display = 'none';
+         document.getElementById('papersection').style.display = 'none';
+         document.getElementById('jaizus2').style.display = 'block';    }
+  };
+
+  // Add our commands to annyang
+  annyang.addCommands(commands);
+
+  // Start listening. You can call this here, or attach this call to an event, button, etc.
+  annyang.start();
+}
+</script>
+  </script>
 </body>
+
 </html>
