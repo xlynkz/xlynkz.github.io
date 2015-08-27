@@ -1,3 +1,57 @@
+ 
+Fastur.ca is the easiest way for any individual to build internet ventures. The underlying magic that allows these efforts are algorithms inspired by nature, invested into natural language communication which allows for an autonomous management of life.  
+From external properties to an internal mind 
+Representation through Qualia space 
+QS = (Sensor1 + … Sx)  
+From information in qualia space to Knowledge  
+Building certainty through correlations of properties 
+R0 between Q1 and Q2 
+From certainty to knowledge through development of language  
+language = Q(property) + Q(word(senses)) 
+Building identity from the management of language 
+Identity = (qualia) + (actions(space(time))) 
+Directing identity towards a goal through spatial representation of value 
+Directionality = (others you)x(our I) = RO  
+Progress = time(+) = (goal(space(-)) 
+Ego as the propensity for curation of identity toward a single direction 
+ identity + (continual > of spatial ownership) 
+Focus as the biasing of efforts toward attended identity 
+Identity is full reduction of possible states; Identity = Revenue 
+Dreaming as the arranging of identity in QS 
+How do I arrange processes to increase revenue?  
+Behaviour  as the development of identities to bias actions 
+ ethics(all situations) 
+Freedom as the maximization of possible states  
+Causal entropic forces 
+The above information is incorporated as a user account with administrator privileges, which: 
+Crawls every page counting settings  
+Daydreams impact on tuple with action on settings,  
+Performs actions that increase tuple without negative impact on revenue or traffic.  
+ 
+
+Patent design for recognition, measurement and maximization of value, by decreasing the distance between objectives inherent in language.  
+Geo-media synchronization premise: same song: from our marketplace. Receiving an indication to being sharing data describing a path traveled by a first device. Receding location data describing the path traveled by the first device. Transmitting the location data. Placing track location of second device to that of first device. Playing keeping sync.  
+Receive data describing a path traveled by a second application. 
+Receive data describing a destination sought by second application. 
+Receiving current location data of second device.  
+Demonstrate ownership of information which reduces distance of second device and second devices destination.  
+Request value for exchange of information.  
+Patent design for autonomous process control. 
+Import and analyze language 
+Identify individuals and intention within language 
+Determine (spatial) distance between current identities and sought identities  
+Reduce distance by daydreaming models which when analyzed demonstrate decreases in distances. 
+Shorten distance to 0 
+ 
+Regards all information w particular interest for patents, investments and content from thought leaders.  
+Create product shell 
+Apply language to text placeholders 
+Seek utility % via polling; asking  request refinements 
+Hire Product, engineering & marketing through reusable functionality  
+Hire support w aim of increasing/maintaining growth rate  
+
+
+
 # Summary
 
 Fastur allows clients to build, host and manage internet businesses.
