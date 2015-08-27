@@ -1,10 +1,9 @@
-# Voice Controlled Development
+# Voice Controlled Startup Development
 
-$ : Laptop (Summer company reception)Algolia, Godaddy, Electricity, 1 phones, ryerson. 
+Draw proposal for Albright
+Include namir, randy, oneil, Pelkey, checkland. 
 
 email changes to help@wetake.care - mandrill
-
-Jaswall, draw proposal for wekerle, include namir, randy, oneil, Pelkey, checkland. 
 
 We envision an availability of sensors to measure any kind of reality and the quantum methods of organizing that information as to measure, store and reproduce the atomic relationships that more truly govern our experiences.
 
@@ -20,16 +19,13 @@ Use wit with double tap anywhere on screen or double click within input for chan
 
 Login, Algolia on build, Requesting data from import.io, authorize on github login,  
  
-Leonard: managed via paper 
 Beauty algorithm applied to import api
 
 MVP: Voice controlled cobuilding as a service.
 
 Javascript obfuscator,
 Basics: autonomy of information harvest without depletion of profits
-Calendar
 Alphabet is our competitor
-
 
 Propose the development of a lab which concerns it's activities with the development of mind.freedom=profit, entropy equation, identity 
 
@@ -40,12 +36,6 @@ Algorithm maintains relationships between people, money and unstructured data.
 
 adding printers etc to paper icons
 
-
-
 ------ 
-
 72-78 Beverley St. 416-596-8376: tcbc.on.ca
 ryersonmccf@gmail.com: SCC shad Room
-
-
-
