@@ -1,12 +1,13 @@
  
-Fastur.ca is the easiest way for any individual to build internet ventures. The underlying magic that allows these efforts are algorithms inspired by nature, invested into natural language communication which allows for an autonomous management of life.  
-From external properties to an internal mind 
+- Fastur.ca is the easiest way for any individual to build internet ventures. The underlying magic that allows these efforts are algorithms inspired by nature, invested into natural language communication which allows for an autonomous management of life.  
+
+- From external properties to an internal mind 
 Representation through Qualia space 
 QS = (Sensor1 + … Sx)  
-From information in qualia space to Knowledge  
+- From information in qualia space to Knowledge  
 Building certainty through correlations of properties 
 R0 between Q1 and Q2 
-From certainty to knowledge through development of language  
+- From certainty to knowledge through development of language  
 language = Q(property) + Q(word(senses)) 
 Building identity from the management of language 
 Identity = (qualia) + (actions(space(time))) 
