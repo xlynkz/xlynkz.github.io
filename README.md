@@ -2,7 +2,7 @@
 
 - MVP: Voice controlled cobuilding as a service.
 - Draw funding proposal for Albright:
-- Include namir, randy, oneil, Pelkey, checkland. 
+- Include namir, Pelkey, checkland. 
 
 Use wit with double tap anywhere on screen or double click within input for change background fuctions.
 
@@ -11,6 +11,7 @@ TO DO:
 - Beauty algorithm applied to import api
 - Javascript obfuscator,
 - add "build with us" to contributor: https://developer.github.com/v3/repos/collaborators/
+- Leverage import API: Shirts & Trends, but focus is beauty applied.
 
 Algorithm maintains relationships between people, money and unstructured data.
 adding printers etc to paper icons
