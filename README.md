@@ -9,6 +9,8 @@ Product
 - Use Algolia on build
 - Populate our team field with relevant odesk workers
 - Pull technology information from stackshare->import->algolia
+- Place ML Layer between anyang and firebased functions.
+
 
 User Experience
 - Login, Algolia on build, Requesting data from import.io, authorize on github login,  
@@ -17,7 +19,6 @@ User Experience
 - add "build with us" to contributor: https://developer.github.com/v3/repos/collaborators/
 - Leverage import API: Shirts & Trends, but focus is beauty applied.
 - anyand onload: create function matching 
-- store functions in database
 - Algorithm maintains relationships between people, money and unstructured data.
 
 Security
