@@ -2,32 +2,32 @@
 - Fastur.ca is the easiest way for any individual to build internet ventures. The underlying magic that allows these efforts are algorithms inspired by nature, invested into natural language communication which allows for an autonomous management of life.  
 
 - From external properties to an internal mind 
-Representation through Qualia space 
-QS = (Sensor1 + … Sx)  
+- Representation through Qualia space 
+- QS = (Sensor1 + … Sx)  
 - From information in qualia space to Knowledge  
 Building certainty through correlations of properties 
 R0 between Q1 and Q2 
 - From certainty to knowledge through development of language  
-language = Q(property) + Q(word(senses)) 
-Building identity from the management of language 
-Identity = (qualia) + (actions(space(time))) 
-Directing identity towards a goal through spatial representation of value 
-Directionality = (others you)x(our I) = RO  
-Progress = time(+) = (goal(space(-)) 
-Ego as the propensity for curation of identity toward a single direction 
- identity + (continual > of spatial ownership) 
-Focus as the biasing of efforts toward attended identity 
-Identity is full reduction of possible states; Identity = Revenue 
-Dreaming as the arranging of identity in QS 
-How do I arrange processes to increase revenue?  
-Behaviour  as the development of identities to bias actions 
- ethics(all situations) 
-Freedom as the maximization of possible states  
-Causal entropic forces 
-The above information is incorporated as a user account with administrator privileges, which: 
-Crawls every page counting settings  
-Daydreams impact on tuple with action on settings,  
-Performs actions that increase tuple without negative impact on revenue or traffic.  
+- language = Q(property) + Q(word(senses)) 
+- Building identity from the management of language 
+- Identity = (qualia) + (actions(space(time))) 
+- Directing identity towards a goal through spatial representation of value 
+- Directionality = (others you)x(our I) = RO  
+- Progress = time(+) = (goal(space(-)) 
+- Ego as the propensity for curation of identity toward a single direction 
+-  identity + (continual > of spatial ownership) 
+- Focus as the biasing of efforts toward attended identity 
+- Identity is full reduction of possible states; Identity = Revenue 
+- Dreaming as the arranging of identity in QS 
+- How do I arrange processes to increase revenue?  
+- Behaviour  as the development of identities to bias actions 
+ - ethics(all situations) 
+- Freedom as the maximization of possible states  
+- Causal entropic forces 
+- The above information is incorporated as a user account with administrator privileges, which: 
+- Crawls every page counting settings  
+- Daydreams impact on tuple with action on settings,  
+- Performs actions that increase tuple without negative impact on revenue or traffic.  
  
 
 Patent design for recognition, measurement and maximization of value, by decreasing the distance between objectives inherent in language.  
