@@ -837,7 +837,7 @@ $('.btn-devlogin').click(function(e) {
 
 <script>
 if (window.location.href.indexOf("#build") >= 0) {
-           $('#q').attr('placeholder','"change background to blue"');
+           $('#q').attr('placeholder','"change look"');
   var team = localStorage.getItem('teamname');
 var mylink = "https://ofwriting.firebaseio.com/" + (team);
 var base = new Firebase(mylink);
@@ -887,7 +887,7 @@ document.getElementById('one').style.display = 'none';
         $("#q").keyup(function() {
             if (this.value == "build") {
                    $('#q').attr('id','qbuild');
-                                                       $('#qbuild').attr('placeholder','"change background to blue"');
+                                                       $('#qbuild').attr('placeholder','"change look"');
 
                    $('#qbuild').val('');
 
@@ -944,7 +944,7 @@ function mysubmitFunction() {
 	
          var title = $('#q').val();
           //$('#q').attr('id','qbuild');
-                                                       $('#q').attr('placeholder','"change background to blue"');
+                                                       $('#q').attr('placeholder','"change look"');
 
                    $('#q').val('');
 var user = localStorage.getItem('user_id');
