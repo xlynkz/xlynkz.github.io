@@ -973,21 +973,15 @@ document.getElementById('hits').style.display = 'none';
       'content-url': 'http://www.wetake.care/index.php' // show this page to offline users
     });
   </script>
-  <script>
+<script>
 if (annyang) {
   // Let's define our first command. First the text we expect, and then the function it should call
   var commands = {
-    'go to build': function() {
-document.getElementById('one').style.display = 'none';
-document.getElementById('banner').style.display = 'none';
-document.getElementById('three').style.display = 'none';
-document.getElementById('intelligencemain').style.display = 'none';
-document.getElementById('hits').style.display = 'none';
- document.getElementById('accountmain').style.display = 'none';
-    document.getElementById('accountsection').style.display = 'none';
-         document.getElementById('papersection').style.display = 'none';
-         document.getElementById('jaizus2').style.display = 'block';    
+    'Hmm': function() {
+alert("Hmm");
+}
   };
+
   // Add our commands to annyang
   annyang.addCommands(commands);
 
