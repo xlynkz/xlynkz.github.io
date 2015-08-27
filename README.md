@@ -1,6 +1,6 @@
 # Voice Controlled Startup Development
 
-Proposal
+Funding Proposal
 - MVP: Voice controlled cobuilding as a service.
 - Draw funding proposal for Albright:
 - Include namir, Pelkey, checkland. 
