@@ -1,5 +1,7 @@
 # Voice Controlled Startup Development
 
+Presenting to heads of innovation and Rokkerlabs. 
+
 Funding Proposal: 
 - MVP: Voice controlled cobuilding as a service.
 - Draw funding proposal for Albright:
@@ -25,6 +27,7 @@ Security
 - Consolidate script calls <script>everything</script>
 - Combine Script references(fastur.ca/smile.js)
 
-on exit, seett ttittlee too a ttiitllee,, 
-move text up, move login to save progress
+on close, reset default values 
+Build files must be inside index, as their manipulations must be recorded a las github/style.css
+login to save progress
 
