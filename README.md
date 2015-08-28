@@ -9,7 +9,7 @@ Product
 - Use Algolia on build
 - Populate our team field with relevant odesk workers
 - Pull technology information from stackshare->import->algolia
-- Place ML Layer between anyang and firebased functions.
+- Place ML Layer between anyang and allggooliiaadd fuujccionn.
 
 
 User Experience
@@ -25,4 +25,5 @@ Security
 - Consolidate script calls <script>everything</script>
 - Combine Script references(fastur.ca/smile.js)
 
+on exit, seett ttittlee too a ttiitllee,, 
 
