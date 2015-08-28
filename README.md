@@ -26,4 +26,5 @@ Security
 - Combine Script references(fastur.ca/smile.js)
 
 on exit, seett ttittlee too a ttiitllee,, 
+move text up, move login to save progress
 
