@@ -5,7 +5,7 @@ Presenting to heads of innovation and Rokkerlabs.
 Funding Proposal: 
 - MVP: Voice controlled cobuilding as a service.
 - Draw funding proposal for Albright:
-- Include namir, Pelkey, checkland. 
+- Include Namir, Pelkey. 
 
 Product
 - Use Algolia on build
@@ -15,7 +15,7 @@ Product
 
 
 User Experience
-- Login, Algolia on build, Requesting data from import.io, authorize on github login,  
+- Algolia on build, Requesting data from import.io, authorize on github login,  
 - Beauty algorithm applied to import api
 - Javascript obfuscator,
 - add "build with us" to contributor: https://developer.github.com/v3/repos/collaborators/
@@ -27,7 +27,25 @@ Security
 - Consolidate script calls <script>everything</script>
 - Combine Script references(fastur.ca/smile.js)
 
-on close, reset default values 
-Build files must be inside index, as their manipulations must be recorded a las github/style.css
-login to save progress
+Algorithm Design
+- Mind: An Interdisciplinary Approach
+- Reality: Information and a search for surety. 
+- Identity: Determined from integrated information.
+- Management: Thermodynamic Properties of resource organization. 
+- Profit: Maximizing future freedom of action
+- Power: Relationships between optics and motor
+- Family: Will give his for hers to continue. Why? 
+
++ Onload: Create guest account.
++ Index file is build environment.
++ More Index files created, more environement to loop - communicate with - 
++ register to save progress + (must select account)
+
+Luna Goddess: Demo
+Unsplash
+Nmar Machine
+http://www.rokk3rlabs.com/
+
+
+
 
