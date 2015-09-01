@@ -1,7 +1,6 @@
  
 - Fastur.ca is the easiest way for any individual to build internet ventures. The underlying magic that allows these efforts are algorithms inspired by nature, invested into natural language communication which allows for an autonomous management of life.  
-
-From external properties to an internal mind, Representation through Qualia space 
+- From external properties to an internal mind, Representation through Qualia space 
 - QS = (Sensor1 + … Sx)  
 From information in qualia space to Knowledge, Building certainty through correlations of properties 
 - R0 between Q1 and Q2 
@@ -18,34 +17,34 @@ From information in qualia space to Knowledge, Building certainty through correl
 - Identity is full reduction of possible states; Identity = Revenue 
 - Dreaming as the arranging of identity in QS 
 - Behaviour  as the development of identities to bias actions 
- - ethics(all situations) 
+- ethics(all situations) 
 - Freedom as the maximization of possible states  
 - Causal entropic forces 
---The above information is incorporated as a user account with administrator privileges, which: 
+- The above information is incorporated as a user account with administrator privileges, which: 
 - Crawls every page counting settings  
 - Performs actions that increase tuple without negative impact on revenue or traffic.  
  
 
-Patent design for recognition, measurement and maximization of value, by decreasing the distance between objectives inherent in language.  
-Geo-media synchronization premise: same song: from our marketplace. Receiving an indication to being sharing data describing a path traveled by a first device. Receding location data describing the path traveled by the first device. Transmitting the location data. Placing track location of second device to that of first device. Playing keeping sync.  
-Receive data describing a path traveled by a second application. 
-Receive data describing a destination sought by second application. 
-Receiving current location data of second device.  
-Demonstrate ownership of information which reduces distance of second device and second devices destination.  
-Request value for exchange of information.  
-Patent design for autonomous process control. 
-Import and analyze language 
-Identify individuals and intention within language 
-Determine (spatial) distance between current identities and sought identities  
-Reduce distance by daydreaming models which when analyzed demonstrate decreases in distances. 
-Shorten distance to 0 
+- Patent design for recognition, measurement and maximization of value, by decreasing the distance between objectives - inherent in language.  
+- Geo-media synchronization premise: same song: from our marketplace. Receiving an indication to being sharing data - describing a path traveled by a first device. Receding location data describing the path traveled by the first device. - Transmitting the location data. Placing track location of second device to that of first device. Playing keeping sync.  
+- Receive data describing a path traveled by a second application. 
+- Receive data describing a destination sought by second application. 
+- Receiving current location data of second device.  
+- Demonstrate ownership of information which reduces distance of second device and second devices destination.  
+- Request value for exchange of information.  
+- Patent design for autonomous process control. 
+- Import and analyze language 
+- Identify individuals and intention within language 
+- Determine (spatial) distance between current identities and sought identities  
+- Reduce distance by daydreaming models which when analyzed demonstrate decreases in distances. 
+- Shorten distance to 0 
  
-Regards all information w particular interest for patents, investments and content from thought leaders.  
-Create product shell 
-Apply language to text placeholders 
-Seek utility % via polling; asking  request refinements 
-Hire Product, engineering & marketing through reusable functionality  
-Hire support w aim of increasing/maintaining growth rate  
+- Regards all information w particular interest for patents, investments and content from thought leaders.  
+- Create product shell 
+- Apply language to text placeholders 
+- Seek utility % via polling; asking  request refinements 
+- Hire Product, engineering & marketing through reusable functionality  
+- Hire support w aim of increasing/maintaining growth rate  
 
 
 
@@ -63,24 +62,25 @@ Fastur reduces the time, cost and complexity associated with venture development
 
 # Business Focus
 
-3.1 - Mission Statement
+- 3.1 - Mission Statement
 Our mission is to enable individuals and organizations throughout the world to realize their full potential by helping them build information driven organizations.
 
 We believe that we will reach our goals by attracting, developing and exciting great people who have a focus on our client’s successes.
 
-3.2 - Business Details
+- 3.2 - Business Details
 Fastur.com will be incorporated and located in Toronto, Canada. We expect to operate from the MaRS innovation centre for the first year of operation.
 
 Fastur is fundamentally a product business. The development of a useful and reliable dashboard is our key activity. Subscription sales make up our primary revenue stream, incremental revenue will be earned from the sale of themes and extensions in our marketplace.
-3.3 - Personal Profile
 
-Joseph Mujuzi | Founder
+- 3.3 - Personal Profile
+
+- Joseph Mujuzi | Founder
 Joseph Mujuzi organized and facilitated startup events through Ryerson University for Students, Investors and the general public. Working as an independent consultant Mr Mujuzi has designed and deployed over 30 websites using content management systems for clients in various businesses.
 
 As the founder Mr Mujuzi will communicate the vision of the business to employees, partners and investors.  He will recruit talented people and execute on strategies which ensure that the business is on plan and on budget.
-3.4 - Operations
+- 3.4 - Operations
 
-Fastur, will require continuous development to be successful. The process of building the core product and future features will follow the following steps.
+- Fastur, will require continuous development to be successful. The process of building the core product and future features will follow the following steps.
 
 1.	Discovery
 -	Clearly define requirements, objectives and timeline of service offering.
@@ -93,25 +93,25 @@ Fastur, will require continuous development to be successful. The process of bui
 5.	Document and Monitor
 -	Document entire infrastructure and maintain issue-free usage.
 
-3.5 - Payment
+- 3.5 - Payment
 
 When a person visits fastur.com they must select a payment plan in order to activate a paid subscription which provides access to and usage of the service.
 
 Fastur will not charge developers an access fee to build or list extensions in our marketplace. Instead, Fastur will earn 30% of all sales revenue generated within the marketplace.
 
-3.6 - Aims & Objectives
+- 3.6 - Aims & Objectives
 
-Short Term: 3 months
+- Short Term: 3 months
 ○	Seed Investment
 ○	Hiring of technical staff
 ○	Release Beta
 
-Medium Term:  1 year
+- Medium Term:  1 year
 ○	Partner with local entrepreneurship communities
 ○	Hire for operations and sales
 ○	Native dashboards for iOS and Android
 
-Long Term: 3 years
+- Long Term: 3 years
 ○	Support for internet connected sensor applications
 ○	Support for legacy applications and vendors.
 ○	Support international data systems, languages and currencies.
@@ -121,7 +121,7 @@ We expect to build a valuable company and begin considering exit strategies in +
 
 # Market Research
 
-4.1 - Client Research
+- 4.1 - Client Research
 
 Our customers consist of founders and managers of website companies. Specifically, Fastur is creating value for high growth software companies which are termed “startups”.
 
@@ -133,30 +133,30 @@ Founders attend startup events which bring together entrepreneurs, developers an
 
 Our typical customer is computer literate and under 40 years of age. The problems that these founders have which Fastur could solve are application development, hosting and management.
 
-4.2 - Competitor Profiling
+- 4.2 - Competitor Profiling
 Fastur faces strategic competitors from content management systems (CMS) and application programming interface (API) tools.
 
-1st competitor | Wordpress.org and Wordpress.com
+- 1st competitor | Wordpress.org and Wordpress.com
 
 Wordpress is open source and currently holds nearly 60% of the CMS market. WordPress leads other CMS’s because of its ease of use. Currently, 20% of daily domain activations run WordPress in the US. WordPress features a plugin architecture for extending functionality and a theming architecture for customizable front-end designs.
 
-Strengths: 
+- Strengths: 
 
 Wordpress.com is the best option for users who do not want to tackle anything technical.
 
 Wordpress.org offers full control of a site. Plugins allow users to create many kinds of websites, from ecommerce and subscription to auction and gallery sites.  Wordpress.org allows control on performance and monetization methods.
 
-Weaknesses:
+- Weaknesses:
 
 Wordpress.com does not allow custom plugins or custom themes. The site does not offer FTP access nor can users download the source code. Wordpress.org developers are fragmented and plugins are often out of date, buggy, bloated or unsecure.
 
-Cost
+- Cost
 
 Wordpress.com operates under a freemium model. The free package entails free hosting with 3GB of storage space. A custom domain name is provided by WordPress for 13$/year. Users can pay $30/year to remove ads and $60/year to include videos.
 
 Wordpress.org is free to download. To utilize the software users will need to rent a server and purchase a domain name which averages to $100/year.
 
-Comparison
+- Comparison
 
 Wordpress.com users cannot extend their site functionality in any meaningful way; the service is essentially a hosted blogging tool. Wordpress.org does allow extended functionality but again the software was created with blogging in mind and its user base consists of bloggers, individual store owners and client businesses such as event management web design consultancies.
 
@@ -165,22 +165,22 @@ Fastur.com users will be able to extend functionality without seeing a line of c
 In short, WordPress was created to primarily manage content; Fastur is being created to make data productive.
 
 
-2nd Competitor | Apigee.com
+- 2nd Competitor | Apigee.com
 
 Apigee.com is an API management platform that gives enterprises the tools to make their backend services and data available for consumption by web and mobile applications.
 
-Strengths:
+- Strengths:
 
 Gateway Services -- API proxy, security, transformation, etc.
 App Services -- "back end as a service" for application builders
 Developer Channel -- tools and portals for API providers to give their developers
 Analytics Services -- analytics on the API traffic and other stuff.
 
-Weaknesses
+- Weaknesses
 
 The platform must be used by a developer. It is created to extend the functionality of current systems and is not a standalone service.
 
-Cost
+- Cost
 
 Apigee.com is free to use for developers. Enterprise plans begin at $9000/month and vary based on usage.
 
