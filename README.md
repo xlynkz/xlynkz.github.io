@@ -15,6 +15,8 @@ Product
 
 
 User Experience
+- Say: Login. change look, set description, show elements: payments,cart. move to left. 
+- Create identity, gather data without negative effects, provide feedback, hire skill.  
 - Algolia on build, Requesting data from import.io, authorize on github login,  
 - Beauty algorithm applied to import api
 - Javascript obfuscator,
