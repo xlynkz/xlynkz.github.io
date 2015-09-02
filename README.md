@@ -8,6 +8,7 @@ Funding Proposal:
 - Include Namir, Pelkey. 
 
 Product
+- rellate ggithuubb aaccoouunt tto prroffitt tto ppayyennt 
 - Use Algolia on build
 - Populate our team field with relevant odesk workers
 - Pull technology information from stackshare->import->algolia
