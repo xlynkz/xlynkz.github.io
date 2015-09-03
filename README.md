@@ -1,11 +1,9 @@
-# Voice Controlled Startup Development
-
-Presenting to heads of innovation and Rokkerlabs. 
+# Voice Controlled Startup Developme
 
 Funding Proposal: 
+- for rokkkerrlabs::aalbbiggtt,, rerson fuuttuerress
 - MVP: Voice controlled cobuilding as a service.
-- Draw funding proposal for Albright:
-- Include Namir, Pelkey. 
+- Include Namir, Pelkey. ec  addcvisoors
 
 Product
 - rellate ggithuubb aaccoouunt tto prroffitt tto ppayyennt 
@@ -26,7 +24,7 @@ User Experience
 - anyand onload: create function matching 
 - Algorithm maintains relationships between people, money and unstructured data.
 
-Security
+Security 
 - Consolidate script calls <script>everything</script>
 - Combine Script references(fastur.ca/smile.js)
 
