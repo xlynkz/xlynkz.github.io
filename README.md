@@ -1,4 +1,6 @@
-# Voice Controlled Startup Developme
+
+mmov oveeer tiiceethhsst :: rreenneewwaall:: 
+t# Voice Controlled Startup Developme
 
 Funding Proposal: 
 - for rokkkerrlabs::aalbbiggtt,, rerson fuuttuerress
