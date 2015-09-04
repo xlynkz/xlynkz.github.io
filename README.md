@@ -5,11 +5,14 @@
 - Namir, Pelkey as Advisors
 
 ##To Do
+- Reduce The Plan to this file (open sourcing and protecting)
+- SSL On Fastur.ca @ WeTake.care
+- API = add value to annyang, get voice return function  
 - Connect github contribution to payment. 
 - Use Algolia on build w confidence
-- angel.co/api/spec/intros
-- our team: Twitter, Linked in + Upwork
-- our technology: stackshare->import(API)->algolia
+- Invest with us: angel.co/api/spec/intros
+- our team: Upwork (can do custom data for enterprise; my focus is scale )
+- our technology: stackshare->import(API)->algolia (and the machine reading app thing(later))
 - Consolidate scripts <script>everything</script> +(fastur.ca/smile.js)
 - Change look, set description, show elements: payments,cart. move to left. 
 - "build with us": email confirmation, provide feedback 
