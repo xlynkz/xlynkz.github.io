@@ -1,6 +1,6 @@
 # Voice Controlled Startup Development
 
-Funding Plan: 
+##Funding Plan: 
 - MVP ->(DMZ/MARS), Futures, Albright, Rokk3rLabs
 - Namir, Pelkey as Advisors
 
@@ -16,7 +16,7 @@ Funding Plan:
 - "build with us": email confirmation, provide feedback 
 - anyang onload: match words to function 
 
-Algorithm Design
+##Algorithm Design
 - Mind: An Interdisciplinary Approach
 - Reality: Information and a search for surety: any kind of data 
 - Identity: Determined from integrated information: title as terms
@@ -24,11 +24,10 @@ Algorithm Design
 - Profit: Maximizing future freedom of action: perform functions which increases repertoire
 - Power: Relationships between optics and motor: algorithm marketplace for decisions
 - Family: Will give his for hers to continue. Why?: create child accounts + work together
-
-+ Onload: Create guest account.
-+ Index file is build environment, needs feedback loops
-+ register to save progress + (select account type)
-+ Unsplash
+- Onload: Create guest account.
+- Index file is build environment, needs feedback loops
+- register to save progress + (select account type)
+- Unsplash
 
 
 
