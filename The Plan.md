@@ -1,5 +1,7 @@
  
-###Fastur.ca is the easiest way for any individual to build internet ventures. The underlying magic that allows these efforts are algorithms inspired by nature, invested into natural language communication which allows for an autonomous management of life.  
+###Fastur.ca is the easiest way for any individual to build internet ventures. 
+
+We research nature and invest novel algorithms into applications which allow for living organizations.  
 
 - From external properties to an internal mind, Representation through Qualia space 
 - QS = (Sensor1 + … Sx)  
@@ -26,27 +28,22 @@
 - Performs actions that increase tuple without negative impact on revenue or traffic.  
  
 
-- Patent design for recognition, measurement and maximization of value, by decreasing the distance between objectives - inherent in language.  
-- Geo-media synchronization premise: same song: from our marketplace. Receiving an indication to being sharing data - describing a path traveled by a first device. Receding location data describing the path traveled by the first device. - Transmitting the location data. Placing track location of second device to that of first device. Playing keeping sync.  
-- Receive data describing a path traveled by a second application. 
-- Receive data describing a destination sought by second application. 
-- Receiving current location data of second device.  
-- Demonstrate ownership of information which reduces distance of second device and second devices destination.  
-- Request value for exchange of information.  
-- Patent design for autonomous process control. 
-- Import and analyze language 
-- Identify individuals and intention within language 
-- Determine (spatial) distance between current identities and sought identities  
-- Reduce distance by daydreaming models which when analyzed demonstrate decreases in distances. 
-- Shorten distance to 0 
- 
-- Regards all information w particular interest for patents, investments and content from thought leaders.  
-- Create product shell 
-- Seek utility % via polling; asking  request refinements 
-- Hire Product, engineering & marketing through reusable functionality  
-- Hire support w aim of increasing/maintaining growth rate  
+## Patent designs
 
-
+- for recognition, measurement and maximization of value, by decreasing the distance between objectives that are held within language.  
+- Signal Synchronization  Receiving an indication to being sharing data - describing a path traveled by a first device. Receding location data describing the path traveled by the first device. - Transmitting the location data. Placing track location of second device to that of first device. Playing keeping sync.  
+- 
+1. Receive data describing a path traveled by a second application. 
+2. Receive data describing a destination sought by second application. 
+3. Receiving current location data of second device.  
+4. Demonstrate ownership of information which reduces distance of second device and second devices destination.  
+5. Request value for exchange of information.  
+6. Patent design for autonomous process control. 
+7. Import and analyze language 
+8. Identify individuals and intention within language 
+9. Determine (spatial) distance between current identities and sought identities  
+10.Reduce distance by daydreaming models which when analyzed demonstrate decreases in distances. 
+11.Shorten distance to 0 
 
 ## Summary
 
