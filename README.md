@@ -43,9 +43,7 @@
 
 
  
-###Fastur.ca is the easiest way for any individual to build internet ventures. 
-
-We research nature and invest novel algorithms into applications which allow for living organizations.  
+###Fastur.ca is the easiest way for any individual to build a new venture. We research nature and invest our education into applications which grow by their selves.  
 
 - From external properties to an internal mind, Representation through Qualia space 
 - QS = (Sensor1 + … Sx)  
