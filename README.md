@@ -1,14 +1,13 @@
 # Voice Controlled Startup Development
 
 ##Funding Plan: 
-- MVP ->(DMZ/MARS), Futures, Albright, Rokk3rLabs
+- Use MVP to access funding from MARS, Futures, Albright or Rokk3rLabs.
 - Namir, Pelkey as Advisors
 
 ##To Do
 - Connect github contribution to payment. 
 - Use Algolia on build w confidence
-- https://angel.co/api/spec/intros
-- new account for tickethost/wwt domains.
+- angel.co/api/spec/intros
 - our team: Twitter, Linked in + Upwork
 - our technology: stackshare->import(API)->algolia
 - Consolidate scripts <script>everything</script> +(fastur.ca/smile.js)
@@ -26,8 +25,7 @@
 - Family: Will give his for hers to continue. Why?: create child accounts + work together
 - Onload: Create guest account.
 - Index file is build environment, needs feedback loops
-- register to save progress + (select account type)
-- Unsplash
+- register to save progress + (select account type) 
 
 
 
