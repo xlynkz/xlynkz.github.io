@@ -1,8 +1,9 @@
  
-- Fastur.ca is the easiest way for any individual to build internet ventures. The underlying magic that allows these efforts are algorithms inspired by nature, invested into natural language communication which allows for an autonomous management of life.  
+###Fastur.ca is the easiest way for any individual to build internet ventures. The underlying magic that allows these efforts are algorithms inspired by nature, invested into natural language communication which allows for an autonomous management of life.  
+
 - From external properties to an internal mind, Representation through Qualia space 
 - QS = (Sensor1 + … Sx)  
-From information in qualia space to Knowledge, Building certainty through correlations of properties 
+- From information in qualia space to Knowledge, Building certainty through correlations of properties 
 - R0 between Q1 and Q2 
 - From certainty to knowledge through development of language  
 - language = Q(property) + Q(word(senses)) 
@@ -41,26 +42,19 @@ From information in qualia space to Knowledge, Building certainty through correl
  
 - Regards all information w particular interest for patents, investments and content from thought leaders.  
 - Create product shell 
-- Apply language to text placeholders 
 - Seek utility % via polling; asking  request refinements 
 - Hire Product, engineering & marketing through reusable functionality  
 - Hire support w aim of increasing/maintaining growth rate  
 
 
 
-# Summary
+## Summary
 
-Fastur allows clients to build, host and manage internet businesses.
-
-The product consists of a content management system, which runs on a web hosting service and features a plug-in architecture for extensions and templates. Fastur.com can be used by anyone with an internet connection and a browser.
-
-The problem is that application development is complex and expensive. Designing, developing, and testing an application can have a monthly cost of $30,000 and take 6 months to prepare for launch. Development costs do not end after launching and often increase as business growth necessitates further development.
-
-Fastur reduces the time, cost and complexity associated with venture development. Fastur puts the power of artificial intelligence and natural language understanding behind a content management system to become an intelligent website builder. Through our efforts we will set a new standard in venture creation.
+Fastur allows clients to build, host and manage internet businesses. The product consists of a content management system, which runs on a web hosting service and features a plug-in architecture for extensions and templates. Fastur.com can be used by anyone with an internet connection and a browser. The problem is that application development is complex and expensive. Designing, developing, and testing an application can have a monthly cost of $30,000 and take 6 months to prepare for launch. Development costs do not end after launching and often increase as business growth necessitates further development. Fastur reduces the time, cost and complexity associated with venture development. Fastur puts the power of artificial intelligence and natural language understanding behind a content management system to become an intelligent website builder. Through our efforts we will set a new standard in venture creation.
 
 
 
-# Business Focus
+##Business Focus
 
 - 3.1 - Mission Statement
 Our mission is to enable individuals and organizations throughout the world to realize their full potential by helping them build information driven organizations.
@@ -74,13 +68,13 @@ Fastur is fundamentally a product business. The development of a useful and reli
 
 - 3.3 - Personal Profile
 
-- Joseph Mujuzi | Founder
+Joseph Mujuzi | Founder
 Joseph Mujuzi organized and facilitated startup events through Ryerson University for Students, Investors and the general public. Working as an independent consultant Mr Mujuzi has designed and deployed over 30 websites using content management systems for clients in various businesses.
 
 As the founder Mr Mujuzi will communicate the vision of the business to employees, partners and investors.  He will recruit talented people and execute on strategies which ensure that the business is on plan and on budget.
-- 3.4 - Operations
 
-- Fastur, will require continuous development to be successful. The process of building the core product and future features will follow the following steps.
+- 3.4 - Operations
+Fastur, will require continuous development to be successful. The process of building the core product and future features will follow the following steps.
 
 1.	Discovery
 -	Clearly define requirements, objectives and timeline of service offering.
@@ -95,16 +89,13 @@ As the founder Mr Mujuzi will communicate the vision of the business to employee
 
 - 3.5 - Payment
 
-When a person visits fastur.com they must select a payment plan in order to activate a paid subscription which provides access to and usage of the service.
+When a person visits fastur.com they must select a payment plan in order to activate a paid subscription which provides access to and usage of the service.Fastur will not charge developers an access fee to build or list extensions in our marketplace. Instead, Fastur will earn 30% of all sales revenue generated within the marketplace.
 
-Fastur will not charge developers an access fee to build or list extensions in our marketplace. Instead, Fastur will earn 30% of all sales revenue generated within the marketplace.
-
-- 3.6 - Aims & Objectives
-
+## 3.6 - Aims & Objectives
 - Short Term: 3 months
-○	Seed Investment
-○	Hiring of technical staff
 ○	Release Beta
+○	Hiring of technical staff via Upwork API
+○	Seed Investment
 
 - Medium Term:  1 year
 ○	Partner with local entrepreneurship communities
