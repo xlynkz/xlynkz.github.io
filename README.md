@@ -28,5 +28,13 @@
 - register to save progress + (select account type) 
 
 
+## Product Design
+- Regards all information w particular interest for patents, investments and content from thought leaders.  
+- Create product shell 
+- Seek utility % via polling; asking  request refinements 
+- Hire Product, engineering & marketing through reusable functionality  
+- Hire support w aim of increasing/maintaining growth rate 
+
+
 
 
