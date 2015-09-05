@@ -40,12 +40,6 @@
 - Hire support w aim of increasing/maintaining growth rate 
 - Hiring of technical staff via Upwork API
 
-
-
-
-
-
- 
 ###Fastur.ca is the easiest way for any individual to build a new venture. We research nature and invest our education into applications which grow by their selves.  
 
 - From external properties to an internal mind, Representation through Qualia space 
@@ -131,24 +125,27 @@ Fastur, will require continuous development to be successful. The process of bui
 When a person visits fastur.com they must select a payment plan in order to activate a paid subscription which provides access to and usage of the service.Fastur will not charge developers an access fee to build or list extensions in our marketplace. Instead, Fastur will earn 30% of all sales revenue generated within the marketplace.
 
 ## 3.6 - Aims & Objectives
-- Short Term: 3 months
-○	Release Beta
-○	Seed Investment
 
-- Medium Term:  1 year
-○	Partner with local entrepreneurship communities
-○	Hire for operations and sales
-○	Native dashboards for iOS and Android
+- Short Term: 1 month
+1. Release Beta (learning)
+2. Seed Investment (or customers)
+3. auto generate new identities
 
-- Long Term: 3 years
-○	Support for internet connected sensor applications
-○	Support for legacy applications and vendors.
-○	Support international data systems, languages and currencies.
-○	Autonomously consume, integrate and act on information as to build products with an aim for profit.
+- Medium Term:  3 Months
+1. Partner with local entrepreneurship communities
+2. Auto generate patent information
+3. Hire for operations and sales
+4. Native dashboards for iOS and Android
 
-We expect to build a valuable company and begin considering exit strategies in +5 years.
+- Long Term: 1 year
+1. Support for internet connected sensor applications
+2. Support for legacy applications and vendors.
+3. Support international data systems, languages and currencies.
+4. Autonomously consume, integrate and act on information as to build products with an aim for profit.
 
-# Market Research
+We expect to build a valuable company and sell to Alphabet Inc. in 3 years. 
+
+# Market Research (Alphabet(language), squarespace(web dev), (manufactoring))
 
 - 4.1 - Client Research
 
