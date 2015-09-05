@@ -6,7 +6,9 @@
 - Namir, Pelkey as Advisors
 
 ##To Do
-- (wtc/ofdevelopers & advisors & shirts etc.)We're hiring (be specific- add to fastur.ca(and business plan))
+- set delivery/payment (as primary)
+- keep default identity look for account settings page.
+- (wtc/ofdevelopers & advisors & shirts(change color to blue via voice) etc.)We're hiring (be specific- add to fastur.ca(and business plan))
 - Reduce The Plan to this file (open sourcing and protecting)
 - SSL On Fastur.ca @ WeTake.care
 - API = add value to annyang, get voice return function  
