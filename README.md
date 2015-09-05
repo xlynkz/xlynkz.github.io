@@ -5,6 +5,7 @@
 - Namir, Pelkey as Advisors
 
 ##To Do
+- (wtc/ofdevelopers & advisors & shirts etc.)We're hiring (be specific- add to fastur.ca(and business plan))
 - Reduce The Plan to this file (open sourcing and protecting)
 - SSL On Fastur.ca @ WeTake.care
 - API = add value to annyang, get voice return function  
@@ -37,6 +38,8 @@
 - Seek utility % via polling; asking  request refinements 
 - Hire Product, engineering & marketing through reusable functionality  
 - Hire support w aim of increasing/maintaining growth rate 
+- Hiring of technical staff via Upwork API
+
 
 
 
@@ -68,7 +71,6 @@
 - The above information is incorporated as a user account with administrator privileges, which: 
 - Crawls every page counting settings  
 - Performs actions that increase tuple without negative impact on revenue or traffic.  
- 
 
 ## Patent designs
 
@@ -90,8 +92,6 @@
 ## Summary
 
 Fastur allows clients to build, host and manage internet businesses. The product consists of a content management system, which runs on a web hosting service and features a plug-in architecture for extensions and templates. Fastur.com can be used by anyone with an internet connection and a browser. The problem is that application development is complex and expensive. Designing, developing, and testing an application can have a monthly cost of $30,000 and take 6 months to prepare for launch. Development costs do not end after launching and often increase as business growth necessitates further development. Fastur reduces the time, cost and complexity associated with venture development. Fastur puts the power of artificial intelligence and natural language understanding behind a content management system to become an intelligent website builder. Through our efforts we will set a new standard in venture creation.
-
-
 
 ##Business Focus
 
@@ -133,7 +133,6 @@ When a person visits fastur.com they must select a payment plan in order to acti
 ## 3.6 - Aims & Objectives
 - Short Term: 3 months
 ○	Release Beta
-○	Hiring of technical staff via Upwork API
 ○	Seed Investment
 
 - Medium Term:  1 year
@@ -153,7 +152,7 @@ We expect to build a valuable company and begin considering exit strategies in +
 
 - 4.1 - Client Research
 
-Our customers consist of founders and managers of website companies. Specifically, Fastur is creating value for high growth software companies which are termed “startups”.
+Our customers consist of founders and managers of organizations. Fastur is creating value for high growth software companies which are called - startups.
 
 Some startups serve consumer markets while others target enterprise customers. The industries that startups operate in can vary a lot. That being said, the founders of these companies share many of the same problems and the internet products that power their businesses require much of the same in functionality and features.
 
@@ -161,7 +160,7 @@ These founders are our most important customers. They are scattered across the w
 
 Founders attend startup events which bring together entrepreneurs, developers and investors with the goal of cultivating an entrepreneurial culture. These events are the main meeting places for entrepreneurs to gather and share ideas while exposing themselves to people with similar interests.
 
-Our typical customer is computer literate and under 40 years of age. The problems that these founders have which Fastur could solve are application development, hosting and management.
+Our typical customer is computer literate and wants to change the world in a unique way. The problems that these founders have which Fastur could solve are application development, Intelligence delivery and product management.
 
 - 4.2 - Competitor Profiling
 Fastur faces strategic competitors from content management systems (CMS) and application programming interface (API) tools.
@@ -182,9 +181,7 @@ Wordpress.com does not allow custom plugins or custom themes. The site does not 
 
 - Cost
 
-Wordpress.com operates under a freemium model. The free package entails free hosting with 3GB of storage space. A custom domain name is provided by WordPress for 13$/year. Users can pay $30/year to remove ads and $60/year to include videos.
-
-Wordpress.org is free to download. To utilize the software users will need to rent a server and purchase a domain name which averages to $100/year.
+Wordpress.com operates under a freemium model. The free package entails free hosting with 3GB of storage space. A custom domain name is provided by WordPress for 13$/year. Users can pay $30/year to remove ads and $60/year to include videos. Wordpress.org is free to download. To utilize the software users will need to rent a server and purchase a domain name which averages to $100/year.
 
 - Comparison
 
@@ -244,7 +241,8 @@ Threats
 
 ○	The internet industry is a complex and competitive industry with success rates for start-up business below 10%. We will establish ourselves as a market leader that creates tools that people need to innovate. We will constantly ensure that we are making a product that is needed and by investing in experienced leadership.
 
-# Marketing Plan
+# Marketing Plan (should reflect fastur.ca)
+
 5.1 - Service
 The key services that we plan to offer are content management, API management and Hosting. Fastur will also operate a marketplace.
 
@@ -327,38 +325,27 @@ Offline
 For example we will build a boutique shop and market its simplicity to fashion entrepreneurs.
 Focusing first on the Toronto market, Fastur will exercise the aforementioned strategies at elevator pitch competitions, CEO speaker series, Meet-ups and university information sessions. Thereafter we will expand into the Montreal and Waterloo startup communities.
 
-
-
-
-
-
-
-
-
-
-
-
-
 # Financial Plan
 6.1	- Start-up Costs
 Significant expenses are expected for initial product development from the hiring of software developers and general infrastructure.
 
 Software Development
--	$250000 |Core Software Development
--	$50000 | Secure hosting and SSL certificates.
--	$25000 | Fastur.com domain name & Associated brand registrations
+-	$25000 |Core Software Development
+-	$5000 | Secure hosting and SSL certificates.
+-	$2500 | Fastur.com domain name & Associated brand registrations
+-	
 Salaries
 -	$5000 Monthly | Wages for CEO
--	$50000 Monthly | Wages for backend developers
--	$50000 Monthly | Wages for interface designers
+-	$25000 Monthly | Wages for backend developers
+-	$25000 Monthly | Wages for interface designers
 Knowledge: 
--	$50000 Monthly | 3rd party engines  
--	$50000 Monthly | New research
+-	$25000 Monthly | 3rd party engines  
+-	$25000 Monthly | New research
 Equipment
--	$25000 | Surface Pro’s, Macs / IPads for development / demonstrations.
--	$25000 | Mobile data plans 
+-	$5000 | Production EquipmentSurface Pro’s, Macs / IPads for development / demonstrations.
+-	$2000 | Mobile data plans 
 -	$10000 | Internal servers
--	$5000 | Blackberry passports | 
+-	$5000 | Mobile equipment: Blackberry Passports, Ipads  
 -	$5000 | Widescreens
 Legal
 -	$150000 | Patents
@@ -371,9 +358,8 @@ Investment
 6.2	- Sales Forecast
 
 Assumptions:
+- Cost of monthly subscription: $50
 
-- Cost of monthly subscription: $25
-- Cost of annual subscriptions: $240
 
 -	We believe we can grow at monthly rate of 200% for the 1st 9 months. This projects 2733 customers by the end of month 9, the majority of these customers are expected to be found through event marketing and word of mouth.
 
@@ -383,87 +369,41 @@ Assumptions:
 
 In total, Revenues during the 2nd year are projected to be $20,032,715
 
-See attached for sales model.
-6.3	- Cash Flow Forecast
-
-Assumptions:
-
-- No Tax or Accounting fees
-- $200,000 seed invest
-See attached for cash flow model.
 
 # Appendix
-7.1 - Technology
-The following software products and web services to build Fastur:
-Pattern
-Fastur leverages pattern for natural language processing and machine learning.
-GSS
-Fastur uses grid style sheets to create clean, modern layouts.
-Cherry Music
-Cherry music is a music streaming server that is designed to handle large music libraries.
-Docker
-Docker is an open-source project that creates lightweight, self-sufficient containers which will be used to deploy application instances.
-Stripe
-Stripe is a web payments service built for developers. Stripe charges 2.9% + 30cents per charge.
-Amazon Web Services
-Scalable cloud hosting.
-Twitter Bootstrap
-Bootstrap is a front-end web development framework.
-SimpleReach
-Builds a score that rates the marketing potential for content.
-Wolfram Alpha
-Computational Knowledge.
-Mail Pile
-Modern Email with security. Local and cloud.
-OpenStreetMap
-Openly licensed map of the world.
-Mediathread
-Allows any media to be annotated with descriptions.
+##7.1 - Technology
 
-7.2 - Use Cases
+- Pattern: Fastur leverages pattern for natural language processing and machine learning.
+- Cherry Music: music streaming server that is designed to handle large music libraries.
+- Docker: open-source, lightweight, self-sufficient containers for app instances.
+- Stripe: web payments service built for developers.
+- Amazon Web ServicesScalable cloud hosting.
+- Twitter Bootstrap: Bootstrap is a front-end web development framework.
+- SimpleReach: Builds a score that rates the marketing potential for content.
+- Wolfram Alpha: Computational Knowledge.
+- Mandrill: Transactional email
+- OpenStreetMap: Openly licensed map of the world.
+
+##7.2 - Use Cases
+
 The average user will experience Fastur in the following routine:
-1.	Individual visits fastur purchases subscription and logs into account.
-2.	Individual uses dashboard to configure site settings.
-3.	Individual visits marketplace to purchase a theme and extension.
-4.	Individual registers domain name and publishes website.
+1.	Individual visits wetake.care and says what they want.
+2.	Individual gets what they want. 
 
 The average developer will experience Fastur in the following routine:
-1.	Developer creates, confirms and logs into account.
-2.	Developer is provided with credentials and documentation with best practice.
-3.	Developer builds extension and uploads files to their profile.
-4.	Developer prices their work and it is listed for sale in the Marketplace
+1.	Developer logs into github account via fastur.ca.
+2.	Developer is provided with best practices documentation.
+3.	Developer adds value.
+4.	Developer is compensated for work completed/used. 
 
-
-
-
-
-
-
-
-Distinct use scenarios:
-
-Intelligent Business News
-A news service which compiles and builds productive articles.
-Fundraising
-Organizations use Fastur to build online communities, raise money and facilitate direct purchases.
-Launch Pages
-Startups use Fastur to build intelligent launch pages, accept and manage pre-orders.
-Internet of Things | M2M
-Fastur lets connected-hardware companies deliver and present real-time sensor information. Fastur acts as a central point of analysis for transmissions by remote machines.
-Web designers
-Designers use Fastur to build traditional websites for their clients.
-Universities
-Schools use Fastur to teach lean development.
-Data Companies
-Data companies use Fastur to host and monetize information.
-Marketplaces
-Shop owners use Fastur to build intelligent API driven commerce communities.
-Music Map
-People use Fastur to listen to music visually and socially.
-Money
-People use #person $amount to communicate monetary data.
-
-
-
-
-
+##Distinct use scenarios:
+- Intelligent, living articles. 
+- Organizations use Fastur to raise money and facilitate direct purchases.
+- Startups use Fastur to build intelligent launch pages, accept and manage pre-orders.
+- Internet of Things | M2M central point of analysis for by/between remote machines.
+- Web Designers use Fastur to build traditional websites for their clients.
+- Schools use Fastur to teach lean development.
+- Data companies use Fastur to host and monetize information.
+- Shop owners use Fastur to build intelligent API driven commerce communities.
+- People use Fastur to listen to music visually and socially.
+- MoneyPeople use #person $amount to communicate monetary data.
