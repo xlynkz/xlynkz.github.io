@@ -1,6 +1,7 @@
 # Voice Controlled Startup Development
 
 ##Funding Plan: 
+- Merlin Systems, Geoffery Hinton, Google. 
 - Use MVP to access funding from MARS, Futures, Albright or Rokk3rLabs.
 - Namir, Pelkey as Advisors
 
