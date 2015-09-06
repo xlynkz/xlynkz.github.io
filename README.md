@@ -6,6 +6,7 @@
 - Namir, Pelkey as Advisors
 
 ##To Do
+- dev llooggiinn ppuulls iinn ggithhu cconntribbtiionns aanndd ussa of ffunctoos aas ddeetermiiedd bby  keeenn..ioo
 - set delivery/payment (as primary)
 - keep default identity look for account settings page.
 - (wtc/ofdevelopers & advisors & shirts(change color to blue via voice) etc.)We're hiring (be specific- add to fastur.ca(and business plan))
