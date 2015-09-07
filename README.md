@@ -1,7 +1,7 @@
 # Voice Controlled Startup Development
 
 ##Funding Plan: 
-- (MVP),(MARS)(Futures)Jonathan Herman (security),(albright)(rokk3rlabs)(intro to)Geoffery Hinton,(intro to)Google. 
+- (MVP),(Franklin Templeton(software for vcs))(MARS)(Futures)Jonathan Herman (security),(albright)(rokk3rlabs)(intro to)Geoffery Hinton,(intro to)Google. 
 - Advisors: Namir(research equipment in zone), Pelkey(understanding language), 
 
 ##To Do
@@ -191,14 +191,11 @@ Fastur uses a ‘software as a service’ business model which aligns well with 
 
 The internet industry is a complex and competitive industry with success rates for start-up business below 10%. We will establish ourselves as a market leader that creates tools that people need to innovate. We will constantly ensure that we are making a product that is needed and by investing in experienced leadership.
 
-# Marketing Plan (should reflect fastur.ca)
+# Marketing Plan 
 
 ##5.1 - Service
-The key services that we plan to offer are content management, API management and Hosting. Fastur will also operate a marketplace.
 
-These key services entail a subset of services:
-
-datasets.
+The key services that we plan to offer are VCAAS,SDAAS,Profit Seeking As a service. algorithm((github 2.0)exchange).
 
 DEVELOPMENT
 
