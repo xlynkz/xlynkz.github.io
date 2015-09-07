@@ -1,10 +1,11 @@
 # Voice Controlled Startup Development
 
 ##Funding Plan: 
-- (MVP),(Franklin Templeton(software for vcs))(MARS)(Futures)Jonathan Herman (security),(albright)(rokk3rlabs)(intro to)Geoffery Hinton,(intro to)Google. 
+- (MVP(popular custom shirts)(startup development)(voice controlled web design))),(Franklin Templeton(software for vcs))(MARS)(Futures)Jonathan Herman (security),(albright)(rokk3rlabs)(intro to)Geoffery Hinton,(intro to)Google. 
 - Advisors: Namir(research equipment in zone), Pelkey(understanding language), 
 
 ##To Do
+- deafult to text if voice unavailable
 - wtc/ofdevelopers pulls in github contributions. (use identity with fields.) 
 - get text, add function(text), let developer write function for that function. optimize for reality.
 - set delivery/payment (as primary)
