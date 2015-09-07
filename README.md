@@ -26,8 +26,10 @@
 - namecheap api
 - schrodinger API(beating schrodinger)
 - http://www.neuroquantology.com/
+###Fastur.ca is the easiest way for any individual to build a new venture. We research nature and invest our education into applications which grow by their selves.
+- Hiring of technical staff on Upwork to build autohire(matching technology) API
 
-##Algorithm Design
+##Product (Algorithm) Design
 - Mind: An Interdisciplinary Approach
 - Reality: Information and a search for surety: any kind of data 
 - Identity: Determined from integrated information: title as terms
@@ -38,16 +40,10 @@
 - Onload: Create guest account.
 - Index file is build environment, needs feedback loops
 - register to save progress + (select account type) 
-
-## Product Design
-- Regards all information w particular interest for patents, investments and content from thought leaders.  
-- Create product shell 
 - Seek utility % via polling; asking  request refinements 
-- Hire Product, engineering & marketing through reusable functionality  
+- Regards all information w particular interest for patents, investments and content from thought leaders.  
 - Hire support w aim of increasing/maintaining growth rate 
-- Hiring of technical staff via Upwork API
-
-###Fastur.ca is the easiest way for any individual to build a new venture. We research nature and invest our education into applications which grow by their selves.  
+Product, engineering & marketing
 
 - From external properties to an internal mind, Representation through Qualia space 
 - QS = (Sensor1 + … Sx)  
@@ -73,9 +69,10 @@
 - Crawls every page counting settings  
 - Performs actions that increase tuple without negative impact on revenue or traffic.  
 
-## Patent designs
+## Patent Application
 
-- for recognition, measurement and maximization of value, by decreasing the distance between objectives that are held within language.  
+### Business process that operates in a way to increase entropy of identity without negatively effecting profitability or future freedom of action.
+- recognition, measurement and maximization of value, by decreasing the distance between objectives that are held within language.  
 - Signal Synchronization  Receiving an indication to being sharing data - describing a path traveled by a first device. Receding location data describing the path traveled by the first device. - Transmitting the location data. Placing track location of second device to that of first device. Playing keeping sync.  
 1. Receive data describing a path traveled by a second application. 
 2. Receive data describing a destination sought by second application. 
@@ -89,23 +86,23 @@
 10. Reduce distance by daydreaming models which when analyzed demonstrate decreases in distances. 
 11. Shorten distance to 0 
 
-## Summary
+## Business Summary
 Fastur allows clients to build, host and manage internet businesses. The product consists of a content management system, which runs on a web hosting service and features a plug-in architecture for extensions and templates. Fastur.com can be used by anyone with an internet connection and a browser. The problem is that application development is complex and expensive. Designing, developing, and testing an application can have a monthly cost of $30,000 and take 6 months to prepare for launch. Development costs do not end after launching and often increase as business growth necessitates further development. Fastur reduces the time, cost and complexity associated with venture development. Fastur puts the power of artificial intelligence and natural language understanding behind a content management system to become an intelligent website builder. Through our efforts we will set a new standard in venture creation.
 
-## Details
+## Business Details
 Our mission is to enable individuals and organizations throughout the world to realize their full potential by helping them build information driven organizations.
 
 We believe that we will reach our goals by attracting, developing and exciting great people who have a focus on our client’s successes. The development of a useful and reliable dashboard is our key activity. Subscription sales make up our primary revenue stream, incremental revenue will be earned from the sale of themes and extensions in our marketplace
 
 Fastur is incorporated and located in Toronto, Canada.
 
-## 3.3 - Founder Profile
+### 3.3 - Founder Profile
 Joseph Mujuzi | Founder
 Joseph Mujuzi organized and facilitated startup events through Ryerson University for Students, Investors and the general public. Working as an independent consultant Mr Mujuzi has designed and deployed over 30 websites using content management systems for clients in various businesses.
 
 As the founder Mr Mujuzi will communicate the vision of the business to employees, partners and investors.  He will recruit talented people and execute on strategies which ensure that the business is on plan and on budget.
 
-## 3.4 - Operations
+### 3.4 - Operations
 Fastur, will require continuous development to be successful. The process of building the core product and future features will follow the following steps.
 
 1.	Discovery
@@ -119,22 +116,22 @@ Fastur, will require continuous development to be successful. The process of bui
 5.	Document and Monitor
 -	Document entire infrastructure and maintain issue-free usage.
 
-## 3.5 - Payment
+### 3.5 - Payment
 When a person visits fastur.com they must select a payment plan in order to activate a paid subscription which provides access to and usage of the service.Fastur will not charge developers an access fee to build or list extensions in our marketplace. Instead, Fastur will earn 30% of all sales revenue generated within the marketplace.
 
-# 3.6 - Aims & Objectives
-## Short Term: 2 weeks
+### 3.6 - Aims & Objectives
+#### Short Term: 2 weeks
 1. Release Beta (learning)
 2. Seed Investment (or customers)
 3. auto generate new identities
 
-## Medium Term:  2 Months
+#### Medium Term:  2 Months
 1. Partner with local entrepreneurship communities
 2. Auto generate patent information
 3. Hire for operations and sales
 4. Native dashboards for iOS and Android
 
-## Long Term: 1 year
+#### Long Term: 1 year
 1. Support for internet connected sensor applications
 2. Support for legacy applications and vendors.
 3. Support international data systems, languages and currencies.
