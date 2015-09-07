@@ -1,12 +1,12 @@
 # Voice Controlled Startup Development
 
 ##Funding Plan: 
-- Merlin Systems, Geoffery Hinton, Google. 
-- Use MVP to access funding from MARS, Futures, Albright or Rokk3rLabs.
-- Namir, Pelkey as Advisors
+- (MVP),(MARS)(Futures)Jonathan Herman (security),(albright)(rokk3rlabs)(intro to)Geoffery Hinton,(intro to)Google. 
+- Advisors: Namir(research equipment in zone), Pelkey(understanding language), 
 
 ##To Do
-- dev llooggiinn ppuulls iinn ggithhu cconntribbtiionns aanndd ussa of ffunctoos aas ddeetermiiedd bby  keeenn..ioo
+- wtc/ofdevelopers pulls in github contributions. (use identity with fields.) 
+- get text, add function(text), let developer write function for that function. optimize for reality.
 - set delivery/payment (as primary)
 - keep default identity look for account settings page.
 - (wtc/ofdevelopers & advisors & shirts(change color to blue via voice) etc.)We're hiring (be specific- add to fastur.ca(and business plan))
