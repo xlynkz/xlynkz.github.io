@@ -35,7 +35,6 @@
 - Index file is build environment, needs feedback loops
 - register to save progress + (select account type) 
 
-
 ## Product Design
 - Regards all information w particular interest for patents, investments and content from thought leaders.  
 - Create product shell 
@@ -74,7 +73,6 @@
 
 - for recognition, measurement and maximization of value, by decreasing the distance between objectives that are held within language.  
 - Signal Synchronization  Receiving an indication to being sharing data - describing a path traveled by a first device. Receding location data describing the path traveled by the first device. - Transmitting the location data. Placing track location of second device to that of first device. Playing keeping sync.  
-- 
 1. Receive data describing a path traveled by a second application. 
 2. Receive data describing a destination sought by second application. 
 3. Receiving current location data of second device.  
@@ -84,33 +82,26 @@
 7. Import and analyze language 
 8. Identify individuals and intention within language 
 9. Determine (spatial) distance between current identities and sought identities  
-10.Reduce distance by daydreaming models which when analyzed demonstrate decreases in distances. 
-11.Shorten distance to 0 
+10. Reduce distance by daydreaming models which when analyzed demonstrate decreases in distances. 
+11. Shorten distance to 0 
 
 ## Summary
-
 Fastur allows clients to build, host and manage internet businesses. The product consists of a content management system, which runs on a web hosting service and features a plug-in architecture for extensions and templates. Fastur.com can be used by anyone with an internet connection and a browser. The problem is that application development is complex and expensive. Designing, developing, and testing an application can have a monthly cost of $30,000 and take 6 months to prepare for launch. Development costs do not end after launching and often increase as business growth necessitates further development. Fastur reduces the time, cost and complexity associated with venture development. Fastur puts the power of artificial intelligence and natural language understanding behind a content management system to become an intelligent website builder. Through our efforts we will set a new standard in venture creation.
 
-##Business Focus
-
-- 3.1 - Mission Statement
+## Details
 Our mission is to enable individuals and organizations throughout the world to realize their full potential by helping them build information driven organizations.
 
-We believe that we will reach our goals by attracting, developing and exciting great people who have a focus on our client’s successes.
+We believe that we will reach our goals by attracting, developing and exciting great people who have a focus on our client’s successes. The development of a useful and reliable dashboard is our key activity. Subscription sales make up our primary revenue stream, incremental revenue will be earned from the sale of themes and extensions in our marketplace
 
-- 3.2 - Business Details
-Fastur.com will be incorporated and located in Toronto, Canada. We expect to operate from the MaRS innovation centre for the first year of operation.
+Fastur is incorporated and located in Toronto, Canada.
 
-Fastur is fundamentally a product business. The development of a useful and reliable dashboard is our key activity. Subscription sales make up our primary revenue stream, incremental revenue will be earned from the sale of themes and extensions in our marketplace.
-
-- 3.3 - Personal Profile
-
+## 3.3 - Founder Profile
 Joseph Mujuzi | Founder
 Joseph Mujuzi organized and facilitated startup events through Ryerson University for Students, Investors and the general public. Working as an independent consultant Mr Mujuzi has designed and deployed over 30 websites using content management systems for clients in various businesses.
 
 As the founder Mr Mujuzi will communicate the vision of the business to employees, partners and investors.  He will recruit talented people and execute on strategies which ensure that the business is on plan and on budget.
 
-- 3.4 - Operations
+## 3.4 - Operations
 Fastur, will require continuous development to be successful. The process of building the core product and future features will follow the following steps.
 
 1.	Discovery
@@ -124,34 +115,31 @@ Fastur, will require continuous development to be successful. The process of bui
 5.	Document and Monitor
 -	Document entire infrastructure and maintain issue-free usage.
 
-- 3.5 - Payment
-
+## 3.5 - Payment
 When a person visits fastur.com they must select a payment plan in order to activate a paid subscription which provides access to and usage of the service.Fastur will not charge developers an access fee to build or list extensions in our marketplace. Instead, Fastur will earn 30% of all sales revenue generated within the marketplace.
 
-## 3.6 - Aims & Objectives
-
-- Short Term: 1 month
+# 3.6 - Aims & Objectives
+## Short Term: 2 weeks
 1. Release Beta (learning)
 2. Seed Investment (or customers)
 3. auto generate new identities
 
-- Medium Term:  3 Months
+## Medium Term:  2 Months
 1. Partner with local entrepreneurship communities
 2. Auto generate patent information
 3. Hire for operations and sales
 4. Native dashboards for iOS and Android
 
-- Long Term: 1 year
+## Long Term: 1 year
 1. Support for internet connected sensor applications
 2. Support for legacy applications and vendors.
 3. Support international data systems, languages and currencies.
 4. Autonomously consume, integrate and act on information as to build products with an aim for profit.
 
-We expect to build a valuable company and sell to Alphabet Inc. in 3 years. 
+We expect to build a valuable company and may consider exiting in 2+ years. 
 
 # Market Research 
-
-- 4.1 - Client Research
+## 4.1 - Client Research
 
 Our customers consist of founders and managers of organizations. Fastur is creating value for high growth software companies which are called - startups.
 
@@ -163,31 +151,19 @@ Founders attend startup events which bring together entrepreneurs, developers an
 
 Our typical customer is computer literate and wants to change the world in a unique way. The problems that these founders have which Fastur could solve are application development, Intelligence delivery and product management.
 
-#4.2 - Competitor Profiling
-##Alphabetlanguage
-##squarespace(web dev 
-##3d manufactoring
-##intelligence
+##4.2 - Competitor Profiling
+- Alphabet language(algorithm development)
+- Rokker Labs(cobuilding)
+- squarespace(web dev) 
+- 3d manufactoring(API)
+- intelligence as a service(API)
+- virtual private assistant(M, Siri(enterprise))
+- Venture Capital (kpmg edge)
 
-Fastur faces strategic competitors from content management systems (CMS) and application programming interface (API) tools.
 
-- 1st competitor | Automaticc
+###Automaticc
 
-Wordpress is open source and currently holds nearly 60% of the CMS market. WordPress leads other CMS’s because of its ease of use. Currently, 20% of daily domain activations run WordPress in the US. WordPress features a plugin architecture for extending functionality and a theming architecture for customizable front-end designs.
-
-- Strengths: 
-
-Wordpress.com is the best option for users who do not want to tackle anything technical. Wordpress.org offers full control of a site. Plugins allow users to create many kinds of websites, from ecommerce and subscription to auction and gallery sites.  Wordpress.org allows control on performance and monetization methods.
-
-- Weaknesses:
-
-Wordpress.com does not allow custom plugins or custom themes. The site does not offer FTP access nor can users download the source code. Wordpress.org developers are fragmented and plugins are often out of date, buggy, bloated or unsecure.
-
-- Cost
-
-Wordpress.com operates under a freemium model. The free package entails free hosting with 3GB of storage space. A custom domain name is provided by WordPress for 13$/year. Users can pay $30/year to remove ads and $60/year to include videos. Wordpress.org is free to download. To utilize the software users will need to rent a server and purchase a domain name which averages to $100/year.
-
-- Comparison
+Wordpress is open source and currently holds nearly 60% of the CMS market. WordPress leads other CMS’s because of its ease of use. Currently, 20% of daily domain activations run WordPress in the US. WordPress features a plugin architecture for extending functionality and a theming architecture for customizable front-end designs. Wordpress.com is the best option for users who do not want to tackle anything technical. Wordpress.org offers full control of a site. Plugins allow users to create many kinds of websites, from ecommerce and subscription to auction and gallery sites.  Wordpress.org allows control on performance and monetization methods. Wordpress.com does not allow custom plugins or custom themes. The site does not offer FTP access nor can users download the source code. Wordpress.org developers are fragmented and plugins are often out of date, buggy, bloated or unsecure. Wordpress.com operates under a freemium model. The free package entails free hosting with 3GB of storage space. A custom domain name is provided by WordPress for 13$/year. Users can pay $30/year to remove ads and $60/year to include videos. Wordpress.org is free to download. To utilize the software users will need to rent a server and purchase a domain name which averages to $100/year.
 
 Wordpress.com users cannot extend their site functionality in any meaningful way; the service is essentially a hosted blogging tool. Wordpress.org does allow extended functionality but again the software was created with blogging in mind and its user base consists of bloggers, individual store owners and client businesses such as event management web design consultancies.
 
@@ -196,52 +172,24 @@ Fastur.com users will be able to extend functionality without seeing a line of c
 In short, WordPress was created to primarily manage content; Fastur is being created to make data productive.
 
 
-- 2nd Competitor | Apigee.com
+###Apigee.com
 
 Apigee.com is an API management platform that gives enterprises the tools to make their backend services and data available for consumption by web and mobile applications.
-
-- Strengths:
-
-Gateway Services -- API proxy, security, transformation, etc.
-App Services -- "back end as a service" for application builders
-Developer Channel -- tools and portals for API providers to give their developers
-Analytics Services -- analytics on the API traffic and other stuff.
-
-- Weaknesses
-
-The platform must be used by a developer. It is created to extend the functionality of current systems and is not a standalone service.
+Gateway Services -- API proxy, security, transformation, etc. App Services -- "back end as a service" for application builders. Developer Channel -- tools and portals for API providers to give their developers
+Analytics Services -- analytics on the API traffic and other stuff. The platform must be used by a developer. It is created to extend the functionality of current systems and is not a standalone service.
 
 Apigee.com is free to use for developers. Enterprise plans begin at $9000/month and vary based on usage.
-
-Comparison
-
 Apigee.com is purely an API as a service company and its tools are focused on the developer. Fastur.com features its API as a core feature of its software development capacities. Further, Fastur.com is developer friendly but targets the average person.
 
-4.3 - SWOT Analysis
+##4.3 - SWOT Analysis
 
-Strengths
-○	The founder has a background in web development and has worked with every major content management system. Critically, the founder is building a tool that he would use.
+The founder has a background in web development and has worked with every major content management system. Critically, the founder is building a tool that he would use.	Deep domain knowledge driven by an insatiable appetite for information regarding the happenings of the web economy. As a new enterprise, Fastur does not have brand recognition. To achieve our mission our users must have unwavering confidence in our infrastructure. To build a brand of reliability, Fastur will operate under a service level agreement (SLA) which guarantees an availability of 99.95%. To build a brand of security, Fastur will authenticate itself with McAfee and attain a SSL certificate from VeriSign. The founder is a first time CEO, which makes him liable to make mistakes. The founder will address this weakness by using the resources of MaRS Innovation and continually seeking insight and advice from current CEOs. Fastur will operate in downtown Toronto, considered to be Canada’s startup capital. This location sets Fastur at the centre of Toronto’s burgeoning startup community. This community of developers and entrepreneurs will be invaluable to the initial deployment and product positioning of Fastur. Although the firm will be headquartered in Toronto, the product and its earning potential have a low geographical constraint as it is delivered through the internet and can be purchased anywhere around the world upon release.
 
-○	Deep domain knowledge driven by an insatiable appetite for information regarding the happenings of the web economy.
+Fastur takes a new approach to application development and when viewed as a whole, it has no direct competitors. Fastur will capitalize on this technical leadership with aggressive growth in an effort to become every founders must have resource.Fastur aligns well with the technological climate; People want an easier way to build for the digital economy and they want to build applications that can communicate data with real world sensors and machines.
 
-Weaknesses
-○	As a new enterprise, Fastur does not have brand recognition. To achieve our mission our users must have unwavering confidence in our infrastructure. To build a brand of reliability, Fastur will operate under a service level agreement (SLA) which guarantees an availability of 99.95%. To build a brand of security, Fastur will authenticate itself with McAfee and attain a SSL certificate from VeriSign.
+Fastur uses a ‘software as a service’ business model which aligns well with the economic climate. The subscription model allows us to grow rapidly while providing individual users with complete autonomy from purchasing, managing and extending the product. Effectively, with this model, Fastur will be able to reach economies of scale while economically benefiting from mass customization. Fastur faces a risk that current competitors will develop features that are similar to its core value proposition.  For example, WordPress may extend its platform to feature an API console. To overcome this risk, Fastur will develop plugins that adds Fastur to 3rd party applications. 
 
-○	The founder is a first time CEO, which makes him liable to make mistakes. The founder will address this weakness by using the resources of MaRS Innovation and continually seeking insight and advice from current CEOs.
-
-Opportunities
-○	Fastur will operate in downtown Toronto, considered to be Canada’s startup capital. This location sets Fastur at the centre of Toronto’s burgeoning startup community. This community of developers and entrepreneurs will be invaluable to the initial deployment and product positioning of Fastur. Although the firm will be headquartered in Toronto, the product and its earning potential have a low geographical constraint as it is delivered through the internet and can be purchased anywhere around the world upon release.
-
-○	Fastur takes a new approach to application development and when viewed as a whole, it has no direct competitors. Fastur will capitalize on this technical leadership with aggressive growth in an effort to become every founders must have resource.
-
-○	Fastur aligns well with the technological climate; People want an easier way to build for the digital economy and they want to build applications that can communicate data with real world sensors and machines.
-
-○	Fastur uses a ‘software as a service’ business model which aligns well with the economic climate. The subscription model allows us to grow rapidly while providing individual users with complete autonomy from purchasing, managing and extending the product. Effectively, with this model, Fastur will be able to reach economies of scale while economically benefiting from mass customization.
-
-Threats
-○	Fastur faces a risk that current competitors will develop features that are similar to its core value proposition.  For example, WordPress may extend its platform to feature an API console. To overcome this risk, Fastur will develop plugins that adds Fastur to 3rd party applications. 
-
-○	The internet industry is a complex and competitive industry with success rates for start-up business below 10%. We will establish ourselves as a market leader that creates tools that people need to innovate. We will constantly ensure that we are making a product that is needed and by investing in experienced leadership.
+The internet industry is a complex and competitive industry with success rates for start-up business below 10%. We will establish ourselves as a market leader that creates tools that people need to innovate. We will constantly ensure that we are making a product that is needed and by investing in experienced leadership.
 
 # Marketing Plan (should reflect fastur.ca)
 
@@ -250,32 +198,35 @@ The key services that we plan to offer are content management, API management an
 
 These key services entail a subset of services:
 
-Content Management
+datasets.
 
--	Inline Editing
--	Front End Optimization
--	Search Engine Optimization
--	Site and Security Monitoring
--	Payment Gateway
-Our content service allows users to add, edit and manipulate content directly in the layout. The service automatically optimizes each website for search engines and security.
+DEVELOPMENT
 
-API Management
+Build lean with skilled professionals available on demand. Tap into our matching technology.
 
--	Software Oriented Design
--	Policy management
--	Data import & export
--	API Subscriptions
--	Analytics
-The API service securely transforms the backend into consumable APIs. The service also allows users to consume external API and directly model the data for functional use.
+IDENTITY AUTHORIZATION
 
-Hosting
+Authenticate with any identity provider running on any stack any device or cloud.
 
--	Deployment
--	Database
--	Storage & Bandwidth
--	Content Deliver Network
--	Redundant Backups
-Our hosting solution provides a highly available and scalable solution without the complexity.
+REALTIME DATABASES
+
+Instantly handle millions of concurrent connections and billions of operations per month.
+
+INTERACTION ANALYTICS
+
+Record every interaction performed on your app and transform data into insights with visualizations.
+
+REALTIME SEARCH
+
+Discovery is the core of modern oraganizations. Deliver relevant results from the first keystroke.
+
+PAYMENTS
+
+Accept and manage online payments without the infrastructure or security headache.
+
+MOBILE FIRST
+
+We assume that you like to get out, and that when you do, it would be nice to be productive.
 
 Fastur is to be built with simplicity as its core experience principle. Users, for example, will not be required to configure their own database or architect their own API instance in order to use Fastur. Technical operations such as these are performed in the background.
 
@@ -307,23 +258,20 @@ Payments
 -	Fastur will use Stripe to accept payments. Stripe charges 2.9% + 30 cents per successful charge.
 
 The $25 monthly cost ensures that our core market of young adults are able to comfortably afford Fastur.
-5.4 - Sales & Marketing Strategy
+##5.4 - Sales & Marketing Strategy
 
 The focus of our online strategy will revolve around content marketing. We will write articles on lean development, API design and new business models. This content will be posted on our website and social profiles.
 
 The focus of our offline strategy will be our participation in organized entrepreneur communities for startups.
 
-Online
--	Our website will feature a step-by-step tour that showcases how easy and intuitive it is to build an online business with Fastur.
--	We will architect quality content for distribution in premium technology properties that influence the global technology community. Example properties are; Quora.com, Medium.com and Techcrunch.com.
+- Online
+Our website will feature a step-by-step tour that showcases how easy and intuitive it is to build an online business with Fastur. We will architect quality content for distribution in premium technology properties that influence the global technology community. Example properties are; Quora.com, Medium.com and Techcrunch.com.
 Initially, Fastur will not purchase any online ads. Instead we will focus on introducing the Fastur brand into conversations through established communities with quality content marketing.
 
-Offline
--	Locally, Fastur will organize industry events for early stage companies and entrepreneurs. These events will revolve around the theme of lean development.
--	Fastur will attend industry events and engage audiences with on-the-spot demos of the Fastur product.
--	Fastur will build interest specific applications to showcase its possibilities.
-For example we will build a boutique shop and market its simplicity to fashion entrepreneurs.
-Focusing first on the Toronto market, Fastur will exercise the aforementioned strategies at elevator pitch competitions, CEO speaker series, Meet-ups and university information sessions. Thereafter we will expand into the Montreal and Waterloo startup communities.
+- Offline
+Fastur will organize industry events for early stage companies and entrepreneurs. These events will revolve around the theme of lean development. Fastur will attend industry events and engage audiences with on-the-spot demos of the Fastur product. Fastur will build interest specific applications to showcase its possibilities.
+For example we will build a custom shirt app and market its simplicity to fashion entrepreneurs.
+Focusing first on the Toronto market, Fastur will exercise the aforementioned strategies at elevator pitch competitions, CEO speaker series, Meet-ups and university information sessions.Thereafter we will expand into the Montreal and Waterloo startup communities.
 
 # Financial Plan
 ##6.1	- Start-up Costs
@@ -355,6 +303,7 @@ Marketing
 -	$50000 | Media Licenses
 Investment
 -	$3,300,000 | Seed Funding
+-	
 ##6.2	- Sales Forecast
 
 Assumptions:
@@ -372,7 +321,6 @@ In total, Revenues during the 2nd year are projected to be $20,032,715
 
 # Appendix
 ##7.1 - Technology
-
 - Pattern: Fastur leverages pattern for natural language processing and machine learning.
 - Cherry Music: music streaming server that is designed to handle large music libraries.
 - Docker: open-source, lightweight, self-sufficient containers for app instances.
@@ -398,12 +346,10 @@ The average developer will experience Fastur in the following routine:
 
 ##Distinct use scenarios:
 - Intelligent, living articles. 
-- Organizations use Fastur to raise money and facilitate direct purchases.
-- Startups use Fastur to build intelligent launch pages, accept and manage pre-orders.
-- Internet of Things | M2M central point of analysis for by/between remote machines.
-- Web Designers use Fastur to build traditional websites for their clients.
+- Productive launch pages, accept and manage pre-orders.
+- Central point of analysis for M2M.
+- Voice control Web Development  
 - Schools use Fastur to teach lean development.
-- Data companies use Fastur to host and monetize information.
-- Shop owners use Fastur to build intelligent API driven commerce communities.
-- People use Fastur to listen to music visually and socially.
-- MoneyPeople use #person $amount to communicate monetary data.
+- intelligent API driven commerce communities.
+- voice control media discovery.
+- Transer money $50 #person.
