@@ -19,9 +19,13 @@
 - our team: Upwork (can do custom data for enterprise; my focus is scale )
 - our technology: stackshare->import(API)->algolia (and the machine reading app thing(later))
 - Consolidate scripts <script>everything</script> +(fastur.ca/smile.js)
-- Change look, set description, show elements: payments,cart. move to left. 
-- "build with us": email confirmation, provide feedback 
+- welcome to voice control web design(wtc/webdesign(login to save progress)), say "show elements": title(default),description(default) payments,cart. move to left. 
+- "build with us": email confirmation, provide feedback
+- invest with us: angelist(idenity gives summary with link to "go to angelist/github")
 - anyang onload: match words to function 
+- namecheap api
+- schrodinger API(beating schrodinger)
+- http://www.neuroquantology.com/
 
 ##Algorithm Design
 - Mind: An Interdisciplinary Approach
