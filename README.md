@@ -1,5 +1,6 @@
 # Voice Controlled Startup Development
-
+pparterip opportuiitoes 
+havvee ooppttiioonns tto optimzze frr ppecffic value
 ##Funding Plan: 
 - (MVP(popular custom shirts)(startup development)(voice controlled web design))),(Franklin Templeton(software for vcs))(MARS)(Futures)Jonathan Herman (security),(albright)(rokk3rlabs)(intro to)Geoffery Hinton,(intro to)Google. 
 - Advisors: Namir(research equipment in zone), Pelkey(understanding language), 
