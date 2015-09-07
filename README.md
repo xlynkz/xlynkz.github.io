@@ -149,7 +149,7 @@ When a person visits fastur.com they must select a payment plan in order to acti
 
 We expect to build a valuable company and sell to Alphabet Inc. in 3 years. 
 
-# Market Research (Alphabet(language), squarespace(web dev), (manufactoring))
+# Market Research 
 
 - 4.1 - Client Research
 
@@ -163,18 +163,21 @@ Founders attend startup events which bring together entrepreneurs, developers an
 
 Our typical customer is computer literate and wants to change the world in a unique way. The problems that these founders have which Fastur could solve are application development, Intelligence delivery and product management.
 
-- 4.2 - Competitor Profiling
+#4.2 - Competitor Profiling
+##Alphabetlanguage
+##squarespace(web dev 
+##3d manufactoring
+##intelligence
+
 Fastur faces strategic competitors from content management systems (CMS) and application programming interface (API) tools.
 
-- 1st competitor | Wordpress.org and Wordpress.com
+- 1st competitor | Automaticc
 
 Wordpress is open source and currently holds nearly 60% of the CMS market. WordPress leads other CMS’s because of its ease of use. Currently, 20% of daily domain activations run WordPress in the US. WordPress features a plugin architecture for extending functionality and a theming architecture for customizable front-end designs.
 
 - Strengths: 
 
-Wordpress.com is the best option for users who do not want to tackle anything technical.
-
-Wordpress.org offers full control of a site. Plugins allow users to create many kinds of websites, from ecommerce and subscription to auction and gallery sites.  Wordpress.org allows control on performance and monetization methods.
+Wordpress.com is the best option for users who do not want to tackle anything technical. Wordpress.org offers full control of a site. Plugins allow users to create many kinds of websites, from ecommerce and subscription to auction and gallery sites.  Wordpress.org allows control on performance and monetization methods.
 
 - Weaknesses:
 
@@ -207,8 +210,6 @@ Analytics Services -- analytics on the API traffic and other stuff.
 - Weaknesses
 
 The platform must be used by a developer. It is created to extend the functionality of current systems and is not a standalone service.
-
-- Cost
 
 Apigee.com is free to use for developers. Enterprise plans begin at $9000/month and vary based on usage.
 
@@ -244,7 +245,7 @@ Threats
 
 # Marketing Plan (should reflect fastur.ca)
 
-5.1 - Service
+##5.1 - Service
 The key services that we plan to offer are content management, API management and Hosting. Fastur will also operate a marketplace.
 
 These key services entail a subset of services:
@@ -278,7 +279,10 @@ Our hosting solution provides a highly available and scalable solution without t
 
 Fastur is to be built with simplicity as its core experience principle. Users, for example, will not be required to configure their own database or architect their own API instance in order to use Fastur. Technical operations such as these are performed in the background.
 
-5.2 - Unique Selling Point
+##5.2 - Unique Selling Point
+
+We reduce the costs associated with application development.We reduce the complexity associated with deployment and scale. We reduce the time to market for new products and services.
+
 Customers will want to use Fastur because of its simplicity and power.  With a low learning curve and an architecture built to support large, complex applications, Fastur is positioned to become the standard for application development.
 
 The difference between Fastur and its closest competitors is its focus on the startup market and its obsession with the needs of founders.
@@ -289,12 +293,7 @@ Our customers want a software solution that has a transparent cost structure. Th
 Fastur is the solution; we sell on the promise that we are an end to end solution for building, hosting and managing internet businesses.
 
 
-Three benefits of our service
-
--	We reduce the costs associated with application development.
--	We reduce the complexity associated with deployment and scale.
--	We reduce the time to market for new products and services.
-5.3 - Pricing Policy
+##5.3 - Pricing Policy
 
 Fastur.com will provide users with two payment plans; Monthly and Annual. The monthly plan costs $25/month plus taxes while the annual plan charges users $240/year plus taxes, a 20% discount.
 
@@ -327,7 +326,7 @@ For example we will build a boutique shop and market its simplicity to fashion e
 Focusing first on the Toronto market, Fastur will exercise the aforementioned strategies at elevator pitch competitions, CEO speaker series, Meet-ups and university information sessions. Thereafter we will expand into the Montreal and Waterloo startup communities.
 
 # Financial Plan
-6.1	- Start-up Costs
+##6.1	- Start-up Costs
 Significant expenses are expected for initial product development from the hiring of software developers and general infrastructure.
 
 Software Development
@@ -356,7 +355,7 @@ Marketing
 -	$50000 | Media Licenses
 Investment
 -	$3,300,000 | Seed Funding
-6.2	- Sales Forecast
+##6.2	- Sales Forecast
 
 Assumptions:
 - Cost of monthly subscription: $50
