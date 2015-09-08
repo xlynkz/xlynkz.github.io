@@ -1,7 +1,7 @@
 # Voice Controlled Startup Development
 
 https://simperium.com/overview/    http://trueventures.com/
-
+https://clearbit.com
 osap parent info, copy to sfa office. with id
 
 my + nadya phone
