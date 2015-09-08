@@ -3,7 +3,7 @@
 https://simperium.com/overview/    http://trueventures.com/
 https://clearbit.com
 osap parent info, copy to sfa office. with id
-
+--can buy customers/leads
 s6 and passport
 
 havvee ooppttiioonns tto optimzze frr ppecffic value
