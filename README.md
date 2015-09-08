@@ -1,4 +1,5 @@
 # Voice Controlled Startup Development
+osap parent info, copy to sfa office. with id
 pparterip opportuiitoes 
 havvee ooppttiioonns tto optimzze frr ppecffic value
 ##Funding Plan: 
