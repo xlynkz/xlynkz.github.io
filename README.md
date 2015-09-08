@@ -5,7 +5,7 @@ https://clearbit.com
 osap parent info, copy to sfa office. with id
 --can buy customers/leads for proposed product buy sales person to follow through on sale detail feedback
 s6 and passport
-
+protect the money - live well without - maintain growth. 
 havvee ooppttiioonns tto optimzze frr ppecffic value
 ##Funding Plan: 
 - (MVP(popular custom shirts)(startup development)(voice controlled web design))),(Franklin Templeton(software for vcs))(MARS)(Futures)Jonathan Herman (security),(albright)(rokk3rlabs)(intro to)Geoffery Hinton,(intro to)Google. 
