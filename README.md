@@ -1,6 +1,10 @@
 # Voice Controlled Startup Development
+
+https://simperium.com/overview/    http://trueventures.com/
+
 osap parent info, copy to sfa office. with id
-pparterip opportuiitoes 
+my + nadya phone
+
 havvee ooppttiioonns tto optimzze frr ppecffic value
 ##Funding Plan: 
 - (MVP(popular custom shirts)(startup development)(voice controlled web design))),(Franklin Templeton(software for vcs))(MARS)(Futures)Jonathan Herman (security),(albright)(rokk3rlabs)(intro to)Geoffery Hinton,(intro to)Google. 
@@ -155,23 +159,23 @@ Founders attend startup events which bring together entrepreneurs, developers an
 
 Our typical customer is computer literate and wants to change the world in a unique way. The problems that these founders have which Fastur could solve are application development, Intelligence delivery and product management.
 
-##4.2 - Competitor Profiling
-- Alphabet language(algorithm development)
-- Rokker Labs(cobuilding)
-- squarespace(web dev) 
-- 3d manufactoring(API)
-- intelligence as a service(API)
-- virtual private assistant(M, Siri(enterprise))
-- Venture Capital (kpmg edge)
+##4.2 - Partnership opportunities
+### Alphabet language(algorithm development)
+###Rokker Labs(cobuilding)
+###squarespace(web dev) 
+###3d manufactoring(API)
+###intelligence as a service(API)
+###virtual private assistant(M, Siri(enterprise))
+###Venture Capital (kpmg edge)
 
 
 ###Automaticc
 
 Wordpress is open source and currently holds nearly 60% of the CMS market. WordPress leads other CMS’s because of its ease of use. Currently, 20% of daily domain activations run WordPress in the US. WordPress features a plugin architecture for extending functionality and a theming architecture for customizable front-end designs. Wordpress.com is the best option for users who do not want to tackle anything technical. Wordpress.org offers full control of a site. Plugins allow users to create many kinds of websites, from ecommerce and subscription to auction and gallery sites.  Wordpress.org allows control on performance and monetization methods. Wordpress.com does not allow custom plugins or custom themes. The site does not offer FTP access nor can users download the source code. Wordpress.org developers are fragmented and plugins are often out of date, buggy, bloated or unsecure. Wordpress.com operates under a freemium model. The free package entails free hosting with 3GB of storage space. A custom domain name is provided by WordPress for 13$/year. Users can pay $30/year to remove ads and $60/year to include videos. Wordpress.org is free to download. To utilize the software users will need to rent a server and purchase a domain name which averages to $100/year.
 
-Wordpress.com users cannot extend their site functionality in any meaningful way; the service is essentially a hosted blogging tool. Wordpress.org does allow extended functionality but again the software was created with blogging in mind and its user base consists of bloggers, individual store owners and client businesses such as event management web design consultancies.
+Wordpress.com users cannot extend their site functionality in any meaningful way; the service is essentially a hosted blogging tool. Wordpress.org does allow extended functionality but again the software was created with blogging in mind and its user base consists of bloggers, individual store owners and businesses such as event management and web design consultancies.
 
-Fastur.com users will be able to extend functionality without seeing a line of code yet still retain the option to download their source for individual development and backup. Fastur.com users will be able to build data driven businesses and offer their users native support without contracting a developer. Unlike WordPress, users of Fastur will be able to build complicated applications that interact with external service providers. Lastly, Users of Fastur can build applications that are scalable while maintaining product integrity suitable for the enterprise market.
+Fastur users will be able to extend functionality without seeing a line of code yet still retain the option to download their source for individual development and backup. Fastur.com users will be able to build data driven businesses and offer their users native support without actively contracting a developer. Unlike WordPress, users of Fastur will be able to build complicated applications that interact with external service providers. Lastly, Users of Fastur can build applications that are scalable while maintaining product integrity suitable for the enterprise market.
 
 In short, WordPress was created to primarily manage content; Fastur is being created to make data productive.
 
