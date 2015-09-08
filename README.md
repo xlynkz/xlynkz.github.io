@@ -3,6 +3,7 @@
 https://simperium.com/overview/    http://trueventures.com/
 
 osap parent info, copy to sfa office. with id
+
 my + nadya phone
 
 havvee ooppttiioonns tto optimzze frr ppecffic value
@@ -170,6 +171,7 @@ Our typical customer is computer literate and wants to change the world in a uni
 
 
 ###Automaticc
+ 400 talented people at Automattic and thousands in the broader community.
 
 Wordpress is open source and currently holds nearly 60% of the CMS market. WordPress leads other CMS’s because of its ease of use. Currently, 20% of daily domain activations run WordPress in the US. WordPress features a plugin architecture for extending functionality and a theming architecture for customizable front-end designs. Wordpress.com is the best option for users who do not want to tackle anything technical. Wordpress.org offers full control of a site. Plugins allow users to create many kinds of websites, from ecommerce and subscription to auction and gallery sites.  Wordpress.org allows control on performance and monetization methods. Wordpress.com does not allow custom plugins or custom themes. The site does not offer FTP access nor can users download the source code. Wordpress.org developers are fragmented and plugins are often out of date, buggy, bloated or unsecure. Wordpress.com operates under a freemium model. The free package entails free hosting with 3GB of storage space. A custom domain name is provided by WordPress for 13$/year. Users can pay $30/year to remove ads and $60/year to include videos. Wordpress.org is free to download. To utilize the software users will need to rent a server and purchase a domain name which averages to $100/year.
 
