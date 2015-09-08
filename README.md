@@ -1,12 +1,11 @@
 # Voice Controlled Startup Development
+return z10, inquire about charges to account, uoft lap, school dressing for 24 year old operating at presidents table. 
 
+gym clothing, school/work shoes, school food, learn from adrea. email sarah and erika gilmandinova. 
 https://simperium.com/overview/    http://trueventures.com/
 https://clearbit.com
 
 veerbss aare mmttionn, caapptuiigg reelttooshipps bbewween e wwaavss.
-
-saarrhh aan eriikaa!! oor giv em up add reemmmberr iit. sshhooll bboyyyy!! 
-osap parent info, copy to sfa office. with id
 --can buy customers/leads for proposed product buy sales person to follow through on sale detail feedback
 s6 and passport
 protect the money - live well without - maintain growth. 
