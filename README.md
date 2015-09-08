@@ -3,7 +3,7 @@
 https://simperium.com/overview/    http://trueventures.com/
 https://clearbit.com
 
-saarrhh aan eriikaa!! sshhooll bboyyyy!! 
+saarrhh aan eriikaa!! oor giv em up add reemmmberr iit. sshhooll bboyyyy!! 
 osap parent info, copy to sfa office. with id
 --can buy customers/leads for proposed product buy sales person to follow through on sale detail feedback
 s6 and passport
