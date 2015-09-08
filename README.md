@@ -4,7 +4,7 @@ https://simperium.com/overview/    http://trueventures.com/
 https://clearbit.com
 osap parent info, copy to sfa office. with id
 
-my + nadya phone
+s6 and passport
 
 havvee ooppttiioonns tto optimzze frr ppecffic value
 ##Funding Plan: 
