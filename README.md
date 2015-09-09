@@ -1,12 +1,14 @@
-# Voice Controlled Startup Development
-# Programmatic Ideation
-# Autonomous Management of Ventures
-# Online Incubator
 
-s6 
+## Voice Controlled Startup Development
+## Programmatic Ideation
+## Autonomous Management of Ventures
+## Online Incubator
+###s6 
 
-##Funding Plan: 
-- (MVP(voice controlled web design)),(Franklin Templeton(software for vcs)),(MARS)(Futures)Jonathan Herman (security),(albright)(rokk3rlabs)(intro to)Geoffery Hinton,(intro to)Google. 
+(MVP(voice controlled web design)),
+(Franklin Templeton(software for vcs)),
+(MARS)(Futures)Jonathan Herman (security),
+(albright)(rokk3rlabs)(intro to)Geoffery Hinton,(intro to)Google. 
 
 ##To Do
 - options to optimize for specific value
