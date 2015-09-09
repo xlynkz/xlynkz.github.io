@@ -13,6 +13,7 @@
 (albright)(rokk3rlabs)(intro to)Geoffery Hinton,(intro to)Google. 
 
 ##To Do
+- make login work: set menu across dif logins. 
 - make readme opensource : without login? or add readme atop index file and opensource that? 
 - add to fastur.ca/dev: form to register: confirmation provides github access. 
 - add to fastur.ca/inv: same but redirect to angelist
