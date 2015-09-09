@@ -1,4 +1,6 @@
 # Voice Controlled Startup Development
+scientific notation
+
 25 at presidents table. I've gathered interest. Traction = $ = X?$ 
 
 gym clothing (that dont need do streets, run the house, run the world body,
