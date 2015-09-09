@@ -3,7 +3,9 @@
 ## Programmatic Ideation
 ## Autonomous Management of Ventures
 ## Online Incubator
+## industrial engineering (converting their economic value to an algorithm: accessible by API)
 ###s6 
+
 
 (MVP(voice controlled web design)),
 (Franklin Templeton(software for vcs)),
@@ -11,6 +13,9 @@
 (albright)(rokk3rlabs)(intro to)Geoffery Hinton,(intro to)Google. 
 
 ##To Do
+- make readme opensource : without login? or add readme atop index file and opensource that? 
+- add to fastur.ca/dev: form to register: confirmation provides github access. 
+- add to fastur.ca/inv: same but redirect to angelist
 - options to optimize for specific value
 - buy leads/Hire sales 
 - default with text inputy(legacy)
