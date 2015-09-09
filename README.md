@@ -1,26 +1,16 @@
 # Voice Controlled Startup Development
-scientific notation
+# Programmatic Ideation
+# Autonomous Management of Ventures
+# Online Incubator
 
-25 at presidents table. I've gathered interest. Traction = $ = X?$ 
+s6 
 
-gym clothing (that dont need do streets, run the house, run the world body,
-school/work shoes, 
-school food, learn from adrea.
-email sarah and erika gilmandinova. 
-https://simperium.com/overview/   
-http://trueventures.com/
-https://clearbit.com
-
-verbss aare mmttionn, caapptuiigg reelttooshipps bbewween e wwaavss.
---can buy customers/leads for proposed product buy sales person to follow through on sale detail feedback
-s6 and passport
-protect the money - live well without - maintain growth. 
-havvee ooppttiioonns tto optimzze frr ppecffic value
 ##Funding Plan: 
-- (MVP(popular custom shirts)(startup development)(voice controlled web design))),(Franklin Templeton(software for vcs))(MARS)(Futures)Jonathan Herman (security),(albright)(rokk3rlabs)(intro to)Geoffery Hinton,(intro to)Google. 
-- Advisors: Namir(research equipment in zone), Pelkey(understanding language), 
+- (MVP(voice controlled web design)),(Franklin Templeton(software for vcs)),(MARS)(Futures)Jonathan Herman (security),(albright)(rokk3rlabs)(intro to)Geoffery Hinton,(intro to)Google. 
 
 ##To Do
+- options to optimize for specific value
+- buy leads/Hire sales 
 - default with text inputy(legacy)
 - separate business that leverages wtc tech: shirtsamonth.com
 - wtc/ofdevelopers pulls in github contributions. (use identity with fields.) 
@@ -47,48 +37,36 @@ havvee ooppttiioonns tto optimzze frr ppecffic value
 ###Fastur.ca is the easiest way for any individual to build a new venture. We research nature and invest our education into applications which grow by their selves.
 - Hiring of technical staff on Upwork to build autohire(matching technology) API
 
-##Product (Algorithm) Design
-- Mind: An Interdisciplinary Approach
-- Reality: Information and a search for surety: any kind of data 
-- Identity: Determined from integrated information: title as terms
-- Management: Thermodynamic Properties of resource organization: reduce costs
-- Profit: Maximizing future freedom of action: perform functions which increases repertoire
-- Power: Relationships between optics and motor: algorithm marketplace for decisions
-- Family: Will give his for hers to continue. Why?: create child accounts + work together
-- Onload: Create guest account.
-- Index file is build environment, needs feedback loops
-- register to save progress + (select account type) 
-- Seek utility % via polling; asking  request refinements 
+##Algorithm Design
+- Mind: cognitive effects at abstraction
+- Reality: conservatory function operating under feedback loops
+- Identity: accept idea as identity
+- Management: reduce costs + increase revenue
+- Profit: perform functions which increases entropy as it relates to an increase in future profits.
+- Power: algorithm marketplace for decisions
+- Family: Getting individual index files to work together and share commitments. 
+
+##Product design
+- register to save progress + (select account type)
+- Seek utility % via polling; ()
 - Regards all information w particular interest for patents, investments and content from thought leaders.  
 - Hire support w aim of increasing/maintaining growth rate 
 Product, engineering & marketing
-
-- From external properties to an internal mind, Representation through Qualia space 
-- QS = (Sensor1 + … Sx)  
-- From information in qualia space to Knowledge, Building certainty through correlations of properties 
-- R0 between Q1 and Q2 
-- From certainty to knowledge through development of language  
-- language = Q(property) + Q(word(senses)) 
-- Building identity from the management of language 
-- Identity = (qualia) + (actions(space(time))) 
-- Directing identity towards a goal through spatial representation of value 
-- Directionality = (others you)x(our I) = RO  
+-  external environment to internal mind(all of internet to our local store), Vector space: QS = (Sensor1 + … Sx)  
+-  qualia to certainty, increasing certainty to *0 between Q1 and Q2 
+-  certainty to knowledge through development of language: language = Q(property) + Q(word(senses)) 
+- Building identity from the management of language: Identity = (qualia) + (actions(space(time))) 
+- Directing identity towards a goal through spatial representation of value: Directionality = (others you)x(our I) = RO  
 - Progress = time(+) = (goal(space(-)) 
-- Ego as the propensity for curation of identity toward a single direction 
--  identity + (continual > of spatial ownership) 
+- Ego as the propensity for curation of identity toward a single direction: identity + (continual > of spatial ownership) 
 - Focus as the biasing of efforts toward attended identity 
 - Identity is full reduction of possible states; Identity = Revenue 
-- Dreaming as the arranging of identity in QS 
+- Dreaming as the arranging of (costs) identity in QS: Creating a dream function 
 - Behaviour  as the development of identities to bias actions 
 - ethics(all situations) 
-- Freedom as the maximization of possible states  
-- Causal entropic forces 
-- The above information is incorporated as a user account with administrator privileges, which: 
-- Crawls every page counting settings  
-- Performs actions that increase tuple without negative impact on revenue or traffic.  
+- The above information is incorporated as a user account with administrator privileges, which crawls every page counting settings and performs actions that increase tuple without negative impact on revenue or traffic.  
 
 ## Patent Application
-
 ### Business process that operates in a way to increase entropy of identity without negatively effecting profitability or future freedom of action.
 - recognition, measurement and maximization of value, by decreasing the distance between objectives that are held within language.  
 - Signal Synchronization  Receiving an indication to being sharing data - describing a path traveled by a first device. Receding location data describing the path traveled by the first device. - Transmitting the location data. Placing track location of second device to that of first device. Playing keeping sync.  
@@ -114,15 +92,12 @@ We believe that we will reach our goals by attracting, developing and exciting g
 
 Fastur is incorporated and located in Toronto, Canada.
 
-### 3.3 - Founder Profile
-Joseph Mujuzi | Founder
-Joseph Mujuzi organized and facilitated startup events through Ryerson University for Students, Investors and the general public. Working as an independent consultant Mr Mujuzi has designed and deployed over 30 websites using content management systems for clients in various businesses.
+### 3.3 - Team
+- Director: Joseph(Product design) 
+- Advisors: Namir(Lab Development), Jamin(language development), Valerie(Incubator Design), Sheldon(partnerships)
 
-As the founder Mr Mujuzi will communicate the vision of the business to employees, partners and investors.  He will recruit talented people and execute on strategies which ensure that the business is on plan and on budget.
 
 ### 3.4 - Operations
-Fastur, will require continuous development to be successful. The process of building the core product and future features will follow the following steps.
-
 1.	Discovery
 -	Clearly define requirements, objectives and timeline of service offering.
 2.	Designate team
