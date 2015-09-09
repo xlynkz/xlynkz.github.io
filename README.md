@@ -2,8 +2,7 @@
 ## Voice Controlled Startup Development
 ## Programmatic Ideation
 ## Autonomous Management of Ventures
-## Online Incubator
-## industrial engineering (converting their economic value to an algorithm: accessible by API)
+## Digital Incubator
 ###s6 
 
 
