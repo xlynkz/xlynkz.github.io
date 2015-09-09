@@ -19,7 +19,8 @@ havvee ooppttiioonns tto optimzze frr ppecffic value
 - Advisors: Namir(research equipment in zone), Pelkey(understanding language), 
 
 ##To Do
-- deafult to text if voice unavailable
+- default with text inputy(legacy)
+- separate business that leverages wtc tech: shirtsamonth.com
 - wtc/ofdevelopers pulls in github contributions. (use identity with fields.) 
 - get text, add function(text), let developer write function for that function. optimize for reality.
 - set delivery/payment (as primary)
