@@ -1,4 +1,5 @@
 ##s6 
+http://www.bigdataforhumans.com/
 ##Strategy (collective, non linear)
 Franklin Templeton(software for vcs)
 Valerie Fox -> Abdullah Snobar -> DMZ 
