@@ -1,5 +1,3 @@
-
-## Voice Controlled Startup Development
 ## Programmatic Ideation
 ## Autonomous Management of Ventures
 ## Digital Incubator
