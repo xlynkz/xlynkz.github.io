@@ -1,44 +1,30 @@
-## Programmatic Ideation
-## Autonomous Management of Ventures
-## Digital Incubator
-###s6 
-
-
-(MVP(voice controlled web design)),
-(Franklin Templeton(software for vcs)),
-(MARS)(Futures)Jonathan Herman (security),
-(albright)(rokk3rlabs)(intro to)Geoffery Hinton,(intro to)Google. 
+##s6 
+##Strategies
+Franklin Templeton(software for vcs)
+Valerie Fox -> Abdullah Snobar -> DMZ 
+Salim Teja -> MARS
+DMZ -> Futures
+Jonathan Herman -> Geoffery Hinton -> Google
+Albright -> Blackbbery
+Rokk3rlabs 
 
 ##To Do
-- make login work: set menu across dif logins. 
-- make readme opensource : without login? or add readme atop index file and opensource that? 
-- add to fastur.ca/dev: form to register: confirmation provides github access. 
-- add to fastur.ca/inv: same but redirect to angelist
-- options to optimize for specific value
-- buy leads/Hire sales 
-- default with text inputy(legacy)
-- separate business that leverages wtc tech: shirtsamonth.com
-- wtc/ofdevelopers pulls in github contributions. (use identity with fields.) 
-- get text, add function(text), let developer write function for that function. optimize for reality.
-- anyang onload: match words to function 
-- set delivery/payment (as primary)
-- keep default identity look for account settings page.
-- (wtc/ofdevelopers & advisors & shirts(change color to blue via voice) etc.)We're hiring (be specific- add to fastur.ca(and business plan))
+- Opensource index.html
+- explain optimizer -> options to set optimizer
+- buy leads->Hire sales 
+- login shows profile settings (primary address/payment)
+- function(text) w leaderboard , github contribution to payment.
 - SSL On Fastur.ca @ WeTake.care
-- API = add value to annyang, get voice return function  
-- Connect github contribution to payment. 
-- Use Algolia on build w confidence
-- Invest with us: angel.co/api/spec/intros
-- our team: Upwork (can do custom data for enterprise; my focus is scale )
-- our technology: stackshare->import(API)->algolia (and the machine reading app thing(later))
+- hosted, library and API 
+- Algolia on build w confidence
+- - Hiring of web developer on Upwork to build product
+
+
 - Consolidate scripts <script>everything</script> +(fastur.ca/smile.js)
-- welcome to voice control web design(wtc/webdesign(login to save progress)), say "show elements": title(default),description(default) payments,cart. move to left. 
-- "build with us": email confirmation, provide feedback
-- invest with us: angelist(idenity gives summary with link to "go to angelist/github")
-- - namecheap api
-- http://www.neuroquantology.com/
-###Fastur.ca is the easiest way for any individual to build a new venture. We research nature and invest our education into applications which grow by their selves.
-- Hiring of technical staff on Upwork to build autohire(matching technology) API
+- say "show elements": title(default),description(default) payments,cart. move to left. (login to save progress)
+
+##Post funding / significant Revenue
+- namecheap api
 
 ##Algorithm Design
 - Mind: cognitive effects at abstraction
@@ -50,11 +36,10 @@
 - Family: Getting individual index files to work together and share commitments. 
 
 ##Product design
+- our team: Upwork (can do custom data for enterprise; my focus is scale )
+- our technology: stackshare->import(API)->algolia (and the machine reading app thing(later))
 - register to save progress + (select account type)
-- Seek utility % via polling; ()
 - Regards all information w particular interest for patents, investments and content from thought leaders.  
-- Hire support w aim of increasing/maintaining growth rate 
-Product, engineering & marketing
 -  external environment to internal mind(all of internet to our local store), Vector space: QS = (Sensor1 + … Sx)  
 -  qualia to certainty, increasing certainty to *0 between Q1 and Q2 
 -  certainty to knowledge through development of language: language = Q(property) + Q(word(senses)) 
@@ -99,7 +84,6 @@ Fastur is incorporated and located in Toronto, Canada.
 - Director: Joseph(Product design) 
 - Advisors: Namir(Lab Development), Jamin(language development), Valerie(Incubator Design), Sheldon(partnerships)
 
-
 ### 3.4 - Operations
 1.	Discovery
 -	Clearly define requirements, objectives and timeline of service offering.
@@ -133,8 +117,6 @@ When a person visits fastur.com they must select a payment plan in order to acti
 3. Support international data systems, languages and currencies.
 4. Autonomously consume, integrate and act on information as to build products with an aim for profit.
 
-We expect to build a valuable company and may consider exiting in 2+ years. 
-
 # Market Research 
 ## 4.1 - Client Research
 
@@ -160,7 +142,7 @@ Our typical customer is computer literate and wants to change the world in a uni
 
 
 ###Automaticc
- 400 talented people at Automattic and thousands in the broader community.
+400  people at Automattic and thousands in the broader community.
 
 Wordpress is open source and currently holds nearly 60% of the CMS market. WordPress leads other CMS’s because of its ease of use. Currently, 20% of daily domain activations run WordPress in the US. WordPress features a plugin architecture for extending functionality and a theming architecture for customizable front-end designs. Wordpress.com is the best option for users who do not want to tackle anything technical. Wordpress.org offers full control of a site. Plugins allow users to create many kinds of websites, from ecommerce and subscription to auction and gallery sites.  Wordpress.org allows control on performance and monetization methods. Wordpress.com does not allow custom plugins or custom themes. The site does not offer FTP access nor can users download the source code. Wordpress.org developers are fragmented and plugins are often out of date, buggy, bloated or unsecure. Wordpress.com operates under a freemium model. The free package entails free hosting with 3GB of storage space. A custom domain name is provided by WordPress for 13$/year. Users can pay $30/year to remove ads and $60/year to include videos. Wordpress.org is free to download. To utilize the software users will need to rent a server and purchase a domain name which averages to $100/year.
 
@@ -170,18 +152,14 @@ Fastur users will be able to extend functionality without seeing a line of code 
 
 In short, WordPress was created to primarily manage content; Fastur is being created to make data productive.
 
-
 ###Apigee.com
-
 Apigee.com is an API management platform that gives enterprises the tools to make their backend services and data available for consumption by web and mobile applications.
 Gateway Services -- API proxy, security, transformation, etc. App Services -- "back end as a service" for application builders. Developer Channel -- tools and portals for API providers to give their developers
 Analytics Services -- analytics on the API traffic and other stuff. The platform must be used by a developer. It is created to extend the functionality of current systems and is not a standalone service.
-
 Apigee.com is free to use for developers. Enterprise plans begin at $9000/month and vary based on usage.
 Apigee.com is purely an API as a service company and its tools are focused on the developer. Fastur.com features its API as a core feature of its software development capacities. Further, Fastur.com is developer friendly but targets the average person.
 
 ##4.3 - SWOT Analysis
-
 The founder has a background in web development and has worked with every major content management system. Critically, the founder is building a tool that he would use.	Deep domain knowledge driven by an insatiable appetite for information regarding the happenings of the web economy. As a new enterprise, Fastur does not have brand recognition. To achieve our mission our users must have unwavering confidence in our infrastructure. To build a brand of reliability, Fastur will operate under a service level agreement (SLA) which guarantees an availability of 99.95%. To build a brand of security, Fastur will authenticate itself with McAfee and attain a SSL certificate from VeriSign. The founder is a first time CEO, which makes him liable to make mistakes. The founder will address this weakness by using the resources of MaRS Innovation and continually seeking insight and advice from current CEOs. Fastur will operate in downtown Toronto, considered to be Canada’s startup capital. This location sets Fastur at the centre of Toronto’s burgeoning startup community. This community of developers and entrepreneurs will be invaluable to the initial deployment and product positioning of Fastur. Although the firm will be headquartered in Toronto, the product and its earning potential have a low geographical constraint as it is delivered through the internet and can be purchased anywhere around the world upon release.
 
 Fastur takes a new approach to application development and when viewed as a whole, it has no direct competitors. Fastur will capitalize on this technical leadership with aggressive growth in an effort to become every founders must have resource.Fastur aligns well with the technological climate; People want an easier way to build for the digital economy and they want to build applications that can communicate data with real world sensors and machines.
@@ -253,69 +231,22 @@ Hosting
 Payments
 -	Fastur will use Stripe to accept payments. Stripe charges 2.9% + 30 cents per successful charge.
 
-The $25 monthly cost ensures that our core market of young adults are able to comfortably afford Fastur.
-##5.4 - Sales & Marketing Strategy
 
-The focus of our online strategy will revolve around content marketing. We will write articles on lean development, API design and new business models. This content will be posted on our website and social profiles.
 
-The focus of our offline strategy will be our participation in organized entrepreneur communities for startups.
-
+##5.4 - Marketing Strategy
 - Online
+- 
+The focus of our online strategy will revolve around content marketing. We will write articles on lean development, API design and new business models. This content will be posted on our website and social profiles.
 Our website will feature a step-by-step tour that showcases how easy and intuitive it is to build an online business with Fastur. We will architect quality content for distribution in premium technology properties that influence the global technology community. Example properties are; Quora.com, Medium.com and Techcrunch.com.
 Initially, Fastur will not purchase any online ads. Instead we will focus on introducing the Fastur brand into conversations through established communities with quality content marketing.
 
 - Offline
+- 
+The focus of our offline strategy will be our participation in organized entrepreneur communities for startups.
 Fastur will organize industry events for early stage companies and entrepreneurs. These events will revolve around the theme of lean development. Fastur will attend industry events and engage audiences with on-the-spot demos of the Fastur product. Fastur will build interest specific applications to showcase its possibilities.
 For example we will build a custom shirt app and market its simplicity to fashion entrepreneurs.
 Focusing first on the Toronto market, Fastur will exercise the aforementioned strategies at elevator pitch competitions, CEO speaker series, Meet-ups and university information sessions.Thereafter we will expand into the Montreal and Waterloo startup communities.
 
-# Financial Plan
-##6.1	- Start-up Costs
-Significant expenses are expected for initial product development from the hiring of software developers and general infrastructure.
-
-Software Development
--	$25000 |Core Software Development
--	$5000 | Secure hosting and SSL certificates.
--	$2500 | Fastur.com domain name & Associated brand registrations
--	
-Salaries
--	$5000 Monthly | Wages for CEO
--	$25000 Monthly | Wages for backend developers
--	$25000 Monthly | Wages for interface designers
-Knowledge: 
--	$25000 Monthly | 3rd party engines  
--	$25000 Monthly | New research
-Equipment
--	$5000 | Production EquipmentSurface Pro’s, Macs / IPads for development / demonstrations.
--	$2000 | Mobile data plans 
--	$10000 | Internal servers
--	$5000 | Mobile equipment: Blackberry Passports, Ipads  
--	$5000 | Widescreens
-Legal
--	$150000 | Patents
--	$50000 | Advisement
-Marketing
--	$250000 |Online Marketing & Event Registrations with Transportation
--	$50000 | Media Licenses
-Investment
--	$3,300,000 | Seed Funding
--	
-##6.2	- Sales Forecast
-
-Assumptions:
-- Cost of monthly subscription: $50
-
-
--	We believe we can grow at monthly rate of 200% for the 1st 9 months. This projects 2733 customers by the end of month 9, the majority of these customers are expected to be found through event marketing and word of mouth.
-
--	We expect to continue to grow strong but have modeled a 150% growth rate for the last 3 months ending the year with 4,530 customer whom in total contributed $855,400 in revenue.
-
--	Thereafter, we have modeled a monthly growth rate of 115% arising from content marketing efforts. This translates into 10800 customers by month 18 and 26,200 customers by month 24. Of these 26,200 customers nearly 12% or 3,000 are annual subscribers.
-
-In total, Revenues during the 2nd year are projected to be $20,032,715
-
-
-# Appendix
 ##7.1 - Technology
 - Pattern: Fastur leverages pattern for natural language processing and machine learning.
 - Cherry Music: music streaming server that is designed to handle large music libraries.
