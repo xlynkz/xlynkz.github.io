@@ -139,34 +139,8 @@ Our typical customer is computer literate and wants to change the world in a uni
 ###virtual private assistant(M, Siri(enterprise))
 ###Venture Capital (kpmg edge)
 ###schrodinger API(beating schrodinger)
-
-
 ###Automaticc
-400  people at Automattic and thousands in the broader community.
-
-Wordpress is open source and currently holds nearly 60% of the CMS market. WordPress leads other CMS’s because of its ease of use. Currently, 20% of daily domain activations run WordPress in the US. WordPress features a plugin architecture for extending functionality and a theming architecture for customizable front-end designs. Wordpress.com is the best option for users who do not want to tackle anything technical. Wordpress.org offers full control of a site. Plugins allow users to create many kinds of websites, from ecommerce and subscription to auction and gallery sites.  Wordpress.org allows control on performance and monetization methods. Wordpress.com does not allow custom plugins or custom themes. The site does not offer FTP access nor can users download the source code. Wordpress.org developers are fragmented and plugins are often out of date, buggy, bloated or unsecure. Wordpress.com operates under a freemium model. The free package entails free hosting with 3GB of storage space. A custom domain name is provided by WordPress for 13$/year. Users can pay $30/year to remove ads and $60/year to include videos. Wordpress.org is free to download. To utilize the software users will need to rent a server and purchase a domain name which averages to $100/year.
-
-Wordpress.com users cannot extend their site functionality in any meaningful way; the service is essentially a hosted blogging tool. Wordpress.org does allow extended functionality but again the software was created with blogging in mind and its user base consists of bloggers, individual store owners and businesses such as event management and web design consultancies.
-
-Fastur users will be able to extend functionality without seeing a line of code yet still retain the option to download their source for individual development and backup. Fastur.com users will be able to build data driven businesses and offer their users native support without actively contracting a developer. Unlike WordPress, users of Fastur will be able to build complicated applications that interact with external service providers. Lastly, Users of Fastur can build applications that are scalable while maintaining product integrity suitable for the enterprise market.
-
-In short, WordPress was created to primarily manage content; Fastur is being created to make data productive.
-
 ###Apigee.com
-Apigee.com is an API management platform that gives enterprises the tools to make their backend services and data available for consumption by web and mobile applications.
-Gateway Services -- API proxy, security, transformation, etc. App Services -- "back end as a service" for application builders. Developer Channel -- tools and portals for API providers to give their developers
-Analytics Services -- analytics on the API traffic and other stuff. The platform must be used by a developer. It is created to extend the functionality of current systems and is not a standalone service.
-Apigee.com is free to use for developers. Enterprise plans begin at $9000/month and vary based on usage.
-Apigee.com is purely an API as a service company and its tools are focused on the developer. Fastur.com features its API as a core feature of its software development capacities. Further, Fastur.com is developer friendly but targets the average person.
-
-##4.3 - SWOT Analysis
-The founder has a background in web development and has worked with every major content management system. Critically, the founder is building a tool that he would use.	Deep domain knowledge driven by an insatiable appetite for information regarding the happenings of the web economy. As a new enterprise, Fastur does not have brand recognition. To achieve our mission our users must have unwavering confidence in our infrastructure. To build a brand of reliability, Fastur will operate under a service level agreement (SLA) which guarantees an availability of 99.95%. To build a brand of security, Fastur will authenticate itself with McAfee and attain a SSL certificate from VeriSign. The founder is a first time CEO, which makes him liable to make mistakes. The founder will address this weakness by using the resources of MaRS Innovation and continually seeking insight and advice from current CEOs. Fastur will operate in downtown Toronto, considered to be Canada’s startup capital. This location sets Fastur at the centre of Toronto’s burgeoning startup community. This community of developers and entrepreneurs will be invaluable to the initial deployment and product positioning of Fastur. Although the firm will be headquartered in Toronto, the product and its earning potential have a low geographical constraint as it is delivered through the internet and can be purchased anywhere around the world upon release.
-
-Fastur takes a new approach to application development and when viewed as a whole, it has no direct competitors. Fastur will capitalize on this technical leadership with aggressive growth in an effort to become every founders must have resource.Fastur aligns well with the technological climate; People want an easier way to build for the digital economy and they want to build applications that can communicate data with real world sensors and machines.
-
-Fastur uses a ‘software as a service’ business model which aligns well with the economic climate. The subscription model allows us to grow rapidly while providing individual users with complete autonomy from purchasing, managing and extending the product. Effectively, with this model, Fastur will be able to reach economies of scale while economically benefiting from mass customization. Fastur faces a risk that current competitors will develop features that are similar to its core value proposition.  For example, WordPress may extend its platform to feature an API console. To overcome this risk, Fastur will develop plugins that adds Fastur to 3rd party applications. 
-
-The internet industry is a complex and competitive industry with success rates for start-up business below 10%. We will establish ourselves as a market leader that creates tools that people need to innovate. We will constantly ensure that we are making a product that is needed and by investing in experienced leadership.
 
 # Marketing Plan 
 
