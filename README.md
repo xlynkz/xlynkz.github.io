@@ -1,5 +1,5 @@
 ##s6 
-##Strategies
+##Strategy (collective, non linear)
 Franklin Templeton(software for vcs)
 Valerie Fox -> Abdullah Snobar -> DMZ 
 Salim Teja -> MARS
@@ -9,6 +9,20 @@ Albright -> Blackbbery
 Rokk3rlabs 
 
 ##To Do
+- add the following using voice
+<form action="" method="POST">
+  <script
+    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+    data-key="pk_test_BPzMuLENVCInrJBGQ2AVLOdw"
+    data-amount="2000"
+    data-name="Demo Site"
+    data-description="2 widgets ($20.00)"
+    data-image="/128x128.png"
+    data-locale="auto">
+  </script>
+</form>
+
+
 - Opensource index.html
 - explain optimizer -> options to set optimizer
 - buy leads->Hire sales 
@@ -17,7 +31,7 @@ Rokk3rlabs
 - SSL On Fastur.ca @ WeTake.care
 - hosted, library and API 
 - Algolia on build w confidence
-- - Hiring of web developer on Upwork to build product
+- Hiring of web developer on Upwork to build product
 
 
 - Consolidate scripts <script>everything</script> +(fastur.ca/smile.js)
