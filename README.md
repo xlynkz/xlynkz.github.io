@@ -1,13 +1,15 @@
 ##s6 
-http://www.bigdataforhumans.com/
-##Strategy (collective, non linear)
-Franklin Templeton(software for vcs)
-Valerie Fox -> Abdullah Snobar -> DMZ 
-Salim Teja -> MARS
-DMZ -> Futures
-Jonathan Herman -> Geoffery Hinton -> Google
-Albright -> Blackbbery
-Rokk3rlabs 
+- http://www.bigdataforhumans.com/
+- http://sciaps.com/
+
+##Strategy (Be collective, Not linear)
+- Franklin Templeton(software for vcs)
+- Valerie Fox -> Abdullah Snobar -> DMZ 
+- Salim Teja -> MARS
+- DMZ -> Futures
+- Jonathan Herman -> Geoffery Hinton -> Google
+- Albright -> Blackbbery
+- Rokk3rlabs 
 
 ##To Do
 - add the following using voice
@@ -223,14 +225,12 @@ Payments
 
 
 ##5.4 - Marketing Strategy
-- Online
-- 
+###Online
 The focus of our online strategy will revolve around content marketing. We will write articles on lean development, API design and new business models. This content will be posted on our website and social profiles.
 Our website will feature a step-by-step tour that showcases how easy and intuitive it is to build an online business with Fastur. We will architect quality content for distribution in premium technology properties that influence the global technology community. Example properties are; Quora.com, Medium.com and Techcrunch.com.
 Initially, Fastur will not purchase any online ads. Instead we will focus on introducing the Fastur brand into conversations through established communities with quality content marketing.
 
-- Offline
-- 
+###Offline
 The focus of our offline strategy will be our participation in organized entrepreneur communities for startups.
 Fastur will organize industry events for early stage companies and entrepreneurs. These events will revolve around the theme of lean development. Fastur will attend industry events and engage audiences with on-the-spot demos of the Fastur product. Fastur will build interest specific applications to showcase its possibilities.
 For example we will build a custom shirt app and market its simplicity to fashion entrepreneurs.
