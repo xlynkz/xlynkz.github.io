@@ -22,10 +22,10 @@
 - separate business that leverages wtc tech: shirtsamonth.com
 - wtc/ofdevelopers pulls in github contributions. (use identity with fields.) 
 - get text, add function(text), let developer write function for that function. optimize for reality.
+- anyang onload: match words to function 
 - set delivery/payment (as primary)
 - keep default identity look for account settings page.
 - (wtc/ofdevelopers & advisors & shirts(change color to blue via voice) etc.)We're hiring (be specific- add to fastur.ca(and business plan))
-- Reduce The Plan to this file (open sourcing and protecting)
 - SSL On Fastur.ca @ WeTake.care
 - API = add value to annyang, get voice return function  
 - Connect github contribution to payment. 
@@ -37,9 +37,7 @@
 - welcome to voice control web design(wtc/webdesign(login to save progress)), say "show elements": title(default),description(default) payments,cart. move to left. 
 - "build with us": email confirmation, provide feedback
 - invest with us: angelist(idenity gives summary with link to "go to angelist/github")
-- anyang onload: match words to function 
-- namecheap api
-- schrodinger API(beating schrodinger)
+- - namecheap api
 - http://www.neuroquantology.com/
 ###Fastur.ca is the easiest way for any individual to build a new venture. We research nature and invest our education into applications which grow by their selves.
 - Hiring of technical staff on Upwork to build autohire(matching technology) API
@@ -160,6 +158,7 @@ Our typical customer is computer literate and wants to change the world in a uni
 ###intelligence as a service(API)
 ###virtual private assistant(M, Siri(enterprise))
 ###Venture Capital (kpmg edge)
+###schrodinger API(beating schrodinger)
 
 
 ###Automaticc
