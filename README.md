@@ -1,7 +1,8 @@
 ##s6 + Ipad
+http://graphics.wsj.com/
 
 ##Product design
-- - add the following using voice
+- add the following using voice
 <form action="" method="POST">
   <script
     src="https://checkout.stripe.com/checkout.js" class="stripe-button"
