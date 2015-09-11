@@ -11,8 +11,8 @@
 - Albright -> Blackbbery
 - Rokk3rlabs 
 
-##To Do
-- add the following using voice
+##Product design
+- - add the following using voice
 <form action="" method="POST">
   <script
     src="https://checkout.stripe.com/checkout.js" class="stripe-button"
@@ -24,8 +24,6 @@
     data-locale="auto">
   </script>
 </form>
-
-
 - Opensource index.html
 - explain optimizer -> options to set optimizer
 - buy leads->Hire sales 
@@ -35,24 +33,8 @@
 - hosted, library and API 
 - Algolia on build w confidence
 - Hiring of web developer on Upwork to build product
-
-
 - Consolidate scripts <script>everything</script> +(fastur.ca/smile.js)
 - say "show elements": title(default),description(default) payments,cart. move to left. (login to save progress)
-
-##Post funding / significant Revenue
-- namecheap api
-
-##Algorithm Design
-- Mind: cognitive effects at abstraction
-- Reality: conservatory function operating under feedback loops
-- Identity: accept idea as identity
-- Management: reduce costs + increase revenue
-- Profit: perform functions which increases entropy as it relates to an increase in future profits.
-- Power: algorithm marketplace for decisions
-- Family: Getting individual index files to work together and share commitments. 
-
-##Product design
 - our team: Upwork (can do custom data for enterprise; my focus is scale )
 - our technology: stackshare->import(API)->algolia (and the machine reading app thing(later))
 - register to save progress + (select account type)
@@ -70,6 +52,7 @@
 - Behaviour  as the development of identities to bias actions 
 - ethics(all situations) 
 - The above information is incorporated as a user account with administrator privileges, which crawls every page counting settings and performs actions that increase tuple without negative impact on revenue or traffic.  
+- namecheap api
 
 ## Patent Application
 ### Business process that operates in a way to increase entropy of identity without negatively effecting profitability or future freedom of action.
