@@ -1,4 +1,4 @@
-##s6 
+##s6 + Ipad
 - http://www.bigdataforhumans.com/
 - http://sciaps.com/
 
