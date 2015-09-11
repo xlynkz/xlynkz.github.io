@@ -81,8 +81,9 @@ We believe that we will reach our goals by attracting, developing and exciting g
 Fastur is incorporated and located in Toronto, Canada.
 
 ### 3.3 - Team
-- Director: Joseph(Product design) 
-- Advisors: Namir(Lab Development), Jamin(language development), Valerie(Incubator Design), Sheldon(partnerships)
+- Directorship: Community
+- Product Design: Community 
+- Advisors: Joseph Mujuzi, Namir(Lab Development), Jamin(language development), Valerie(Incubator Design), Sheldon(partnerships)
 
 ### 3.4 - Operations
 1.	Discovery
@@ -97,13 +98,13 @@ Fastur is incorporated and located in Toronto, Canada.
 -	Document entire infrastructure and maintain issue-free usage.
 
 ### 3.5 - Payment
-When a person visits fastur.com they must select a payment plan in order to activate a paid subscription which provides access to and usage of the service.Fastur will not charge developers an access fee to build or list extensions in our marketplace. Instead, Fastur will earn 30% of all sales revenue generated within the marketplace.
+Developers add value and the usage of their addition where it is translatable and measurable to profits is paid to the developer. 
 
 ### 3.6 - Aims & Objectives
-#### Short Term: 2 weeks
+#### Short Term: 1 week
 1. Release Beta (learning)
-2. Seed Investment (or customers)
-3. auto generate new identities
+2. auto generate new identities
+3. 5 users
 
 #### Medium Term:  2 Months
 1. Partner with local entrepreneurship communities
