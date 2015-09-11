@@ -1,15 +1,4 @@
 ##s6 + Ipad
-- http://www.bigdataforhumans.com/
-- http://sciaps.com/
-
-##Strategy (Be collective, Not linear)
-- Franklin Templeton(software for vcs)
-- Valerie Fox -> Abdullah Snobar -> DMZ 
-- Salim Teja -> MARS
-- DMZ -> Futures
-- Jonathan Herman -> Geoffery Hinton -> Google
-- Albright -> Blackbbery
-- Rokk3rlabs 
 
 ##Product design
 - - add the following using voice
@@ -84,6 +73,14 @@ Fastur is incorporated and located in Toronto, Canada.
 - Directorship: Community
 - Product Design: Community 
 - Advisors: Joseph Mujuzi, Namir(Lab Development), Jamin(language development), Valerie(Incubator Design), Sheldon(partnerships)
+- ##Strategy (Be collective, Not linear)
+- Franklin Templeton(software for vcs)
+- Valerie Fox -> Abdullah Snobar -> DMZ 
+- Salim Teja -> MARS
+- DMZ -> Futures
+- Jonathan Herman -> Geoffery Hinton -> Google
+- Albright -> Blackbbery
+- Rokk3rlabs 
 
 ### 3.4 - Operations
 1.	Discovery
@@ -142,6 +139,10 @@ Our typical customer is computer literate and wants to change the world in a uni
 ###schrodinger API(beating schrodinger)
 ###Automaticc
 ###Apigee.com
+###clearbit.com/
+- http://www.bigdataforhumans.com/
+- http://sciaps.com/
+- https://github.com/flarum
 
 # Marketing Plan 
 
