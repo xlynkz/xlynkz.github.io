@@ -1,5 +1,6 @@
 ##cconvert theeoorry too pproorrdduuccttss AAAAAPiiss iddeniity is done by clee?
-http://graphics.wsj.com/
+htmultiperrsson unddeerrtaanndinng
+tp://graphics.wsj.com/
 
 ##Product design
 - add the following using voice
