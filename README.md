@@ -1,9 +1,9 @@
-##cconvert theeoorry too pproorrdduuccttss AAAAAPiiss iddeniity is done by clee?
-htmultiperrsson unddeerrtaanndinng
-tp://graphics.wsj.com/
 
 ##Product design
 - add the following using voice
+- reduce the following to essential developer communication
+- place else in f/about w associated library(API)function. move biz to public about create new private for strategy
+- 
 <form action="" method="POST">
   <script
     src="https://checkout.stripe.com/checkout.js" class="stripe-button"
@@ -14,6 +14,8 @@ tp://graphics.wsj.com/
     data-image="/128x128.png"
     data-locale="auto">
   </script>
+
+
 </form>
 - Opensource index.html
 - explain optimizer -> options to set optimizer
