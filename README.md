@@ -66,13 +66,6 @@
 ## Business Summary
 Fastur allows clients to build, host and manage internet businesses. The product consists of a content management system, which runs on a web hosting service and features a plug-in architecture for extensions and templates. Fastur.com can be used by anyone with an internet connection and a browser. The problem is that application development is complex and expensive. Designing, developing, and testing an application can have a monthly cost of $30,000 and take 6 months to prepare for launch. Development costs do not end after launching and often increase as business growth necessitates further development. Fastur reduces the time, cost and complexity associated with venture development. Fastur puts the power of artificial intelligence and natural language understanding behind a content management system to become an intelligent website builder. Through our efforts we will set a new standard in venture creation.
 
-## Business Details
-Our mission is to enable individuals and organizations throughout the world to realize their full potential by helping them build information driven organizations.
-
-We believe that we will reach our goals by attracting, developing and exciting great people who have a focus on our client’s successes. The development of a useful and reliable dashboard is our key activity. Subscription sales make up our primary revenue stream, incremental revenue will be earned from the sale of themes and extensions in our marketplace
-
-Fastur is incorporated and located in Toronto, Canada.
-
 ### 3.3 - Team
 - Directorship: Community
 - Product Design: Community 
