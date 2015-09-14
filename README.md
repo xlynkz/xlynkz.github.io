@@ -29,9 +29,9 @@
 - our technology: stackshare->import(API)->algolia (and the machine reading app thing(later))
 - register to save progress + (select account type)
 - Regards all information w particular interest for patents, investments and content from thought leaders.  
--  external environment to internal mind(all of internet to our local store), Vector space: QS = (Sensor1 + … Sx)  
--  qualia to certainty, increasing certainty to *0 between Q1 and Q2 
--  certainty to knowledge through development of language: language = Q(property) + Q(word(senses)) 
+- external environment to internal mind(all of internet to our local store), Vector space: QS = (Sensor1 + … Sx)  
+- qualia to certainty, increasing certainty to *0 between Q1 and Q2 
+- certainty to knowledge through development of language: language = Q(property) + Q(word(senses)) 
 - Building identity from the management of language: Identity = (qualia) + (actions(space(time))) 
 - Directing identity towards a goal through spatial representation of value: Directionality = (others you)x(our I) = RO  
 - Progress = time(+) = (goal(space(-)) 
@@ -45,7 +45,7 @@
 - namecheap api
 
 ## Patent Application
-### Business process that operates in a way to increase entropy of identity without negatively effecting future freedom of action(profitability).
+### Business process which increases entropy of identity without negatively effecting future freedom of action.
 - recognition, measurement and maximization of value, by decreasing the distance between objectives that are held within language.  
 - Signal Synchronization  Receiving an indication to being sharing data - describing a path traveled by a first device. Receding location data describing the path traveled by the first device. - Transmitting the location data. Placing track location of second device to that of first device. Playing keeping sync.  
 1. Receive data describing a path traveled by a second application. 
@@ -60,7 +60,7 @@
 10. Reduce distance by daydreaming models which when analyzed demonstrate decreases in distances. 
 11. Shorten distance to 0 
 
-### 3.3 - Team
+### Team
 - Directorship: Community
 - Product Design: Community 
 - Advisors: Joseph Mujuzi, Namir(Lab Development), Jamin(language development), Valerie(Incubator Design), Sheldon(partnerships)
@@ -73,10 +73,10 @@
 - Albright -> Blackbbery
 - Rokk3rlabs 
 
-### 3.5 - Payment
+### Payment
 Developers add value and the usage of their addition where it is translatable and measurable to profits is paid to the developer. 
 
-### 3.6 - Aims & Objectives
+### Aims & Objectives
 #### Short Term: 1 week
 1. Release Beta (learning)
 2. auto generate new identities
@@ -94,7 +94,7 @@ Developers add value and the usage of their addition where it is translatable an
 3. Support international data systems, languages and currencies.
 4. Autonomously consume, integrate and act on information as to build products with an aim for profit.
 
-#4 - Partnership opportunities
+# Partnership opportunities
 - Alphabet (language/thought)
 - Rokker Labs(cobuilding)
 - squarespace(web dev) 
@@ -110,7 +110,7 @@ Developers add value and the usage of their addition where it is translatable an
 - sciaps.com
 - github.com/flarum
 
-##5 - Technology
+## Technology
 - Pattern: Fastur leverages pattern for natural language processing and machine learning.
 - Cherry Music: music streaming server that is designed to handle large music libraries.
 - Docker: open-source, lightweight, self-sufficient containers for app instances.
@@ -123,7 +123,7 @@ Developers add value and the usage of their addition where it is translatable an
 - OpenStreetMap: Openly licensed map of the world.
 
 
-##Distinct use scenarios:
+## Distinct use scenarios:
 - Intelligent, living articles. 
 - Productive launch pages, accept and manage pre-orders.
 - Central point of analysis for M2M.
