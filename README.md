@@ -45,7 +45,7 @@
 - namecheap api
 
 ## Patent Application
-### Business process that operates in a way to increase entropy of identity without negatively effecting profitability or future freedom of action.
+### Business process that operates in a way to increase entropy of identity without negatively effecting future freedom of action(profitability).
 - recognition, measurement and maximization of value, by decreasing the distance between objectives that are held within language.  
 - Signal Synchronization  Receiving an indication to being sharing data - describing a path traveled by a first device. Receding location data describing the path traveled by the first device. - Transmitting the location data. Placing track location of second device to that of first device. Playing keeping sync.  
 1. Receive data describing a path traveled by a second application. 
