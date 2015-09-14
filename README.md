@@ -3,7 +3,7 @@
 - add the following using voice
 - reduce the following to essential developer communication
 - place else in f/about w associated library(API)function. move biz to public about create new private for strategy
-- <form action="" method="POST">
+<form action="" method="POST">
   <script
     src="https://checkout.stripe.com/checkout.js" class="stripe-button"
     data-key="pk_test_BPzMuLENVCInrJBGQ2AVLOdw"
