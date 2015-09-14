@@ -3,8 +3,7 @@
 - add the following using voice
 - reduce the following to essential developer communication
 - place else in f/about w associated library(API)function. move biz to public about create new private for strategy
-- 
-<form action="" method="POST">
+- <form action="" method="POST">
   <script
     src="https://checkout.stripe.com/checkout.js" class="stripe-button"
     data-key="pk_test_BPzMuLENVCInrJBGQ2AVLOdw"
@@ -14,8 +13,6 @@
     data-image="/128x128.png"
     data-locale="auto">
   </script>
-
-
 </form>
 - Opensource index.html
 - explain optimizer -> options to set optimizer
@@ -76,18 +73,6 @@
 - Albright -> Blackbbery
 - Rokk3rlabs 
 
-### 3.4 - Operations
-1.	Discovery
--	Clearly define requirements, objectives and timeline of service offering.
-2.	Designate team
--	Identify engineering and operational expertise as required.
-3.	Design infrastructure
--	Architect comprehensive infrastructure and supporting components.
-4.	Deploy infrastructure
--	Select highly available equipment and vendors, Begin build phase, package and ship.
-5.	Document and Monitor
--	Document entire infrastructure and maintain issue-free usage.
-
 ### 3.5 - Payment
 Developers add value and the usage of their addition where it is translatable and measurable to profits is paid to the developer. 
 
@@ -110,21 +95,20 @@ Developers add value and the usage of their addition where it is translatable an
 4. Autonomously consume, integrate and act on information as to build products with an aim for profit.
 
 #4 - Partnership opportunities
-### Alphabet language(algorithm development)
-###Rokker Labs(cobuilding)
-###squarespace(web dev) 
-###3d manufactoring(API)
-###intelligence as a service(API)
-###virtual private assistant(M, Siri(enterprise))
-###Venture Capital (kpmg edge)
-###schrodinger API(beating schrodinger)
-###Automaticc
-###Apigee.com
-###clearbit.com/
-###bigdataforhumans.com
-###sciaps.com
-###github.com/flarum
-
+- Alphabet (language/thought)
+- Rokker Labs(cobuilding)
+- squarespace(web dev) 
+- 3d manufactoring(API)
+- intelligence as a service(API)
+- virtual private assistant(M, Siri(enterprise))
+- Venture Capital (kpmg edge)
+- schrodinger API
+- Automaticc
+- Apigee.com
+- clearbit.com/
+- bigdataforhumans.com
+- sciaps.com
+- github.com/flarum
 
 ##5 - Technology
 - Pattern: Fastur leverages pattern for natural language processing and machine learning.
