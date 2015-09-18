@@ -43,6 +43,10 @@
 - ethics(all situations) 
 - The above information is incorporated as a user account with administrator privileges, which crawls every page counting settings and performs actions that increase tuple without negative impact on revenue or traffic.  
 - namecheap api
+- 
+
+thee ssuccess off anyy innddiividual client will depennd on a vaariiety of resources unique to its inndduusstry or situattiioonn.. thhiis reeqqurres each site to have its own uunniiqquuee set of relattiioonnsshiipp which map ittss users request to itts truuesst avvaiilablee functioon and makees available tto othher developeers a capaacitty to define saaid ffunction or inntteennttioonn..
+
 
 ## Patent Application
 ### Business process which increases entropy of identity without negatively effecting future freedom of action.
