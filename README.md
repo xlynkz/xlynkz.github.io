@@ -1,5 +1,7 @@
 
 ##Product design
+
+-adding paper (as product user gets after signing up)
 - add the following using voice
 - reduce the following to essential developer communication
 - place else in f/about w associated library(API)function. move biz to public about create new private for strategy
