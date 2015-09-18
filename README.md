@@ -1,30 +1,12 @@
 
 ##Product design
 
--adding paper (as product user gets after signing up)
-- add the following using voice
-- reduce the following to essential developer communication
-- place else in f/about w associated library(API)function. move biz to public about create new private for strategy
-<form action="" method="POST">
-  <script
-    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-    data-key="pk_test_BPzMuLENVCInrJBGQ2AVLOdw"
-    data-amount="2000"
-    data-name="Demo Site"
-    data-description="2 widgets ($20.00)"
-    data-image="/128x128.png"
-    data-locale="auto">
-  </script>
-</form>
-- Opensource index.html
-- explain optimizer -> options to set optimizer
-- buy leads->Hire sales 
-- login shows profile settings (primary address/payment)
+- use prose as paper  for fastur add optimizedr options
+- reduce this to essential developer communication
 - function(text) w leaderboard , github contribution to payment.
 - SSL On Fastur.ca @ WeTake.care
-- hosted, library and API 
-- Algolia on build w confidence
-- Hiring of web developer on Upwork to build product
+- algolia on build w confidence
+- Hire dev to automate dev finding
 - Consolidate scripts <script>everything</script> +(fastur.ca/smile.js)
 - say "show elements": title(default),description(default) payments,cart. move to left. (login to save progress)
 - our team: Upwork (can do custom data for enterprise; my focus is scale )
