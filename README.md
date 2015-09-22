@@ -1,11 +1,13 @@
 
 ##Product design
 
+- change tree to have wtc and konsole apart from fastur
 - use prose as paper  for fastur add optimizedr options
 - reduce this to essential developer communication
 - function(text) w leaderboard , github contribution to payment.
-- SSL On Fastur.ca @ WeTake.care
+- SSL On Fastur.ca @ WeTake.care @konsole.ca
 - algolia on build w confidence
+- programmatically add developer fucntions to algolia
 - Hire dev to automate dev finding
 - Consolidate scripts <script>everything</script> +(fastur.ca/smile.js)
 - say "show elements": title(default),description(default) payments,cart. move to left. (login to save progress)
