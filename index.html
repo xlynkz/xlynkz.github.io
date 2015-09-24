@@ -81,17 +81,23 @@
 
                            									</select>
 								</div>
-							  <form action="" method="POST" id="payment-form">
-      <!-- Add a section to display errors if you want -->
-    							<div class="field">
-  <span class='payment-errors'></span>
-      <input data-stripe="number" placeholder="Card Number "/><br>
+		<form action="" method="POST" id="payment-form">
+			
+				<div class="field">
+					<input data-stripe="number" placeholder="Card Number "/>
+				</div>
+
+
+<div class="field">
       <input data-stripe="cvc" placeholder="CVC"/><br>
+				</div><div class="field">
       <input data-stripe="exp-month" placeholder="expiry-Month"/><br>
+				</div><div class="field">
       <input data-stripe="exp-year" placeholder="expiry-Year"/><br>
+				</div>
       <button type="submit">Submit Payment</button>
- </div> </form>
-							</div>
+</form>
+</div>
 							<div class="field"><!---
 <form action="" method="POST">
   <script
