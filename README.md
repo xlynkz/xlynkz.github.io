@@ -20,6 +20,8 @@
 - Fill (technology) with (stackshare)
 - Extract ideas, products and technology from thought leaders and store data w algolia API
 - Pull in Patent, discovery data
+- Online Marketing: The distribution of original content on ideation, development, and new business models. 
+- Offline: Participation in organized entrepreneur communities.
 
 ## For Researcher 
 - external environment to internal mind (all of internet to our local store), Vector space: QS = (Sensor1 + … Sx)  
