@@ -1,29 +1,23 @@
 
-##For Product Developer
-###Konsole
-- say "show elements": title(default),description(default) payments,cart. move to left. (login to save progress)
-- function(text) algolia and Github(index), github contribution to payment.
-
 ###Fastur
 - Consolidate scripts <script>everything</script> +(fastur.ca/smile.js)
 - Implement prose as default dashboard for Fastur logins. 
 - optimize options on product settings
+- Idea, Iterate, Invoice. (feedback and pre-orders) 
+- Extract ideas, products and patents, publications from thought leaders and store w algolia API
+- Fill (team) with (upwork)
+- Fill (technology) with (stackshare)
+
+###Konsole
+- say "show elements": title(default),description(default) payments,cart. move to left. (login to save progress)
+- function(text) algolia and Github(index), github contribution to payment.
 
 ###WeTakeCare
 - function(text) algolia and Github(index), github contribution to payment.
-
-## For CEO
-- Idea, Iterate, Invoice. (feedback and pre-orders) 
-- SSL On All
-- Each site, its own language.
-- Fill (team) with (upwork)
-- Fill (technology) with (stackshare)
-- Extract ideas, products and technology from thought leaders and store data w algolia API
-- Pull in Patent, discovery data
 - Online Marketing: The distribution of original content on ideation, development, and new business models. 
 - Offline: Participation in organized entrepreneur communities.
 
-## For Researcher 
+##For Researcher 
 - external environment to internal mind (all of internet to our local store), Vector space: QS = (Sensor1 + … Sx)  
 - qualia to certainty, increasing certainty to *0 between Q1 and Q2 
 - certainty to knowledge through development of language: language = Q(property) + Q(word(senses)) 
@@ -41,6 +35,7 @@
 ## Patent Application
 ### Business process which increases entropy of identity without negatively effecting future freedom of action.
 - recognition, measurement and maximization of value, by decreasing the distance between objectives that are held within language.  
+- 
 - Signal Synchronization  Receiving an indication to being sharing data - describing a path traveled by a first device. Receding location data describing the path traveled by the first device. - Transmitting the location data. Placing track location of second device to that of first device. Playing keeping sync.  
 1. Receive data describing a path traveled by a second application. 
 2. Receive data describing a destination sought by second application. 
@@ -55,15 +50,13 @@
 11. Shorten distance to 0 
 
 ### Team
-- Directorship: Community
-- Product Design: Community 
-- Advisors: Joseph Mujuzi, Namir(Lab Development), Jamin(language development), Valerie(Incubator Design), Sheldon(partnerships)
-- ##Strategy (Be collective, Not linear)
-- Franklin Templeton(software for vcs)
-- Valerie Fox -> Abdullah Snobar -> DMZ 
-- Salim Teja -> MARS
-- DMZ -> Futures
-- Jonathan Herman -> Geoffery Hinton -> Google
+- Founder: Joseph Mujuzi
+- Advisors: Namir(Lab Development), Jamin(language development), Valerie(Incubator Design), Sheldon(partnerships)
+- Franklin Templeton(Hedgefund Arbritrage)
+- Abdullah Snobar -> DMZ model to the masses
+- Salim Teja -> MARS onboarding tool 
+- Futures -> Startup Risk assesment/management
+- Geoffery Hinton -> Google
 - Albright -> Blackbbery
 - Rokk3rlabs 
 
