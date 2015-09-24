@@ -42,11 +42,18 @@
 								<input type="email" name="email" id="email" placeholder="Email" />
 							</div>
 							<div class="field">
-											                     <Input type="email" name="email" id="email" placeholder="Delivery address"</input>
-                           <Input type="email" name="email" id="email" placeholder="Add a card"</input>
+											                     <Input type="email" name="email" id="email" placeholder="Delivery address"/> </input>
 
                            									</select>
 								</div>
+								<form action="" method="POST" id="payment-form">
+  <!-- No Stripe.js used; more compliance requirements =( -->
+  <input name="number"/>
+  <input name="cvc"/>
+  <input name="exp-month"/>
+  <input name="exp-year"/>
+  <button type="submit">Submit Payment</button>
+</form>
 							</div>
 							<div class="field"><!---
 <form action="" method="POST">
