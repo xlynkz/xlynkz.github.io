@@ -13,8 +13,9 @@
 		<noscript><link rel="stylesheet" href="http://www.fastur.ca/identity/assets/css/noscript.css" /></noscript>
 		<script src="//cdn.auth0.com/js/lock-7.5.min.js"></script>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.0.0/annyang.min.js"></script>
-
 		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+		  <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+
 	</head>
 	<body class="is-loading">
 
@@ -46,14 +47,15 @@
 
                            									</select>
 								</div>
-								<form action="" method="POST" id="payment-form">
-  <!-- No Stripe.js used; more compliance requirements =( -->
-  <input name="number"/>
-  <input name="cvc"/>
-  <input name="exp-month"/>
-  <input name="exp-year"/>
-  <button type="submit">Submit Payment</button>
-</form>
+							  <form action="" method="POST" id="payment-form">
+      <!-- Add a section to display errors if you want -->
+      <span class='payment-errors'></span>
+      <input data-stripe="number"/>
+      <input data-stripe="cvc"/>
+      <input data-stripe="exp-month"/>
+      <input data-stripe="exp-year"/>
+      <button type="submit">Submit Payment</button>
+  </form>
 							</div>
 							<div class="field"><!---
 <form action="" method="POST">
