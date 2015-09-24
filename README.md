@@ -1,21 +1,28 @@
 
-##Product design
-
-- change tree to have wtc and konsole apart from fastur
-- use prose as paper  for fastur add optimizedr options
-- reduce this to essential developer communication
-- function(text) w leaderboard , github contribution to payment.
-- SSL On Fastur.ca @ WeTake.care @konsole.ca
-- algolia on build w confidence
-- programmatically add developer fucntions to algolia
-- Hire dev to automate dev finding
-- Consolidate scripts <script>everything</script> +(fastur.ca/smile.js)
+##For Product Developer
+###Konsole
 - say "show elements": title(default),description(default) payments,cart. move to left. (login to save progress)
-- our team: Upwork (can do custom data for enterprise; my focus is scale )
-- our technology: stackshare->import(API)->algolia (and the machine reading app thing(later))
-- register to save progress + (select account type)
-- Regards all information w particular interest for patents, investments and content from thought leaders.  
-- external environment to internal mind(all of internet to our local store), Vector space: QS = (Sensor1 + … Sx)  
+- function(text) algolia and Github(index), github contribution to payment.
+
+###Fastur
+- Consolidate scripts <script>everything</script> +(fastur.ca/smile.js)
+- Implement prose as default dashboard for Fastur logins. 
+- optimize options on product settings
+
+###WeTakeCare
+- function(text) algolia and Github(index), github contribution to payment.
+
+## For CEO
+- Idea, Iterate, Invoice. (feedback and pre-orders) 
+- SSL On All
+- Each site, its own language.
+- Fill (team) with (upwork)
+- Fill (technology) with (stackshare)
+- Extract ideas, products and technology from thought leaders and store data w algolia API
+- Pull in Patent, discovery data
+
+## For Researcher 
+- external environment to internal mind (all of internet to our local store), Vector space: QS = (Sensor1 + … Sx)  
 - qualia to certainty, increasing certainty to *0 between Q1 and Q2 
 - certainty to knowledge through development of language: language = Q(property) + Q(word(senses)) 
 - Building identity from the management of language: Identity = (qualia) + (actions(space(time))) 
@@ -25,14 +32,9 @@
 - Focus as the biasing of efforts toward attended identity 
 - Identity is full reduction of possible states; Identity = Revenue 
 - Dreaming as the arranging of (costs) identity in QS: Creating a dream function 
-- Behaviour  as the development of identities to bias actions 
+- Behaviour as the development of identities to bias actions 
 - ethics(all situations) 
-- The above information is incorporated as a user account with administrator privileges, which crawls every page counting settings and performs actions that increase tuple without negative impact on revenue or traffic.  
-- namecheap api
-- 
-
-thee ssuccess off anyy innddiividual client will depennd on a vaariiety of resources unique to its inndduusstry or situattiioonn.. thhiis reeqqurres each site to have its own uunniiqquuee set of relattiioonnsshiipp which map ittss users request to itts truuesst avvaiilablee functioon and makees available tto othher developeers a capaacitty to define saaid ffunction or inntteennttioonn..
-
+- Smile.js as manager of index resources
 
 ## Patent Application
 ### Business process which increases entropy of identity without negatively effecting future freedom of action.
@@ -63,22 +65,18 @@ thee ssuccess off anyy innddiividual client will depennd on a vaariiety of resou
 - Albright -> Blackbbery
 - Rokk3rlabs 
 
-### Payment
-Developers add value and the usage of their addition where it is translatable and measurable to profits is paid to the developer. 
-
-### Aims & Objectives
-#### Short Term: 1 week
-1. Release Beta (learning)
+###Timeline
+#### Next week
 2. auto generate new identities
 3. 5 users
 
-#### Medium Term:  2 Months
+#### Medium Term:  Next Month
 1. Partner with local entrepreneurship communities
 2. Auto generate patent information
 3. Hire for operations and sales
-4. Native dashboards for iOS and Android
+4. Native Konsole for iOS and Android (motion controllers)
 
-#### Long Term: 1 year
+#### Long Term: Next year
 1. Support for internet connected sensor applications
 2. Support for legacy applications and vendors.
 3. Support international data systems, languages and currencies.
@@ -112,13 +110,8 @@ Developers add value and the usage of their addition where it is translatable an
 - Mandrill: Transactional email
 - OpenStreetMap: Openly licensed map of the world.
 
-
 ## Distinct use scenarios:
 - Intelligent, living articles. 
-- Productive launch pages, accept and manage pre-orders.
-- Central point of analysis for M2M.
-- Voice control Web Development  
-- Schools use Fastur to teach lean development.
-- intelligent API driven commerce communities.
-- voice control media discovery.
-- Transer money $50 #person.
+- commerce: "I need X".
+- Discovery: "I want X music".
+- Transer money: "send amount X to person Y".
