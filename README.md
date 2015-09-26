@@ -3,19 +3,7 @@
 - Consolidate scripts <script>everything</script> +(fastur.ca/smile.js)
 - Implement prose as default dashboard for Fastur logins. 
 - optimize options on product settings
-- Idea, Iterate, Invoice. (feedback and pre-orders) 
 - Extract ideas, products and patents, publications from thought leaders and store w algolia API
-- Fill (team) with (upwork)
-- Fill (technology) with (stackshare)
-
-###Konsole
-- say "show elements": title(default),description(default) payments,cart. move to left. (login to save progress)
-- function(text) algolia and Github(index), github contribution to payment.
-
-###WeTakeCare
-- function(text) algolia and Github(index), github contribution to payment.
-- Online Marketing: The distribution of original content on ideation, development, and new business models. 
-- Offline: Participation in organized entrepreneur communities.
 
 ##For Researcher 
 - external environment to internal mind (all of internet to our local store), Vector space: QS = (Sensor1 + … Sx)  
@@ -61,9 +49,8 @@
 - Rokk3rlabs 
 
 ###Timeline
-#### Next week
-2. auto generate new identities
-3. 5 users
+1. auto generate new identities
+2. 5 users
 
 #### Medium Term:  Next Month
 1. Partner with local entrepreneurship communities
