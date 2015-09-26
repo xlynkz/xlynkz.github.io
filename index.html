@@ -1,170 +1,103 @@
+
 <!DOCTYPE HTML>
-<!--	Identity by | @n33co -->
+<!--
+	Spectral | @n33co
+-->
 <html>
 	<head>
-		<title>We Take Care</title>
+		<title>Fastur - About Us</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="http://www.fastur.ca/identity/assets/js/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="http://www.fastur.ca/beauty.css" />
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-		<!--[if lte IE 9]><link rel="stylesheet" href="http://www.fastur.ca/identity/assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="http://www.fastur.ca/identity/assets/css/ie8.css" /><![endif]-->
-		<noscript><link rel="stylesheet" href="http://www.fastur.ca/identity/assets/css/noscript.css" /></noscript>
-		<script src="//cdn.auth0.com/js/lock-7.5.min.js"></script>
-		<script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.0.0/annyang.min.js"></script>
-		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-		  <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
- <script type="text/javascript">
-    <!-- Fill in your publishable key -->
-    Stripe.setPublishableKey('pk_live_mdufsEUxVMK742qsZEJz4keg ');
-
-   var stripeResponseHandler = function(status, response) {
-     var $form = $('#payment-form');
-
-     if (response.error) {
-       // Show the errors on the form
-       $form.find('.payment-errors').text(response.error.message);
-       $form.find('button').prop('disabled', false);
-     } else {
-       // token contains id, last4, and card type
-       var token = response.id;
-       // Insert the token into the form so it gets submitted to the server
-       $form.append($('<input type="hidden" name="stripeToken" />').val(token));
-       // and re-submit
-       $form.get(0).submit();
-     }
-   };
-
-   jQuery(function($) {
-     $('#payment-form').submit(function(e) {
-       var $form = $(this);
-
-       // Disable the submit button to prevent repeated clicks
-       $form.find('button').prop('disabled', true);
-
-       Stripe.card.createToken($form, stripeResponseHandler);
-
-       // Prevent the form from submitting with the default action
-       return false;
-     });
-   });
- </script>
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
-	<body class="is-loading">
+	<body>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">Fastur</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+									    <ul>
+											<li><a href="index.html">Home</a></li>
+                                         	<li><a href="about.html">About</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
 
 				<!-- Main -->
-					<section id="main">
+					<article id="main">
 						<header>
-						<ul class="icons">
-							  <div id="results"></div>
-    <input type="text" name="name" id="name" style="text-align:center;" placeholder="What do you want?" autofocus/>
-	<input type="image" class="btn-login"src="http://www.fastur.ca/identity/images/avatar.png" border="0" alt="Login" />	
-							</ul>
+							<h2>Our Mission:</h2>
+							<p>Make Voice Controlled Startup Development A Thing</p>
 						</header>
-						
-						<hr />
-						<div class="account" style="visibility:none">
-						<h2>My Account</h2>
-						<form method="post" action="#">
-							<div class="field">
-								<input type="text" name="name" id="name" placeholder="Name" />
-							</div>
-							<div class="field">
-								<input type="email" name="email" id="email" placeholder="Email" />
-							</div>
-							<div class="field">
-											                     <Input type="email" name="email" id="email" placeholder="Delivery address"/> </input>
+						<section class="wrapper style5">
+							<div class="inner">
 
-                           									</select>
-								</div>
-								
-		<form action="" method="POST" id="payment-form">
-	<div class="field">
-	<input data-stripe="number" placeholder="Card Number "/>
-	</div>
-<div class="field">
-      <input data-stripe="cvc" placeholder="CVC"/><br>
-	</div>
-<div class="field">
-      <input data-stripe="exp-month" placeholder="expiry-Month"/><br>
-				</div>
-				
-				<div class="field">
-      <input data-stripe="exp-year" placeholder="expiry-Year"/><br>
-				</div>
-				
-      <button type="submit">Save</button>
-      
-</form>
-</div>
-					</section>
+								<h3>Why</h3>
+								<p>Because there are oceans of people across the oceans dying to access the life changing opportunities found inside incubators.
+								<hr />
 
-	
-	
-				<!-- Footer -->
+								<h3>How</h3>
+								<p>By harnessing the power of the community to build a platform where each member gets rewarded for the value that they contribute. 
+                                   		    							<hr />
+    <a href="http://www.fastur.ca/smile.js">Smile.js: Convert language to Functions<!--<span class="button special disabled">Docs</span>--></h3>
+    <br>
+ <br>
+    <div class="inner">
+<ul >       <h5>                                        
+<!--<a href="http://www.fastur.ca/reality.js"><b>Reality</b></a> </a><p>"BDAAS or the internet?" -->
+<a href="http://www.fastur.ca/identity.js"><b>Identity</a> <input type="text" name="demo-name" id="demo-name" value="" placeholder="Extract Identity from language"></b>
+<br><a href="http://www.fastur.ca/management.js"><b>Management</b></a> <input type="text" name="demo-name" id="demo-name" value="" placeholder="Organize and optimize resources"></a><p></li>
+<br><a href="http://www.fastur.ca/profit.js"><b>Profit</b></a> </a><input type="text" name="demo-name" id="demo-name" value="" placeholder="Freedom Libary"><p></li>
+<a href="http://www.fastur.ca/power.js"><b>Power</b></a> </a><input type="text" name="demo-name" id="demo-name" value="" placeholder="Enlarge distance between optics and motor"><p></li>
+<a href="http://www.fastur.ca/family.js"><b>Family</b></a> </a><input type="text" name="demo-name" id="demo-name" value="" placeholder="Communicate and Collaborate"><p></li>
+
+</h5>
+						</ul></div></section>
+					</article>
+				<!-- Footer 
 					<footer id="footer">
 						<ul class="icons">
-								<li><a href="http://stackexchange.com/users/6933263/fastur" class="fa-stack-overflow">Stackoverflow</a></li>
-								<li><a href="http://www.github.com/fastur" class="fa-github">Github</a></li>
-								<li><a href="http://www.angel.co/fastur" class="fa-angellist">Angellist</a></li>
-							</ul>
-						<ul class="copyright">
-							<li>&copy; <a href="http://www.fastur.ca">Fastur Inc.</a></li>
+                            <li><a href="http://stackexchange.com/users/6933263/fastur" class="fa-stack-overflow">Stackoverflow</a></li>
+							<li><a href="https://github.com/fastur" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a href="https://angel.co/fastur" class="icon fa-angellist"><span class="label">Angellist</span></a></li>
 						</ul>
-					</footer>
+						<ul class="copyright">
+							<li>&copy; Fastur</li>
+						</ul>
+					</footer>-->
 
 			</div>
 
 		<!-- Scripts -->
-			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
-			<script>
-var lock = null;
-$(document).ready(function() {
-   lock = new Auth0Lock('IOmdXE5d6AnQBa76U0WiQtOr6Uldf5yg', 'xlynkz.auth0.com');
-});
-var userProfile;
-
-$('.btn-login').click(function(e) {
-  e.preventDefault();
-  lock.show(function(err, profile, token) {
-    if (err) {
-      // Error callback
-      alert('There was an error');
-    } else {
-      // Success callback
-
-      // Save the JWT token.
-      localStorage.setItem('userToken', token);
-
-      // Save the profile
-      userProfile = profile;
-    }
-  });
-});
-//end of auth0
-				if ('addEventListener' in window) {
-					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
-					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-				}
-			</script>
-
-  
-   
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
 <script>
-if (annyang) {
-  var r= document.getElementById('results')
-  var color = function(color){r.style.backgroundColor=color}
-  var commands = {
-    'show me *color': color
-  };
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  annyang.addCommands(commands);
-  annyang.start();
-}
+  ga('create', 'UA-68105201-1', 'auto');
+  ga('send', 'pageview');
+
 </script>
 	</body>
 </html>
