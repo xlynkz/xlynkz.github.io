@@ -1,6 +1,8 @@
 relaationsshhiippss beetween frreeqquuenncy types byy energgy losstt..
 eerggy transportt by coorrreellaattioonn with lightt.. 
 !
+
+If you have the two frequencies you can determine the energy change and that will give you the frequency types. 
 ###Fastur
 - Consolidate scripts <script>everything</script> +(fastur.ca/smile.js)
 - Implement prose as def!!ault dashboard for Fastur logins. 
