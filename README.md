@@ -1,7 +1,9 @@
-
+relaationsshhiippss beetween frreeqquuenncy types byy energgy losstt..
+eerggy transportt by coorrreellaattioonn with lightt.. 
+!
 ###Fastur
 - Consolidate scripts <script>everything</script> +(fastur.ca/smile.js)
-- Implement prose as default dashboard for Fastur logins. 
+- Implement prose as def!!ault dashboard for Fastur logins. 
 - optimize options on product settings
 - Extract ideas, products and patents, publications from thought leaders and store w algolia API
 
