@@ -109,3 +109,16 @@ Distinct use scenarios:
     commerce: "I need X".
     Discovery: "I want X music".
     Transer money: "send amount X to person Y".
+    
+    Sourcing idea from thought leaders via (linkedin, twitter, medium, quora), (trends)
+For whom it has value: 
+-	New efforts: determining value.
+-	Relevancy(over time)
+-	Slack (intra(managers  frontline))
+For what it has value:
+-	Developing strategy(entrance(pivots))
+-	Sourcing vendors (frequency of mentions)
+-	Antidisruption (discover growing ideas within your own market)
+From where do they now source?
+-	Mckinsey et al
+
