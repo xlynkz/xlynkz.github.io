@@ -7,13 +7,7 @@
 - Extract ideas, products and patents, publications from thought leaders and store w algolia API
 
 ##For Researcher 
-- 
-- relationships between frequency types by energy lost.
-Energy transport by corelation with light. (BDAAS)
-If you have the two frequencies you can determine the energy change and that will give you the frequency types. 
-(x*x-cost)
-
-external environment to internal mind (all of internet to our local store), Vector space: QS = (Sensor1 + … Sx)  
+-external environment to internal mind (all of internet to our local store), Vector space: QS = (Sensor1 + … Sx)  
 - qualia to certainty, increasing certainty to *0 between Q1 and Q2 
 - certainty to knowledge through development of language: language = Q(property) + Q(word(senses)) 
 - Building identity from the management of language: Identity = (qualia) + (actions(space(time))) 
