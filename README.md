@@ -1,6 +1,5 @@
-relaationsshhiippss beetween frreeqquuenncy types byy energgy losstt..
-eerggy transportt by coorrreellaattioonn with lightt.. 
-!
+relationships between frequency types by energy lost.
+Energy transport by corelation with light.
 
 If you have the two frequencies you can determine the energy change and that will give you the frequency types. 
 ###Fastur
