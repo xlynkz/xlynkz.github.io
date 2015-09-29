@@ -1,4 +1,5 @@
 Fastur
+determinee thee beest iideads in yourr fiieelld
 
     Consolidate scripts +(fastur.ca/smile.js)
     Implement prose as def!!ault dashboard for Fastur logins.
