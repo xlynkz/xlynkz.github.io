@@ -1,5 +1,6 @@
 Fastur
 determinee thee beest iideads in yourr fiieelld
+snnsiing uuth of conntenntt provvidde sttream of conttentt we return ttrruuthh cconfiddeennccee andd highllight liess.
 
     Consolidate scripts +(fastur.ca/smile.js)
     Implement prose as def!!ault dashboard for Fastur logins.
