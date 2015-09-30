@@ -1,9 +1,64 @@
 Fastur
+platfor.js as require.js
+
+nutrigenics number
+flow diagram of entire thing..  on window at slco
+office setup(key(fob()workout()mail etc))
+calculate networth oinvest in seats? (yes, if programatic)
+sams #: I'm returning next year: but you never know
+(home as health, behind theory) 
+hot water, keys()* 3becareful with jeff(adrea)(silverstones)
+brands(identity) 
+policy(identity)
+10*1=10 as stoff
+audio, visual synhro as demo
+license
+aqpartmnent 
+record lectlures and aget someone to paraphrase
+product social network for machines(linked in + twitter) stoff
+german n physic
+manadrin and biz
+english n philo
+swahilli n family
+jinrong.ca  
+
+repackagin ap think of identity aoi as n add 10% and resell where we also scour crunchbase etc to provide value for brands
+programattic buying for me and as a Product feature.
+
+how much value can we put into the addition of platform.js inside an index.html
+different ways to incorporate the best infrastructure: automatically
+hire developer
+tshirt via voice design
+intentions of essay topics
+office hours into phone
+--al prev work completed this wknd, and feve hired pre reading week, sizing up for playoffs, sobered through drinmking 
+sales during week
+the grid is doing (beauty.css)
+hide account until product displays (get it delivered
+prose.io(identify actionable(functionable)and send to devnet))
+
+every book needed for class, do the reading for today, get ready for hiring by 3 and the essay text ordan where were at (SLC) beer after
+text nadya(annie) email the wed girl, get someone to manage all olf that have my p4references written on prose, means it must be rpivate
+functions get sent to all the databases via API
+WTC/ofhedgfunds/shirts
+deign icons for all
+includins css via js
+can't steal my mind... 
+james zaza 4165626468 $500/m
+valerie as a direco
+richard xu as sales 
+
+(mutual funds as a service)
+real estate service
+
+julia in architecture
+brian re: $1500
 determinee thee beest iideads in yourr fiieelld
 snnsiing uuth of conntenntt provvidde sttream of conttentt we return ttrruuthh cconfiddeennccee andd highllight liess.
 
     Consolidate scripts +(fastur.ca/smile.js)
     Implement prose as def!!ault dashboard for Fastur logins.
+    
     optimize options on product settings
     Extract ideas, products and patents, publications from thought leaders and store w algolia API
 
