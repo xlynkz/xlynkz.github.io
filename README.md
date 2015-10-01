@@ -1,6 +1,11 @@
 Fastur
 platfor.js as require.js
 
+is this product useful.? re ff
+paper: pre the to prose same structure as query  from konsole allows all i want, get recurring @ 50 the js
+
+
+
 nutrigenics number
 flow diagram of entire thing..  on window at slco
 office setup(key(fob()workout()mail etc))
