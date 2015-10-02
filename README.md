@@ -1,60 +1,32 @@
 Fastur
 
 Platform.js as Require.js
-
-is this product useful.? re ff
-paper: pre the to prose same structure as query  from konsole allows all i want, get recurring @ 50 the js
-
-
-plans at annual billing 
-try the beta beside contact us 
-
-nutrigenics number
-flow diagram of entire thing..  on window at slco
+hire developer
+is this product useful.? re facebook and github
+capture pre contents send to ofdevelopers
+flow diagram at slc
 office setup(key(fob()workout()mail etc))
-calculate networth oinvest in seats? (yes, if programatic)
-sams #: I'm returning next year: but you never know
-(home as health, behind theory) 
-hot water, keys()* 3becareful with jeff(adrea)(silverstones)
-brands(identity) 
-policy(identity)
+brands(identity) + policy(identity)
 10*1=10 as stoff
-audio, visual synhro as demo
-license
-aqpartmnent 
-record lectlures and aget someone to paraphrase
-product social network for machines(linked in + twitter) stoff
-german n physic
-manadrin and biz
-english n philo
-swahilli n family
-jinrong.ca  
+Government progress
+Social network for machines (STOFF) audio, video sync as demo.
+wetake.care demo tshirt via voice design
 
-repackagin ap think of identity aoi as n add 10% and resell where we also scour crunchbase etc to provide value for brands
+we resell API's + offer some new ones.
 programattic buying for me and as a Product feature.
 
-how much value can we put into the addition of platform.js inside an index.html
-different ways to incorporate the best infrastructure: automatically
-hire developer
-tshirt via voice design
 intentions of essay topics
-office hours into phone
---al prev work completed this wknd, and feve hired pre reading week, sizing up for playoffs, sobered through drinmking 
+office hours into phone w relevancy
 sales during week
 the grid is doing (beauty.css)
 hide account until product displays (get it delivered
-prose.io(identify actionable(functionable)and send to devnet))
-
-every book needed for class, do the reading for today, get ready for hiring by 3 and the essay text ordan where were at (SLC) beer after
-text nadya(annie) email the wed girl, get someone to manage all olf that have my p4references written on prose, means it must be rpivate
+every book needed for class,
 functions get sent to all the databases via API
 WTC/ofhedgfunds/shirts
 deign icons for all
 includins css via js
-can't steal my mind... 
 james zaza 4165626468 $500/m
-valerie as a direco
-richard xu as sales 
+
 
 (mutual funds as a service)
 real estate service
@@ -118,6 +90,7 @@ Team
     Geoffery Hinton -> Google
     Albright -> Blackbbery
     Rokk3rlabs
+    richard xu as sales 
 
 Timeline
 
