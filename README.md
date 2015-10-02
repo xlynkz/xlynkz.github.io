@@ -1,5 +1,6 @@
 Fastur
-platfor.js as require.js
+
+Platform.js as Require.js
 
 is this product useful.? re ff
 paper: pre the to prose same structure as query  from konsole allows all i want, get recurring @ 50 the js
