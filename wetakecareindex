@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+<!--	Identity by | @n33co -->
+<html>
+	<head>
+		<title>We Take Care</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="http://www.fastur.ca/identity/assets/js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="http://fastur.github.io/beauty.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<!--[if lte IE 9]><link rel="stylesheet" href="http://www.fastur.ca/identity/assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="http://www.fastur.ca/identity/assets/css/ie8.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="http://www.fastur.ca/identity/assets/css/noscript.css" /></noscript>
+		<script src="//cdn.auth0.com/js/lock-7.5.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.0.0/annyang.min.js"></script>
+		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+		  <script src="https://cdn.firebase.com/js/client/2.3.1/firebase.js"></script>
+	</head>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main">
+						<header>
+						<ul class="icons">
+							  <div id="results"></div>
+    <input type="text" name="name" id="ideainput" style="text-align:center;" placeholder="What do you want?" autofocus/>
+    
+	<input type="image" class="btn-login"src="https://res.cloudinary.com/lln42o2ke/image/upload/v1443990642/Fastur_a8uli8.png" border="0" alt="Login" />	
+							</ul>
+						</header>
+						<div id="AccountDIV">
+							<h2>My Account</h2>
+						<form method="post" action="#">
+							<div class="field">
+								<input type="text" name="name" id="name" placeholder="Name" />
+							</div>
+							<div class="field">
+								<input type="email" name="email" id="email" placeholder="Email" />
+							</div>
+							<div class="field">
+											                     <Input type="email" name="email" id="email" placeholder="Delivery address"/> </input>
+
+                           									</select>
+								</div>
+								
+	  <form action="" method="POST" id="payment-form">
+    <span class="payment-errors"></span>
+
+    <div class="form-row">
+      <label>
+         <input type="text" size="20" data-stripe="number" placeholder="Card Number"/>
+      </label>
+    </div>
+
+    <div class="form-row">
+      <label>
+        <input type="text" size="4" data-stripe="cvc" placeholder="CVC"/>
+               <input type="text" size="2" Placeholder="Expiration (MM)" data-stripe="exp-month"/>    <br>  <input type="text" size="4"Placeholder="Expiration (YYYY)"  data-stripe="exp-year"/>
+
+      </label>
+    </div>
+    <button type="submit">Submit Payment</button>
+  </form>
+</div>
+</div>
+					
+					</section>
+
+	
+	
+			<!-- Remove Icons	<!-- Footer -->
+					<footer id="footer">
+					
+						<ul class="copyright">
+							<li>&copy; <a href="http://www.fastur.ca">Fastur Inc.</a></li>
+						</ul>
+					</footer> 
+			-->
+
+			</div>
+
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+			<script>
+var lock = null;
+$(document).ready(function() {
+   lock = new Auth0Lock('IOmdXE5d6AnQBa76U0WiQtOr6Uldf5yg', 'xlynkz.auth0.com');
+});
+var userProfile;
+
+$('.btn-login').click(function(e) {
+  e.preventDefault();
+  lock.show(function(err, profile, token) {
+    if (err) {
+      // Error callback
+      alert('There was an error');
+    } else {
+      // Success callback
+
+      // Save the JWT token.
+      localStorage.setItem('userToken', token);
+
+      // Save the profile
+      userProfile = profile;
+    }
+  });
+});
+//end of auth0
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
+
+  
+   
+<script>
+if (annyang) {
+  var r= document.getElementById('results')
+  var color = function(color){r.style.backgroundColor=color}
+  var commands = {
+    'show me *color': color
+  };
+
+  annyang.addCommands(commands);
+  annyang.start();
+}
+</script>
+<script>
+var inputvariable = $('#ideainput').val();
+</script>
+<script>
+
+document.getElementById('ideainput').onkeypress = function(e){
+    if (!e) e = window.event;
+    if (e.keyCode == '13'){
+     var ideavalue = 	document.getElementById("ideainput").value; 
+      alert(ideavalue);
+      
+      
+      var url = "https://ofwriting.firebaseio.com/";
+var firebaseRef = new Firebase(url);
+var postRef = firebaseRef.push(); // create a new post
+postRef.set({ideavalue: ideavalue});
+
+function funct1(evt)
+{
+  var title = $('#post-title').text();
+
+  var post = $('#post-content').text();
+
+  var date = Date();
+
+  firebaseRef.set({Title: title, Content: post, Date: date});
+  evt.preventDefault();
+}
+
+      return false;
+    }
+  }
+
+
+//myFirebaseRef.child("input").on("value", function(snapshot) {
+//  alert(snapshot.val());  // Alerts "San Francisco"
+//});
+
+</script>
+	</body>
+</html>
+
+	
