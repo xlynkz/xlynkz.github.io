@@ -1,5 +1,8 @@
 Fastur
 
+capture signup as login
+
+
 Platform.js as Require.js
 hire developer
 is this product useful.? re facebook and github
