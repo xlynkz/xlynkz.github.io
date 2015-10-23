@@ -53,7 +53,7 @@
 					</div>
 					<div id="paper" style="display: none;" class="editable">
 							<h2>Title</h2>
-							<p>This is paper, edit this text. </p>
+							<p id="paperbody">This is paper, edit this text. </p>
 					</div>
 					</div>
 					</section>
@@ -192,8 +192,7 @@ if (annyang) {
   };
   
   var showFlickr = function(term) {
-alert(term);  	
-  }
+ $('#papercontent').text(term);  };
 
   // Add our commands to annyang
   annyang.addCommands(commands);
