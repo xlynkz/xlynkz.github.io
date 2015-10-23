@@ -15,8 +15,8 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<link rel="stylesheet" href="//fastur.ca/main.css"/>
 		<script src="https://cdn.jsdelivr.net/g/skeljs@0.4.6,jquery@3.0.0-alpha1,medium-editor@5.9.0,html5shiv@3.7.3"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.20/require.js"></script>
-<link rel="stylesheet" href="//cdn.jsdelivr.net/medium-editor/latest/css/medium-editor.min.css" type="text/css" media="screen" charset="utf-8">
+		<script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.0.0/annyang.min.js"></script>
+		<link rel="stylesheet" href="//cdn.jsdelivr.net/medium-editor/latest/css/medium-editor.min.css" type="text/css" media="screen" charset="utf-8">
 					<script src="https://fastur.ca/main.js"></script>
 			<script src="https://fastur.ca/jquery.scrollex.min.js"></script>
 			<script src="https://fastur.ca/util.js"></script>
@@ -187,7 +187,21 @@ Prior data analysis experience. </p>
 
 		<!-- Scripts -->
 	<script>var editor = new MediumEditor('.editable', { toolbar: false });	</script>
-		
+		<script>
+if (annyang) {
+  // Let's define our first command. First the text we expect, and then the function it should call
+  var commands = {
+  	 '*term': showFlickr,
+  };
+  
+  var showFlickr = function(term) {
+alert(term);  	
+  }
+
+  // Add our commands to annyang
+  annyang.addCommands(commands);
+}
+</script>
 		<script>
     $(".fastur").click(function() {
         $("#one").css("display", "none");
@@ -196,7 +210,8 @@ $("#landing").css("display", "none");
 $("#landingfooter").css("display", "none");
 $("#paperfooter").css("display", "block");
 $("#paper").css("display", "block");
-
+ annyang.start();
+ 
     });
 		</script>
 		
