@@ -178,11 +178,18 @@ Prior data analysis experience. </p>
 							</ul>
 						</div>
 					</section>
+						<section id="savefooter">
+							<div class="inner">
+							<ul class="copyright">
+								<li><a id ="save" class="button small">save</a></li>
+							</ul>
+						</div>
+					</section>
 
 			</div>
 
 		<!-- Scripts -->
-		<script>var editor = new MediumEditor('.editable');</script>
+	<script>var editor = new MediumEditor('.editable', { toolbar: false });	</script>
 		
 		<script>
     $(".fastur").click(function() {
@@ -190,6 +197,7 @@ Prior data analysis experience. </p>
 $("#two").css("display", "none");
 $("#landing").css("display", "none");
 $("#footer").css("display", "none");
+$("#savefooter").css("display", "block");
 $("#paper").css("display", "block");
 
     });
