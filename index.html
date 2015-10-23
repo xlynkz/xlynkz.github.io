@@ -182,44 +182,31 @@ Prior data analysis experience. </p>
 
 			</div>
 
-		<!-- Scripts -->
-	<script>var editor = new MediumEditor('.editable', { toolbar: false });	</script>
-	
-		<script>
-		if (annyang) {
-  // Let's define our first command. First the text we expect, and then the function it should call
+	<!-- Scripts -->
+<script>var editor = new MediumEditor('.editable', { toolbar: false });	</script>
+
+<script>
+  if (annyang) {
   var commands = {
     '*term': function() {
-      $('#paperbody').text(term); 
+      document.getElementById("paperbody").innerHTML = term;
     }
   };
-
-  // Add our commands to annyang
   annyang.addCommands(commands);
 }
 </script>
 
-
-
-
-
-
-
-
-
-
-		<script>
-    $(".fastur").click(function() {
-        $("#one").css("display", "none");
+<script>
+$(".fastur").click(function() {
+$("#one").css("display", "none");
 $("#two").css("display", "none");
 $("#landing").css("display", "none");
 $("#landingfooter").css("display", "none");
 $("#paperfooter").css("display", "block");
 $("#paper").css("display", "block");
- annyang.start();
- 
-    });
-		</script>
+annyang.start();
+});
+</script>
 		
 		
 		
