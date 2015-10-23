@@ -50,9 +50,15 @@
 					<section id="banner">
 						<div class="inner">
 							<div class="logo"><span><img src="https://res.cloudinary.com/lln42o2ke/image/upload/v1445016435/FasturLogoWhite_xed16t.png" alt="Fastur" class="fastur" ></span></div>
+						<div id="landing">
 							<h2 id="paper">We help founders <br>build self governing products.</h2>
 							<p>Our platform deals with data so you can focus on creating great experiences.</p>
-						</div>
+					</div>
+					<div id="paper" style="display: none;">
+							<h2 id="paper">Title</h2>
+							<p>This is paper, edit this text. </p>
+					</div>
+					</div>
 					</section>
 
 				<!-- Wrapper -->
@@ -182,7 +188,9 @@ Prior data analysis experience. </p>
     $(".fastur").click(function() {
         $("#one").css("display", "none");
 $("#two").css("display", "none");
-$("#paper").addClass('editable');
+$("#landing").css("display", "none");
+$("#paper").css("display", "block");
+
     });
 		</script>
 		
