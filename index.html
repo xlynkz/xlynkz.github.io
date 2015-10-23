@@ -14,6 +14,7 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<link rel="stylesheet" href="//fastur.ca/main.css"/>
+		<script src="//cdn.auth0.com/js/lock-7.9.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/g/skeljs@0.4.6,jquery@3.0.0-alpha1,medium-editor@5.9.0,html5shiv@3.7.3"></script>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.0.0/annyang.min.js"></script>
 		<link rel="stylesheet" href="//cdn.jsdelivr.net/medium-editor/latest/css/medium-editor.min.css" type="text/css" media="screen" charset="utf-8">
@@ -173,7 +174,7 @@ Prior data analysis experience. </p>
 								<li>&copy; 2015 <a href="https://fastur.ca">Fastur Inc. </a> All rights reserved.</li>
 							</ul>
 							<ul id="paperfooter" class="copyright" style="display: none;">
-								<li><a id ="save" class="button small">save</a></li>
+								<li><a id ="save" class="button small btn-login type="submit">save</a></li>
 							</ul>
 						</div>
 					</section>
@@ -206,8 +207,32 @@ $("#paper").css("display", "block");
 annyang.start();
 });
 </script>
-		
-		
+<script>
+var lock = null;
+$(document).ready(function() {
+   lock = new Auth0Lock('ZPJad5hCZV8SilXZeARGfgSUqXj9ONN8', 'xlynkz.auth0.com');
+});
+
+var userProfile;
+
+$('.btn-login').click(function(e) {
+  e.preventDefault();
+  lock.show(function(err, profile, token) {
+    if (err) {
+      // Error callback
+      alert('There was an error');
+    } else {
+      // Success callback
+
+      // Save the JWT token.
+      localStorage.setItem('userToken', token);
+
+      // Save the profile
+      userProfile = profile;
+    }
+  });
+});
+</script>
 		
 	</body>
 </html>
