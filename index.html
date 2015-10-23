@@ -173,18 +173,15 @@ Prior data analysis experience. </p>
 						</features>-->
 						<section id="footer">
 							<div class="inner">
-							<ul class="copyright">
+							<ul id="landingfooter" class="copyright">
 								<li>&copy; 2015 <a href="https://fastur.ca">Fastur Inc. </a> All rights reserved.</li>
 							</ul>
-						</div>
-					</section>
-						<section id="savefooter">
-							<div class="inner">
-							<ul class="copyright">
+							<ul id="paperfooter" class="copyright" style="display: none;">
 								<li><a id ="save" class="button small">save</a></li>
 							</ul>
 						</div>
 					</section>
+					
 
 			</div>
 
@@ -195,9 +192,9 @@ Prior data analysis experience. </p>
     $(".fastur").click(function() {
         $("#one").css("display", "none");
 $("#two").css("display", "none");
-$("#landing").css("display", "none");
+$("#landingfooter").css("display", "none");
 $("#footer").css("display", "none");
-$("#savefooter").css("display", "block");
+$("#paperfooter").css("display", "block");
 $("#paper").css("display", "block");
 
     });
