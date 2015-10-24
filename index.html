@@ -53,8 +53,9 @@
 							<h2>We help founders <br>build self governing products.</h2>
 							<p>Our platform deals with data so you can focus on creating great experiences.</p>
 					</div>
-					<div id="paper" style="display: none;" class="editable">
-					<p id="paperbody" placeholder="Title">This is paper, edit this text. </p>
+					<div >
+					<span id="paper" style="display: none;" class="editable"><b>Title</b>
+					<br>This is paper, edit this text. </span>
 					</div>
 					</div>
 					</section>
@@ -189,7 +190,7 @@ Prior data analysis experience. </p>
   if (annyang) {
   var commands = {
     '*term': function(term) {
-      document.getElementById("paperbody").innerHTML = term;
+      document.getElementById("paper").innerHTML = term;
     }
   };
   annyang.addCommands(commands);
@@ -207,6 +208,12 @@ $("#paper").css("display", "block");
 annyang.start();
 });
 </script>
+<script>
+$(".paper").click(function(){
+$("#paper").text("");
+});
+</script>
+
 <script>
 var lock = null;
 $(document).ready(function() {
@@ -233,11 +240,12 @@ $('.btn-login').click(function(e) {
   });
 });
 </script>
+
  <script>
 
         $("#save").click( function()
            {
-                      	var paper = document.getElementById("paperbody").innerHTML;
+                      	var paper = document.getElementById("paper").innerHTML;
 
            alert(paper);
 }
