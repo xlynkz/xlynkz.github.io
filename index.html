@@ -238,11 +238,9 @@ $('.btn-login').click(function(e) {
 
         $("#save").click( function()
            {
-           	var solutioninput = document.getElementById("paperbody").innerHTML;
-           	var url = "https://ofwriting.firebaseio.com/VCT";
-var firebaseRef = new Firebase(url);
-var postRef = firebaseRef.push(); // create a new post
-postRef.set({solutioninput: solutioninput});
+                      	var paper = document.getElementById("paperbody").innerHTML;
+
+           alert(paper);
 }
         );
         
