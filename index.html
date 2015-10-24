@@ -53,9 +53,11 @@
 							<h2>We help founders <br>build self governing products.</h2>
 							<p>Our platform deals with data so you can focus on creating great experiences.</p>
 					</div>
-					<span><b>Title</b></span>
+					<div id="paperwrapper" style="display: none;">
+					<span id="title" class="editable"><b>Title</b></span>
 					<br>
-					<span id="paper" style="display: none;" class="editable">This is Paper, Edit this Text</span>
+					<span id="paper" class="editable">This is Paper, Edit this Text</span>
+					</div>
 					</div>
 					</section>
 
@@ -207,16 +209,10 @@ $("#two").css("display", "none");
 $("#landing").css("display", "none");
 $("#landingfooter").css("display", "none");
 $("#paperfooter").css("display", "block");
-$("#paper").css("display", "block");
+$("#paperwrapper").css("display", "block");
 annyang.start();
 });
 </script>
-<script>
-$(".paper").click(function(){
-$("#paper").text("");
-});
-</script>
-
 <script>
 var lock = null;
 $(document).ready(function() {
@@ -248,10 +244,11 @@ $('.btn-login').click(function(e) {
         $("#save").click( function()
            { 
            	var papervct = document.getElementById("paper").innerText; 
+                var titlevct = document.getElementById("title").innerText; 
            	var url = "https://vct.firebaseio.com/"; 
 var firebaseRef = new Firebase(url); 
 var postRef = firebaseRef.push(); 
-postRef.set({papervct: papervct}); 
+postRef.set({papervct: papervct, titlevct: titlevct}); 
 } 
         );
     </script>
