@@ -322,7 +322,25 @@ var prevChildKey = (prevChildKey);
     });
     e.preventDefault();
   });
-
+  $('#starterbutton').on('click', function(e) {
+    // Open Checkout with further options
+    handler.open({
+      name: 'Fastur',
+      description: 'Team Plan',
+      currency: "cad",
+      amount: 600000
+    });
+    e.preventDefault();
+  });  $('#starterbutton').on('click', function(e) {
+    // Open Checkout with further options
+    handler.open({
+      name: 'Fastur',
+      description: 'Enterprise Plan',
+      currency: "cad",
+      amount: 6000000
+    });
+    e.preventDefault();
+  });
   // Close Checkout on page navigation
   $(window).on('popstate', function() {
     handler.close();
