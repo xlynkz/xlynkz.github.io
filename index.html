@@ -52,7 +52,7 @@
 					</div>
 					
 					<div id="settings" style="display: none;">
-										<h3 class="major">Settings</h3>
+										<h3 class="major">Settings &nbsp;&nbsp;&nbsp;&nbsp; <a href="#"  id="gotopaper" class=" fa fa-paper button fit special">go to Paper.00/m</a></h3>
 										<form method="post" action="#">
 											<div class="row uniform">
 												<div class="6u 12u$(xsmall)">
@@ -315,27 +315,27 @@ var prevChildKey = (prevChildKey);
   $('#starterbutton').on('click', function(e) {
     // Open Checkout with further options
     handler.open({
-      name: 'Fastur',
-      description: 'Starter Plan',
+      name: 'Starter Plan',
+      description: '$50/m (billed annually)',
       currency: "cad",
       amount: 60000
     });
     e.preventDefault();
   });
-  $('#starterbutton').on('click', function(e) {
+  $('#teambutton').on('click', function(e) {
     // Open Checkout with further options
     handler.open({
-      name: 'Fastur',
-      description: 'Team Plan',
+      name: 'Team Plan',
+      description: '$500/m (billed annually)',
       currency: "cad",
       amount: 600000
     });
     e.preventDefault();
-  });  $('#starterbutton').on('click', function(e) {
+  });  $('#enterprisebutton').on('click', function(e) {
     // Open Checkout with further options
     handler.open({
-      name: 'Fastur',
-      description: 'Enterprise Plan',
+      name: 'Enterprise Plan',
+      description: '$5000/m (billed annually)',
       currency: "cad",
       amount: 6000000
     });
@@ -346,5 +346,16 @@ var prevChildKey = (prevChildKey);
     handler.close();
   });
 </script>
-</body>
+<script>  $('#gotopaper').on('click', function(e) {
+   
+$("#one").css("display", "none");
+$("#two").css("display", "none");
+$("#landing").css("display", "none");
+$("#landingfooter").css("display", "none");
+$("#paperfooter").css("display", "block");
+$("#paperwrapper").css("display", "block");
+annyang.start();
+   
+  });</script>
+  </body>
 </html>
