@@ -226,7 +226,8 @@ Prior data analysis experience. </p>
 								<li>&copy; 2015 <a href="https://fastur.ca">Fastur Inc. </a> All rights reserved.</li>
 							</ul>
 							<ul id="paperfooter" class="copyright" style="display: none;">
-								<li><a id ="save" class="button small btn-login type="submit">save</a></li>
+								<li><a id ="logintosave" class="button small btn-login type="submit">save</a></li>
+								<li><a id ="save" style="display: none;"class="button small btn-login type="submit">save</a></li>
 								<li id="settingsicon" style="display: none;" class="fa fa-cogs 6u 12u$(medium)"></li>
 
 							</ul>
@@ -284,6 +285,7 @@ $('.btn-login').click(function(e) {
       alert('There was an error');
     } else {
       // Success callback
+$("#save").css("display", "block");
 $("#settingsicon").css("display", "block");
 
       // Save the JWT token.
@@ -297,7 +299,7 @@ $("#settingsicon").css("display", "block");
 </script>
  <script>
  //sending
-        $("#save").click( function()
+        $("#logintosave").click( function()
            { 
            	var papervct = document.getElementById("paper").innerText; 
                 var titlevct = document.getElementById("title").innerText; 
