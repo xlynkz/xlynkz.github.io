@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="//fastur.ca/main.css"/>
 		<script src="//cdn.auth0.com/js/lock-7.9.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/g/skeljs@0.4.6,jquery@3.0.0-alpha1,medium-editor@5.9.0,html5shiv@3.7.3"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.0.0/annyang.min.js"></script>
 		<script src="https://cdn.firebase.com/js/client/2.3.1/firebase.js"></script>
 		<link rel="stylesheet" href="//cdn.jsdelivr.net/medium-editor/latest/css/medium-editor.min.css" type="text/css" media="screen" charset="utf-8">
 	</head>
@@ -181,6 +182,22 @@ Prior data analysis experience. </p>
 toolbar: false 
 });	</script>
 
+
+<script>
+  if (annyang) {
+  var commands = {
+    '*term': function(term) {
+      document.getElementById("paper").innerHTML = term;
+           	var url = "https://vct.firebaseio.com/"; 
+var firebaseRef = new Firebase(url); 
+var postRef = firebaseRef.push(); 
+postRef.set({papervct: term});
+    }
+  };
+  annyang.addCommands(commands);
+}
+</script>
+
 <script>
 $(".fastur").click(function() {
 $("#one").css("display", "none");
@@ -189,6 +206,7 @@ $("#landing").css("display", "none");
 $("#landingfooter").css("display", "none");
 $("#paperfooter").css("display", "block");
 $("#paperwrapper").css("display", "block");
+annyang.start();
 });
 </script>
 <script>
