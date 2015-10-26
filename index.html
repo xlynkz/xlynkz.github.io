@@ -311,7 +311,16 @@ postRef.set({papervct: papervct, titlevct: titlevct});
 } 
         );
     </script>
-    
+     <script>
+ //sending
+        $("#settingsicon").click( function()
+           { 
+$("#paperfooter").css("display", "none");
+$("#paperwrapper").css("display", "none");
+$("#settings").css("display", "block");
+} 
+        );
+    </script>
     <script>
 //executing
 var ref = new Firebase("https://vct.firebaseio.com/");
