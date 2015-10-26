@@ -31,12 +31,3 @@ Fastur is the solution; we sell on the promise that we are an end to end solutio
 3.	Design: Architect infrastructure and supporting components.
 4.	Deploy: Select highly available vendors, package and ship.
 5.	Document: Document infrastructure and maintain issue-free usage.
-
-####Entrepreneurs: Chase Change
-- We help you discover the organisations and technology that are moving the world.
-####Intrapreneurs: change from within
-- Discover valuable ideas and mobilize teams around them.
-####Machines: stay relevant
-- We provide the information you need to make hard decisions.
-
-
