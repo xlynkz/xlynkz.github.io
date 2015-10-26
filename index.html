@@ -306,8 +306,8 @@ var prevChildKey = (prevChildKey);
 </script>
 <script>
   var handler = StripeCheckout.configure({
-    key: 'pk_test_BPzMuLENVCInrJBGQ2AVLOdw',
-    image: '/img/documentation/checkout/marketplace.png',
+    key: 'pk_live_mdufsEUxVMK742qsZEJz4keg ',
+    image: 'https://res.cloudinary.com/lln42o2ke/image/upload/v1445016435/FasturLogoWhite_xed16t.png',
     locale: 'auto',
     token: function(token) {
       // Use the token to create the charge with a server-side script.
@@ -318,10 +318,10 @@ var prevChildKey = (prevChildKey);
   $('#creditCard').on('click', function(e) {
     // Open Checkout with further options
     handler.open({
-      name: 'We Take Care',
-      description: '2 widgets',
+      name: 'Fastur',
+      description: 'Starter Plan',
       currency: "cad",
-      amount: 2000
+      amount: 60000
     });
     e.preventDefault();
   });
