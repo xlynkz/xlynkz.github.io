@@ -196,9 +196,11 @@ Prior data analysis experience. </p>
 							</ul>
 							<ul id="paperfooter" class="copyright" style="display: none;">
 								<li id="logintosave"><a class="button small btn-login type="submit">save</a></li>
-								<li><a id="save" style="display: none;"class="button small type="submit">save</a></li>
+								<li><a id="save" style="display: none;" class="button small type="submit">save</a></li>
 								<li><a id="settingsicon" style="display: none;" class="fa fa-cogs"></a></li>
-
+							</ul>
+								<ul id="history" style="display: none;" class="copyright">
+								<li>&copy; 2015 <a href="#">History</a> Descending</li>
 							</ul>
 							
 							
@@ -258,6 +260,7 @@ $('.btn-login').click(function(e) {
       // Success callback
 $("#logintosave").css("display", "none");
 $("#save").css("display", "block");
+$("#history").css("display", "block");
 $("#settingsicon").css("display", "block");
 
       // Save the JWT token.
