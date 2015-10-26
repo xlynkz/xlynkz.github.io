@@ -1,11 +1,7 @@
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
 
-/*
-	Solid State by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+/*	Solid State | @n33co	*/
 
 /* Reset */
 
@@ -1623,7 +1619,7 @@
 	}
 
 	body {
-		background-color: #2e3141;
+		background-color: #fff;
 		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("https://res.cloudinary.com/lln42o2ke/image/upload/v1445022989/bg_ukubdv.jpg");
 		background-size: auto, cover;
 		background-attachment: fixed, fixed;
