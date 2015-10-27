@@ -1,5 +1,8 @@
 ###Determining the worker, getting workers email, email request to worker to add value. 
+-odesk: pay $20/day to source and assign: 
+on VCT attach ownership to functions and in settings assign worker.
 ###Maintaining user identity through registration use history and settings, payment, email.
+- https://auth0.com/docs/user-profile/normalized
 ###Patent Development: Platform, Narrative & Models
 
 
