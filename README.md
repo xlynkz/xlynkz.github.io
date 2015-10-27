@@ -1,3 +1,10 @@
+###Determining the worker, getting workers email, email request to worker to add value. 
+###Maintaining user identity through registration use history and settings, payment, email.
+###Patent Development: Platform, Narrative & Models
+
+
+
+
 #####Fastur lets clients build, host and manage startups. 
 
 We want to reduce the time, cost and complexity associated with startup development by attracting, developing and exciting talented people. 
