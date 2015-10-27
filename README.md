@@ -1,3 +1,11 @@
+jim ron my wants
+voicecontrol about page would be a community listing of all members as determined by github profile phots. 
+$600 web dev package. 
+karl $800 ; pretend im broke.
+in 15 min, place all school stiff o hub for later management via paper. 
+create github organizational account under fastur, and assign worker access to account with instructions on how to add value: which are instructions to follow the intention behind the project.
+
+Make highlevel work, hire dev to build api level organization, begin else: models, platform etc. 
 ###Determining the worker, getting workers email, email request to worker to add value. 
 -odesk: pay $20/day to source and assign: 
 on VCT attach ownership to functions and in settings assign worker.
