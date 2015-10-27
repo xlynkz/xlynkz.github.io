@@ -380,7 +380,7 @@ annyang.start();
 var ref = new Firebase("https://vct.firebaseio.com/");
 ref.on("child_added", function(snapshot, prevChildKey) {
   var newPost = snapshot.val();
- var words = (newPost.papervct);
+ var words = (newPost.titlevct);
 var prevChildKey = (prevChildKey);
 document.getElementById("history").innerText = words;
 });
