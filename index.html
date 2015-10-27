@@ -200,7 +200,7 @@ Prior data analysis experience. </p>
 								<li><a id="settingsicon" style="display: none;" class="fa fa-cogs"></a></li>
 							</ul>
 								<ul id="history" style="display: none;" class="copyright">
-								<a href="#">History</a> Descending
+							History descending
 							</ul>
 							
 							
@@ -361,6 +361,18 @@ $("#paperfooter").css("display", "block");
 $("#paperwrapper").css("display", "block");
 annyang.start();
    
-  });</script>
+  });
+  </script>
+  
+  <script>
+//listing
+var ref = new Firebase("https://vct.firebaseio.com/");
+ref.on("child_added", function(snapshot, prevChildKey) {
+  var newPost = snapshot.val();
+ var words = (newPost.papervct);
+var prevChildKey = (prevChildKey);
+document.getElementById("history").innerText = words;
+});
+</script>
   </body>
 </html>
