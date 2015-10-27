@@ -275,6 +275,15 @@ $("#settingsicon").css("display", "block");
 <script>
   $("#save").click( function()
            { 
+           	
+           	var first_line = $("#paper")
+                .contents()
+                 .filter(function() { 
+                     return !!$.trim(this.innerHTML||this.data);
+                 })
+                  .first();
+
+alert(first_line.text());
            	var papervct = document.getElementById("paper").innerText; 
                 var titlevct = document.getElementById("title").innerText; 
            	var url = "https://vct.firebaseio.com/"; 
@@ -387,5 +396,6 @@ var prevChildKey = (prevChildKey);
 document.getElementById("history").innerText = words;
 });
 </script>
+
   </body>
 </html>
