@@ -213,7 +213,6 @@ Prior data analysis experience. </p>
 toolbar: false 
 });	</script>
 
-
 <script>
   if (annyang) {
   	           	uid = localStorage.getItem("uid");
@@ -262,7 +261,6 @@ $("#save").css("display", "block");
 $("#history").css("display", "block");
 $("#settingsicon").css("display", "block");
 
-
       // Save the JWT token.
       localStorage.setItem('userToken', token);
 
@@ -273,7 +271,7 @@ $("#settingsicon").css("display", "block");
 
       //store users paper
       	var papervct = document.getElementById("paper").innerText; 
-           	var url = "https://vct.firebaseio.com/" + uid; 
+        var url = "https://vct.firebaseio.com/" + uid; 
 var firebaseRef = new Firebase(url); 
 var postRef = firebaseRef.push(); 
 firebaseRef.set({papervct: papervct}); 
@@ -281,10 +279,9 @@ firebaseRef.set({papervct: papervct});
   });
 });
 </script>
+
 <script>
-  $("#save").click( function()
-           { 
-           	
+  $("#save").click( function()           {
            	uid = localStorage.getItem("uid");
            	var first_line = $("#paper")
                 .contents()
@@ -300,20 +297,8 @@ var postRef = firebaseRef.push();
 firebaseRef.set({papervct: papervct, titlevct: titlevct}); 
 });
 </script>
- <script>
- //sending
-        $("#logintosave").click( function()
-           { 
-           	var papervct = document.getElementById("paper").innerText; 
-           	var url = "https://vct.firebaseio.com/"; 
-var firebaseRef = new Firebase(url); 
-var postRef = firebaseRef.push(); 
-firebaseRef.set({papervct: papervct}); 
-} 
-        );
-    </script>
+
      <script>
- //sending
         $("#settingsicon").click( function()
            { 
 $("#paperfooter").css("display", "none");
@@ -323,15 +308,7 @@ $("#settings").css("display", "block");
 } 
         );
     </script>
-    <script>
-//executing
-var ref = new Firebase("https://vct.firebaseio.com/");
-ref.on("child_added", function(snapshot, prevChildKey) {
-  var newPost = snapshot.val();
- var words = (newPost.papervct);
-var prevChildKey = (prevChildKey);
-});
-</script>
+    
 <script>
   var handler = StripeCheckout.configure({
     key: 'pk_live_mdufsEUxVMK742qsZEJz4keg',
@@ -394,19 +371,13 @@ annyang.start();
   </script>
   
   <script>
-var ref = new Firebase("https://vct.firebaseio.com/" + uid);
-ref.on("value", function(snapshot) {
-	  var allPost = snapshot.val();
-document.getElementById("history").innerText = allPost.titlevct;
-});
-
-//listing
+//listing history
 var ref = new Firebase("https://vct.firebaseio.com/" + uid);
 ref.on("child_added", function(snapshot, prevChildKey) {
-  var newPost = snapshot.val();
- var words = (newPost.titlevct);
+var allPost = snapshot.val();
+//var words = (allPost.titlevct);
 var prevChildKey = (prevChildKey);
-document.getElementById("history").innerText = words + prevChildKey;
+document.getElementById("history").innerText = allPost.titlevct;
 });
 </script>
 
