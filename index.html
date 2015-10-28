@@ -272,7 +272,7 @@ $("#settingsicon").css("display", "block");
 
       //store users paper
       	var papervct = document.getElementById("paper").innerText; 
-           	var url = "https://vct.firebaseio.com/ + email; 
+           	var url = "https://vct.firebaseio.com/" + email; 
 var firebaseRef = new Firebase(url); 
 var postRef = firebaseRef.push(); 
 postRef.set({papervct: papervct}); 
@@ -293,7 +293,7 @@ postRef.set({papervct: papervct});
                   .first();
            	var papervct = document.getElementById("paper").innerText; 
                 var titlevct = first_line.text(); 
-           	var url = "https://vct.firebaseio.com/ + email; 
+           	var url = "https://vct.firebaseio.com/" + email; 
 var firebaseRef = new Firebase(url); 
 var postRef = firebaseRef.push(); 
 postRef.set({papervct: papervct, titlevct: titlevct}); 
