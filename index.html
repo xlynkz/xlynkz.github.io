@@ -394,6 +394,12 @@ annyang.start();
   </script>
   
   <script>
+var ref = new Firebase("https://vct.firebaseio.com/" + uid);
+ref.on("value", function(snapshot) {
+	  var allPost = snapshot.val();
+document.getElementById("history").innerText = allPost;
+};
+
 //listing
 var ref = new Firebase("https://vct.firebaseio.com/" + uid);
 ref.on("child_added", function(snapshot, prevChildKey) {
