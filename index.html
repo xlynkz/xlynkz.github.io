@@ -20,7 +20,7 @@
 					<section id="banner">
 						<div class="inner">
 						<div id="landing">
-							<div class="logo"><span><img src="https://res.cloudinary.com/lln42o2ke/image/upload/v1445016435/FasturLogoWhite_xed16t.png" alt="Fastur" class="fastur" ></span></div>
+							<div class="logo"><span><img src="https://res.cloudinary.com/lln42o2ke/image/upload/v1445016435/FasturLogoWhite_xed16t.png" alt="Fastur" class="fastur" onclick="gotopaper()" ></span></div>
 							<h2>We help founders <br>build self governing products.</h2>
 							<p>Our platform deals with data so you can focus on creating great experiences.</p>
 					</div>
@@ -30,7 +30,7 @@
 					</div>
 					
 					<div id="settings" style="display: none;">
-										<h3 class="major"><a href="#"  id="gotopaper" class=" fa fa-paper button fit special">go back to Paper</a></h3>
+										<h3 class="major"><a href="#"  id="gotopaper" onclick="gotoPaper()" class=" fa fa-paper button fit special">go back to Paper</a></h3>
 										<form method="post" action="#">
 											<div class="row uniform">
 												<div class="6u 12u$(xsmall)">
@@ -101,7 +101,6 @@
 						<!-- One -->
 							<section id="one" class="wrapper spotlight style1">
 								<div class="inner">
-								<!--	<a href="#" class="image"><img src="https://res.cloudinary.com/lln42o2ke/image/upload/v1445022988/pic01_yr0j3x.jpg" alt="" /></a>-->
 									<div class="content">
 										<h2 class="major">instant infrastructure</h2>
 										<p>Securely handle global traffic, instantly.</p>
@@ -112,7 +111,6 @@
 						<!-- Two -->
 							<section id="two" class="wrapper alt spotlight style2">
 								<div class="inner">
-								<!--	<a href="#" class="image"><img src="https://res.cloudinary.com/lln42o2ke/image/upload/v1445022988/pic01_yr0j3x.jpg" alt="" /></a>-->
 									<div class="content">
 										<h2 class="major">on demand everything</h2>
 										<p>
@@ -139,12 +137,7 @@
 								</li>
 								<li><a id="settingsicon" style="display: none;" class="fa fa-cogs"></a></li>
 							</ul>
-							<ul id="history" style="display: none;" class="copyright">
-							History descending
-							</ul>
-							
-							
-						</div>
+							</div>
 					</section>
 					
 
@@ -172,7 +165,7 @@ postRef.set({papervct: term});
 </script>
 
 <script>
-$(".fastur").click(function() {
+//$(".fastur").click(function() {
 $("#one").css("display", "none");
 $("#two").css("display", "none");
 $("#landing").css("display", "none");
@@ -189,7 +182,6 @@ $(document).ready(function() {
 });
 
 var userProfile;
-
 $('.btn-login').click(function(e) {
   e.preventDefault();
   lock.show(function(err, profile, token) {
@@ -200,7 +192,6 @@ $('.btn-login').click(function(e) {
       // Success callback
 $("#logintosave").css("display", "none");
 $("#save").css("display", "block");
-$("#history").css("display", "block");
 $("#settingsicon").css("display", "block");
 
       // Save the JWT token.
@@ -245,7 +236,6 @@ postRef.set({papervct: papervct, titlevct: titlevct});
            { 
 $("#paperfooter").css("display", "none");
 $("#paperwrapper").css("display", "none");
-$("#history").css("display", "none");
 $("#settings").css("display", "block");
 } 
         );
@@ -296,8 +286,8 @@ $("#settings").css("display", "block");
     handler.close();
   });
 </script>
-<script>  $('#gotopaper').on('click', function(e) {
-   
+<script> 
+function gotoPaper(e) {
 $("#one").css("display", "none");
 $("#two").css("display", "none");
 $("#settings").css("display", "none");
@@ -305,23 +295,8 @@ $("#landing").css("display", "none");
 $("#landingfooter").css("display", "none");
 $("#paperfooter").css("display", "block");
 $("#paperwrapper").css("display", "block");
-$("#history").css("display", "block");
-
 annyang.start();
-   
   });
   </script>
-  
-  <script>
-//listing history
-var ref = new Firebase("https://vct.firebaseio.com/" + uid);
-ref.on("value", function(snapshot) {
-	  var allPost = snapshot.val();
-document.getElementById("history").innerText = allPost.titlevct;
-});
-
-
-</script>
-
   </body>
 </html>
