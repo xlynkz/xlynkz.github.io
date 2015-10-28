@@ -14,29 +14,8 @@
 		<script src="https://checkout.stripe.com/checkout.js"></script>
 	</head>
 	<body>
-
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
-
-				<!-- Header -->
-				<!--	<header id="header" class="alt">
-						<h1><a href="index.html">Fastur</a></h1>
-						<nav>
-						<a href="#menu">Sign in</a>
-						</nav>
-					</header>-->
-
-				<!-- Menu -->
-					<nav id="menu">
-						<div class="inner">
-							<h2>Menu</h2>
-							<ul class="links">
-								<li><a href="#paper">Paper</a></li>
-							</ul>
-							<a href="#" class="close">Close</a>
-						</div>
-					</nav>
-
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
@@ -45,6 +24,7 @@
 							<h2>We help founders <br>build self governing products.</h2>
 							<p>Our platform deals with data so you can focus on creating great experiences.</p>
 					</div>
+					
 					<div id="paperwrapper" style="display: none;">
 					<p id="paper" class="editable">This is Paper, Edit this Text</p>
 					</div>
@@ -66,10 +46,9 @@
 													<input type="email" name="demo-email" id="demo-address" value="" />
 												</div>
 												</div>
-												<section class="wrapper">
+					<section class="wrapper">
 						<div class="inner">
-							<header>
-						        	<header>
+				        	<header>
                                                          <h3>Price<br><h4>billed annually</h4></h3>
                                                          
 							</header>
@@ -335,9 +314,9 @@ annyang.start();
 var ref = new Firebase("https://vct.firebaseio.com/" + uid);
 ref.on("child_added", function(snapshot, prevChildKey) {
 var allPost = snapshot.val();
-//var words = (allPost.titlevct);
+var words = (allPost.titlevct);
 var prevChildKey = (prevChildKey);
-document.getElementById("history").innerText = allPost.titlevct;
+document.getElementById("history").innerText = words;
 });
 </script>
 
