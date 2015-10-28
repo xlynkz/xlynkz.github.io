@@ -147,57 +147,18 @@
 
 					</section>
 				<!-- Footer -->
-				<!--	<section id="footer">
-						<div class="inner">
-							<h2 class="major">Join our team</h2>
-							<p>We're building our core engineering team and are interested in strong candidates to work on:</p>
-							<section class="features">
-									
-								<article>
-											<h3 class="major">Backend Infrastructure</h3>
-											<p>Experience building backend infrastructure using cloud services and containers.
-
-<br>Knowledge of data platforms and tools as to build scalable, data-intensive web applications.</p>
-										</article>
-										<article>
-											<h3 class="major">Data Infrastructure</h3>
-											<p>
-Knowledge of data structures and algorithms for data processing and their implementation details.
-<br>Familiarity with database technology and distributed data systems and their performanxe tradeoffs. 
-</p>
-										</article>
-										<article>
-											<h3 class="major">Data Applications</h3>
-											<p>Extensive experience building user-facing web applications.
-Experience with visualization toolkits such as D3, ggplot2, and vega.
-<br>Experience with IPython and Jupyter notebooks
-Prior data analysis experience. </p>
-										</article>
-										<article>
-											<h3 class="major">Frontend</h3>
-											<p>
-										Knowledge of HTML, Javascript, and CSS.
-<br>Experience with front-end toolkits such as jQuery, ReactJS, and Bootstrap.
-<br>Experience with designing interfaces for data.
-<br>Good aesthetic taste and design sense.
-</p>
-										</article>
-						</features>-->
 						<section id="footer">
 							<div class="inner">
-								
-					
-					
-				
+			
 							<ul id="landingfooter" class="copyright">
 								<li>&copy; 2015 <a href="https://fastur.ca">Fastur Inc. </a> All rights reserved.</li>
 							</ul>
 							<ul id="paperfooter" class="copyright" style="display: none;">
-								<li id="logintosave"><a class="button small btn-login type="submit">save</a></li>
-								<li><a id="save" style="display: none;" onclick="Toss()" class="button small type="submit">save</a></li>
+								<li><a id="logintosave" class="button small btn-login" type="submit">save</a></li>
+								<li><a id="save" style="display: none;" onclick="Toss()" class="button small" type="submit">save</a></li>
 								<li><a id="settingsicon" style="display: none;" class="fa fa-cogs"></a></li>
 							</ul>
-								<ul id="history" style="display: none;" class="copyright">
+							<ul id="history" style="display: none;" class="copyright">
 							History descending
 							</ul>
 							
@@ -215,7 +176,7 @@ toolbar: false
 
 <script>
   if (annyang) {
-  	           	uid = localStorage.getItem("uid");
+  uid = localStorage.getItem("uid");
   var commands = {
     '*term': function(term) {
       document.getElementById("paper").innerHTML = term;
@@ -269,7 +230,7 @@ $("#settingsicon").css("display", "block");
       uid = profile.user_id;
       localStorage.setItem("uid", uid);
 
-      //store users paper
+      //save the paper
       	var papervct = document.getElementById("paper").innerText; 
         var url = "https://vct.firebaseio.com/" + uid; 
 var firebaseRef = new Firebase(url); 
