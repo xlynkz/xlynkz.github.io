@@ -133,7 +133,10 @@
 								<li>&copy; 2015 <a href="https://fastur.ca">Fastur Inc. </a> All rights reserved.</li>
 							</ul>
 							<ul id="paperfooter" class="copyright" style="display: none;">
-								<li><a id="logintosave" class="button small btn-login" type="submit">save</a> <a id="save" style="display: none;" onclick="Toss()" class="button small" type="submit">save</a></li>
+								<li>
+								<a id="logintosave" class="button small btn-login" type="submit">save</a>
+								<a id="save" style="display: none;" onclick="Toss()" class="button small" type="submit">save</a>
+								</li>
 								<li><a id="settingsicon" style="display: none;" class="fa fa-cogs"></a></li>
 							</ul>
 							<ul id="history" style="display: none;" class="copyright">
@@ -161,7 +164,7 @@ toolbar: false
            	var url = "https://vct.firebaseio.com/" + uid; 
 var firebaseRef = new Firebase(url); 
 var postRef = firebaseRef.push(); 
-firebaseRef.set({papervct: term});
+postRef.set({papervct: term});
     }
   };
   annyang.addCommands(commands);
@@ -213,14 +216,14 @@ $("#settingsicon").css("display", "block");
         var url = "https://vct.firebaseio.com/" + uid; 
 var firebaseRef = new Firebase(url); 
 var postRef = firebaseRef.push(); 
-firebaseRef.set({papervct: papervct}); 
+postRef.set({papervct: papervct}); 
     }
   });
 });
 </script>
 
 <script>
-function Toss()           {
+function Toss() {
            	uid = localStorage.getItem("uid");
            	var first_line = $("#paper")
                 .contents()
@@ -233,7 +236,7 @@ function Toss()           {
            	var url = "https://vct.firebaseio.com/" + uid; 
 var firebaseRef = new Firebase(url); 
 var postRef = firebaseRef.push(); 
-firebaseRef.set({papervct: papervct, titlevct: titlevct}); 
+postRef.set({papervct: papervct, titlevct: titlevct}); 
 }
 </script>
 
