@@ -312,12 +312,12 @@ annyang.start();
   <script>
 //listing history
 var ref = new Firebase("https://vct.firebaseio.com/" + uid);
-ref.on("child_added", function(snapshot, prevChildKey) {
-var allPost = snapshot.val();
-var words = (allPost.titlevct);
-var prevChildKey = (prevChildKey);
-document.getElementById("history").innerText = words;
+ref.on("value", function(snapshot) {
+	  var allPost = snapshot.val();
+document.getElementById("history").innerText = allPost.titlevct;
 });
+
+
 </script>
 
   </body>
