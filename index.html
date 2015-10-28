@@ -218,13 +218,6 @@ annyang.start();
       userProfile = profile;
       uid = profile.user_id;
       localStorage.setItem("uid", uid);
-
-       //get their paper
-       var ref = new Firebase("https://vct.firebaseio.com/" + uid);
-       ref.on("value", function(snapshot) {
-       	  var allPost = snapshot.val();
-       document.getElementById("paper").innerText = allPost.papervct;
-       });
       }
   });
 });
