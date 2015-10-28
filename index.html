@@ -261,13 +261,15 @@ $("#save").css("display", "block");
 $("#history").css("display", "block");
 $("#settingsicon").css("display", "block");
 
+
       // Save the JWT token.
       localStorage.setItem('userToken', token);
 
       // Save the profile
       userProfile = profile;
       email = profile.email;
-      
+      localStorage.setItem("email", email);
+
       //store users paper
       	var papervct = document.getElementById("paper").innerText; 
            	var url = "https://vct.firebaseio.com/ + "email"; 
@@ -282,16 +284,16 @@ postRef.set({papervct: papervct});
   $("#save").click( function()
            { 
            	
+           	email = localStorage.getItem("email");
            	var first_line = $("#paper")
                 .contents()
                  .filter(function() { 
                      return !!$.trim(this.innerHTML||this.data);
                  })
                   .first();
-
            	var papervct = document.getElementById("paper").innerText; 
                 var titlevct = first_line.text(); 
-           	var url = "https://vct.firebaseio.com/"; 
+           	var url = "https://vct.firebaseio.com/ + "email"; 
 var firebaseRef = new Firebase(url); 
 var postRef = firebaseRef.push(); 
 postRef.set({papervct: papervct, titlevct: titlevct}); 
