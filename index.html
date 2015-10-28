@@ -199,9 +199,17 @@ $('.btn-login').click(function(e) {
     } else {
       // Success callback
 $("#logintosave").css("display", "none");
-$("#header").css("display", "none");
 $("#save").css("display", "block");
 $("#settingsicon").css("display", "block");
+
+$("#header").css("display", "none");
+$("#one").css("display", "none");
+$("#two").css("display", "none");
+$("#landing").css("display", "none");
+$("#landingfooter").css("display", "none");
+$("#paperfooter").css("display", "block");
+$("#paperwrapper").css("display", "block");
+annyang.start();
 
       // Save the JWT token.
       localStorage.setItem('userToken', token);
