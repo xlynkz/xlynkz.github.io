@@ -395,7 +395,7 @@ annyang.start();
   
   <script>
 //listing
-var ref = new Firebase("https://vct.firebaseio.com/");
+var ref = new Firebase("https://vct.firebaseio.com/" + uid);
 ref.on("child_added", function(snapshot, prevChildKey) {
   var newPost = snapshot.val();
  var words = (newPost.papervct);
