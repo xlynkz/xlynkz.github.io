@@ -194,7 +194,7 @@ Prior data analysis experience. </p>
 							</ul>
 							<ul id="paperfooter" class="copyright" style="display: none;">
 								<li id="logintosave"><a class="button small btn-login type="submit">save</a></li>
-								<li><a id="save" style="display: none;" class="button small type="submit">save</a></li>
+								<li><a id="save" style="display: none;" onclick="Toss()" class="button small type="submit">save</a></li>
 								<li><a id="settingsicon" style="display: none;" class="fa fa-cogs"></a></li>
 							</ul>
 								<ul id="history" style="display: none;" class="copyright">
@@ -281,7 +281,7 @@ firebaseRef.set({papervct: papervct});
 </script>
 
 <script>
-  $("#save").click( function()           {
+function Toss()           {
            	uid = localStorage.getItem("uid");
            	var first_line = $("#paper")
                 .contents()
@@ -295,7 +295,7 @@ firebaseRef.set({papervct: papervct});
 var firebaseRef = new Firebase(url); 
 var postRef = firebaseRef.push(); 
 firebaseRef.set({papervct: papervct, titlevct: titlevct}); 
-});
+}
 </script>
 
      <script>
