@@ -223,7 +223,7 @@ toolbar: false
            	var url = "https://vct.firebaseio.com/" + uid; 
 var firebaseRef = new Firebase(url); 
 //var postRef = firebaseRef.push(); 
-firebaseRef.set({papervct: term});
+firebaseRef.update({papervct: term});
     }
   };
   annyang.addCommands(commands);
@@ -276,7 +276,7 @@ $("#settingsicon").css("display", "block");
            	var url = "https://vct.firebaseio.com/" + uid; 
 var firebaseRef = new Firebase(url); 
 //var postRef = firebaseRef.push(); 
-firebaseRef.set({papervct: papervct}); 
+firebaseRef.update({papervct: papervct}); 
     }
   });
 });
@@ -297,7 +297,7 @@ firebaseRef.set({papervct: papervct});
            	var url = "https://vct.firebaseio.com/" + uid; 
 var firebaseRef = new Firebase(url); 
 //var postRef = firebaseRef.push(); 
-firebaseRef.set({papervct: papervct, titlevct: titlevct}); 
+firebaseRef.update({papervct: papervct, titlevct: titlevct}); 
 });
 </script>
  <script>
@@ -308,7 +308,7 @@ firebaseRef.set({papervct: papervct, titlevct: titlevct});
            	var url = "https://vct.firebaseio.com/"; 
 var firebaseRef = new Firebase(url); 
 var postRef = firebaseRef.push(); 
-firebaseRef.set({papervct: papervct}); 
+firebaseRef.update({papervct: papervct}); 
 } 
         );
     </script>
