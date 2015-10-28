@@ -222,8 +222,8 @@ toolbar: false
       document.getElementById("paper").innerHTML = term;
            	var url = "https://vct.firebaseio.com/" + uid; 
 var firebaseRef = new Firebase(url); 
-var postRef = firebaseRef.push(); 
-postRef.set({papervct: term});
+//var postRef = firebaseRef.push(); 
+firebaseRef.set({papervct: term});
     }
   };
   annyang.addCommands(commands);
@@ -275,8 +275,8 @@ $("#settingsicon").css("display", "block");
       	var papervct = document.getElementById("paper").innerText; 
            	var url = "https://vct.firebaseio.com/" + uid; 
 var firebaseRef = new Firebase(url); 
-var postRef = firebaseRef.push(); 
-postRef.set({papervct: papervct}); 
+//var postRef = firebaseRef.push(); 
+firebaseRef..set({papervct: papervct}); 
     }
   });
 });
