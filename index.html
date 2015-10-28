@@ -132,7 +132,7 @@
 							</ul>
 							<ul id="paperfooter" class="copyright" style="display: none;">
 								<li>
-								<a id="logintosave" class="button small btn-login" type="submit">login to save</a>
+								<a id="logintosave" class="button small btn-login" type="submit">sign in</a>
 								<a id="save" style="display: none;" onclick="Toss()" class="button small" type="submit">save</a>
 								</li>
 								<li><a id="settingsicon" style="display: none;" class="fa fa-cogs"></a></li>
@@ -201,6 +201,13 @@ $("#settingsicon").css("display", "block");
       userProfile = profile;
       uid = profile.user_id;
       localStorage.setItem("uid", uid);
+
+       //get their paper
+       var ref = new Firebase("https://vct.firebaseio.com/" + uid);
+       ref.on("value", function(snapshot) {
+       	  var allPost = snapshot.val();
+       document.getElementById("paper").innerText = allPost.papervct;
+       });
 
       //save the paper
       	var papervct = document.getElementById("paper").innerText; 
