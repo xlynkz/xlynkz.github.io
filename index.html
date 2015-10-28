@@ -397,7 +397,7 @@ annyang.start();
 var ref = new Firebase("https://vct.firebaseio.com/" + uid);
 ref.on("value", function(snapshot) {
 	  var allPost = snapshot.val();
-document.getElementById("history").innerText = allPost;
+document.getElementById("history").innerText = allPost.titlevct;
 });
 
 //listing
