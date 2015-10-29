@@ -153,7 +153,8 @@
 	<!-- Scripts -->
 <script>var editor = new MediumEditor('.editable', { 
 toolbar: false 
-});	</script>
+});	
+</script>
 
 <script>
   if (annyang) {
@@ -183,6 +184,7 @@ $("#paperwrapper").css("display", "block");
 annyang.start();
 });
 </script>
+
 <script>
 var lock = null;
 $(document).ready(function() {
@@ -201,15 +203,13 @@ $('.btn-login').click(function(e) {
 $("#logintosave").css("display", "none");
 $("#save").css("display", "block");
 $("#settingsicon").css("display", "block");
-
 $("#header").css("display", "none");
 $("#one").css("display", "none");
 $("#two").css("display", "none");
 $("#landing").css("display", "none");
 $("#landingfooter").css("display", "none");
-$("#paperfooter").css("display", "block");
 $("#paperwrapper").css("display", "block");
-annyang.start();
+$("#paperfooter").css("display", "block");
 
       // Save the JWT token.
       localStorage.setItem('userToken', token);
@@ -225,6 +225,8 @@ annyang.start();
        	  var allPost = snapshot.val();
        document.getElementById("paper").innerText = allPost.papervct;
        });
+       annyang.start();
+
     	
     }
   });
