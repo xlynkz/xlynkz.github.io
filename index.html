@@ -245,11 +245,11 @@ function Toss() {
            	var papervct = document.getElementById("paper").innerText; 
                 var titlevct = first_line.text(); 
            	var paperurl = "https://vct.firebaseio.com/" + uid; 
-var firebaseRef = new Firebase(url); 
+var firebaseRef = new Firebase(paperurl); 
 var postRef = firebaseRef.push(); 
 firebaseRef.set({papervct: papervct, titlevct: titlevct}); 
 var vcturl = "https://vct.firebaseio.com/"; 
-var firebaseRef = new Firebase(url); 
+var firebaseRef = new Firebase(vcturl); 
 var postRef = firebaseRef.push(); 
 postRef.set({papervct: papervct, titlevct: titlevct}); 
 }
