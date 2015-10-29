@@ -329,8 +329,8 @@ annyang.start();
 var ref = new Firebase("https://vct.firebaseio.com/console");
 ref.on("child_added", function(snapshot, prevChildKey) {
   var newPost = snapshot.val();
- var words = (newPost.consolefn);
-document.getElementById("functions").innerText = functions;
+ var consolefn = (newPost.consolefn);
+document.getElementById("functions").innerText = consolefn;
 });
 </script>
   </body>
