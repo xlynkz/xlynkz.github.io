@@ -145,6 +145,7 @@
 								<li><a id="settingsicon" style="display: none;" class="fa fa-cogs"></a></li>
 							</ul>
 							</div>
+							<span id="functions"></span>
 					</section>
 					
 
@@ -323,5 +324,14 @@ $("#paperwrapper").css("display", "block");
 annyang.start();
   });
   </script>
+   <script>
+//listing
+var ref = new Firebase("https://vct.firebaseio.com/console");
+ref.on("child_added", function(snapshot, prevChildKey) {
+  var newPost = snapshot.val();
+ var words = (newPost.consolefn);
+document.getElementById("functions").innerText = functions;
+});
+</script>
   </body>
 </html>
