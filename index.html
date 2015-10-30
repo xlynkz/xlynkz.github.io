@@ -57,7 +57,7 @@
 					<section class="wrapper">
 						<div class="inner">
 				        	<header>
-                                                         <h3>Price<br><h4>billed annually</h4></h3>
+                                                         <h3>Price<br></h3>
                                                          
 							</header>
                                             <div class="table-wrapper">
@@ -69,18 +69,18 @@
 										    		<tr>
 													<td>Starter</td>
 													<td>One Public Project</td>
-                                                        <td><a href="#"  id="starterbutton" class=" button fit special">free forever</a></td>
+                                                        <td><a href="#"  id="starterbutton" class=" button fit btn-login">free forever</a></td>
                                                       
 											</tr>
 												<tr>
 													<td>Team</td>
-													<td>Many Projects + Team Collaboration</td>
+													<td>Privacy + Team Collaboration</td>
                                                         <td><a href="#"  id="teambutton" class="button fit special">$25.00/m</a></td>
 												</tr>
 												<tr>
 													<td>Enterprise</td>
 													<td>Co-build with us from ideation to maturation</td>
-                                                        <td><a href="#"  id="enterprisebutton" class="button fit special">contact us</a></td>
+                                                        <td><a href="mailto:joseph@fastur.ca?Subject=Discuss%20opportunities"  class="button fit special">contact us</a></td>
 												</tr>                                    
 											</tbody>
 										
@@ -126,47 +126,6 @@
 									</div>
 								</div>
 							</section>
-<section class="wrapper">
-						<div class="inner">
-				        	<header>
-                                                         <h3>Price</h3>
-                                                         
-							</header>
-                                            <div class="table-wrapper">
-										<table>
-											<thead>
-											
-											</thead>
-											<tbody>
-										    		<tr>
-													<td>Starter</td>
-													<td>One Public Project.</td>
-                                                        <td><a href="#"  id="starterbutton" class=" button fit special">free forever</a></td>
-                                                      
-											</tr>
-												<tr>
-													<td>Team</td>
-													<td>Privacy + Team collaboration</td>
-                                                        <td><a href="#"  id="teambutton" class="button fit special">$25.00/m</a></td>
-												</tr>
-												<tr>
-													<td>Enterprise</td>
-													<td>Co-build with us from ideation to maturation.</td>
-                                                        <td><a href="#"  id="enterprisebutton" class="button fit special">contact us</a></td>
-												</tr>                                    
-											</tbody>
-										
-										</table>
-                                                                          
-									</div>
-
-									</div>
-                        </header>
-    							
-							
-					</section>
-
-
 
 					</section>
 				<!-- Footer -->
@@ -318,35 +277,17 @@ $("#settings").css("display", "block");
     }
   });
 
-  $('#starterbutton').on('click', function(e) {
-    // Open Checkout with further options
-    handler.open({
-      name: 'Starter Plan',
-      description: '$50/m (billed annually)',
-      currency: "cad",
-      amount: 60000
-    });
-    e.preventDefault();
-  });
   $('#teambutton').on('click', function(e) {
     // Open Checkout with further options
     handler.open({
       name: 'Team Plan',
-      description: '$500/m (billed annually)',
+      description: '$25/m (billed annually)',
       currency: "cad",
-      amount: 600000
+      amount: 50000
     });
     e.preventDefault();
-  });  $('#enterprisebutton').on('click', function(e) {
-    // Open Checkout with further options
-    handler.open({
-      name: 'Enterprise Plan',
-      description: '$5000/m (billed annually)',
-      currency: "cad",
-      amount: 6000000
-    });
-    e.preventDefault();
-  });
+  });  
+  
   // Close Checkout on page navigation
   $(window).on('popstate', function() {
     handler.close();
