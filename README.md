@@ -1,23 +1,18 @@
-jim ron my wants
-voicecontrol about page would be a community listing of all members as determined by github profile phots. 
-$600 web dev package. 
-karl $800 ; pretend im broke.
-in 15 min, place all school stiff o hub for later management via paper. 
-create github organizational account under fastur, and assign worker access to account with instructions on how to add value: which are instructions to follow the intention behind the project.
-
-Make highlevel work, hire dev to build api level organization, begin else: models, platform etc. 
-###Determining the worker, getting workers email, email request to worker to add value. 
--odesk: pay $20/day to source and assign: 
-on VCT attach ownership to functions and in settings assign worker.
-###Maintaining user identity through registration use history and settings, payment, email.
-- https://auth0.com/docs/user-profile/normalized
+- upwork (voicecontrol as an api driven(on demand) community of developers)
+- outline features per price level
+- demonstrate how to use the site (cname(developer)or learn how to do REStful commands)
+- $500 web dev (team) package. 
+- paper all school assignments 
+- my building fastur as tutorial on creating modern data driven *organizations* 
+- which are instructions to follow the intention behind the project.
+ 
+###Maintaining user identity(structure data under uid across auth0, stripe, algolia, firebase.) 
+###Determining the worker, getting workers email, email request to worker to add value via VCT via Github account. 
+- community driven data decisions
 ###Patent Development: Platform, Narrative & Models
 
 
-
-
 #####Fastur lets clients build, host and manage startups. 
-
 We want to reduce the time, cost and complexity associated with startup development by attracting, developing and exciting talented people. 
 
 Fastur aligns well with the technological climate; People want an easier way to build for the digital economy and they want to build organisations that can communicate data with sensors and machines. Our use of programmatic sales allows us to grow rapidly while providing individual users with complete autonomy from purchasing, managing and extending the product.
