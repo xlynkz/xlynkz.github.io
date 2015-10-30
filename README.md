@@ -8,7 +8,7 @@
  
 ####Maintaining user identity(structure data under uid across auth0, stripe, algolia, firebase.) 
 ####Determining the worker, getting workers email, email request to worker to add value via VCT via Github account. 
-- community driven data decisions
+####community driven data decisions: seeking autonomy
 ####Patent Development: Platform, Narrative & Models
 
 
