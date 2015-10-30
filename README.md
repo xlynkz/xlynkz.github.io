@@ -6,10 +6,10 @@
 - my building fastur as tutorial on creating modern data driven *organizations* 
 - which are instructions to follow the intention behind the project.
  
-###Maintaining user identity(structure data under uid across auth0, stripe, algolia, firebase.) 
-###Determining the worker, getting workers email, email request to worker to add value via VCT via Github account. 
+####Maintaining user identity(structure data under uid across auth0, stripe, algolia, firebase.) 
+####Determining the worker, getting workers email, email request to worker to add value via VCT via Github account. 
 - community driven data decisions
-###Patent Development: Platform, Narrative & Models
+####Patent Development: Platform, Narrative & Models
 
 
 #####Fastur lets clients build, host and manage startups. 
