@@ -1,10 +1,13 @@
+- mashape and import
+- - paper all school assignments 
 - upwork (voicecontrol as an api driven(on demand) community of developers)
 - outline features per price level
 - demonstrate how to use the site (cname(developer)or learn how to do REStful commands)
 - $500 web dev (team) package. 
-- paper all school assignments 
 - my building fastur as tutorial on creating modern data driven *organizations* 
 - which are instructions to follow the intention behind the project.
+
+
  
 ####Maintaining user identity(structure data under uid across auth0, stripe, algolia, firebase.) 
 ####Determining the worker, getting workers email, email request to worker to add value via VCT via Github account. 
