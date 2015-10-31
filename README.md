@@ -1,5 +1,5 @@
 - ditch blaze email
-- annie restaurant work
+- TEXT annie restaurant work
 - send mail to paper then mandrill, 
 - mashape and import
 - upwork (voicecontrol as an api driven(on demand) community of developers)
@@ -12,10 +12,10 @@
 #####Fastur lets clients build, host and manage startups. 
 We reduce the time, cost and complexity associated with startup development by attracting talented people and exciting them around meaningful projects. 
 
-Fastur aligns well with the technological climate; People want an easier way to build for the digital economy and they want to build organisations that can communicate data with sensors and machines. Our use of programmatic sales allows us to grow rapidly while providing individual users with complete autonomy from purchasing, managing and extending the product.
+People want an easier way to build for the digital economy and they want to build organisations that can communicate data with sensors and machines. Our use of programmatic value allows us to grow rapidly while providing individual users with complete autonomy from purchasing, managing and extending the product.
 
 #####Research
-Fastur faces a risk that current leaders will develop products that are similar to its core value proposition.  For example, WordPress has a friend in Simperium. To mitigate this risk, We continously build layers of value which increase our focus on the Founder and the Startup.
+Fastur faces a risk that current leaders will develop products that are similar to its core value proposition. To mitigate this risk, We are building layers of value which increase our focus on the Founder and the Startup.
 
 The markets that startups operate in can vary a lot. That being said, the founders of these organisations share many of the same problems and the internet products that power their businesses require much of the same in functionality and features.
 
