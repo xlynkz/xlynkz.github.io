@@ -90,7 +90,7 @@ USE THIS SPACE TO OUTLINE YOUR PROJECT. <br> WHEN YOU SAVE, A TEAM MEMBER WILL R
 								</div>
 								</section>
 								
-								<section id="four" class="wrapper alt style1">
+								<section id="landingpapers" class="wrapper alt style1">
 								<div class="inner">
 									<h2 class="major">Papers</h2>
 									<section class="features">
@@ -206,6 +206,8 @@ postRef.set({papervct: term});
 <script>
 $(".fastur").click(function() {
 $("#header").css("display", "none");
+$("#landingpapers").css("display", "none");
+$("#price").css("display", "none");
 $("#one").css("display", "none");
 $("#two").css("display", "none");
 $("#landing").css("display", "none");
@@ -232,14 +234,15 @@ $('.btn-login').click(function(e) {
     } else {
       // Success callback
 $("#logintosave").css("display", "none");
-$("#save").css("display", "block");
-$("#settingsicon").css("display", "block");
 $("#header").css("display", "none");
 $("#one").css("display", "none");
 $("#two").css("display", "none");
 $("#price").css("display", "none");
 $("#landing").css("display", "none");
 $("#landingfooter").css("display", "none");
+$("#landingpapers").css("display", "none");
+$("#save").css("display", "block");
+$("#settingsicon").css("display", "block");
 $("#paperwrapper").css("display", "block");
 $("#paperfooter").css("display", "block");
 
