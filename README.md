@@ -1,12 +1,3 @@
-- send mail to paper then mandrill, 
-- mashape and import
-- upwork (voicecontrol as an api driven(on demand) community of developers)
- 
-#####Maintaining user identity(structure data under uid across auth0, stripe, algolia, firebase.) 
-#####Determining the worker, getting workers email, email request to worker to add value via VCT via Github account. 
-#####community driven data decisions: seeking autonomy
-#####Patent Development: Platform, Narrative & Models
-
 #####Fastur lets clients build, host and manage startups. 
 We reduce the time, cost and complexity associated with startup development by attracting talented people and exciting them around meaningful projects. 
 
