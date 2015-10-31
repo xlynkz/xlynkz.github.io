@@ -1,5 +1,3 @@
-- ditch blaze email
-- TEXT annie restaurant work
 - send mail to paper then mandrill, 
 - mashape and import
 - upwork (voicecontrol as an api driven(on demand) community of developers)
