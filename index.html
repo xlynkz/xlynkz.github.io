@@ -311,17 +311,16 @@ var ref = new Firebase("https://vct.firebaseio.com" );
 
 ref.once("value", function(snapshot) {
   // The callback function will get called twice, once for "fred" and once for "barney"
+      document.getElementById("papers").innerText = childData.titlevct;
+         console.log(childData.titlevct);
+   console.log(key);
+   console.log(childData);
+
   snapshot.forEach(function(childSnapshot) {
     // key will be "fred" the first time and "barney" the second time
     var key = childSnapshot.key();
     // childData will be the actual contents of the child
     var childData = childSnapshot.val();
-    document.getElementById("papers").innerText = childData.titlevct;
-
-    
-   console.log(childData.titlevct);
-   console.log(key);
-   console.log(childData);
 
   });
 });
