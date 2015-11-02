@@ -206,6 +206,9 @@ postRef.set({papervct: term});
 
 
 <script>
+    var $input = $('input');
+    var $users = $('#users');
+    
     $(document).ready(function() {
 	var client = algoliasearch("1WFMK06AUA", "274c770af80b09e77f199b6c7d064336");
       var index = client.initIndex('test');
