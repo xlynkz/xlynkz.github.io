@@ -276,7 +276,6 @@ $("#paperfooter").css("display", "block");
        });
        annyang.start();
 
-    	
     }
   });
 });
@@ -304,19 +303,7 @@ var firebaseRef = new Firebase(vcturl);
 var postRef = firebaseRef.push(); 
 postRef.set({papervct: papervct, titlevct: titlevct}); 
 }
-
-
-/** fur sprechen
-var vcturl = "https://vct.firebaseio.com/"; 
-var firebaseRef = new Firebase(vcturl); 
-var postRef = firebaseRef.push(); 
-postRef.set({papervct: papervct, titlevct: titlevct}); **/
 </script>
-
-
-
-
-
 <script>
 /*get public papers*/
 $(document).ready(function(){  
@@ -329,7 +316,9 @@ ref.once("value", function(snapshot) {
     var key = childSnapshot.key();
     // childData will be the actual contents of the child
     var childData = childSnapshot.val();
-           document.getElementById("papers").innerText = childData.titlevct;
+   console.log(childData.titlevct);
+   console.log(key);
+   console.log(childData);
 
   });
 });
