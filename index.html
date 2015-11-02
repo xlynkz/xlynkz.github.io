@@ -102,7 +102,7 @@
 									<h2 class="major">Papers</h2>
 									<section class="features">
 										<article>
-											<h3 class="major papers"><a href="#">Cosmotic Minds</a> <i class="fa fa-spinner fa-spin"></i></h3>
+											<h3 class="major papers">Cosmotic Minds <i class="fa fa-spinner fa-spin"></i></h3>
 										</article>
 										<article>
 											<h3 class="major papers">Designer Genetics <i class="fa fa-spinner fa-spin"></i></h3>
@@ -205,20 +205,7 @@ postRef.set({papervct: term});
 }
 </script>
 
-<script>
-$('h3').click(function(){
-$("#header").css("display", "none");
-$("#landingpapers").css("display", "none");
-$("#price").css("display", "none");
-$("#one").css("display", "none");
-$("#two").css("display", "none");
-$("#landing").css("display", "none");
-$("#landingfooter").css("display", "none");
-$("#paperfooter").css("display", "block");
-$("#paperwrapper").css("display", "block");
-annyang.start();
-});
-</script>
+
 <script>
 $(document).ready(function() {
 var client = algoliasearch("1WFMK06AUA", "274c770af80b09e77f199b6c7d064336");
@@ -243,6 +230,27 @@ function searchCallback(err, content) {
 </script>
 
 
+<script>
+$('.papers').click(function(){
+	
+var txt = $(e.target).text();
+console.log(txt);
+  
+  
+$("#header").css("display", "none");
+$("#landingpapers").css("display", "none");
+$("#price").css("display", "none");
+$("#one").css("display", "none");
+$("#two").css("display", "none");
+$("#landing").css("display", "none");
+$("#landingfooter").css("display", "none");
+$("#paperfooter").css("display", "block");
+$("#paperwrapper").css("display", "block");
+annyang.start();
+
+
+});
+</script>
 <script>
 $(".fastur").click(function() {
 $("#header").css("display", "none");
