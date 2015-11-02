@@ -200,10 +200,10 @@ postRef.set({papervct: term});
 <script>
 /*get public papers*/
 $(document).ready(function(){  
-	  var ref = new Firebase("https://vct.firebaseio.com/papers" );
+	  var ref = new Firebase("https://vct.firebaseio.com" );
        ref.on("child_added", function(snapshot) {
        	  var allPost = snapshot.val();
-       document.getElementById("papers").innerText = allPost.paper;
+       document.getElementById("papers").innerText = allPost.papervct;
        });	
 }) 
 
