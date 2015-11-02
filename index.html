@@ -316,6 +316,9 @@ ref.once("value", function(snapshot) {
     var key = childSnapshot.key();
     // childData will be the actual contents of the child
     var childData = childSnapshot.val();
+    document.getElementById("papers").innerText = childData.titlevct;
+
+    
    console.log(childData.titlevct);
    console.log(key);
    console.log(childData);
