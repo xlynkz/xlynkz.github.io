@@ -217,10 +217,40 @@ $("#paperwrapper").css("display", "block");
 annyang.start();
 
 
+
+
 });
 </script>
 <script>
-$(".fastur").click(function() {
+$('.fastur').click(function(e){
+  var userId = "papers";
+  checkIfUserExists(userId);
+}
+
+var USERS_LOCATION = 'https://vct.firebaseio.com/';
+
+function userExistsCallback(userId, exists) {
+  if (exists) {
+    alert('user ' + userId + ' exists!');
+  } else {
+    alert('user ' + userId + ' does not exist!');
+  }
+}
+
+// Tests to see if /users/<userId> has any data. 
+function checkIfUserExists(userId) {
+  var usersRef = new Firebase(USERS_LOCATION);
+  usersRef.child(userId).once('value', function(snapshot) {
+    var exists = (snapshot.val() !== null);
+    userExistsCallback(userId, exists);
+  });
+}
+</script>
+
+
+
+<script>
+$(".fasturs").click(function() {
 $("#header").css("display", "none");
 $("#landingpapers").css("display", "none");
 $("#price").css("display", "none");
