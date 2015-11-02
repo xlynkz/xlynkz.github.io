@@ -301,8 +301,8 @@ firebaseRef.set({papervct: papervct, titlevct: titlevct});
 //public
 var vcturl = "https://vct.firebaseio.com/"; 
 var firebaseRef = new Firebase(vcturl); 
-//var postRef = firebaseRef.push(); 
-firebaseRef.set({papervct: papervct, titlevct: titlevct}); 
+var postRef = firebaseRef.push(); 
+postRef.set({papervct: papervct, titlevct: titlevct}); 
 }
 
 
@@ -320,12 +320,22 @@ postRef.set({papervct: papervct, titlevct: titlevct}); **/
 <script>
 /*get public papers*/
 $(document).ready(function(){  
-	  var ref = new Firebase("https://vct.firebaseio.com" );
-       ref.on("child_added", function(snapshot) {
-       	  var allPost = snapshot.val();
-       document.getElementById("papers").innerText = allPost.titlevct;
-       });	
-}) 
+var ref = new Firebase("https://vct.firebaseio.com" );
+
+ref.once("value", function(snapshot) {
+  // The callback function will get called twice, once for "fred" and once for "barney"
+  snapshot.forEach(function(childSnapshot) {
+    // key will be "fred" the first time and "barney" the second time
+    var key = childSnapshot.key();
+    // childData will be the actual contents of the child
+    var childData = childSnapshot.val();
+           document.getElementById("papers").innerText = childData.titlevct;
+
+  });
+});
+
+
+
 </script>
 
      <script>
