@@ -201,7 +201,7 @@ postRef.set({papervct: term});
 /*get public papers*/
 $(document).ready(function(){  
 	  var ref = new Firebase("https://vct.firebaseio.com" );
-       ref.on("child_added", function(snapshot) {
+       ref.on("value", function(snapshot) {
        	  var allPost = snapshot.val();
        document.getElementById("papers").innerText = allPost.titlevct;
        });	
