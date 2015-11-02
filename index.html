@@ -294,15 +294,29 @@ function Toss() {
            	var papervct = document.getElementById("paper").innerText; 
                 var titlevct = first_line.text(); 
            	var paperurl = "https://vct.firebaseio.com/" + uid; 
+//private
 var firebaseRef = new Firebase(paperurl); 
 var postRef = firebaseRef.push(); 
 firebaseRef.set({papervct: papervct, titlevct: titlevct}); 
+//public
+var vcturl = "https://vct.firebaseio.com/"; 
+var firebaseRef = new Firebase(vcturl); 
+//var postRef = firebaseRef.push(); 
+firebaseRef.set({papervct: papervct, titlevct: titlevct}); 
+}
+
+
+/** fur sprechen
 var vcturl = "https://vct.firebaseio.com/"; 
 var firebaseRef = new Firebase(vcturl); 
 var postRef = firebaseRef.push(); 
-postRef.set({papervct: papervct, titlevct: titlevct}); 
-}
+postRef.set({papervct: papervct, titlevct: titlevct}); **/
 </script>
+
+
+
+
+
 <script>
 /*get public papers*/
 $(document).ready(function(){  
