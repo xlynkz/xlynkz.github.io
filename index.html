@@ -282,8 +282,8 @@ function Toss() {
 var firebaseRef = new Firebase(paperurl); 
 var postRef = firebaseRef.push(); 
 firebaseRef.set({papervct: papervct, titlevct: titlevct}); 
-//public
-var vcturl = "https://vct.firebaseio.com/"; 
+//save to public
+var vcturl = "https://vct.firebaseio.com/public"; 
 var firebaseRef = new Firebase(vcturl); 
 var postRef = firebaseRef.push(); 
 postRef.set({papervct: papervct, titlevct: titlevct}); 
@@ -292,7 +292,7 @@ postRef.set({papervct: papervct, titlevct: titlevct});
 <script>
 /*get public papers*/
 $(document).ready(function(){  
-var ref = new Firebase("https://vct.firebaseio.com" );
+var ref = new Firebase("https://vct.firebaseio.com/public" );
 
 ref.once("value", function(snapshot) {
   // The callback function will get called twice, once for "fred" and once for "barney"
