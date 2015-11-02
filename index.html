@@ -93,7 +93,7 @@
 								<section id="landingpapers" class="wrapper alt style1">
 								<div class="inner">
 									<h2 class="major">Papers</h2>
-									<section class="features">
+									<section id="papers" class="features">
 										<article>
 											<h3 id="papers" class="major papers"><i class="fa fa-spinner fa-spin"></i></h3>
 										</article>
@@ -314,7 +314,7 @@ ref.once("value", function(snapshot) {
     // childData will be the actual contents of the child
     var childData = childSnapshot.val();
     var title = childData.titlevct
-          $("#papers").append("<h3 class="major papers">"+title+"</h3>");
+          $("#papers").append("<article><h3 class='major papers'>"+title+"</h3></article>");
    console.log(childData.titlevct);
    console.log(key);
    console.log(childData);
