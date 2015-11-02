@@ -227,6 +227,20 @@ function searchCallback(err, content) {
 
   console.log(content);
 };
+
+unction searchCallback(err, content) {
+  if (err) {
+    console.error(err);
+    return;
+  }
+
+  var $users = $('#users');
+  $users.empty();
+
+  for (var i = 0; i < content.hits.length; i++) {
+    $users.append('<li>' + content.hits[i].name + '</li>');
+  }
+};
 </script>
 
 
