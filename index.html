@@ -314,7 +314,7 @@ ref.once("value", function(snapshot) {
     // childData will be the actual contents of the child
     var childData = childSnapshot.val();
     var title = childData.titlevct
-          $("#papers").append("<article>"+title+"</article>");
+          $("#papers").append("<h3 class="major papers">"+title+"</h3>");
    console.log(childData.titlevct);
    console.log(key);
    console.log(childData);
