@@ -122,7 +122,7 @@
 												<tr>
 													<td>Enterprise</td>
 													<td>Co-build with us from ideation to maturation</td>
-                                                        <td><a href="mailto:joseph@fastur.ca?Subject=Discuss%20opportunities"  class="button fit special">contact us</a></td>
+                                                        <td><a class="discuss button fit special">contact us</a></td>
 												</tr>                                    
 											</tbody>
 										
@@ -184,9 +184,9 @@ postRef.set({papervct: term});
 </script>
 
 <script>
-$('.papers').click(function(e){
+$('.discuss').click(function(e){
 var txt = $(e.target).text();
-document.getElementById("paper").innerText = txt;
+document.getElementById("paper").innerText = "Discuss Opportunities";
 
 $("#header").css("display", "none");
 $("#landingpapers").css("display", "none");
