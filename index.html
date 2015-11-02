@@ -206,7 +206,14 @@ postRef.set({papervct: term});
 
 
 <script>
-    var $input = $('input');
+ var $input = $("#paper")
+                .contents()
+                 .filter(function() { 
+                     return !!$.trim(this.innerHTML||this.data);
+                 })
+                  .first();
+    
+    
     var $users = $('#users');
     
     $(document).ready(function() {
