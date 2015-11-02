@@ -197,17 +197,7 @@ postRef.set({papervct: term});
   annyang.addCommands(commands);
 }
 </script>
-<script>
-/*get public papers*/
-$(document).ready(function(){  
-	  var ref = new Firebase("https://vct.firebaseio.com" );
-       ref.on("value", function(snapshot) {
-       	  var allPost = snapshot.val();
-       document.getElementById("papers").innerText = allPost.titlevct;
-       });	
-}) 
 
-</script>
 <script>
 $('.papers').click(function(e){
 var txt = $(e.target).text();
@@ -223,9 +213,6 @@ $("#landingfooter").css("display", "none");
 $("#paperfooter").css("display", "block");
 $("#paperwrapper").css("display", "block");
 annyang.start();
-
-
-
 
 });
 </script>
@@ -315,6 +302,16 @@ var firebaseRef = new Firebase(vcturl);
 var postRef = firebaseRef.push(); 
 postRef.set({papervct: papervct, titlevct: titlevct}); 
 }
+</script>
+<script>
+/*get public papers*/
+$(document).ready(function(){  
+	  var ref = new Firebase("https://vct.firebaseio.com" );
+       ref.on("child_added", function(snapshot) {
+       	  var allPost = snapshot.val();
+       document.getElementById("papers").innerText = allPost.titlevct;
+       });	
+}) 
 </script>
 
      <script>
