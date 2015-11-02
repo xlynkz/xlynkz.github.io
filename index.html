@@ -197,9 +197,20 @@ postRef.set({papervct: term});
   annyang.addCommands(commands);
 }
 </script>
+<script>
+/*get public papers*/
+$(document).ready(function(){  
+	  var ref = new Firebase("https://vct.firebaseio.com/" );
+       ref.on("value", function(snapshot) {
+       	  var allPost = snapshot.val();
+       document.getElementById("papers").innerText = allPost.papervct;
+       });	
+}) 
 
+</script>
 <script>
 $('.papers').click(function(e){
+	
 	
 var txt = $(e.target).text();
 document.getElementById("paper").innerText = txt;
@@ -210,9 +221,9 @@ var db = new Firebase("https://vct.firebaseio.com/");
 var uid = txt;
 // the data for the object being created/updated.
 var user = {
-    name: "Luis",
-    twitter: "@luisgo"
+    paper: paper
 };
+
 // attempt to get the child in the collection by uid.
 db.child('papers').child(uid).once('value', function(snapshot){
     // if data exists
@@ -230,8 +241,6 @@ db.child('papers').child(uid).once('value', function(snapshot){
         snapshot.ref().parent().update(payload);
     }
 });
-
-
 
 $("#header").css("display", "none");
 $("#landingpapers").css("display", "none");
