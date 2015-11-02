@@ -12,6 +12,7 @@
 		<script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.0.0/annyang.min.js"></script>
 		<script src="https://cdn.firebase.com/js/client/2.3.1/firebase.js"></script>
 		<script src="https://checkout.stripe.com/checkout.js"></script>
+		<script type="text/javascript" src="https://mandrillapp.com/api/docs/js/mandrill.js"></script>
 	</head>
 	<body>
 		<!-- Page Wrapper -->
@@ -149,6 +150,7 @@
 								<li>
 								<a id="logintosave" class="button small btn-login special" type="submit">sign in and save</a>
 								<a id="save" style="display: none;" onclick="Toss()" class="button small" type="submit">save</a>
+								<a id="sendmail" style="display: none;" style="display: none;" onclick="sendTheMail();" class="button small" type="submit">send</a>
 								</li>
 								<li><a id="settingsicon" style="display: none;" class="fa fa-cogs"></a></li>
 							</ul>
@@ -194,6 +196,8 @@ $("#price").css("display", "none");
 $("#one").css("display", "none");
 $("#two").css("display", "none");
 $("#landing").css("display", "none");
+$("#logintosave").css("display", "none");
+$("#sendmail").css("display", "block");
 $("#landingfooter").css("display", "none");
 $("#paperfooter").css("display", "block");
 $("#paperwrapper").css("display", "block");
@@ -378,5 +382,36 @@ ref.on("child_added", function(snapshot, prevChildKey) {
 document.getElementById("functions").innerText = consolefn;
 });
 </script>
+
+
+<script>
+
+// Create a function to log the response from the Mandrill API
+function log(obj) {
+    $('#response').text(JSON.stringify(obj));
+}
+
+// create a new instance of the Mandrill class with your API key
+var m = new mandrill.Mandrill('nG0ZXR7rdE4oLOCEqaVQYw');
+
+// create a variable for the API call parameters
+var params = {
+    "message": {
+        "from_email":"your_email_address",
+        "to":[{"email":"your_recipient_address"}],
+        "subject": "Sending a text email from the Mandrill API",
+        "text": "I'm learning the Mandrill API at Codecademy."
+    }
+};
+
+function sendTheMail() {
+// Send the email!
+
+    m(params, function(res) {
+        log(res);
+    }, function(err) {
+        log(err);
+    });
+}</script>
   </body>
 </html>
