@@ -203,7 +203,7 @@ $(document).ready(function(){
 	  var ref = new Firebase("https://vct.firebaseio.com/" );
        ref.on("child_added", function(snapshot) {
        	  var allPost = snapshot.val();
-       document.getElementById("papers").innerText = allPost;
+       document.getElementById("papers").innerText = allPost.paper;
        });	
 }) 
 
@@ -220,8 +220,8 @@ var db = new Firebase("https://vct.firebaseio.com/");
 // The identifier in the collection.
 var uid = txt;
 // the data for the object being created/updated.
-var user = {
-    paper: paper
+var paper = {
+    paper: "paper"
 };
 
 // attempt to get the child in the collection by uid.
