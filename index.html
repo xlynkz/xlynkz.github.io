@@ -234,9 +234,9 @@ function searchCallback(err, content) {
 $('.papers').click(function(e){
 	
 var txt = $(e.target).text();
-console.log(txt);
-  
-  
+document.getElementById("paper").innerText = "txt";
+
+
 $("#header").css("display", "none");
 $("#landingpapers").css("display", "none");
 $("#price").css("display", "none");
