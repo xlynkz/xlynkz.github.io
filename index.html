@@ -221,18 +221,14 @@ postRef.set({papervct: term});
       }).focus();
     });
 
-    function searchCallback(err, content) {
-      if (err) {
-        console.error(err);
-        return;
-      }
+   function searchCallback(err, content) {
+  if (err) {
+    console.error(err);
+    return;
+  }
 
-      $users.empty();
-
-      for (var i = 0; i < content.hits.length; i++) {
-        $users.append('<li>' + content.hits[i].name + '</li>');
-      }
-    };
+  console.log(content);
+};
 </script>
 
 
