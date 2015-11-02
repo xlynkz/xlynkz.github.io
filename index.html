@@ -222,7 +222,8 @@ annyang.start();
 });
 </script>
 <script>
-$('.fastur').click(function(e){
+function go() {
+$('.fastur').click(function(){
   var userId = "papers";
   checkIfUserExists(userId);
 }
@@ -244,7 +245,7 @@ function checkIfUserExists(userId) {
     var exists = (snapshot.val() !== null);
     userExistsCallback(userId, exists);
   });
-}
+});
 </script>
 
 
