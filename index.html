@@ -8,7 +8,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="//fastur.ca/main.css"/>
 		<script src="//cdn.auth0.com/js/lock-7.9.min.js"></script>
-		<script src="https://cdn.jsdelivr.net/g/skeljs@0.4.6,jquery@3.0.0-alpha1,medium-editor@5.9.0,html5shiv@3.7.3,algoliasearch@3.9.0"></script>
+		<script src="https://cdn.jsdelivr.net/g/skeljs@0.4.6,jquery@3.0.0-alpha1,medium-editor@5.9.0,html5shiv@3.7.3"></script>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.0.0/annyang.min.js"></script>
 		<script src="https://cdn.firebase.com/js/client/2.3.1/firebase.js"></script>
 		<script src="https://checkout.stripe.com/checkout.js"></script>
@@ -197,34 +197,6 @@ postRef.set({papervct: term});
   annyang.addCommands(commands);
 }
 </script>
-
-
-<script>
-    var $input = $('input');
-    var $users = $('#users');
-    
-    $(document).ready(function() {
-	var client = algoliasearch("1WFMK06AUA", "274c770af80b09e77f199b6c7d064336");
-      var index = client.initIndex('test');
-
-      $input.keyup(function() {
-        index.search($input.val(), {
-          hitsPerPage: 10,
-          facets: '*'
-        }, searchCallback);
-      }).focus();
-    });
-
-   function searchCallback(err, content) {
-  if (err) {
-    console.error(err);
-    return;
-  }
-
-  console.log(content);
-};
-</script>
-
 
 <script>
 $('.papers').click(function(e){
