@@ -223,12 +223,9 @@ annyang.start();
 </script>
 <script>
 $(".fastur").click(function() {
-function go() {
-	var userId = "papers";
+  var userId = "papers";
   checkIfUserExists(userId);
-}
-
-var USERS_LOCATION = 'https://vct.firebaseio.com/';
+  var USERS_LOCATION = 'https://vct.firebaseio.com/';
 
 function userExistsCallback(userId, exists) {
   if (exists) {
@@ -252,7 +249,7 @@ function checkIfUserExists(userId) {
 
 
 <script>
-$(".fasturs").click(function() {
+$(".fastur").click(function() {
 $("#header").css("display", "none");
 $("#landingpapers").css("display", "none");
 $("#price").css("display", "none");
