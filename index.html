@@ -98,10 +98,6 @@
 											<h3 id="papers" class="major papers"><i class="fa fa-spinner fa-spin"></i></h3>
 										</article>
 										<article>
-											<h3 class="major papers">Designer Genetics <i class="fa fa-spinner fa-spin"></i></h3>
-											
-										</article>
-										<article>
 											<h3 class="major papers">Toronto Terroir <i class="fa fa-spinner fa-spin"></i></h3>
 											
 										</article>
@@ -317,8 +313,9 @@ ref.once("value", function(snapshot) {
     var key = childSnapshot.key();
     // childData will be the actual contents of the child
     var childData = childSnapshot.val();
+          $("#papers").append( '<article>' );
    $("#papers").append(childData.titlevct );
-      $("#papers").append( '<br>' );
+      $("#papers").append( '</article>' );
 
    console.log(childData.titlevct);
    console.log(key);
