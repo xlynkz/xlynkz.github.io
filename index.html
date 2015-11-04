@@ -286,7 +286,7 @@ function Toss() {
 var firebaseRef = new Firebase(paperurl); 
 var postRef = firebaseRef.push(); 
 firebaseRef.set({papervct: papervct, titlevct: titlevct}); 
-//save to public
+//public
 var vcturl = "https://vct.firebaseio.com/public"; 
 var firebaseRef = new Firebase(vcturl); 
 var postRef = firebaseRef.push(); 
@@ -319,6 +319,13 @@ ref.once("value", function(snapshot) {
 
 
 </script>
+   <script>
+        $("#papers").click( function()
+           { 
+alert("clicked!");
+} 
+        );
+    </script>
 
      <script>
         $("#settingsicon").click( function()
