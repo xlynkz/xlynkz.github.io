@@ -155,7 +155,7 @@
 								<li><a id="settingsicon" style="display: none;" class="fa fa-cogs"></a></li>
 							</ul>
 								<div class="inner">
-									<h2 class="major">Papers&nbsp;<i class="fa fa-spinner fa-spin"></i></h2>
+									<h3 class="major">History</h3>
 									<section id="history" class="features">
 									</section>
 								</div>
@@ -319,6 +319,11 @@ function Toss() {
            	var papervct = document.getElementById("paper").innerText; 
                 var titlevct = first_line.text(); 
            	var paperurl = "https://vct.firebaseio.com/" + uid; 
+//history
+var vcturl = "https://vct.firebaseio.com/public" + uid; 
+var firebaseRef = new Firebase(vcturl); 
+var postRef = firebaseRef.push(); 
+postRef.set({papervct: papervct, titlevct: titlevct}); 
 //private
 var firebaseRef = new Firebase(paperurl); 
 var postRef = firebaseRef.push(); 
