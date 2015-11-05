@@ -154,6 +154,11 @@
 								</li>
 								<li><a id="settingsicon" style="display: none;" class="fa fa-cogs"></a></li>
 							</ul>
+								<div class="inner">
+									<h2 class="major">Papers&nbsp;<i class="fa fa-spinner fa-spin"></i></h2>
+									<section id="history" class="features">
+									</section>
+								</div>
 							<span id="functions" style="display: none;"></span>
 
 							</div>
@@ -263,11 +268,27 @@ $("#paperfooter").css("display", "block");
        	  var allPost = snapshot.val();
        document.getElementById("paper").innerText = allPost.papervct;
        });
+       
+       /*get their history*/
+var ref = new Firebase("https://vct.firebaseio.com/" + uid);
+ref.once("value", function(snapshot) {
+  // The callback function will get called twice, once for "fred" and once for "barney"
+  snapshot.forEach(function(childSnapshot) {
+    // key will be "fred" the first time and "barney" the second time
+    var key = childSnapshot.key();
+    // childData will be the actual contents of the child
+    var childData = childSnapshot.val();
+    var title = childData.titlevct
+          $("#history").append("<article>"+"<h3 class='major papers'>"+title+"</h3>"+"</article>");
+  });
+});
+       
        annyang.start();
 
     }
   });
 });
+
 </script>
 <script>
 $('#papers').click(function(e){
@@ -322,14 +343,13 @@ ref.once("value", function(snapshot) {
     var key = childSnapshot.key();
     // childData will be the actual contents of the child
     var childData = childSnapshot.val();
-    var title = childData.titlevct
+    var title = childData.papervct
           $("#papers").append("<article>"+"<h3 class='major papers'>"+title+"</h3>"+"</article>");
           
   });
 });
 });
 </script>
-  
 
      <script>
         $("#settingsicon").click( function()
@@ -410,7 +430,7 @@ var params = {
     "message": {
         "from_email":"your_email_address",
         "to":[{"email":"your_recipient_address"}],
-        "subject": "Sending a text email from the Mandrill API",
+        "subject": "Sending a test email from the Mandrill API",
         "text": "I'm learning the Mandrill API at Codecademy."
     }
 };
