@@ -317,7 +317,7 @@ function Toss() {
                 var titlevct = first_line.text(); 
            	var paperurl = "https://vct.firebaseio.com/" + uid; 
 //history
-var vcturl = "https://vct.firebaseio.com/public/" + uid; 
+var vcturl = "https://vct.firebaseio.com/" + uid; 
 var firebaseRef = new Firebase(vcturl); 
 var postRef = firebaseRef.push(); 
 postRef.set({papervct: papervct, titlevct: titlevct}); 
