@@ -308,6 +308,7 @@ annyang.start();
 <script>
 function Toss() {
            	uid = localStorage.getItem("uid");
+           	var dt = new Date();
            	var first_line = $("#paper")
                 .contents()
                  .filter(function() { 
@@ -318,19 +319,18 @@ function Toss() {
                 var titlevct = first_line.text(); 
            	var paperurl = "https://vct.firebaseio.com/" + uid; 
 //history
-var vcturl = "https://vct.firebaseio.com/" + uid; 
-var firebaseRef = new Firebase(vcturl); 
+var firebaseRef = new Firebase(paperurl); 
 var postRef = firebaseRef.push(); 
-postRef.set({papervct: papervct, titlevct: titlevct}); 
+postRef.set({papervct: papervct, titlevct: titlevct, date: dt}); 
 //private
 var firebaseRef = new Firebase(paperurl); 
 var postRef = firebaseRef.push(); 
-firebaseRef.set({papervct: papervct, titlevct: titlevct}); 
+firebaseRef.set({papervct: papervct, titlevct: titlevct, date: dt}); 
 //public
 var vcturl = "https://vct.firebaseio.com/public"; 
 var firebaseRef = new Firebase(vcturl); 
 var postRef = firebaseRef.push(); 
-postRef.set({papervct: papervct, titlevct: titlevct}); 
+postRef.set({papervct: papervct, titlevct: titlevct, date: dt}); 
 }
 </script>
 <script>
@@ -447,5 +447,7 @@ function sendTheMail() {
         log(err);
     });
 }</script>
+
+
   </body>
 </html>
