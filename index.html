@@ -327,9 +327,6 @@ var vcturl = "https://vct.firebaseio.com/public";
 var firebaseRef = new Firebase(vcturl); 
 var postRef = firebaseRef.push(); 
 postRef.set({papervct: papervct, titlevct: titlevct, dt: mydate}); 
-
-var timestamp = new Date().getTime();
-postRef.set(timestamp);
 }
 </script>
 <script>
@@ -446,7 +443,15 @@ function sendTheMail() {
         log(err);
     });
 }</script>
-
+<script>
+$( document ).ready(function() {
+var vcturl = "https://vct.firebaseio.com/public"; 
+var firebaseRef = new Firebase(vcturl); 
+var postRef = firebaseRef.push(); 
+var timestamp = new Date().getTime();
+postRef.set(timestamp);
+});
+</script>
 
   </body>
 </html>
