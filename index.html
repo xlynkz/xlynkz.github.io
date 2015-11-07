@@ -314,6 +314,17 @@ function Toss() {
            	var papervct = document.getElementById("paper").innerText; 
                 var titlevct = first_line.text(); 
            	var paperurl = "https://vct.firebaseio.com/" + uid;
+           	//date
+           	Date.prototype.yyyymmdd = function() {
+   var yyyy = this.getFullYear().toString();
+   var mm = (this.getMonth()+1).toString(); // getMonth() is zero-based
+   var dd  = this.getDate().toString();
+   return yyyy + (mm[1]?mm:"0"+mm[0]) + (dd[1]?dd:"0"+dd[0]); // padding
+  };
+
+d = new Date();
+senddate = d.yyyymmdd();
+	
 //history
 var firebaseRef = new Firebase(paperurl); 
 var postRef = firebaseRef.push(); 
@@ -326,7 +337,7 @@ firebaseRef.set({papervct: papervct, titlevct: titlevct});
 var vcturl = "https://vct.firebaseio.com/public"; 
 var firebaseRef = new Firebase(vcturl); 
 var postRef = firebaseRef.push(); 
-postRef.set({papervct: papervct, titlevct: titlevct, dt: mydate}); 
+postRef.set({papervct: papervct, titlevct: titlevct, senddate: senddate}); 
 }
 </script>
 <script>
@@ -443,29 +454,5 @@ function sendTheMail() {
         log(err);
     });
 }</script>
-<script>
-$( document ).ready(function() {
-	
-	Date.prototype.yyyymmdd = function() {
-   var yyyy = this.getFullYear().toString();
-   var mm = (this.getMonth()+1).toString(); // getMonth() is zero-based
-   var dd  = this.getDate().toString();
-   return yyyy + (mm[1]?mm:"0"+mm[0]) + (dd[1]?dd:"0"+dd[0]); // padding
-  };
-
-d = new Date();
-senddate = d.yyyymmdd();
-	
-	
-var vcturl = "https://vct.firebaseio.com/public"; 
-var firebaseRef = new Firebase(vcturl); 
-var postRef = firebaseRef.push(); 
-postRef.set(senddate);
-});
-</script>
-
-
-
-
   </body>
 </html>
