@@ -286,23 +286,6 @@ ref.once("value", function(snapshot) {
 
 </script>
 <script>
-$('#papers').click(function(e){
-var txt = $(e.target).text();
-document.getElementById("paper").innerText = txt;
-
-$("#header").css("display", "none");
-$("#landingpapers").css("display", "none");
-$("#price").css("display", "none");
-$("#one").css("display", "none");
-$("#two").css("display", "none");
-$("#landing").css("display", "none");
-$("#landingfooter").css("display", "none");
-$("#paperfooter").css("display", "block");
-$("#paperwrapper").css("display", "block");
-annyang.start();
-});
-</script>
-<script>
 function Toss() {
            	uid = localStorage.getItem("uid");
            	var first_line = $("#paper")
@@ -354,13 +337,29 @@ ref.once("value", function(snapshot) {
     // childData will be the actual contents of the child
     var childData = childSnapshot.val();
     var title = childData.titlevct;
+    var paper = childData.papervct;
           $("#papers").append("<article>"+"<h3 class='major papers'>"+title+"</h3>"+"</article>");
-          
   });
 });
 });
-</script>
 
+</script>
+<script>
+$('#papers').click(function(e){
+var txt = $(e.target).text();
+document.getElementById("paper").innerText = txt;
+$("#header").css("display", "none");
+$("#landingpapers").css("display", "none");
+$("#price").css("display", "none");
+$("#one").css("display", "none");
+$("#two").css("display", "none");
+$("#landing").css("display", "none");
+$("#landingfooter").css("display", "none");
+$("#paperfooter").css("display", "block");
+$("#paperwrapper").css("display", "block");
+annyang.start();
+});
+</script>
      <script>
         $("#settingsicon").click( function()
            { 
