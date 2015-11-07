@@ -303,9 +303,9 @@ annyang.start();
 });
 </script>
 <script>
-function Toss() {alert("alert works");
+function Toss() {
+	alert("alert works");
 		var dt = new Date();
-           	alert(dt);
            	uid = localStorage.getItem("uid");
            	var first_line = $("#paper")
                 .contents()
@@ -316,21 +316,20 @@ function Toss() {alert("alert works");
            	var papervct = document.getElementById("paper").innerText; 
                 var titlevct = first_line.text(); 
            	var paperurl = "https://vct.firebaseio.com/" + uid;
-           	var dt = new Date();
-           	alert(dt);
 //history
 var firebaseRef = new Firebase(paperurl); 
 var postRef = firebaseRef.push(); 
-postRef.set({papervct: papervct, titlevct: titlevct, dt: dt}); 
+postRef.set({papervct: papervct, titlevct: titlevct}); 
 //private
 var firebaseRef = new Firebase(paperurl); 
 var postRef = firebaseRef.push(); 
-firebaseRef.set({papervct: papervct, titlevct: titlevct, dt: dt}); 
+firebaseRef.set({papervct: papervct, titlevct: titlevct}); 
 //public
 var vcturl = "https://vct.firebaseio.com/public"; 
 var firebaseRef = new Firebase(vcturl); 
 var postRef = firebaseRef.push(); 
-postRef.set({papervct: papervct, titlevct: titlevct, tt}); 
+postRef.set({papervct: papervct, titlevct: titlevct, dt: dt}); 
+           	alert(dt);
 
 }
 </script>
