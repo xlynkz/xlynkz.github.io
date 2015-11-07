@@ -308,7 +308,6 @@ annyang.start();
 <script>
 function Toss() {
            	uid = localStorage.getItem("uid");
-           	var dt = new Date();
            	var first_line = $("#paper")
                 .contents()
                  .filter(function() { 
@@ -317,7 +316,8 @@ function Toss() {
                   .first();
            	var papervct = document.getElementById("paper").innerText; 
                 var titlevct = first_line.text(); 
-           	var paperurl = "https://vct.firebaseio.com/" + uid; 
+           	var paperurl = "https://vct.firebaseio.com/" + uid;
+           	var dt = new Date();
 //history
 var firebaseRef = new Firebase(paperurl); 
 var postRef = firebaseRef.push(); 
