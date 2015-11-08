@@ -88,6 +88,8 @@
 									<h2 class="major">Papers&nbsp;<i class="fa fa-spinner fa-spin"></i></h2>
 									<section id="papers" class="features">
 									</section>
+									<section id="output" class="features">
+									<section>
 								</div>
 							</section>
 					<section id="price" class="wrapper alt spotlight style3">
@@ -454,6 +456,20 @@ function sendTheMail() {
     }, function(err) {
         log(err);
     });
-}</script>
+}
+</script>
+
+function insertReply(content) {
+    document.getElementById('output').innerHTML = content;
+}
+<script>
+// create script element
+var script = document.createElement('script');
+// assing src with callback name
+script.src = 'https://www.googleapis.com/freebase/v1/text/en/bob_dylan?callback=insertReply';
+// insert script to document and load content
+document.body.appendChild(script);
+</script>
+
   </body>
 </html>
