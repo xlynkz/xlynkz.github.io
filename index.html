@@ -304,13 +304,14 @@ firebaseRef.child('users').child(uid).once('value', function(snapshot){
         snapshot.ref().parent().update(payload);
     }
 });
-};
-
-//Public
 var paperurl = "https://vct.firebaseio.com/public";
 var firebaseRef = new Firebase(paperurl); 
 var postRef = firebaseRef.push(); 
 postRef.set({papervct: papervct, titlevct: titlevct}); 
+};
+
+//Public
+
 </script>
 <script>
 /*get public papers + date(for later send to vct)*/
