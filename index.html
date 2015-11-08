@@ -293,33 +293,24 @@ function Toss() {
 var titlevct = first_line.text(); 
 var papervct = document.getElementById("paper").innerText; 
 var paperurl = "https://vct.firebaseio.com/" + userid;
-var firebaseRef = new Firebase(paperurl); 
-var postRef = firebaseRef.push(); 
-firebaseRef.set({papervct: papervct, titlevct: titlevct}); 
+//var firebaseRef = new Firebase(paperurl); 
+//var postRef = firebaseRef.push(); 
+//firebaseRef.set({papervct: papervct, titlevct: titlevct}); 
+
 //public
 var vcturl = "https://vct.firebaseio.com/public"; 
 var firebaseRef = new Firebase(vcturl); 
-
-// The ideantifier in the collection.
 var uid = userid;
-// the data for the object being created/updated.
 var user = {
     name: titevct,
     paper: papervct
 };
-// attempt to get the child in the collection by uid.
 firebaseRef.child('users').child(uid).once('value', function(snapshot){
-    // if data exists
     if (snapshot.exists()) {
-        // get the ref (in this case /users/2) and update its contents
         snapshot.ref().update(user);
     } else {
-        // data does not exist so we wrap the data in an object with
-        // a member named after the uid so we can pass it as an update
-        // to the parent.
         var payload = {};
             payload[uid] = user;
-        // get the ref's parent and call update on it.
         snapshot.ref().parent().update(payload);
     }
 });
