@@ -138,7 +138,7 @@
 								<a id="sendmail" style="display: none;" style="display: none;" onclick="sendTheMail();" class="button small" type="submit">send</a>
 								</li>
 								<li><a id="addnewicon" style="display: none;" class="fa fa-plus"></a></li> 
-								<li><a id="settingsicon" style="display: none;" class="fa fa-cogs"></a></li>
+								<li><i class="fa fa-plus"></i><a id="settingsicon" style="display: none;" class="fa fa-cogs"></a></li>
 							</ul>
 									<section id="history" class="features" style="display: none;">
 									</section>
@@ -265,7 +265,7 @@ ref.once("value", function(snapshot) {
     var childData = childSnapshot.val();
     var title = childData.titlevct;
     var paper = childData.papervct;
-    $("#history").append("<article>"+"<h3 class='major papers'>"+title+"</h3>"+"</article>");
+    $("#history").append("<article>"+"<h3 class='major papers'>"+title+"</h3>"+"<span class='fa-times'>"+"</span>"+"</article>");
   });
 });
        annyang.start();
@@ -293,7 +293,8 @@ var firebaseRef = new Firebase(vcturl);
 var uid = userid;
 var user = {
     titlevct: titlevct,
-    papervct: papervct
+    papervct: papervct,
+    senddate: date
 };
 firebaseRef.child('users').child(uid).once('value', function(snapshot){
     if (snapshot.exists()) {
@@ -307,7 +308,7 @@ firebaseRef.child('users').child(uid).once('value', function(snapshot){
 var paperurl = "https://vct.firebaseio.com/public";
 var firebaseRef = new Firebase(paperurl); 
 var postRef = firebaseRef.push(); 
-postRef.set({papervct: papervct, titlevct: titlevct}); 
+postRef.set({papervct: papervct, titlevct: titlevct, senddate: date}); 
 };
 
 //Public
