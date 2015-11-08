@@ -264,7 +264,7 @@ ref.once("value", function(snapshot) {
     var childData = childSnapshot.val();
     var title = childData.titlevct;
     var paper = childData.papervct;
-    $("#history").append("<article>"+"<h3 class='major papers'>"+title+"</h3>"+"<span class='fa-times'>"+"</span>"+"</article>");
+    $("#history").append("<article>"+"<h3 class='major papers'>"+title+"</h3>"+"</article>");
   });
 });
        annyang.start();
@@ -373,23 +373,6 @@ $("#history").css("display", "none");
 } 
         );
     </script>
-         <script>
-        $("#addnewicon").click( function()
-           { 
-           	var first_line = $("#paper")
-                .contents()
-                 .filter(function() { 
-                     return !!$.trim(this.innerHTML||this.data);
-                 })
-                  .first();
-           	var papervct = document.getElementById("paper").innerText; 
-                var titlevct = first_line.text();
-                  $("#history").append(titlevct);
-$("#paper").text(" ");
-} 
-        );
-    </script>
-    
 <script>
   var handler = StripeCheckout.configure({
     key: 'pk_live_mdufsEUxVMK742qsZEJz4keg',
@@ -417,6 +400,7 @@ $("#paper").text(" ");
     handler.close();
   });
 </script>
+
 <script> 
 $("#gotopaper").click(function(e) {
 $("#header").css("display", "none");
