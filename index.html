@@ -313,8 +313,8 @@ firebaseRef.child('users').child(uid).once('value', function(snapshot){
         // get the ref's parent and call update on it.
         snapshot.ref().parent().update(payload);
     }
-};
 });
+};
 
 </script>
 
