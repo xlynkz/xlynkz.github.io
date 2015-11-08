@@ -285,17 +285,10 @@ function Toss() {
                      return !!$.trim(this.innerHTML||this.data);
                  })
                   .first();
-           	var papervct = document.getElementById("paper").innerText; 
                 var titlevct = first_line.text();
-var papervct = document.getElementById("paper").innerText; 
-var paperurl = "https://vct.firebaseio.com/" + userid;
-
-//var firebaseRef = new Firebase(paperurl); 
-//var postRef = firebaseRef.push(); 
-//firebaseRef.set({papervct: papervct, titlevct: titlevct}); 
-//public
-
-var vcturl = "https://vct.firebaseio.com/public"; 
+                var papervct = document.getElementById("paper").innerText; 
+//private and current
+var vcturl = "https://vct.firebaseio.com/"; 
 var firebaseRef = new Firebase(vcturl); 
 var uid = userid;
 var user = {
@@ -313,10 +306,13 @@ firebaseRef.child('users').child(uid).once('value', function(snapshot){
 });
 };
 
+//var paperurl = "https://vct.firebaseio.com/" + userid;
+//var firebaseRef = new Firebase(paperurl); 
+//var postRef = firebaseRef.push(); 
+//firebaseRef.set({papervct: papervct, titlevct: titlevct}); 
 </script>
-
 <script>
-/*get public papers + date*/
+/*get public papers + date(for later send to vct)*/
 $(document).ready(function(){  
    Date.prototype.yyyymmdd = function() {
    var yyyy = this.getFullYear().toString();
