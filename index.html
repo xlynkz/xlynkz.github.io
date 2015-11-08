@@ -279,17 +279,21 @@ function Toss() {
            	userid = localStorage.getItem("uid");
            	senddate = localStorage.getItem("date");
            	var first_line = $("#paper")
-           	.contents()
-           	.filter(function() {return !!$.trim(this.innerHTML||this.data);})
-           	.first();
-var titlevct = first_line.text(); 
+                .contents()
+                 .filter(function() { 
+                     return !!$.trim(this.innerHTML||this.data);
+                 })
+                  .first();
+           	var papervct = document.getElementById("paper").innerText; 
+                var titlevct = first_line.text();
 var papervct = document.getElementById("paper").innerText; 
 var paperurl = "https://vct.firebaseio.com/" + userid;
+
 //var firebaseRef = new Firebase(paperurl); 
 //var postRef = firebaseRef.push(); 
 //firebaseRef.set({papervct: papervct, titlevct: titlevct}); 
-
 //public
+
 var vcturl = "https://vct.firebaseio.com/public"; 
 var firebaseRef = new Firebase(vcturl); 
 var uid = userid;
