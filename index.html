@@ -155,11 +155,10 @@
 			</div>
 	<!-- Scripts -->
 <script>
-var editor = new MediumEditor('.editable', {
-    toolbar: false,
-    editor.subscribe('editableInput', function (event, editable) {
-    alert("working");
-});
+var editor = new MediumEditor('.editable');
+editor.subscribe('editableInput', function (event, editable) {
+alert("working");
+	
 });
 </script>
 
