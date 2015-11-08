@@ -293,7 +293,7 @@ var uid = userid;
 var user = {
     titlevct: titlevct,
     papervct: papervct,
-    senddate: date
+    senddate: senddate
 };
 firebaseRef.child('users').child(uid).once('value', function(snapshot){
     if (snapshot.exists()) {
