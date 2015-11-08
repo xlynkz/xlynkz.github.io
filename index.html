@@ -154,10 +154,17 @@
 
 			</div>
 	<!-- Scripts -->
-<script>var editor = new MediumEditor('.editable', { 
-toolbar: false 
-});	
+<script>
+var editor = new MediumEditor('.editable', {
+    toolbar: false,
+    editor.subscribe('editableInput', function (event, editable) {
+    alert("working");
+});
+});
 </script>
+
+
+
 
 <script>
   if (annyang) {
