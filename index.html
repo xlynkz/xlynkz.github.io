@@ -267,7 +267,7 @@ ref.once("value", function(snapshot) {
     var childData = childSnapshot.val();
     var title = childData.titlevct;
     var paper = childData.papervct;
-          $("#history").append("<article>"+"<h3 class='major papers'>"+title+"</h3>"+"</article>");
+    $("#history").append("<article>"+"<h3 class='major papers'>"+title+"</h3>"+"</article>");
   });
 });
        annyang.start();
@@ -345,6 +345,13 @@ ref.once("value", function(snapshot) {
           $("#papers").append("<article>"+"<h3 class='major papers'>"+title+"</h3>"+"</article>");
   });
 });
+});
+</script>
+<script>
+//loading a clicked history
+$('#papers').click(function(e){
+var txt = $(e.target).text();
+document.getElementById("paper").innerText = txt;
 });
 </script>
 <script>
