@@ -306,10 +306,11 @@ firebaseRef.child('users').child(uid).once('value', function(snapshot){
 });
 };
 
-//var paperurl = "https://vct.firebaseio.com/" + userid;
-//var firebaseRef = new Firebase(paperurl); 
-//var postRef = firebaseRef.push(); 
-//firebaseRef.set({papervct: papervct, titlevct: titlevct}); 
+//Public
+var paperurl = "https://vct.firebaseio.com/public";
+var firebaseRef = new Firebase(paperurl); 
+var postRef = firebaseRef.push(); 
+postRef.set({papervct: papervct, titlevct: titlevct}); 
 </script>
 <script>
 /*get public papers + date(for later send to vct)*/
