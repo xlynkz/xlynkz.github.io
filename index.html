@@ -15,16 +15,12 @@
 		<script type="text/javascript" src="https://mandrillapp.com/api/docs/js/mandrill.js"></script>
 	</head>
 	<body>
-		<!-- Page Wrapper -->
 			<div id="page-wrapper">
 				<header id="header">
 						<nav>
 							<a href="#menu" class="btn-login">Sign in</a>
 						</nav>
 					</header>
-					
-		
-
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
@@ -224,7 +220,6 @@ $('.btn-login').click(function(e) {
   e.preventDefault();
   lock.show(function(err, profile, token) {
     if (err) {
-      // Error callback
       alert('There was an error');
     } else {
       // Success callback
@@ -353,6 +348,7 @@ $("#paperfooter").css("display", "none");
 $("#paperwrapper").css("display", "none");
 $("#settings").css("display", "block");
 $("#price").css("display", "block");
+$("#history").css("display", "none");
 
 } 
         );
