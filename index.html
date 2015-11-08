@@ -267,17 +267,22 @@ $("#paperfooter").css("display", "block");
        document.getElementById("paper").innerText = allPost.papervct;
        });
        
-       /*get their history*/
-var ref = new Firebase("https://vct.firebaseio.com/" + uid);
+       
+       var ref = new Firebase("https://vct.firebaseio.com/public" );
+
 ref.once("value", function(snapshot) {
+  // The callback function will get called twice, once for "fred" and once for "barney"
+   
   snapshot.forEach(function(childSnapshot) {
+    // key will be "fred" the first time and "barney" the second time
     var key = childSnapshot.key();
+    // childData will be the actual contents of the child
     var childData = childSnapshot.val();
-    var title = childData.titlevct
+    var title = childData.titlevct;
+    var paper = childData.papervct;
           $("#history").append("<article>"+"<h3 class='major papers'>"+title+"</h3>"+"</article>");
   });
 });
-       
        annyang.start();
 
     }
