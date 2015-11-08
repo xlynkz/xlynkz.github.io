@@ -292,8 +292,8 @@ var vcturl = "https://vct.firebaseio.com/";
 var firebaseRef = new Firebase(vcturl); 
 var uid = userid;
 var user = {
-    name: titlevct,
-    paper: papervct
+    titlevct: titlevct,
+    papervct: papervct
 };
 firebaseRef.child('users').child(uid).once('value', function(snapshot){
     if (snapshot.exists()) {
