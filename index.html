@@ -34,11 +34,9 @@
 							<p>Our platform deals with data so you can focus on creating great experiences.</p>
 					</div>
 					<div id="paperwrapper" style="display: none;">
-					<p id="paper" class="editable" placeholder="USE THIS SPACE TO OUTLINE YOUR PROJECT. <br> WHEN YOU SAVE, A TEAM MEMBER WILL RECEIVE YOUR PAPER AND BEGIN WORKING ON AN MVP FOR YOU IMMEDIATELY. </p>
-">Title
+					<p id="paper" class="editable" placeholder="USE THIS SPACE TO OUTLINE YOUR PROJECT. <br> WHEN YOU SAVE, A TEAM MEMBER WILL RECEIVE YOUR PAPER AND BEGIN WORKING ON AN MVP FOR YOU IMMEDIATELY. </p>">Title
 <br><br>
 					</div>
-					
 					<div id="settings" style="display: none;">
 										<h3 class="major"><a href="#"  id="gotopaper" class=" fa fa-paper button fit special">go back to Paper</a></h3>
 										<form method="post" action="#">
@@ -65,8 +63,6 @@
 									
 					</div>
 					</section>
-
-
 				<!-- Wrapper -->
 					<section id="wrapper">
 
@@ -98,8 +94,6 @@
 									</section>
 								</div>
 							</section>
-
-
 					<section id="price" class="wrapper alt spotlight style3">
 						<div class="inner">
 				              <div class="content"> 
@@ -133,11 +127,8 @@
 
 									</div>
                         </header>
-    							
-							
 					</section>
 							</section>
-
 					</section>
 				<!-- Footer -->
 						<section id="footer">
@@ -164,7 +155,6 @@
 					
 
 			</div>
-
 	<!-- Scripts -->
 <script>var editor = new MediumEditor('.editable', { 
 toolbar: false 
@@ -293,6 +283,7 @@ ref.once("value", function(snapshot) {
 <script>
 function Toss() {
            	uid = localStorage.getItem("uid");
+           	senddate = localStorage.getItem("date");
            	var first_line = $("#paper")
                 .contents()
                  .filter(function() { 
@@ -302,22 +293,7 @@ function Toss() {
            	var papervct = document.getElementById("paper").innerText; 
                 var titlevct = first_line.text(); 
            	var paperurl = "https://vct.firebaseio.com/" + uid;
-           	//date
-           	Date.prototype.yyyymmdd = function() {
-   var yyyy = this.getFullYear().toString();
-   var mm = (this.getMonth()+1).toString(); // getMonth() is zero-based
-   var dd  = this.getDate().toString();
-   return (mm[1]?mm:"0"+mm[0]) + (dd[1]?dd:"0"+dd[0]) + yyyy; // padding
-  };
-
-d = new Date();
-senddate = d.yyyymmdd();
-	
-//history
-var firebaseRef = new Firebase(paperurl); 
-var postRef = firebaseRef.push(); 
-postRef.set({papervct: papervct, titlevct: titlevct}); 
-//private
+           	
 var firebaseRef = new Firebase(paperurl); 
 var postRef = firebaseRef.push(); 
 firebaseRef.set({papervct: papervct, titlevct: titlevct}); 
@@ -328,18 +304,24 @@ var postRef = firebaseRef.push();
 postRef.set({papervct: papervct, titlevct: titlevct, senddate: senddate}); 
 }
 </script>
-<script>
-/*get public papers*/
-$(document).ready(function(){  
-var ref = new Firebase("https://vct.firebaseio.com/public" );
 
+<script>
+/*get public papers + date*/
+$(document).ready(function(){  
+   Date.prototype.yyyymmdd = function() {
+   var yyyy = this.getFullYear().toString();
+   var mm = (this.getMonth()+1).toString(); // getMonth() is zero-based
+   var dd  = this.getDate().toString();
+   return (mm[1]?mm:"0"+mm[0]) + (dd[1]?dd:"0"+dd[0]) + yyyy; // padding
+  };
+d = new Date();
+dt = d.yyyymmdd();
+localStorage.setItem('date', dt);
+
+var ref = new Firebase("https://vct.firebaseio.com/public" );
 ref.once("value", function(snapshot) {
-  // The callback function will get called twice, once for "fred" and once for "barney"
-   
   snapshot.forEach(function(childSnapshot) {
-    // key will be "fred" the first time and "barney" the second time
     var key = childSnapshot.key();
-    // childData will be the actual contents of the child
     var childData = childSnapshot.val();
     var title = childData.titlevct;
     var paper = childData.papervct;
@@ -347,7 +329,6 @@ ref.once("value", function(snapshot) {
   });
 });
 });
-
 </script>
 <script>
 $('#papers').click(function(e){
