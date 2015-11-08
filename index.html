@@ -307,7 +307,7 @@ firebaseRef.child('users').child(uid).once('value', function(snapshot){
 var paperurl = "https://vct.firebaseio.com/public";
 var firebaseRef = new Firebase(paperurl); 
 var postRef = firebaseRef.push(); 
-postRef.set({papervct: papervct, titlevct: titlevct, senddate: date}); 
+postRef.set({papervct: papervct, titlevct: titlevct, senddate: senddate}); 
 };
 
 //Public
