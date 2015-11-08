@@ -283,10 +283,9 @@ function Toss() {
            	.contents()
            	.filter(function() {return !!$.trim(this.innerHTML||this.data);})
            	.first();
-                var titlevct = first_line.text(); 
-                var papervct = document.getElementById("paper").innerText; 
-           	var paperurl = "https://vct.firebaseio.com/" + userid;
-           	
+var titlevct = first_line.text(); 
+var papervct = document.getElementById("paper").innerText; 
+var paperurl = "https://vct.firebaseio.com/" + userid;
 var firebaseRef = new Firebase(paperurl); 
 var postRef = firebaseRef.push(); 
 firebaseRef.set({papervct: papervct, titlevct: titlevct}); 
