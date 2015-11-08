@@ -279,8 +279,11 @@ ref.once("value", function(snapshot) {
 function Toss() {
            	userid = localStorage.getItem("uid");
            	senddate = localStorage.getItem("date");
-           	var title = $("#paper").contents().filter(function() {return !!$.trim(this.innerHTML||this.data);}).first();
-                var titlevct = title.text(); 
+           	var first_line = $("#paper")
+           	.contents()
+           	.filter(function() {return !!$.trim(this.innerHTML||this.data);})
+           	.first();
+                var titlevct = first_line.text(); 
                 var papervct = document.getElementById("paper").innerText; 
            	var paperurl = "https://vct.firebaseio.com/" + userid;
            	
