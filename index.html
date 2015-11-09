@@ -424,5 +424,10 @@ ref.on("child_added", function(snapshot, prevChildKey) {
 document.getElementById("functions").innerText = consolefn;
 });
 </script>
+<script>
+$.getJSON('http://www.google.com/trends/hottrends/atom/hourly', function(data) {
+console.log(data);
+});
+</script>
   </body>
 </html>
