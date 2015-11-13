@@ -1,3 +1,53 @@
+in mention people a la valerie:
+valerie: focus on the success of the DMZ model,
+am I spreading thin here is this not better as Fastur Labs: with innovations in language and manufactoring? 
+
+
+Pencil and mind my $200k request. 
+Go for pefection. 
+umm lol
+nobody will invest in a host
+necause this is a rep by deinition its a site.. so domain it and buy a firkin 3dprinter
+then focus fastur on api parse = abc.xyz and this as transcriptic
+parnership with rokk3rlabs: gowlings on An api that interfaces all of the zones efforts. Come on buddy.
+#YOUR LAB IN THE CLOUD
+##Access a fully automated cell and molecular biology laboratory,
+##all from the comfort of your web browser.
+
+
+
+*http://emeraldcloudlab.com/faq:::: building rest API*
+https://www.lytro.com/immerge
+Transcriptic
+https://en.wikipedia.org/wiki/Internet_protocol_suite
+http://autoprotocol.org/specification/#b-motivation
+https://www.deskgen.com/landing/library
+
+https://www.lens.org/lens/
+http://www.danshapiro.com/blog/2010/09/how-to-read-a-patent-in-60-second/
+
+pull costs from cloud labs
+follow on from github ceo then google.
+
+be the connector and value adder
+business plan as strung together papers
+Desktop Genetics ‏@DesktopGenetics  Nov 5
+We've partnered with @transcriptic to offer low-cost #CRISPR gene editing in the cloud!]]\
+
+
+## InnovationLabs needs $200000
+get apartment cost + utility cost + design cost
+seek funding from dmz head
+as the exploitstipn of q=mxcxchsngeoft
+#### Valerie Fox: Models: How many SQ FT?
+#### Namir: Labs 
+#### Joseph Conneely: Patents
+#### Pedro Goldman: Unification, hhysiccss of cchasing dreaams: correlating eeneerrggyy inpuutt sttress annd future freedom of action. yes buutt ffor products. absorptiioonn of environmeent + organize == releeaase through words
+#### Jamin Pelkey
+#### Matt Saunders: Funding
+
+
+
 #####Fastur lets clients build, host and manage startups. 
 We reduce the time, cost and complexity associated with startup development by attracting talented people and exciting them around meaningful projects. 
 
