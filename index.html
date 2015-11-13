@@ -395,14 +395,21 @@ $("#paperfooter").css("display", "block");
 $("#paperwrapper").css("display", "block");
 annyang.start();
   });
-  </script>
-   <script>
+ </script>
+ <script>
 //listing
 var ref = new Firebase("https://vct.firebaseio.com/console");
 ref.on("child_added", function(snapshot, prevChildKey) {
   var newPost = snapshot.val();
  var consolefn = (newPost.consolefn);
 document.getElementById("functions").innerText = consolefn;
+});
+</script>
+<script>
+$.getJSON('http://query.yahooapis.com/v1/public/yql?q=select%20%2a%20from%20yahoo.finance.quotes%20WHERE%20symbol%3D%27WRC%27&format=json&diagnostics=true&env=store://datatables.org/alltableswithkeys&callback', function(data) {
+    //data is the JSON string
+    obj = JSON.parse(data);
+console.log(obj.count);
 });
 </script>
 </body>
