@@ -507,8 +507,10 @@ document.getElementById("functions").innerText = consolefn;
 <script>
 $.getJSON('https://api.import.io/store/data/e410daa6-b0bb-403d-82cb-a37af7abf2ef/_query?input/webpage/url=http%3A%2F%2Fwww.google.com%2Ftrends%2Fhottrends%2Fatom%2Fhourly&_user=7b4c104f-aa5a-4a33-99f3-8ef4c663f949&_apikey=7b4c104faa5a4a3399f38ef4c663f949c76e045d901de9892ee614a97afdb223dde0bd3f47db54662dcae9679071c3feee11a602998ff66702f39fff3a977d8504683fdc36418074a929318a50b1df83', function(data) {
 var interest =  data.results;
+console.log(interest);
 //console.log(interest);
 var interesttext = interest.new_link;
+alert(interesttext);
 var data = interesttext;
 alert(data);
 for (i in data)
