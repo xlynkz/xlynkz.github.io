@@ -1,10 +1,9 @@
+##Automated cloud innovation lab. (requires conversation)
+###im adding to googles brain** tensorflow
 - valerie by planner5D (with outline of effort)
 Attaching to github
 api parse zone efforts + transcriptic
 parnership with rokk3rlabs? Year away + fuck em.
-
-#YOUR LAB IN THE CLOUD
-##Access a fully automated innovation lab with your voice. (requires returned speech)
 
 *http://emeraldcloudlab.com/faq:::: building rest API*
 https://www.lytro.com/immerge
