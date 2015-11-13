@@ -410,17 +410,27 @@ $.getJSON('https://api.import.io/store/data/e410daa6-b0bb-403d-82cb-a37af7abf2ef
 console.log(data.results);
 
 var validation_messages = data.results;
-for (var key in validation_messages) {
-   if (validation_messages.hasOwnProperty(key)) {
-       var obj = validation_messages[key];
-        for (var prop in obj) {
-          // important check that this is objects own property 
-          // not from prototype prop inherited
-          if(obj.hasOwnProperty(prop)){
-            document.getElementById("papers").innerHTML = obj[prop];
-          }
-       }
+var key, obj, prop, owns = Object.prototype.hasOwnProperty;
+
+for (key in validation_messages ) {
+
+    if (owns.call(validation_messages, key)) {
+
+        obj = validation_messages[key];
+
+        for (prop in obj ) {
+
+            // using obj.hasOwnProperty might cause you headache if there is
+            // obj.hasOwnProperty = function(){return false;}
+            // but owns will always work 
+            if (owns.call(obj, prop)) {
+                console.log(prop, "=", obj[prop]);
+            }
+
+        }
+
     }
+
 }
 });
 </script>
