@@ -418,8 +418,10 @@ for (key in validation_messages ) {
            if (owns.call(obj, prop)) {
                 //console.log(prop, "=", obj[prop]);
                 console.log(obj[prop]);
+                document.getElementById("papers").append( "<b>" + obj[prop] + "</b>");
+                
             }
-                document.getElementById("papers").appendChild = obj[prop];
+                
         }
     }
 }
