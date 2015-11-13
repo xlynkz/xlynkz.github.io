@@ -3,9 +3,6 @@ We reduce the time, cost and complexity associated with startup development by a
 
 People want an easier way to build for the digital economy and they want to build organisations that can communicate data with sensors and machines. Our use of programmatic value allows us to grow rapidly while providing individual users with complete autonomy from purchasing, managing and extending the product.
 
-#####Research
-Fastur faces a risk that current leaders will develop products that are similar to its core value proposition. To mitigate this risk, We are building layers of value which increase our focus on the Founder and the Startup.
-
 The markets that startups operate in can vary a lot. That being said, the founders of these organisations share many of the same problems and the internet products that power their businesses require much of the same in functionality and features.
 
 Founders can be found anywhere on earth yet tend to live in urban areas. They are supported by incubators, accelerators, co-working spaces and investment firms. These instituions and the general infrastructure required to be competitive tend to be found in cities.
