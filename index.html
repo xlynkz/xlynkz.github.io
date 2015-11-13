@@ -24,7 +24,7 @@
 						<div id="landing">
 							<div class="logo"><span><img src="https://res.cloudinary.com/lln42o2ke/image/upload/v1445016435/FasturLogoWhite_xed16t.png" alt="Fastur" class="fastur" ></span></div>
 							<h2>We help founders <br>build self governing products.</h2>
-							<p>Our platform <a id="seedetails">deals with data</a> so you can focus on <a id="seedetails">creating great experiences.<a/></a></p>
+							<p>Our platform <a id="dealswithdata">deals with data</a> so you can focus on <a id="creatinggreatexperiences">creating great experiences.<a/></a></p>
 					</div>
 					<div id="paperwrapper" style="display: none;">
 					<p id="paper" class="editable" placeholder="">Title
@@ -59,9 +59,9 @@ EXECUTING IMMEDIATELY. <br></p>
 					</div>
 					</section>
 				<!-- Wrapper -->
-					<section class="tablewrapper" style="display: none;" id="wrapper">
+					<section class="tablewrapper" style="display: none;">
 											<div class="inner">
-										<div class="table-wrapper1" style="display: none;">
+										<div class="dealswithdata" style="display: none;">
 											<table>
 												<thead>
 												</thead>
@@ -88,7 +88,7 @@ EXECUTING IMMEDIATELY. <br></p>
 													</tr>
 												</tbody>
 											</table>
-												<div class="table-wrapper2" style="display: none;">
+												<div class="creatinggreatexperiences" style="display: none;">
 											<table>
 												<thead>
 												<!--	<tr>
@@ -231,9 +231,13 @@ postRef.set({papervct: term});
 }
 </script>
 <script>
-$("#seedetails").click(function() {
+$("#dealswithdata").click(function() {
 $(".tablewrapper").css("display", "block");
-$(".table-wrapper1").css("display", "block");
+$(".dealswithdata").css("display", "block");
+});
+$("#creatinggreatexperiences").click(function() {
+$(".tablewrapper").css("display", "block");
+$(".creatinggreatexperiences").css("display", "block");
 });
 </script>
 
