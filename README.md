@@ -1,26 +1,10 @@
--start with classroom and ryerson
-- then apartments in collab with industry and ryerson 
-- Design by planner5D
-- Calculate costs of infrastructure
-- where to place
-- send to valerie (with outline of effort)
-- in mention people a la valerie:
-valerie: focus on the success of the DMZ model,
-am I spreading thin here is this not better as Fastur Labs: with innovations in language and manufactoring? 
+- valerie by planner5D (with outline of effort)
+Attaching to github
+api parse zone efforts + transcriptic
+parnership with rokk3rlabs? Year away + fuck em.
 
-
-Pencil and mind my $200k request. 
-Go for pefection. 
-umm lol
-nobody will invest in a host
-necause this is a rep by deinition its a site.. so domain it and buy a firkin 3dprinter
-then focus fastur on api parse = abc.xyz and this as transcriptic
-parnership with rokk3rlabs: gowlings on An api that interfaces all of the zones efforts. Come on buddy.
 #YOUR LAB IN THE CLOUD
-##Access a fully automated cell and molecular biology laboratory,
-##all from the comfort of your web browser.
-
-
+##Access a fully automated innovation lab with your voice. (requires returned speech)
 
 *http://emeraldcloudlab.com/faq:::: building rest API*
 https://www.lytro.com/immerge
