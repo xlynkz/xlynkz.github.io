@@ -1,14 +1,3 @@
-* github + tensorflow + transcriptic + lens.org + lytro immerge + conversation
-* 
-##Automated cloud innovation lab. 
-Ask Valerie how to design an online innovation lab
-Ask Namir how to best leverage his classroom 
-Send Joseph Conneely patent draft.
-Ask Pedro Goldman how to integrate information 
-Ask Jamin Pelkey how to generate new words by combining them
-Ask Matt Saunders to fund my online innovation lab
-Snobar... Rokker...
-
 #####Fastur lets clients build, host and manage startups. 
 We reduce the time, cost and complexity associated with startup development by attracting talented people and exciting them around meaningful projects. 
 
