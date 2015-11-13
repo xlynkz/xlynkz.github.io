@@ -1,4 +1,10 @@
-in mention people a la valerie:
+-start with classroom and ryerson
+- then apartments in collab with industry and ryerson 
+- Design by planner5D
+- Calculate costs of infrastructure
+- where to place
+- send to valerie (with outline of effort)
+- in mention people a la valerie:
 valerie: focus on the success of the DMZ model,
 am I spreading thin here is this not better as Fastur Labs: with innovations in language and manufactoring? 
 
