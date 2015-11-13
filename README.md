@@ -1,41 +1,13 @@
-##Automated cloud innovation lab. (requires conversation)
-###im adding to googles brain** tensorflow
-- valerie by planner5D (with outline of effort)
-Attaching to github
-api parse zone efforts + transcriptic
-parnership with rokk3rlabs? Year away + fuck em.
-
-*http://emeraldcloudlab.com/faq:::: building rest API*
-https://www.lytro.com/immerge
-Transcriptic
-https://en.wikipedia.org/wiki/Internet_protocol_suite
-http://autoprotocol.org/specification/#b-motivation
-https://www.deskgen.com/landing/library
-
-https://www.lens.org/lens/
-http://www.danshapiro.com/blog/2010/09/how-to-read-a-patent-in-60-second/
-
-pull costs from cloud labs
-follow on from github ceo then google.
-
-be the connector and value adder
-business plan as strung together papers
-Desktop Genetics ‏@DesktopGenetics  Nov 5
-We've partnered with @transcriptic to offer low-cost #CRISPR gene editing in the cloud!]]\
-
-
-## InnovationLabs needs $200000
-get apartment cost + utility cost + design cost
-seek funding from dmz head
-as the exploitstipn of q=mxcxchsngeoft
-#### Valerie Fox: Models: How many SQ FT?
-#### Namir: Labs 
-#### Joseph Conneely: Patents
-#### Pedro Goldman: Unification, hhysiccss of cchasing dreaams: correlating eeneerrggyy inpuutt sttress annd future freedom of action. yes buutt ffor products. absorptiioonn of environmeent + organize == releeaase through words
-#### Jamin Pelkey
-#### Matt Saunders: Funding
-
-
+* github + tensorflow + transcriptic + lens.org + lytro immerge + conversation
+* 
+##Automated cloud innovation lab. 
+Ask Valerie how to design an online innovation lab
+Ask Namir how to best leverage his classroom 
+Send Joseph Conneely patent draft.
+Ask Pedro Goldman how to integrate information 
+Ask Jamin Pelkey how to generate new words by combining them
+Ask Matt Saunders to fund my online innovation lab
+Snobar... Rokker...
 
 #####Fastur lets clients build, host and manage startups. 
 We reduce the time, cost and complexity associated with startup development by attracting talented people and exciting them around meaningful projects. 
