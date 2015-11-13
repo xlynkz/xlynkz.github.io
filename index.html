@@ -424,7 +424,9 @@ for (key in validation_messages ) {
             // obj.hasOwnProperty = function(){return false;}
             // but owns will always work 
             if (owns.call(obj, prop)) {
-                console.log(prop, "=", obj[prop]);
+                //console.log(prop, "=", obj[prop]);
+                console.log(obj[prop]);
+                document.getElementById("papers").innerHTML = obj[prop];
             }
 
         }
