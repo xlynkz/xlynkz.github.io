@@ -482,8 +482,7 @@ var interest =  data.results;
 var data = interest;
 for (i in data)
 {
-//console.log(data[i].new_link_text);
-var parsed = jQuery.parseJSON(data[i].new_link_text);
+document.getElementById("interests").innerHTML = data[i].new_link_text;
 };
 });
 </script>
