@@ -483,7 +483,7 @@ var data = interest;
 for (i in data)
 {
 console.log(data[i]);
-var dataparsed = $.parseJSON(data[i]);
+var dataparsed = $.parseJSON(data);
 console.log(dataparsed);
 document.getElementById("interests").innerHTML = dataparsed.new_link;
 document.getElementById("interests").innerHTML = dataparsed.new_link_text;
