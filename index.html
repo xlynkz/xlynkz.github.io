@@ -418,11 +418,13 @@ for (key in validation_messages ) {
            if (owns.call(obj, prop)) {
                 //console.log(prop, "=", obj[prop]);
                 if (/http/i.test(obj[prop])){
-                	console.log(obj[prop]);
+                	//console.log(obj[prop]);
+               $("#output").append('<a href="' + obj[prop] + '">' + text + '</a>');
+
                 }
                 else
                 {
-                $("#papers").append("<b>" + obj[prop] + "</b><br><br>");
+                $("#papers").append("<b>" + obj[prop] + "</b>&nbsp;<br>");
                 }
             }
         }
