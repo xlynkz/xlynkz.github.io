@@ -417,10 +417,10 @@ for (key in validation_messages ) {
         for (prop in obj ) {
            if (owns.call(obj, prop)) {
                 //console.log(prop, "=", obj[prop]);
-               // console.log(obj[prop]);
-                $("#papers").append("<b>" + obj[prop] + "<br></b>");
+                $("#papers").append("<b>" + obj[prop] + "</b><br>");
             }
-                
+                         console.log(obj[prop]);
+       
         }
     }
 }
