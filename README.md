@@ -7,7 +7,7 @@ People want an easier way to build for the digital economy and they want to buil
 
 The markets that startups operate in can vary a lot. That being said, the founders of these organisations share many of the same problems and the internet products that power their businesses require much of the same in functionality and features.
 
-Founders can be found anywhere on earth yet tend to live in urban areas. They are supported by incubators, accelerators, co-working spaces and investment firms. These instituions and the general infrastructure required to be competitive tend to be found in cities.
+Founders can be found anywhere on earth yet tend to live in urban areas. They are supported by incubators, accelerators, co-working spaces and investment firms. These institutions and the general infrastructure required to be competitive tend to be found in cities.
 
 Founders attend events which bring together entrepreneurs, developers and investors with the goal of cultivating an entrepreneurial culture. These events are the main meeting places for entrepreneurs to opportune themselves to people with similar interests.
 
