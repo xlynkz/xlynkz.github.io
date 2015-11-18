@@ -1,4 +1,6 @@
-#####Fastur lets clients build, host and manage startups. 
+#####Fastur helps clients build self governing products.  
+######We deal with data so that founders can focus on creating great experiences. 
+
 We reduce the time, cost and complexity associated with startup development by attracting talented people and exciting them around meaningful projects. 
 
 People want an easier way to build for the digital economy and they want to build organisations that can communicate data with sensors and machines. Our use of programmatic value allows us to grow rapidly while providing individual users with complete autonomy from purchasing, managing and extending the product.
