@@ -63,8 +63,8 @@ EXECUTING IMMEDIATELY. <br></p>
 					</section>
 								<section id="landingpapers" class="wrapper alt style1">
 								<div class="inner">
-									<h2 class="major">No idea yet? try a trending topic:&nbsp;<i class="fa fa-spinner fa-spin"></i></h2>
-									<section id="papers" class="features"></section>
+									<h2 class="major">No idea yet? try a trending topic:&nbsp;</h2>
+									<section id="papers" class="features"><i id="loading" class="fa fa-spinner fa-spin"></i></section>
 									<section id="interests" class="features"></section>
 									<section id="output" class="features"><section>
 								</div>
@@ -419,11 +419,12 @@ for (key in validation_messages ) {
            if (owns.call(obj, prop)) {
                 //console.log(prop, "=", obj[prop]);
                 if (/http/i.test(obj[prop])){
-                console.log(obj[prop]);
+                //console.log(obj[prop]);
                //$("#output").append('<a href="' + obj[prop] + '">' + text + '</a>');
                 }
                 else
                 {
+                $("#loading").css("display", "none");
                 $("#papers").append("<b>" + obj[prop] + "</b>&nbsp;<br>");
                 }
             }
