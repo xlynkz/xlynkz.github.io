@@ -329,7 +329,7 @@ document.getElementById("paper").innerText = txt;
 <script>
 $('#papers').click(function(e){
 var txt = $(e.target).text();
-document.getElementById("paper").innerHTML = "I sell shirts with " + txt + " on it.<br><br> I market them to " ;
+document.getElementById("paper").innerHTML = txt + "<br><br>I sell shirts with " + txt + " on it.<br><br> I market them to " ;
 $("#header").css("display", "none");
 $("#landingpapers").css("display", "none");
 $("#price").css("display", "none");
