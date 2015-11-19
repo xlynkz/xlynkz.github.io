@@ -330,7 +330,7 @@ document.getElementById("paper").innerText = txt;
 });
 </script>
 <script>
-$('#papers').click(function(e){
+$('#papers', '#trends').click(function(e){
 var txt = $(e.target).text();
 document.getElementById("paper").innerHTML = txt + "<br><br>I want to sell shirts with <b>" + txt + "</b> on it." ;
 $("#header").css("display", "none");
@@ -346,6 +346,7 @@ annyang.start();
 });
 
 </script>
+
      <script>
         $("#settingsicon").click( function()
            { 
@@ -447,10 +448,9 @@ for (key in validation_messages ) {
 
 </script>
 <script>
-$(document).ready(function() {
-	
-    var count = $("#paper").innerText().length;
-    console.log(count);
+$('#paper').keyup(function () {
+  var len = $(this).val().length;
+    console.log(len);
 });
 </script>
 </body>
