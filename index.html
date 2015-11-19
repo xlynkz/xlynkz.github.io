@@ -310,7 +310,6 @@ $(document).ready(function(){
 d = new Date();
 dt = d.yyyymmdd();
 localStorage.setItem('date', dt);
-
 var ref = new Firebase("https://vct.firebaseio.com/public" );
 ref.once("value", function(snapshot) {
   snapshot.forEach(function(childSnapshot) {
@@ -318,6 +317,7 @@ ref.once("value", function(snapshot) {
     var childData = childSnapshot.val();
     var title = childData.titlevct;
     var paper = childData.papervct;
+                    $("#loading").css("display", "none");
           $("#papers").append("<article>"+"<h3 class='major papers'>"+title+"</h3>"+"</article>");
   });
 });
