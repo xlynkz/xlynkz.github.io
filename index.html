@@ -330,7 +330,7 @@ document.getElementById("paper").innerText = txt;
 });
 </script>
 <script>
-$("#papers", "#trends").click(function(e){
+$(".features").click(function(e){
 var txt = $(e.target).text();
 document.getElementById("paper").innerHTML = txt + "<br><br>I want to sell shirts with <b>" + txt + "</b> on it." ;
 $("#header").css("display", "none");
