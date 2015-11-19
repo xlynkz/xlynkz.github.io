@@ -70,7 +70,7 @@ EXECUTING IMMEDIATELY. <br></p>
 								</div>
 									<div class="inner">
 									<h2 class="major">Top Papers:&nbsp;</h2>
-									<section id="papers" class="features"><i id="loading" class="fa fa-spinner fa-spin"></i></section>
+									<section id="papers" class="features"><i id="loading2" class="fa fa-spinner fa-spin"></i></section>
 								</div>
 							</section>
 					<section id="price" class="wrapper alt spotlight style3" style="display: none;">
@@ -317,7 +317,7 @@ ref.once("value", function(snapshot) {
     var childData = childSnapshot.val();
     var title = childData.titlevct;
     var paper = childData.papervct;
-                    $("#loading").css("display", "none");
+                    $("#loading2").css("display", "none");
           $("#papers").append("<article>"+"<h3 class='major papers'>"+title+"</h3>"+"</article>");
   });
 });
