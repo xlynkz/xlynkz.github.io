@@ -339,7 +339,7 @@ $(".features").click(function(e){
 	
 var txt = $(e.target).text();
 
-alert(txt + $(e.target).next());
+alert(txt + $(e.target).next().text());
 document.getElementById("paper").innerHTML = txt + "<br><br>I want to sell shirts with <b>" + txt + "</b> on it." ;
 $("#header").css("display", "none");
 $("#landingpapers").css("display", "none");
