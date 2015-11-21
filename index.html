@@ -76,7 +76,7 @@ EXECUTING IMMEDIATELY. <br></p>
 									</div>
 									<div class="inner">
 									<h2 class="major">Top Papers&nbsp;</h2>
-									<section id="papers" class="features"><i id="loading2" class="fa fa-spinner fa-spin"></i></section>
+									<section id="papers" class="features2"><i id="loading2" class="fa fa-spinner fa-spin"></i></section>
 								</div>
 							</section>
 					<section id="price" class="wrapper alt spotlight style3" style="display: none;">
@@ -353,7 +353,22 @@ $("#paperfooter").css("display", "block");
 $("#paperwrapper").css("display", "block");
 annyang.start();
 });
-
+</script>
+<script>
+$(".features2").click(function(e){
+var txt = $(e.target).text();
+document.getElementById("paper").innerHTML = txt + "<br><br>I want to sell shirts with <b>" + txt + "</b> on it." ;
+$("#header").css("display", "none");
+$("#landingpapers").css("display", "none");
+$("#price").css("display", "none");
+$("#one").css("display", "none");
+$("#two").css("display", "none");
+$("#landing").css("display", "none");
+$("#landingfooter").css("display", "none");
+$("#paperfooter").css("display", "block");
+$("#paperwrapper").css("display", "block");
+annyang.start();
+});
 </script>
 
      <script>
