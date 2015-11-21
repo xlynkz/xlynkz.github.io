@@ -427,10 +427,10 @@ for (key in validation_messages ) {
         for (prop in obj ) {
            if (owns.call(obj, prop)) {
                 if (/bread/i.test(prop)){
-                	  $("#loading").css("display", "none");
+                	 $("#loading").css("display", "none");
                 $("#trends").append("<b>&nbsp;" + obj[prop] + "</b>&nbsp;<br>");
-                if(/description/i.test(prop)){
-                   $("#trends").append("<a class='description' style='display: none;'>" + obj[prop] + "</a>");
+                else if(/description/i.test(prop)){
+                   $("#trends").append("<a class='description'>" + obj[prop] + "</a>");
                 } }
                 else{
                             console.log(prop, "=", obj[prop]);
@@ -441,6 +441,7 @@ for (key in validation_messages ) {
 }
 });
 </script>
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
