@@ -426,19 +426,14 @@ for (key in validation_messages ) {
         obj = validation_messages[key];
         for (prop in obj ) {
            if (owns.call(obj, prop)) {
-           	
                 if (/bread/i.test(prop)){
                 	  $("#loading").css("display", "none");
                 $("#trends").append("<b>&nbsp;" + obj[prop] + "</b>&nbsp;<br>");
-                //console.log(obj[prop]);
-               //$("#output").append('<a href="' + obj[prop] + '">' + text + '</a>');
-                }
                 else if(/description/i.test(prop)){
-                   $("#functions").append("<b>&nbsp;" + obj[prop] + "</b>&nbsp;<br>");
-                }
+                   $("#trends").append("<a class='description' style='display: none;'>" + obj[prop] + "</a>");
+                } }
                 else{
                             console.log(prop, "=", obj[prop]);
-	
                 }
             }
         }
