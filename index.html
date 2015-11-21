@@ -431,14 +431,13 @@ for (key in validation_messages ) {
            if (owns.call(obj, prop)) {
                 if (/bread/i.test(prop)){
                 	 $("#loading").css("display", "none");
-                $("#trends").append("<b>&nbsp;" + obj[prop] + "</b>&nbsp;<br>");}
-                
+                $("#trends").append("<div class='child'>&nbsp;" + obj[prop] + "</div>&nbsp;<br>");}
+
                  else if(/description/i.test(prop)){
-                    $("#trends").append("<b>&nbsp;" + obj[prop] + "</b>&nbsp;<br>");
-                 }
+                    $("#trends").append("<div class='child'>&nbsp;" + obj[prop] + "</div>&nbsp;<br>");}
+                    
                 else{
                             console.log(prop, "=", obj[prop]);
-	
                }
             }
         }
