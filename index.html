@@ -434,7 +434,7 @@ for (key in validation_messages ) {
                 $("#trends").append("<div class='child'>&nbsp;" + obj[prop] + "</div>&nbsp;<br>");}
 
                  else if(/description/i.test(prop)){
-                    $("#trends").append("<div class='child'>&nbsp;" + obj[prop] + "</div>&nbsp;<br>");}
+                    $("#trends").append("<div class='child' style='display: none;'>&nbsp;" + obj[prop] + "</div>&nbsp;<br>");}
                     
                 else{
                             console.log(prop, "=", obj[prop]);
