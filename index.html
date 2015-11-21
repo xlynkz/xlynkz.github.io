@@ -66,11 +66,14 @@ EXECUTING IMMEDIATELY. <br></p>
 					</section>
 								<section id="landingpapers" class="wrapper alt style1">
 								<div class="inner">
-									<h2 class="major">Global Trends&nbsp;</h2>
+									<h2 class="major">Trending Tools&nbsp;</h2>
 									<section id="trends" class="features"><i id="loading" class="fa fa-spinner fa-spin"></i></section>
-									<section id="interests" class="features"></section>
 									<section id="output" class="features"><section>
 								</div>
+								<div class="inner">
+									<h2 class="major">Global Interests&nbsp;</h2>
+								<section id="interests" class="features"><i id="loading" class="fa fa-spinner fa-spin"></i></section>
+									</div>
 									<div class="inner">
 									<h2 class="major">Top Papers&nbsp;</h2>
 									<section id="papers" class="features"><i id="loading2" class="fa fa-spinner fa-spin"></i></section>
@@ -445,7 +448,32 @@ for (key in validation_messages ) {
 });
 
 </script>
-
+<script>
+$.getJSON('https://api.import.io/store/data/0253ebd1-8e30-4fc8-85c8-c1705b2aa11a/_query?input/webpage/url=http%3A%2F%2Fstackshare.io%2Ftrending%2Ftools&_user=7b4c104f-aa5a-4a33-99f3-8ef4c663f949&_apikey=7b4c104faa5a4a3399f38ef4c663f949c76e045d901de9892ee614a97afdb223dde0bd3f47db54662dcae9679071c3feee11a602998ff66702f39fff3a977d8504683fdc36418074a929318a50b1df83', function(data){
+//console.log(data.results);
+var validation_messages = data.results;
+var key, obj, prop, owns = Object.prototype.hasOwnProperty;
+for (key in validation_messages ) {
+    if (owns.call(validation_messages, key)) {
+        obj = validation_messages[key];
+        for (prop in obj ) {
+           if (owns.call(obj, prop)) {
+                //console.log(prop, "=", obj[prop]);
+                if (/http/i.test(obj[prop])){
+                //console.log(obj[prop]);
+               //$("#output").append('<a href="' + obj[prop] + '">' + text + '</a>');
+                }
+                else
+                {
+                $("#loading3").css("display", "none");
+                $("#interests").append("<b>&nbsp;" + obj[prop] + "</b>&nbsp;<br>");
+                }
+            }
+        }
+    }
+}
+});
+</script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
