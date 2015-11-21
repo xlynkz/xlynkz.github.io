@@ -429,7 +429,7 @@ for (key in validation_messages ) {
                 if (/bread/i.test(prop)){
                 	 $("#loading").css("display", "none");
                 $("#trends").append("<b>&nbsp;" + obj[prop] + "</b>&nbsp;<br>");
-                else if(/description/i.test(prop)){
+                 if(/description/i.test(prop)){
                    $("#trends").append("<a class='description'>" + obj[prop] + "</a>");
                 } }
                 else{
