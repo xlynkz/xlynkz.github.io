@@ -1,10 +1,6 @@
 #####Fastur helps clients build self governing products.  
 ######We deal with data so that founders can focus on creating great experiences. 
 
-We reduce the time, cost and complexity associated with startup development by attracting talented people and exciting them around meaningful projects. 
-
-People want an easier way to build for the digital economy and they want to build organisations that can communicate data with sensors and machines. Our use of programmatic value allows us to grow rapidly while providing individual users with complete autonomy from purchasing, managing and extending the product.
-
 The markets that startups operate in can vary a lot. That being said, the founders of these organisations share many of the same problems and the internet products that power their businesses require much of the same in functionality and features.
 
 Founders can be found anywhere on earth yet tend to live in urban areas. They are supported by incubators, accelerators, co-working spaces and investment firms. These institutions and the general infrastructure required to be competitive tend to be found in cities.
@@ -22,4 +18,3 @@ We understand that our target audience are people who want to build valuable bus
 Our clients want a solution that has a transparent cost structure and will allow them to manage their content, data and people from any device that they own.
 
 Fastur is the solution; we sell on the promise that we are an end to end solution for building and managing startups.
-
