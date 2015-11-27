@@ -116,7 +116,8 @@ EXECUTING IMMEDIATELY. <br></p>
 							<ul id="paperfooter" class="copyright" style="display: none;">
 								<li>
 								<a id="logintosave" class="button small btn-login special" type="submit">sign in to save progress</a>
-								<a id="save" style="display: none;" onclick="Toss()" class="button small" type="submit">save</a>
+								<!--onclick="Toss()"  -->
+								<a id="save" style="display: none;" class="button small save" type="submit">save</a>
 								<a id="sendmail" style="display: none;" style="display: none;" onclick="sendTheMail();" class="button small" type="submit">send</a>
 								</li>
 								<li><a id="settingsicon" style="display: none;" class="fa fa-cogs"></a></li>
@@ -270,8 +271,7 @@ ref.once("value", function(snapshot) {
 
 </script>
 <script>
-//removed for now.. function Toss() {
-$(".save").click(function() {
+function Toss() {
            	userid = localStorage.getItem("uid");
            	senddate = localStorage.getItem("date");
            	var first_line = $("#paper")
