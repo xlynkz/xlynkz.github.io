@@ -23,9 +23,3 @@ Our clients want a solution that has a transparent cost structure and will allow
 
 Fastur is the solution; we sell on the promise that we are an end to end solution for building and managing startups.
 
-##### Operations 
-1.	Discovery:	Define requirements, objectives and timeline of service offering.
-2.	Designate: 	Identify engineering and operational expertise.
-3.	Design: Architect infrastructure and supporting components.
-4.	Deploy: Select highly available vendors, package and ship.
-5.	Document: Document infrastructure and maintain issue-free usage.
