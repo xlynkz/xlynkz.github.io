@@ -118,11 +118,10 @@ EXECUTING IMMEDIATELY. <br></p>
 								<a id="logintosave" class="button small btn-login special" type="submit">sign in to save progress</a>
 								<!--onclick="Toss()"  -->
 								<a id="save" style="display: none;" class="button small save" type="submit">save</a>
-								<a id="sendmail" style="display: none;" style="display: none;" onclick="sendTheMail();" class="button small" type="submit">send</a>
-								</li>
+								<a id="sendmail" style="display: none;" style="display: none;" onclick="sendTheMail();" class="button small" type="submit">send</a></li>
 								<li><a id="settingsicon" style="display: none;" class="fa fa-cogs"></a></li>
 								<li><a id="usersicon" style="display: none;" class="fa fa-users"></a></li>
-							<li><a id="usersicon" style="display: none; float: right;"  class="fa fa-home"></a></li>
+							<li><a id="homeicon" style="display: none; float:right; "  class="fa fa-home"></a></li>
 
 							</ul>
 									<section id="history" class="features" style="display: none;">
@@ -235,22 +234,18 @@ $("#usersicon").css("display", "block");
 $("#homeicon").css("display", "block");
 $("#paperwrapper").css("display", "block");
 $("#paperfooter").css("display", "block");
-
       // Save the JWT token.
       localStorage.setItem('userToken', token);
-
       // Save the profile
       userProfile = profile;
       uid = profile.user_id;
       localStorage.setItem("uid", uid);
-      
       //get their paper
     	  var ref = new Firebase("https://vct.firebaseio.com/" + uid);
        ref.on("value", function(snapshot) {
        	  var allPost = snapshot.val();
        document.getElementById("paper").innerText = allPost.papervct;
        });
-       
        
        var ref = new Firebase("https://vct.firebaseio.com/public" );
 ref.once("value", function(snapshot) {
@@ -273,7 +268,6 @@ ref.once("value", function(snapshot) {
 
 </script>
 <script>
-// removed   function Toss() {  in favour of
 	$(".save").click(function() {
 		 alert("Consider it done, tell me what's next");
            	userid = localStorage.getItem("uid");
