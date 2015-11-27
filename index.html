@@ -274,7 +274,8 @@ ref.once("value", function(snapshot) {
 </script>
 <script>
 // removed   function Toss() {  in favour of
-	$("#save").click(function() {
+	$(".save").click(function() {
+		 alert("Consider it done, tell me what's next");
            	userid = localStorage.getItem("uid");
            	senddate = localStorage.getItem("date");
            	var first_line = $("#paper")
@@ -310,7 +311,6 @@ postRef.set({papervct: papervct, titlevct: titlevct, senddate: senddate});
 };
 
 //Public
- alert("Consider it done, tell me what's next");
  document.getElementById("paper").innerText = "";
 </script>
 <script>
